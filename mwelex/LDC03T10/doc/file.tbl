@@ -1,0 +1,17 @@
+# This is an FTP distribution.
+# At the top level of the corpus there is an index.html file, and doc and data subdirectories.
+# The contents of the publication are listed below:
+#
+data/said1.txt
+data/said2.txt
+data/said3.txt
+data/said4.txt
+doc/TreeParse.1
+doc/TreeParse.hqx
+doc/file.tbl
+doc/readme.doc
+doc/readme.pdf
+doc/readme.txt
+doc/said_authors.doc
+doc/said_authors.pdf
+index.html

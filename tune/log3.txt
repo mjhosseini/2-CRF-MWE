@@ -1,0 +1,3188 @@
+['src/main.py', '--iters', '4', '--cutoff', '5', '--YY', 'tagsets/bio2gNV', '--defaultY', 'O', '--debug', '--train', 'streusle-2.0/split/streusle.train_allT.tags', '--test-predict', 'streusle-2.0/split/streusle.test_allV.tags', '--outFilePath', 'streusle-2.0/split/tune/test_allV2.pred.3.tags', '--bio', 'NO_SINGLETON_B', '--cluster-file', 'mwelex/yelpac-c1000-m25.gz', '--clusters', '--ctype', '2', '--alpha', '3']
+up to here!
+classifierType:  2
+alpha:  3.0
+labels: [u'b', u'B', u'B-`a', u'B-ACT', u'b-ANIMAL', u'B-ANIMAL', u'b-ARTIFACT', u'B-ARTIFACT', u'B-ATTRIBUTE', u'B-body', u'B-BODY', u'B-change', u'B-cognition', u'B-COGNITION', u'B-communication', u'B-COMMUNICATION', u'B-competition', u'B-consumption', u'B-contact', u'B-creation', u'B-emotion', u'B-EVENT', u'B-FEELING', u'B-FOOD', u'b-GROUP', u'B-GROUP', u'b-LOCATION', u'B-LOCATION', u'B-motion', u'B-NATURAL OBJECT', u'B-perception', u'b-PERSON', u'B-PERSON', u'B-PHENOMENON', u'b-possession', u'b-POSSESSION', u'B-possession', u'B-POSSESSION', u'B-PROCESS', u'B-QUANTITY', u'B-RELATION', u'B-social', u'B-STATE', u'B-stative', u'b-SUBSTANCE', u'B-SUBSTANCE', u'B-TIME', u'\u0128', u'\u012b', u'\u012a', u'\u0128-`a', u'\u0128-ACT', u'\u0129-ARTIFACT', u'\u0128-ARTIFACT', u'\u0128-ATTRIBUTE', u'\u0128-body', u'\u0128-BODY', u'\u0128-change', u'\u0128-cognition', u'\u0128-COGNITION', u'\u0128-communication', u'\u0128-COMMUNICATION', u'\u0128-emotion', u'\u0128-EVENT', u'\u0128-FEELING', u'\u0128-FOOD', u'\u0128-GROUP', u'\u0128-LOCATION', u'\u0128-motion', u'\u0128-MOTIVE', u'\u0128-NATURAL OBJECT', u'\u0128-PERSON', u'\u0128-PHENOMENON', u'\u0128-possession', u'\u0128-POSSESSION', u'\u0128-PROCESS', u'\u0129-QUANTITY', u'\u0128-QUANTITY', u'\u0128-RELATION', u'\u0128-social', u'\u0128-stative', u'\u0128-TIME', u'o', u'O', u'o-`a', u'O-`a', u'o-ACT', u'O-ACT', u'o-ANIMAL', u'O-ANIMAL', u'o-ARTIFACT', u'O-ARTIFACT', u'O-ATTRIBUTE', u'o-BODY', u'O-body', u'O-BODY', u'O-change', u'o-cognition', u'o-COGNITION', u'O-cognition', u'O-COGNITION', u'o-communication', u'o-COMMUNICATION', u'O-communication', u'O-COMMUNICATION', u'O-competition', u'O-consumption', u'O-contact', u'O-creation', u'o-emotion', u'O-emotion', u'o-EVENT', u'O-EVENT', u'O-FEELING', u'o-FOOD', u'O-FOOD', u'o-GROUP', u'O-GROUP', u'o-LOCATION', u'O-LOCATION', u'O-motion', u'O-MOTIVE', u'o-NATURAL OBJECT', u'O-NATURAL OBJECT', u'O-OTHER', u'O-perception', u'o-PERSON', u'O-PERSON', u'O-PHENOMENON', u'o-POSSESSION', u'O-possession', u'O-POSSESSION', u'o-PROCESS', u'O-PROCESS', u'o-QUANTITY', u'O-QUANTITY', u'O-RELATION', u'O-SHAPE', u'o-social', u'O-social', u'O-STATE', u'o-stative', u'O-stative', u'O-SUBSTANCE', u'o-TIME', u'O-TIME']
+inside CRF
+initialized!
+feat names:  <pyutil.ds.features.SequentialStringIndexer object at 0x10b5b7a50>
+num remained: 178
+nW:  168
+[]
+[<MemoryView of 'array' at 0x7feb9a539d10>, <MemoryView of 'array' at 0x7feb9a53c300>, <MemoryView of 'array' at 0x7feb9a53d9d0>, <MemoryView of 'array' at 0x7feb9a53e2a0>, <MemoryView of 'array' at 0x7feb9a53eb50>, <MemoryView of 'array' at 0x7feb9a5407a0>, <MemoryView of 'array' at 0x7feb9a542200>, <MemoryView of 'array' at 0x7feb9a543a70>, <MemoryView of 'array' at 0x7feb9a5446f0>, <MemoryView of 'array' at 0x7feb9a5464c0>, <MemoryView of 'array' at 0x7feb9a547e20>, <MemoryView of 'array' at 0x7feb9a543c30>, <MemoryView of 'array' at 0x7feb9a5265f0>, <MemoryView of 'array' at 0x7feb9a5267b0>, <MemoryView of 'array' at 0x7feb9a54d720>, <MemoryView of 'array' at 0x7feb9a54fce0>, <MemoryView of 'array' at 0x7feb9a54b410>, <MemoryView of 'array' at 0x7feb9a551ba0>, <MemoryView of 'array' at 0x7feb9a552a20>]
+nlabels:  30
+legals:
+O   O
+O   O-communication
+O   B-PERSON
+O   O-PERSON
+O   O-emotion
+O   O-LOCATION
+O   O-ACT
+O   O-GROUP
+O   B-stative
+O   O-ARTIFACT
+O   O-possession
+O   B-social
+O   O-stative
+O   O-POSSESSION
+O   O-motion
+O   O-cognition
+O   O-consumption
+O   O-ANIMAL
+O   O-FEELING
+O   O-COGNITION
+O   O-NATURAL OBJECT
+O   O-social
+O   O-`a
+O   O-QUANTITY
+O   O-FOOD
+O   O-ATTRIBUTE
+O-communication   O
+O-communication   O-communication
+O-communication   B-PERSON
+O-communication   O-PERSON
+O-communication   O-emotion
+O-communication   O-LOCATION
+O-communication   O-ACT
+O-communication   O-GROUP
+O-communication   B-stative
+O-communication   O-ARTIFACT
+O-communication   O-possession
+O-communication   B-social
+O-communication   O-stative
+O-communication   O-POSSESSION
+O-communication   O-motion
+O-communication   O-cognition
+O-communication   O-consumption
+O-communication   O-ANIMAL
+O-communication   O-FEELING
+O-communication   O-COGNITION
+O-communication   O-NATURAL OBJECT
+O-communication   O-social
+O-communication   O-`a
+O-communication   O-QUANTITY
+O-communication   O-FOOD
+O-communication   O-ATTRIBUTE
+B-PERSON   Ī
+B-PERSON   Ĩ-cognition
+B-PERSON   o
+B-PERSON   o-PERSON
+Ī   O
+Ī   O-communication
+Ī   B-PERSON
+Ī   Ī
+Ī   O-PERSON
+Ī   O-emotion
+Ī   O-LOCATION
+Ī   O-ACT
+Ī   O-GROUP
+Ī   Ĩ-cognition
+Ī   B-stative
+Ī   O-ARTIFACT
+Ī   O-possession
+Ī   B-social
+Ī   o
+Ī   o-PERSON
+Ī   O-stative
+Ī   O-POSSESSION
+Ī   O-motion
+Ī   O-cognition
+Ī   O-consumption
+Ī   O-ANIMAL
+Ī   O-FEELING
+Ī   O-COGNITION
+Ī   O-NATURAL OBJECT
+Ī   O-social
+Ī   O-`a
+Ī   O-QUANTITY
+Ī   O-FOOD
+Ī   O-ATTRIBUTE
+O-PERSON   O
+O-PERSON   O-communication
+O-PERSON   B-PERSON
+O-PERSON   O-PERSON
+O-PERSON   O-emotion
+O-PERSON   O-LOCATION
+O-PERSON   O-ACT
+O-PERSON   O-GROUP
+O-PERSON   B-stative
+O-PERSON   O-ARTIFACT
+O-PERSON   O-possession
+O-PERSON   B-social
+O-PERSON   O-stative
+O-PERSON   O-POSSESSION
+O-PERSON   O-motion
+O-PERSON   O-cognition
+O-PERSON   O-consumption
+O-PERSON   O-ANIMAL
+O-PERSON   O-FEELING
+O-PERSON   O-COGNITION
+O-PERSON   O-NATURAL OBJECT
+O-PERSON   O-social
+O-PERSON   O-`a
+O-PERSON   O-QUANTITY
+O-PERSON   O-FOOD
+O-PERSON   O-ATTRIBUTE
+O-emotion   O
+O-emotion   O-communication
+O-emotion   B-PERSON
+O-emotion   O-PERSON
+O-emotion   O-emotion
+O-emotion   O-LOCATION
+O-emotion   O-ACT
+O-emotion   O-GROUP
+O-emotion   B-stative
+O-emotion   O-ARTIFACT
+O-emotion   O-possession
+O-emotion   B-social
+O-emotion   O-stative
+O-emotion   O-POSSESSION
+O-emotion   O-motion
+O-emotion   O-cognition
+O-emotion   O-consumption
+O-emotion   O-ANIMAL
+O-emotion   O-FEELING
+O-emotion   O-COGNITION
+O-emotion   O-NATURAL OBJECT
+O-emotion   O-social
+O-emotion   O-`a
+O-emotion   O-QUANTITY
+O-emotion   O-FOOD
+O-emotion   O-ATTRIBUTE
+O-LOCATION   O
+O-LOCATION   O-communication
+O-LOCATION   B-PERSON
+O-LOCATION   O-PERSON
+O-LOCATION   O-emotion
+O-LOCATION   O-LOCATION
+O-LOCATION   O-ACT
+O-LOCATION   O-GROUP
+O-LOCATION   B-stative
+O-LOCATION   O-ARTIFACT
+O-LOCATION   O-possession
+O-LOCATION   B-social
+O-LOCATION   O-stative
+O-LOCATION   O-POSSESSION
+O-LOCATION   O-motion
+O-LOCATION   O-cognition
+O-LOCATION   O-consumption
+O-LOCATION   O-ANIMAL
+O-LOCATION   O-FEELING
+O-LOCATION   O-COGNITION
+O-LOCATION   O-NATURAL OBJECT
+O-LOCATION   O-social
+O-LOCATION   O-`a
+O-LOCATION   O-QUANTITY
+O-LOCATION   O-FOOD
+O-LOCATION   O-ATTRIBUTE
+O-ACT   O
+O-ACT   O-communication
+O-ACT   B-PERSON
+O-ACT   O-PERSON
+O-ACT   O-emotion
+O-ACT   O-LOCATION
+O-ACT   O-ACT
+O-ACT   O-GROUP
+O-ACT   B-stative
+O-ACT   O-ARTIFACT
+O-ACT   O-possession
+O-ACT   B-social
+O-ACT   O-stative
+O-ACT   O-POSSESSION
+O-ACT   O-motion
+O-ACT   O-cognition
+O-ACT   O-consumption
+O-ACT   O-ANIMAL
+O-ACT   O-FEELING
+O-ACT   O-COGNITION
+O-ACT   O-NATURAL OBJECT
+O-ACT   O-social
+O-ACT   O-`a
+O-ACT   O-QUANTITY
+O-ACT   O-FOOD
+O-ACT   O-ATTRIBUTE
+O-GROUP   O
+O-GROUP   O-communication
+O-GROUP   B-PERSON
+O-GROUP   O-PERSON
+O-GROUP   O-emotion
+O-GROUP   O-LOCATION
+O-GROUP   O-ACT
+O-GROUP   O-GROUP
+O-GROUP   B-stative
+O-GROUP   O-ARTIFACT
+O-GROUP   O-possession
+O-GROUP   B-social
+O-GROUP   O-stative
+O-GROUP   O-POSSESSION
+O-GROUP   O-motion
+O-GROUP   O-cognition
+O-GROUP   O-consumption
+O-GROUP   O-ANIMAL
+O-GROUP   O-FEELING
+O-GROUP   O-COGNITION
+O-GROUP   O-NATURAL OBJECT
+O-GROUP   O-social
+O-GROUP   O-`a
+O-GROUP   O-QUANTITY
+O-GROUP   O-FOOD
+O-GROUP   O-ATTRIBUTE
+Ĩ-cognition   O
+Ĩ-cognition   O-communication
+Ĩ-cognition   B-PERSON
+Ĩ-cognition   Ī
+Ĩ-cognition   O-PERSON
+Ĩ-cognition   O-emotion
+Ĩ-cognition   O-LOCATION
+Ĩ-cognition   O-ACT
+Ĩ-cognition   O-GROUP
+Ĩ-cognition   Ĩ-cognition
+Ĩ-cognition   B-stative
+Ĩ-cognition   O-ARTIFACT
+Ĩ-cognition   O-possession
+Ĩ-cognition   B-social
+Ĩ-cognition   o
+Ĩ-cognition   o-PERSON
+Ĩ-cognition   O-stative
+Ĩ-cognition   O-POSSESSION
+Ĩ-cognition   O-motion
+Ĩ-cognition   O-cognition
+Ĩ-cognition   O-consumption
+Ĩ-cognition   O-ANIMAL
+Ĩ-cognition   O-FEELING
+Ĩ-cognition   O-COGNITION
+Ĩ-cognition   O-NATURAL OBJECT
+Ĩ-cognition   O-social
+Ĩ-cognition   O-`a
+Ĩ-cognition   O-QUANTITY
+Ĩ-cognition   O-FOOD
+Ĩ-cognition   O-ATTRIBUTE
+B-stative   Ī
+B-stative   Ĩ-cognition
+B-stative   o
+B-stative   o-PERSON
+O-ARTIFACT   O
+O-ARTIFACT   O-communication
+O-ARTIFACT   B-PERSON
+O-ARTIFACT   O-PERSON
+O-ARTIFACT   O-emotion
+O-ARTIFACT   O-LOCATION
+O-ARTIFACT   O-ACT
+O-ARTIFACT   O-GROUP
+O-ARTIFACT   B-stative
+O-ARTIFACT   O-ARTIFACT
+O-ARTIFACT   O-possession
+O-ARTIFACT   B-social
+O-ARTIFACT   O-stative
+O-ARTIFACT   O-POSSESSION
+O-ARTIFACT   O-motion
+O-ARTIFACT   O-cognition
+O-ARTIFACT   O-consumption
+O-ARTIFACT   O-ANIMAL
+O-ARTIFACT   O-FEELING
+O-ARTIFACT   O-COGNITION
+O-ARTIFACT   O-NATURAL OBJECT
+O-ARTIFACT   O-social
+O-ARTIFACT   O-`a
+O-ARTIFACT   O-QUANTITY
+O-ARTIFACT   O-FOOD
+O-ARTIFACT   O-ATTRIBUTE
+O-possession   O
+O-possession   O-communication
+O-possession   B-PERSON
+O-possession   O-PERSON
+O-possession   O-emotion
+O-possession   O-LOCATION
+O-possession   O-ACT
+O-possession   O-GROUP
+O-possession   B-stative
+O-possession   O-ARTIFACT
+O-possession   O-possession
+O-possession   B-social
+O-possession   O-stative
+O-possession   O-POSSESSION
+O-possession   O-motion
+O-possession   O-cognition
+O-possession   O-consumption
+O-possession   O-ANIMAL
+O-possession   O-FEELING
+O-possession   O-COGNITION
+O-possession   O-NATURAL OBJECT
+O-possession   O-social
+O-possession   O-`a
+O-possession   O-QUANTITY
+O-possession   O-FOOD
+O-possession   O-ATTRIBUTE
+B-social   Ī
+B-social   Ĩ-cognition
+B-social   o
+B-social   o-PERSON
+o   Ī
+o   Ĩ-cognition
+o   o
+o   o-PERSON
+o-PERSON   Ī
+o-PERSON   Ĩ-cognition
+o-PERSON   o
+o-PERSON   o-PERSON
+O-stative   O
+O-stative   O-communication
+O-stative   B-PERSON
+O-stative   O-PERSON
+O-stative   O-emotion
+O-stative   O-LOCATION
+O-stative   O-ACT
+O-stative   O-GROUP
+O-stative   B-stative
+O-stative   O-ARTIFACT
+O-stative   O-possession
+O-stative   B-social
+O-stative   O-stative
+O-stative   O-POSSESSION
+O-stative   O-motion
+O-stative   O-cognition
+O-stative   O-consumption
+O-stative   O-ANIMAL
+O-stative   O-FEELING
+O-stative   O-COGNITION
+O-stative   O-NATURAL OBJECT
+O-stative   O-social
+O-stative   O-`a
+O-stative   O-QUANTITY
+O-stative   O-FOOD
+O-stative   O-ATTRIBUTE
+O-POSSESSION   O
+O-POSSESSION   O-communication
+O-POSSESSION   B-PERSON
+O-POSSESSION   O-PERSON
+O-POSSESSION   O-emotion
+O-POSSESSION   O-LOCATION
+O-POSSESSION   O-ACT
+O-POSSESSION   O-GROUP
+O-POSSESSION   B-stative
+O-POSSESSION   O-ARTIFACT
+O-POSSESSION   O-possession
+O-POSSESSION   B-social
+O-POSSESSION   O-stative
+O-POSSESSION   O-POSSESSION
+O-POSSESSION   O-motion
+O-POSSESSION   O-cognition
+O-POSSESSION   O-consumption
+O-POSSESSION   O-ANIMAL
+O-POSSESSION   O-FEELING
+O-POSSESSION   O-COGNITION
+O-POSSESSION   O-NATURAL OBJECT
+O-POSSESSION   O-social
+O-POSSESSION   O-`a
+O-POSSESSION   O-QUANTITY
+O-POSSESSION   O-FOOD
+O-POSSESSION   O-ATTRIBUTE
+O-motion   O
+O-motion   O-communication
+O-motion   B-PERSON
+O-motion   O-PERSON
+O-motion   O-emotion
+O-motion   O-LOCATION
+O-motion   O-ACT
+O-motion   O-GROUP
+O-motion   B-stative
+O-motion   O-ARTIFACT
+O-motion   O-possession
+O-motion   B-social
+O-motion   O-stative
+O-motion   O-POSSESSION
+O-motion   O-motion
+O-motion   O-cognition
+O-motion   O-consumption
+O-motion   O-ANIMAL
+O-motion   O-FEELING
+O-motion   O-COGNITION
+O-motion   O-NATURAL OBJECT
+O-motion   O-social
+O-motion   O-`a
+O-motion   O-QUANTITY
+O-motion   O-FOOD
+O-motion   O-ATTRIBUTE
+O-cognition   O
+O-cognition   O-communication
+O-cognition   B-PERSON
+O-cognition   O-PERSON
+O-cognition   O-emotion
+O-cognition   O-LOCATION
+O-cognition   O-ACT
+O-cognition   O-GROUP
+O-cognition   B-stative
+O-cognition   O-ARTIFACT
+O-cognition   O-possession
+O-cognition   B-social
+O-cognition   O-stative
+O-cognition   O-POSSESSION
+O-cognition   O-motion
+O-cognition   O-cognition
+O-cognition   O-consumption
+O-cognition   O-ANIMAL
+O-cognition   O-FEELING
+O-cognition   O-COGNITION
+O-cognition   O-NATURAL OBJECT
+O-cognition   O-social
+O-cognition   O-`a
+O-cognition   O-QUANTITY
+O-cognition   O-FOOD
+O-cognition   O-ATTRIBUTE
+O-consumption   O
+O-consumption   O-communication
+O-consumption   B-PERSON
+O-consumption   O-PERSON
+O-consumption   O-emotion
+O-consumption   O-LOCATION
+O-consumption   O-ACT
+O-consumption   O-GROUP
+O-consumption   B-stative
+O-consumption   O-ARTIFACT
+O-consumption   O-possession
+O-consumption   B-social
+O-consumption   O-stative
+O-consumption   O-POSSESSION
+O-consumption   O-motion
+O-consumption   O-cognition
+O-consumption   O-consumption
+O-consumption   O-ANIMAL
+O-consumption   O-FEELING
+O-consumption   O-COGNITION
+O-consumption   O-NATURAL OBJECT
+O-consumption   O-social
+O-consumption   O-`a
+O-consumption   O-QUANTITY
+O-consumption   O-FOOD
+O-consumption   O-ATTRIBUTE
+O-ANIMAL   O
+O-ANIMAL   O-communication
+O-ANIMAL   B-PERSON
+O-ANIMAL   O-PERSON
+O-ANIMAL   O-emotion
+O-ANIMAL   O-LOCATION
+O-ANIMAL   O-ACT
+O-ANIMAL   O-GROUP
+O-ANIMAL   B-stative
+O-ANIMAL   O-ARTIFACT
+O-ANIMAL   O-possession
+O-ANIMAL   B-social
+O-ANIMAL   O-stative
+O-ANIMAL   O-POSSESSION
+O-ANIMAL   O-motion
+O-ANIMAL   O-cognition
+O-ANIMAL   O-consumption
+O-ANIMAL   O-ANIMAL
+O-ANIMAL   O-FEELING
+O-ANIMAL   O-COGNITION
+O-ANIMAL   O-NATURAL OBJECT
+O-ANIMAL   O-social
+O-ANIMAL   O-`a
+O-ANIMAL   O-QUANTITY
+O-ANIMAL   O-FOOD
+O-ANIMAL   O-ATTRIBUTE
+O-FEELING   O
+O-FEELING   O-communication
+O-FEELING   B-PERSON
+O-FEELING   O-PERSON
+O-FEELING   O-emotion
+O-FEELING   O-LOCATION
+O-FEELING   O-ACT
+O-FEELING   O-GROUP
+O-FEELING   B-stative
+O-FEELING   O-ARTIFACT
+O-FEELING   O-possession
+O-FEELING   B-social
+O-FEELING   O-stative
+O-FEELING   O-POSSESSION
+O-FEELING   O-motion
+O-FEELING   O-cognition
+O-FEELING   O-consumption
+O-FEELING   O-ANIMAL
+O-FEELING   O-FEELING
+O-FEELING   O-COGNITION
+O-FEELING   O-NATURAL OBJECT
+O-FEELING   O-social
+O-FEELING   O-`a
+O-FEELING   O-QUANTITY
+O-FEELING   O-FOOD
+O-FEELING   O-ATTRIBUTE
+O-COGNITION   O
+O-COGNITION   O-communication
+O-COGNITION   B-PERSON
+O-COGNITION   O-PERSON
+O-COGNITION   O-emotion
+O-COGNITION   O-LOCATION
+O-COGNITION   O-ACT
+O-COGNITION   O-GROUP
+O-COGNITION   B-stative
+O-COGNITION   O-ARTIFACT
+O-COGNITION   O-possession
+O-COGNITION   B-social
+O-COGNITION   O-stative
+O-COGNITION   O-POSSESSION
+O-COGNITION   O-motion
+O-COGNITION   O-cognition
+O-COGNITION   O-consumption
+O-COGNITION   O-ANIMAL
+O-COGNITION   O-FEELING
+O-COGNITION   O-COGNITION
+O-COGNITION   O-NATURAL OBJECT
+O-COGNITION   O-social
+O-COGNITION   O-`a
+O-COGNITION   O-QUANTITY
+O-COGNITION   O-FOOD
+O-COGNITION   O-ATTRIBUTE
+O-NATURAL OBJECT   O
+O-NATURAL OBJECT   O-communication
+O-NATURAL OBJECT   B-PERSON
+O-NATURAL OBJECT   O-PERSON
+O-NATURAL OBJECT   O-emotion
+O-NATURAL OBJECT   O-LOCATION
+O-NATURAL OBJECT   O-ACT
+O-NATURAL OBJECT   O-GROUP
+O-NATURAL OBJECT   B-stative
+O-NATURAL OBJECT   O-ARTIFACT
+O-NATURAL OBJECT   O-possession
+O-NATURAL OBJECT   B-social
+O-NATURAL OBJECT   O-stative
+O-NATURAL OBJECT   O-POSSESSION
+O-NATURAL OBJECT   O-motion
+O-NATURAL OBJECT   O-cognition
+O-NATURAL OBJECT   O-consumption
+O-NATURAL OBJECT   O-ANIMAL
+O-NATURAL OBJECT   O-FEELING
+O-NATURAL OBJECT   O-COGNITION
+O-NATURAL OBJECT   O-NATURAL OBJECT
+O-NATURAL OBJECT   O-social
+O-NATURAL OBJECT   O-`a
+O-NATURAL OBJECT   O-QUANTITY
+O-NATURAL OBJECT   O-FOOD
+O-NATURAL OBJECT   O-ATTRIBUTE
+O-social   O
+O-social   O-communication
+O-social   B-PERSON
+O-social   O-PERSON
+O-social   O-emotion
+O-social   O-LOCATION
+O-social   O-ACT
+O-social   O-GROUP
+O-social   B-stative
+O-social   O-ARTIFACT
+O-social   O-possession
+O-social   B-social
+O-social   O-stative
+O-social   O-POSSESSION
+O-social   O-motion
+O-social   O-cognition
+O-social   O-consumption
+O-social   O-ANIMAL
+O-social   O-FEELING
+O-social   O-COGNITION
+O-social   O-NATURAL OBJECT
+O-social   O-social
+O-social   O-`a
+O-social   O-QUANTITY
+O-social   O-FOOD
+O-social   O-ATTRIBUTE
+O-`a   O
+O-`a   O-communication
+O-`a   B-PERSON
+O-`a   O-PERSON
+O-`a   O-emotion
+O-`a   O-LOCATION
+O-`a   O-ACT
+O-`a   O-GROUP
+O-`a   B-stative
+O-`a   O-ARTIFACT
+O-`a   O-possession
+O-`a   B-social
+O-`a   O-stative
+O-`a   O-POSSESSION
+O-`a   O-motion
+O-`a   O-cognition
+O-`a   O-consumption
+O-`a   O-ANIMAL
+O-`a   O-FEELING
+O-`a   O-COGNITION
+O-`a   O-NATURAL OBJECT
+O-`a   O-social
+O-`a   O-`a
+O-`a   O-QUANTITY
+O-`a   O-FOOD
+O-`a   O-ATTRIBUTE
+O-QUANTITY   O
+O-QUANTITY   O-communication
+O-QUANTITY   B-PERSON
+O-QUANTITY   O-PERSON
+O-QUANTITY   O-emotion
+O-QUANTITY   O-LOCATION
+O-QUANTITY   O-ACT
+O-QUANTITY   O-GROUP
+O-QUANTITY   B-stative
+O-QUANTITY   O-ARTIFACT
+O-QUANTITY   O-possession
+O-QUANTITY   B-social
+O-QUANTITY   O-stative
+O-QUANTITY   O-POSSESSION
+O-QUANTITY   O-motion
+O-QUANTITY   O-cognition
+O-QUANTITY   O-consumption
+O-QUANTITY   O-ANIMAL
+O-QUANTITY   O-FEELING
+O-QUANTITY   O-COGNITION
+O-QUANTITY   O-NATURAL OBJECT
+O-QUANTITY   O-social
+O-QUANTITY   O-`a
+O-QUANTITY   O-QUANTITY
+O-QUANTITY   O-FOOD
+O-QUANTITY   O-ATTRIBUTE
+O-FOOD   O
+O-FOOD   O-communication
+O-FOOD   B-PERSON
+O-FOOD   O-PERSON
+O-FOOD   O-emotion
+O-FOOD   O-LOCATION
+O-FOOD   O-ACT
+O-FOOD   O-GROUP
+O-FOOD   B-stative
+O-FOOD   O-ARTIFACT
+O-FOOD   O-possession
+O-FOOD   B-social
+O-FOOD   O-stative
+O-FOOD   O-POSSESSION
+O-FOOD   O-motion
+O-FOOD   O-cognition
+O-FOOD   O-consumption
+O-FOOD   O-ANIMAL
+O-FOOD   O-FEELING
+O-FOOD   O-COGNITION
+O-FOOD   O-NATURAL OBJECT
+O-FOOD   O-social
+O-FOOD   O-`a
+O-FOOD   O-QUANTITY
+O-FOOD   O-FOOD
+O-FOOD   O-ATTRIBUTE
+O-ATTRIBUTE   O
+O-ATTRIBUTE   O-communication
+O-ATTRIBUTE   B-PERSON
+O-ATTRIBUTE   O-PERSON
+O-ATTRIBUTE   O-emotion
+O-ATTRIBUTE   O-LOCATION
+O-ATTRIBUTE   O-ACT
+O-ATTRIBUTE   O-GROUP
+O-ATTRIBUTE   B-stative
+O-ATTRIBUTE   O-ARTIFACT
+O-ATTRIBUTE   O-possession
+O-ATTRIBUTE   B-social
+O-ATTRIBUTE   O-stative
+O-ATTRIBUTE   O-POSSESSION
+O-ATTRIBUTE   O-motion
+O-ATTRIBUTE   O-cognition
+O-ATTRIBUTE   O-consumption
+O-ATTRIBUTE   O-ANIMAL
+O-ATTRIBUTE   O-FEELING
+O-ATTRIBUTE   O-COGNITION
+O-ATTRIBUTE   O-NATURAL OBJECT
+O-ATTRIBUTE   O-social
+O-ATTRIBUTE   O-`a
+O-ATTRIBUTE   O-QUANTITY
+O-ATTRIBUTE   O-FOOD
+O-ATTRIBUTE   O-ATTRIBUTE
+end:  O
+end:  O-communication
+end:  Ī
+end:  O-PERSON
+end:  O-emotion
+end:  O-LOCATION
+end:  O-ACT
+end:  O-GROUP
+end:  Ĩ-cognition
+end:  O-ARTIFACT
+end:  O-possession
+end:  O-stative
+end:  O-POSSESSION
+end:  O-motion
+end:  O-cognition
+end:  O-consumption
+end:  O-ANIMAL
+end:  O-FEELING
+end:  O-COGNITION
+end:  O-NATURAL OBJECT
+end:  O-social
+end:  O-`a
+end:  O-QUANTITY
+end:  O-FOOD
+end:  O-ATTRIBUTE
+[[0, 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [3, 9, 14, 15], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [3, 9, 14, 15], [0, 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [3, 9, 14, 15], [3, 9, 14, 15], [3, 9, 14, 15], [0, 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]]
+[[0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [2, 3, 9, 10, 13, 14, 15], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [2, 3, 9, 10, 13, 14, 15], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [2, 3, 9, 10, 13, 14, 15], [2, 3, 9, 10, 13, 14, 15], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]]
+all lens: [26, 26, 4, 30, 26, 26, 26, 26, 26, 30, 4, 26, 26, 4, 4, 4, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26]
+all legal lens: 678
+nAllFeatures:  6240
+computing ll
+lmbda:  [ 0.  0.  0. ...,  0.  0.  0.]
+computing alphas
+5:  126.594111919
+computing ll one sample
+llOne:  -6.2822667469
+computing alphas
+5:  126.613688946
+computing ll one sample
+llOne:  -28.3242537175
+computing alphas
+5:  126.623511076
+computing ll one sample
+llOne:  -18.8775154359
+computing alphas
+5:  126.627038956
+computing ll one sample
+llOne:  -12.579699589
+computing alphas
+5:  127.063251019
+computing ll one sample
+llOne:  -9.43084043234
+computing alphas
+5:  127.069314003
+computing ll one sample
+llOne:  -25.1753408783
+computing alphas
+5:  127.093899012
+computing ll one sample
+llOne:  -28.3242537175
+computing alphas
+5:  127.098920107
+computing ll one sample
+llOne:  -22.0264280675
+computing alphas
+5:  127.119462013
+computing ll one sample
+llOne:  -18.8775154359
+computing alphas
+5:  127.124917984
+computing ll one sample
+llOne:  -22.0264280675
+computing alphas
+5:  127.175555944
+computing ll one sample
+llOne:  -75.5579463837
+computing alphas
+5:  127.198959112
+computing ll one sample
+llOne:  -66.1112078503
+computing alphas
+5:  127.218966007
+computing ll one sample
+llOne:  -28.3242537175
+computing alphas
+5:  127.221709013
+computing ll one sample
+llOne:  -9.43084043234
+computing alphas
+5:  127.229525089
+computing ll one sample
+llOne:  -15.7286039362
+computing alphas
+5:  127.262336016
+computing ll one sample
+llOne:  -18.8775154359
+computing alphas
+5:  127.298321962
+computing ll one sample
+llOne:  -40.9199050944
+computing alphas
+5:  127.311304092
+computing ll one sample
+llOne:  -37.7709922499
+computing alphas
+5:  127.33088994
+computing ll one sample
+llOne:  -44.0688179389
+ll:  528.714625127
+computing ll Der
+compare: True
+computing betas
+5b:  127.354277134
+compute derivation
+z:  6.2822667469
+computing betas
+5b:  127.360469103
+compute derivation
+z:  28.3242537175
+computing betas
+5b:  127.398375034
+compute derivation
+z:  18.8775154359
+computing betas
+5b:  127.410795927
+compute derivation
+z:  12.579699589
+computing betas
+5b:  127.415560007
+compute derivation
+z:  9.43084043234
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+computing betas
+5b:  127.438887119
+compute derivation
+z:  25.1753408783
+computing betas
+5b:  127.449939013
+compute derivation
+z:  28.3242537175
+computing betas
+5b:  127.497606993
+compute derivation
+z:  22.0264280675
+computing betas
+5b:  127.521413088
+compute derivation
+z:  18.8775154359
+computing betas
+5b:  127.529184103
+compute derivation
+z:  22.0264280675
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+computing betas
+5b:  127.593598127
+compute derivation
+z:  75.5579463837
+computing betas
+5b:  127.690758944
+compute derivation
+z:  66.1112078503
+computing betas
+5b:  127.739273071
+compute derivation
+z:  28.3242537175
+computing betas
+5b:  127.75680995
+compute derivation
+z:  9.43084043234
+computing betas
+5b:  127.761786938
+compute derivation
+z:  15.7286039362
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+computing betas
+5b:  127.799742937
+compute derivation
+z:  18.8775154359
+computing betas
+5b:  127.851779938
+compute derivation
+z:  40.9199050944
+computing betas
+5b:  127.867779016
+compute derivation
+z:  37.7709922499
+computing betas
+5b:  127.916142941
+compute derivation
+z:  44.0688179389
+llDer:  [ 91.87657082  13.18480008  11.10173503 ...,  -0.27116322  -0.27116322
+  -0.27116322]
+llDer:  [-91.87657082 -13.18480008 -11.10173503 ...,   0.27116322   0.27116322
+   0.27116322]
+computing ll
+lmbda:  [ 0.47318104  0.06790412  0.05717595 ..., -0.00139654 -0.00139654
+ -0.00139654]
+computing alphas
+5:  128.030390024
+computing ll one sample
+llOne:  -4.73282156448
+computing alphas
+5:  128.038917065
+computing ll one sample
+llOne:  -21.7598905772
+computing alphas
+5:  128.059900999
+computing ll one sample
+llOne:  -11.5771557976
+computing alphas
+5:  128.063491106
+computing ll one sample
+llOne:  -7.51815134751
+computing alphas
+5:  128.066064119
+computing ll one sample
+llOne:  -7.70910495832
+computing alphas
+5:  128.077670097
+computing ll one sample
+llOne:  -18.0676252874
+computing alphas
+5:  128.084720135
+computing ll one sample
+llOne:  -23.072593323
+computing alphas
+5:  128.089847088
+computing ll one sample
+llOne:  -15.0493402199
+computing alphas
+5:  128.093895912
+computing ll one sample
+llOne:  -10.8033012613
+computing alphas
+5:  128.134753942
+computing ll one sample
+llOne:  -16.3492142132
+computing alphas
+5:  128.187114954
+computing ll one sample
+llOne:  -51.5661981714
+computing alphas
+5:  128.227642059
+computing ll one sample
+llOne:  -42.5159047148
+computing alphas
+5:  128.234857082
+computing ll one sample
+llOne:  -17.8329986345
+computing alphas
+5:  128.258865118
+computing ll one sample
+llOne:  -6.28272444018
+computing alphas
+5:  128.262615919
+computing ll one sample
+llOne:  -11.1638341317
+computing alphas
+5:  128.267089128
+computing ll one sample
+llOne:  -10.998522693
+computing alphas
+5:  128.291953087
+computing ll one sample
+llOne:  -28.0619317778
+computing alphas
+5:  128.319683075
+computing ll one sample
+llOne:  -22.8391485312
+computing alphas
+5:  128.349236012
+computing ll one sample
+llOne:  -28.5596418347
+ll:  359.460103479
+computing ll Der
+compare: True
+computing betas
+5b:  128.351196051
+compute derivation
+z:  6.47057474123
+sum pl1l2s:  1.0
+computing betas
+5b:  128.367463112
+compute derivation
+z:  29.3260315613
+computing betas
+5b:  128.407113075
+compute derivation
+z:  19.7327015422
+computing betas
+5b:  128.413382053
+compute derivation
+z:  13.1176062701
+computing betas
+5b:  128.431427002
+compute derivation
+z:  9.68319134432
+computing betas
+5b:  128.476172924
+compute derivation
+z:  25.971434202
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+computing betas
+5b:  128.50693202
+compute derivation
+z:  29.1051005689
+computing betas
+5b:  128.531203032
+compute derivation
+z:  22.8407225207
+computing betas
+5b:  128.542021036
+compute derivation
+z:  19.4666727005
+computing betas
+5b:  128.572124004
+compute derivation
+z:  22.9665419175
+computing betas
+5b:  128.619575024
+compute derivation
+z:  78.5483310304
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+computing betas
+5b:  128.70916605
+compute derivation
+z:  68.3468889142
+computing betas
+5b:  128.764379025
+compute derivation
+z:  29.457713894
+computing betas
+5b:  128.77480197
+compute derivation
+z:  9.74465266292
+computing betas
+5b:  128.780416965
+compute derivation
+z:  16.1412911738
+computing betas
+5b:  128.804949999
+compute derivation
+z:  19.7802551314
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+computing betas
+5b:  128.855368137
+compute derivation
+z:  42.2858656444
+computing betas
+5b:  128.887002945
+compute derivation
+z:  39.6212041956
+computing betas
+5b:  128.927607059
+compute derivation
+z:  45.7490604774
+llDer:  [ 58.24355632   9.67546684   7.31096347 ...,  -0.16196085  -0.17720666
+  -0.16296375]
+llDer:  [-58.24355632  -9.67546684  -7.31096347 ...,   0.16196085   0.17720666
+   0.16296375]
+computing ll
+lmbda:  [ 1.39030077  0.25542814  0.17959171 ..., -0.00368145 -0.00432861
+ -0.00372402]
+computing alphas
+5:  128.992187023
+computing ll one sample
+llOne:  -4.45798998
+computing alphas
+5:  128.998260975
+computing ll one sample
+llOne:  -24.9181834019
+computing alphas
+5:  129.003521919
+computing ll one sample
+llOne:  -10.5821678276
+computing alphas
+5:  129.006747961
+computing ll one sample
+llOne:  -6.91547742342
+computing alphas
+5:  129.009331942
+computing ll one sample
+llOne:  -8.39537372795
+computing alphas
+5:  129.059720993
+computing ll one sample
+llOne:  -17.1952525253
+computing alphas
+5:  129.086981058
+computing ll one sample
+llOne:  -26.0883097441
+computing alphas
+5:  129.092534065
+computing ll one sample
+llOne:  -15.0083729625
+computing alphas
+5:  129.102796078
+computing ll one sample
+llOne:  -5.7982861811
+computing alphas
+5:  129.107842922
+computing ll one sample
+llOne:  -18.6264661324
+computing alphas
+5:  129.13469696
+computing ll one sample
+llOne:  -52.5200686095
+computing alphas
+5:  129.18452096
+computing ll one sample
+llOne:  -36.1372404067
+computing alphas
+5:  129.192482948
+computing ll one sample
+llOne:  -16.1638993618
+computing alphas
+5:  129.225347042
+computing ll one sample
+llOne:  -5.41167578241
+computing alphas
+5:  129.229156971
+computing ll one sample
+llOne:  -9.60640357802
+computing alphas
+5:  129.23360014
+computing ll one sample
+llOne:  -8.39539191749
+computing alphas
+5:  129.249068022
+computing ll one sample
+llOne:  -27.6490399476
+computing alphas
+5:  129.279709101
+computing ll one sample
+llOne:  -22.5058436733
+computing alphas
+5:  129.30379796
+computing ll one sample
+llOne:  -25.4787091089
+ll:  374.074143807
+computing ll Der
+compare: True
+computing betas
+5b:  129.305952072
+compute derivation
+z:  10.2831921123
+computing betas
+5b:  129.339652061
+compute derivation
+z:  49.0716327598
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+computing betas
+5b:  129.348882914
+compute derivation
+z:  35.6059431532
+computing betas
+5b:  129.373837948
+compute derivation
+z:  24.0211992516
+computing betas
+5b:  129.396965027
+compute derivation
+z:  15.2201485461
+computing betas
+5b:  129.403455973
+compute derivation
+z:  42.3136547221
+computing betas
+5b:  129.429378986
+compute derivation
+z:  46.2775157846
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+computing betas
+5b:  129.457632065
+compute derivation
+z:  38.8939026833
+computing betas
+5b:  129.490288973
+compute derivation
+z:  32.1032613407
+computing betas
+5b:  129.514998913
+compute derivation
+z:  41.9780334257
+computing betas
+5b:  129.563086987
+compute derivation
+z:  140.479328406
+computing betas
+5b:  129.622854948
+compute derivation
+z:  117.342883087
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+computing betas
+5b:  129.690866947
+compute derivation
+z:  51.7493763962
+computing betas
+5b:  129.713554144
+compute derivation
+z:  16.6947121045
+computing betas
+5b:  129.71845293
+compute derivation
+z:  25.5491287394
+computing betas
+5b:  129.733370066
+compute derivation
+z:  36.7066634843
+computing betas
+5b:  129.769189119
+compute derivation
+z:  71.5096399459
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+computing betas
+5b:  129.832790136
+compute derivation
+z:  74.2271224682
+computing betas
+5b:  129.863289118
+compute derivation
+z:  77.3711851711
+llDer:  [ -6.94670626e+01  -5.04664121e+00  -8.63604125e+00 ...,   2.10883975e-02
+   2.43785618e-02   2.13083251e-02]
+llDer:  [  6.94670626e+01   5.04664121e+00   8.63604125e+00 ...,  -2.10883975e-02
+  -2.43785618e-02  -2.13083251e-02]
+computing ll
+lmbda:  [ 0.86595666  0.14821519  0.10960305 ..., -0.0023751  -0.00265226
+ -0.00239333]
+computing alphas
+5:  129.899616003
+computing ll one sample
+llOne:  -3.90055078121
+computing alphas
+5:  129.939404011
+computing ll one sample
+llOne:  -19.576182754
+computing alphas
+5:  129.943691015
+computing ll one sample
+llOne:  -8.67683412635
+computing alphas
+5:  129.961699963
+computing ll one sample
+llOne:  -5.51001550209
+computing alphas
+5:  129.964267015
+computing ll one sample
+llOne:  -6.91648779894
+computing alphas
+5:  129.981055975
+computing ll one sample
+llOne:  -14.6383336988
+computing alphas
+5:  129.986875057
+computing ll one sample
+llOne:  -20.9098558381
+computing alphas
+5:  130.011229992
+computing ll one sample
+llOne:  -12.198961135
+computing alphas
+5:  130.015483141
+computing ll one sample
+llOne:  -6.31718556494
+computing alphas
+5:  130.031276941
+computing ll one sample
+llOne:  -14.2036953589
+computing alphas
+5:  130.069170952
+computing ll one sample
+llOne:  -41.4888372319
+computing alphas
+5:  130.098922014
+computing ll one sample
+llOne:  -30.8498717429
+computing alphas
+5:  130.133652925
+computing ll one sample
+llOne:  -13.3989679113
+computing alphas
+5:  130.136260033
+computing ll one sample
+llOne:  -4.61929111191
+computing alphas
+5:  130.155456066
+computing ll one sample
+llOne:  -8.62857351076
+computing alphas
+5:  130.160045147
+computing ll one sample
+llOne:  -7.33298717128
+computing alphas
+5:  130.182171106
+computing ll one sample
+llOne:  -22.4282564305
+computing alphas
+5:  130.209788084
+computing ll one sample
+llOne:  -17.4631593955
+computing alphas
+5:  130.23071599
+computing ll one sample
+llOne:  -21.7479281706
+ll:  292.378954475
+computing ll Der
+compare: True
+computing betas
+5b:  130.232692003
+compute derivation
+z:  7.38883907693
+computing betas
+5b:  130.239279985
+compute derivation
+z:  34.2461839094
+computing betas
+5b:  130.27796793
+compute derivation
+z:  24.0565503982
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+computing betas
+5b:  130.294584036
+compute derivation
+z:  16.0372687962
+computing betas
+5b:  130.298830986
+compute derivation
+z:  10.967982501
+computing betas
+5b:  130.33230114
+compute derivation
+z:  29.9146506074
+computing betas
+5b:  130.357763052
+compute derivation
+z:  33.005264096
+computing betas
+5b:  130.391796112
+compute derivation
+z:  26.8829971607
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+computing betas
+5b:  130.401540041
+compute derivation
+z:  22.5359411089
+computing betas
+5b:  130.446077108
+compute derivation
+z:  27.9878095866
+computing betas
+5b:  130.46459198
+compute derivation
+z:  94.585694292
+computing betas
+5b:  130.547621965
+compute derivation
+z:  80.3962063792
+computing betas
+5b:  130.621038914
+compute derivation
+z:  35.285378282
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+computing betas
+5b:  130.649012089
+compute derivation
+z:  11.4307717196
+computing betas
+5b:  130.653813124
+compute derivation
+z:  18.3021349301
+computing betas
+5b:  130.677184105
+compute derivation
+z:  24.4786513612
+computing betas
+5b:  130.719166994
+compute derivation
+z:  49.3447096258
+computing betas
+5b:  130.739768982
+compute derivation
+z:  49.2086648266
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+computing betas
+5b:  130.784960032
+compute derivation
+z:  53.7996536971
+llDer:  [-13.99607042   1.970832    -1.23828081 ...,  -0.02580479  -0.03509432
+  -0.02642068]
+llDer:  [ 13.99607042  -1.970832     1.23828081 ...,   0.02580479   0.03509432
+   0.02642068]
+computing ll
+lmbda:  [ 0.87276689  0.17661025  0.11408629 ..., -0.00271684 -0.00311129
+ -0.00274281]
+computing alphas
+5:  130.836997986
+computing ll one sample
+llOne:  -3.50237069157
+computing alphas
+5:  130.861875057
+computing ll one sample
+llOne:  -18.2138865516
+computing alphas
+5:  130.866197109
+computing ll one sample
+llOne:  -8.30575086117
+computing alphas
+5:  130.88300395
+computing ll one sample
+llOne:  -5.44294551679
+computing alphas
+5:  130.885608912
+computing ll one sample
+llOne:  -6.32280413979
+computing alphas
+5:  130.890731096
+computing ll one sample
+llOne:  -13.4176527391
+computing alphas
+5:  130.934085131
+computing ll one sample
+llOne:  -19.156209546
+computing alphas
+5:  130.941096067
+computing ll one sample
+llOne:  -11.4531480172
+computing alphas
+5:  130.945161104
+computing ll one sample
+llOne:  -6.25421314566
+computing alphas
+5:  130.950129986
+computing ll one sample
+llOne:  -12.2616128161
+computing alphas
+5:  131.018034935
+computing ll one sample
+llOne:  -37.3299212841
+computing alphas
+5:  131.041086912
+computing ll one sample
+llOne:  -29.0596935802
+computing alphas
+5:  131.061295986
+computing ll one sample
+llOne:  -12.8904474664
+computing alphas
+5:  131.063954115
+computing ll one sample
+llOne:  -4.08165671708
+computing alphas
+5:  131.067672014
+computing ll one sample
+llOne:  -7.98338443526
+computing alphas
+5:  131.101264
+computing ll one sample
+llOne:  -6.30169811579
+computing alphas
+5:  131.115966082
+computing ll one sample
+llOne:  -21.2769609659
+computing alphas
+5:  131.146043062
+computing ll one sample
+llOne:  -16.0356779155
+computing alphas
+5:  131.175974131
+computing ll one sample
+llOne:  -20.3587532697
+ll:  273.653653949
+computing ll Der
+compare: True
+computing betas
+5b:  131.189069986
+compute derivation
+z:  7.3906373271
+computing betas
+5b:  131.195833921
+compute derivation
+z:  33.9620886435
+computing betas
+5b:  131.225873947
+compute derivation
+z:  24.1210986326
+computing betas
+5b:  131.236426115
+compute derivation
+z:  16.3412873668
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+computing betas
+5b:  131.240813971
+compute derivation
+z:  10.9614452181
+computing betas
+5b:  131.275635958
+compute derivation
+z:  29.5051453843
+computing betas
+5b:  131.305369139
+compute derivation
+z:  32.4617333539
+computing betas
+5b:  131.325539112
+compute derivation
+z:  26.4954286248
+computing betas
+5b:  131.359627962
+compute derivation
+z:  22.5703715864
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+computing betas
+5b:  131.367516994
+compute derivation
+z:  27.9969219729
+computing betas
+5b:  131.412552118
+compute derivation
+z:  94.1265754915
+computing betas
+5b:  131.49369812
+compute derivation
+z:  80.2696820457
+computing betas
+5b:  131.543926001
+compute derivation
+z:  35.3310941428
+computing betas
+5b:  131.551470041
+compute derivation
+z:  11.5570908913
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+computing betas
+5b:  131.57716012
+compute derivation
+z:  18.1950430378
+computing betas
+5b:  131.598222017
+compute derivation
+z:  24.6741919106
+computing betas
+5b:  131.634235144
+compute derivation
+z:  49.0857487088
+computing betas
+5b:  131.663609028
+compute derivation
+z:  49.0195328581
+computing betas
+5b:  131.722245932
+compute derivation
+z:  52.9846706441
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+llDer:  [-8.02809867  1.6687323  -1.20152273 ..., -0.02645654 -0.0421674  -0.0275041 ]
+llDer:  [ 8.02809867 -1.6687323   1.20152273 ...,  0.02645654  0.0421674   0.0275041 ]
+computing ll
+lmbda:  [ 0.99221749  0.32082288  0.11195283 ..., -0.00463985 -0.00616619
+ -0.00474105]
+computing alphas
+5:  131.786082983
+computing ll one sample
+llOne:  -2.08253768665
+computing alphas
+5:  131.813235998
+computing ll one sample
+llOne:  -14.1526593539
+computing alphas
+5:  131.817678928
+computing ll one sample
+llOne:  -8.02755612378
+computing alphas
+5:  131.820795059
+computing ll one sample
+llOne:  -5.19697392593
+computing alphas
+5:  131.831346035
+computing ll one sample
+llOne:  -3.93337535214
+computing alphas
+5:  131.836534977
+computing ll one sample
+llOne:  -9.28509376017
+computing alphas
+5:  131.866163015
+computing ll one sample
+llOne:  -12.858280418
+computing alphas
+5:  131.871274948
+computing ll one sample
+llOne:  -9.92654230724
+computing alphas
+5:  131.896022081
+computing ll one sample
+llOne:  -5.6966446486
+computing alphas
+5:  131.901201963
+computing ll one sample
+llOne:  -3.46238604104
+computing alphas
+5:  131.944551945
+computing ll one sample
+llOne:  -20.5230883173
+computing alphas
+5:  131.973060131
+computing ll one sample
+llOne:  -24.4397756843
+computing alphas
+5:  131.993129015
+computing ll one sample
+llOne:  -11.4385783516
+computing alphas
+5:  131.995801926
+computing ll one sample
+llOne:  -2.36347052598
+computing alphas
+5:  131.999449968
+computing ll one sample
+llOne:  -5.11615055868
+computing alphas
+5:  132.030210972
+computing ll one sample
+llOne:  -2.85838066908
+computing alphas
+5:  132.04373908
+computing ll one sample
+llOne:  -18.4416747946
+computing alphas
+5:  132.07143712
+computing ll one sample
+llOne:  -12.0642011147
+computing alphas
+5:  132.098278046
+computing ll one sample
+llOne:  -16.4523132001
+ll:  233.859563688
+computing ll Der
+compare: True
+computing betas
+5b:  132.100172997
+compute derivation
+z:  8.2189149204
+computing betas
+5b:  132.123335123
+compute derivation
+z:  36.4734819409
+computing betas
+5b:  132.149482965
+compute derivation
+z:  26.9397594959
+computing betas
+5b:  132.163136005
+compute derivation
+z:  18.3793351935
+computing betas
+5b:  132.167674065
+compute derivation
+z:  11.8656942198
+sum pl1s:  1.0
+sum pl1s:  1.0
+sum pl1l2s:  1.0
+sum pl1s:  1.0
+sum pl1l2s:  1.0
+computing betas
+5b:  132.193637133
+compute derivation
+z:  31.3015597112
+computing betas
+5b:  132.226164103
+compute derivation
+z:  33.8454284762
+computing betas
+5b:  132.261049986
+compute derivation
+z:  28.1504017303
+computing betas
+5b:  132.273863077
+compute derivation
+z:  24.1845421018
+computing betas
+5b:  132.284733057
+compute derivation
+z:  31.0511928937
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+computing betas
+5b:  132.342514992
+compute derivation
+z:  102.175212639
+computing betas
+5b:  132.380878925
+compute derivation
+z:  88.1283399281
+computing betas
+5b:  132.417163134
+compute derivation
+z:  38.3435507558
+computing betas
+5b:  132.428337097
+compute derivation
+z:  13.3351441744
+computing betas
+5b:  132.433299065
+compute derivation
+z:  19.3138498417
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+sum pl1l2s:  1.0
+computing betas
+5b:  132.44195509
+compute derivation
+z:  28.3020147039
+computing betas
+5b:  132.453793049
+compute derivation
+z:  53.4290878019
+computing betas
+5b:  132.475417137
+compute derivation
+z:  53.1146631467
+computing betas
+5b:  132.489802122
+compute derivation
+z:  55.4205024292
+llDer:  [  9.39350100e+00  -8.94289993e-02  -1.34853261e+00 ...,   1.10559873e-02
+  -8.67413970e-03   1.02349048e-02]
+llDer:  [ -9.39350100e+00   8.94289993e-02   1.34853261e+00 ...,  -1.10559873e-02
+   8.67413970e-03  -1.02349048e-02]
+(array([ 0.99221749,  0.32082288,  0.11195283, ..., -0.00463985,
+       -0.00616619, -0.00474105]), 233.85956368803335, {'warnflag': 1, 'task': 'STOP: TOTAL NO. of ITERATIONS EXCEEDS LIMIT', 'grad': array([ -9.39350100e+00,   8.94289993e-02,   1.34853261e+00, ...,
+        -1.10559873e-02,   8.67413970e-03,  -1.02349048e-02]), 'nit': 3, 'funcalls': 6})
+final lmbda:  <MemoryView of 'ndarray' object>
+crf trained on data
+num features: 178
+predict:  B-social , gold  Token(token=u'telephone', stem=u'telephone', pos=u'NN', gold=u'B-COMMUNICATION', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'number', stem=u'number', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'telephone', stem=u'telephone', pos=u'NN', gold=u'B-COMMUNICATION', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'number', stem=u'number', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'incorrect', stem=u'incorrect', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'-', stem=u'-', pos=u',', gold=u'O', prediction=u'O', shape=u'-')
+predict:  O , gold  Token(token=u'our', stem=u'our', pos=u'PRP$', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'new', stem=u'new', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'mobile', stem=u'mobile', pos=u'JJ', gold=u'B-COMMUNICATION', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'number', stem=u'number', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'07551310002', stem=u'07551310002', pos=u'CD', gold=u'O', prediction=u'O', shape='d*')
+predict:  O , gold  Token(token=u'or', stem=u'or', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'landline', stem=u'landline', pos=u'NN', gold=u'O-COMMUNICATION', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'01634', stem=u'01634', pos=u'CD', gold=u'O', prediction=u'O', shape='d*')
+predict:  O , gold  Token(token=u'710033', stem=u'710033', pos=u'CD', gold=u'O', prediction=u'O', shape='d*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'thank', stem=u'thank', pos=u'VBP', gold=u'B', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'you', stem=u'you', pos=u'PRP', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'Billing', stem=u'billing', pos=u'NN', gold=u'O-POSSESSION', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'Issues', stem=u'issue', pos=u'NNS', gold=u'O-COGNITION', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'...', stem=u'...', pos=u',', gold=u'O', prediction=u'O', shape=u'.*')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  B-social , gold  Token(token=u'had', stem=u'have', pos=u'VBD', gold=u'B-social', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'o', prediction=u'\u012a', shape='x')
+predict:  Ī , gold  Token(token=u'routine', stem=u'routine', pos=u'JJ', gold=u'o', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'surgery', stem=u'surgery', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'for', stem=u'for', pos=u'IN', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'an', stem=u'an', pos=u'DT', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'ingrown', stem=u'ingrown', pos=u'JJ', gold=u'B-BODY', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'toenail', stem=u'toenail', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'My', stem=u'my', pos=u'PRP$', gold=u'O', prediction=u'O', shape='Xx')
+predict:  B-social , gold  Token(token=u'insurance', stem=u'insurance', pos=u'NN', gold=u'O-POSSESSION', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'company', stem=u'company', pos=u'NN', gold=u'O-GROUP', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'Blue', stem=u'blue', pos=u'NNP', gold=u'B-GROUP', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'Cross', stem=u'cross', pos=u'NNP', gold=u'\u012a', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'/', stem=u'/', pos=u'HYPH', gold=u'\u012a', prediction=u'O', shape=u'/')
+predict:  O , gold  Token(token=u'Blue', stem=u'blue', pos=u'NNP', gold=u'\u012a', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'Shield', stem=u'shield', pos=u'NNP', gold=u'\u012a', prediction=u'B-social', shape='Xx*')
+predict:  Ī , gold  Token(token=u'paid', stem=u'pay', pos=u'VBD', gold=u'O-possession', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'fees', stem=u'fee', pos=u'NNS', gold=u'O-POSSESSION', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'everything', stem=u'everything', pos=u'NN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O-stative , gold  Token(token=u'was', stem=u'be', pos=u'VBD', gold=u'O-stative', prediction=u'O-stative', shape='x*')
+predict:  O , gold  Token(token=u'fine', stem=u'fine', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Then', stem=u'then', pos=u'RB', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  B-social , gold  Token(token=u'got', stem=u'get', pos=u'VBD', gold=u'B-stative', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'o', prediction=u'\u012a', shape='x')
+predict:  Ī , gold  Token(token=u'bill', stem=u'bill', pos=u'NN', gold=u'\u0128-POSSESSION', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'for', stem=u'for', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'$', stem=u'$', pos=u'$', gold=u'O', prediction=u'O', shape=u'$')
+predict:  O , gold  Token(token=u'483.00', stem=u'483.00', pos=u'CD', gold=u'O', prediction=u'O', shape=u'd*.d*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'The', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'doctor', stem=u'doctor', pos=u'NN', gold=u'B-ARTIFACT', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u"'s", stem=u"'s", pos=u'POS', gold=u'\u012a', prediction=u'O', shape=u"'x")
+predict:  B-social , gold  Token(token=u'office', stem=u'office', pos=u'NN', gold=u'\u012a', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'said', stem=u'say', pos=u'VBD', gold=u'O-communication', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'that', stem=u'that', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'payments', stem=u'payment', pos=u'NNS', gold=u'O-POSSESSION', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'had', stem=u'have', pos=u'VBD', gold=u'O-`a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'been', stem=u'be', pos=u'VBN', gold=u'O-`a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'"', stem=u'"', pos=u'``', gold=u'O', prediction=u'\u012a', shape=u'"')
+predict:  Ī , gold  Token(token=u'reversed', stem=u'reverse', pos=u'VBN', gold=u'O-change', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'"', stem=u'"', pos=u"''", gold=u'O', prediction=u'O', shape=u'"')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  B-social , gold  Token(token=u'Blue', stem=u'blue', pos=u'NNP', gold=u'B-GROUP', prediction=u'B-social', shape='Xx*')
+predict:  Ī , gold  Token(token=u'cross', stem=u'cross', pos=u'NNP', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'has', stem=u'have', pos=u'VBZ', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'no', stem=u'no', pos=u'DT', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'record', stem=u'record', pos=u'NN', gold=u'O-COMMUNICATION', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'of', stem=u'of', pos=u'IN', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'aa', stem=u'aa', pos=u'DT', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'reversal', stem=u'reversal', pos=u'NN', gold=u'O-EVENT', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'The', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'office', stem=u'office', pos=u'NN', gold=u'O-GROUP', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'refused', stem=u'refuse', pos=u'VBD', gold=u'O-communication', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'my', stem=u'my', pos=u'PRP$', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'requests', stem=u'request', pos=u'NNS', gold=u'O-COMMUNICATION', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'to', stem=u'to', pos=u'TO', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'see', stem=u'see', pos=u'VB', gold=u'O-perception', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'what', stem=u'what', pos=u'WP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'they', stem=u'they', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O-stative , gold  Token(token=u'got', stem=u'get', pos=u'VBD', gold=u'O-stative', prediction=u'O-stative', shape='x*')
+predict:  O , gold  Token(token=u'from', stem=u'from', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'BC', stem=u'bc', pos=u'NNP', gold=u'B-GROUP', prediction=u'O', shape='X*')
+predict:  O , gold  Token(token=u'/', stem=u'/', pos=u'HYPH', gold=u'\u012a', prediction=u'O', shape=u'/')
+predict:  O , gold  Token(token=u'BS', stem=u'bs', pos=u'NNP', gold=u'\u012a', prediction=u'O', shape='X*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'They', stem=u'they', pos=u'PRP', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'eventually', stem=u'eventually', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'turned', stem=u'turn', pos=u'VBD', gold=u'B-social', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'it', stem=u'it', pos=u'PRP', gold=u'o', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'over', stem=u'over', pos=u'RP', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'to', stem=u'to', pos=u'IN', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'O', prediction=u'O', shape='x')
+predict:  B-social , gold  Token(token=u'collection', stem=u'collection', pos=u'NN', gold=u'B-GROUP', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'agency', stem=u'agency', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'now', stem=u'now', pos=u'RB', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'will', stem=u'will', pos=u'MD', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'not', stem=u'not', pos=u'RB', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'even', stem=u'even', pos=u'RB', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'discuss', stem=u'discuss', pos=u'VB', gold=u'B-communication', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'\u0128', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'matter', stem=u'matter', pos=u'NN', gold=u'\u0128-EVENT', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  O , gold  Token(token=u'eventually', stem=u'eventually', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'decided', stem=u'decide', pos=u'VBD', gold=u'O-cognition', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'to', stem=u'to', pos=u'TO', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'just', stem=u'just', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'pay', stem=u'pay', pos=u'VB', gold=u'O-possession', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'balance', stem=u'balance', pos=u'NN', gold=u'O-POSSESSION', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'even', stem=u'even', pos=u'RB', gold=u'B', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'though', stem=u'though', pos=u'IN', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'doctor', stem=u'doctor', pos=u'NN', gold=u'O-PERSON', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'has', stem=u'have', pos=u'VBZ', gold=u'O-`a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'already', stem=u'already', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'been', stem=u'be', pos=u'VBN', gold=u'O-`a', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'paid', stem=u'pay', pos=u'VBN', gold=u'O-possession', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'but', stem=u'but', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'now', stem=u'now', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'collection', stem=u'collection', pos=u'NN', gold=u'B-GROUP', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'agency', stem=u'agency', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-`a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'trying', stem=u'try', pos=u'VBG', gold=u'B-communication', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'to', stem=u'to', pos=u'TO', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'say', stem=u'say', pos=u'VB', gold=u'\u012a', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'another', stem=u'another', pos=u'DT', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'reversal', stem=u'reversal', pos=u'NN', gold=u'O-EVENT', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'of', stem=u'of', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'$', stem=u'$', pos=u'$', gold=u'O', prediction=u'O', shape=u'$')
+predict:  O , gold  Token(token=u'160.00', stem=u'160.00', pos=u'CD', gold=u'O', prediction=u'O', shape=u'd*.d*')
+predict:  B-social , gold  Token(token=u'has', stem=u'have', pos=u'VBZ', gold=u'O-`a', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'come', stem=u'come', pos=u'VBN', gold=u'B-stative', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'through', stem=u'through', pos=u'RB', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'It', stem=u'it', pos=u'PRP', gold=u'O', prediction=u'O', shape='Xx')
+predict:  B-social , gold  Token(token=u'was', stem=u'be', pos=u'VBD', gold=u'O-stative', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'an', stem=u'an', pos=u'DT', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'ingrown', stem=u'ingrown', pos=u'JJ', gold=u'B-BODY', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'toenail', stem=u'toenail', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'How', stem=u'how', pos=u'WRB', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'much', stem=u'much', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'could', stem=u'could', pos=u'MD', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'it', stem=u'it', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'possibly', stem=u'possibly', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'cost', stem=u'cost', pos=u'VB', gold=u'O-possession', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'?', stem=u'?', pos=u'.', gold=u'O', prediction=u'O', shape=u'?')
+predict:  O , gold  Token(token=u'Not', stem=u'not', pos=u'RB', gold=u'B', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'only', stem=u'only', pos=u'RB', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'am', stem=u'be', pos=u'VB', gold=u'O-stative', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'\u012a', shape='X')
+predict:  Ī , gold  Token(token=u'being', stem=u'be', pos=u'VBG', gold=u'O-`a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'bilked', stem=u'bilk', pos=u'VBN', gold=u'O-possession', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'for', stem=u'for', pos=u'IN', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'money', stem=u'money', pos=u'NN', gold=u'O-POSSESSION', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'\u012a', shape='X')
+predict:  Ī , gold  Token(token=u'do', stem=u'do', pos=u'VBP', gold=u'O-`a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'not', stem=u'not', pos=u'RB', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'owe', stem=u'owe', pos=u'VB', gold=u'O-possession', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'office', stem=u'office', pos=u'NN', gold=u'O-GROUP', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'staff', stem=u'staff', pos=u'NN', gold=u'O-GROUP', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'rude', stem=u'rude', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'to', stem=u'to', pos=u'TO', gold=u'B', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'boot', stem=u'boot', pos=u'VB', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  O , gold  Token(token=u'think', stem=u'think', pos=u'VBP', gold=u'O-cognition', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'this', stem=u'this', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'office', stem=u'office', pos=u'NN', gold=u'O-GROUP', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'has', stem=u'have', pos=u'VBZ', gold=u'B-cognition', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'some', stem=u'some', pos=u'DT', gold=u'o', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'serious', stem=u'serious', pos=u'JJ', gold=u'o', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'billing', stem=u'billing', pos=u'NN', gold=u'o-POSSESSION', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'practice', stem=u'practice', pos=u'NN', gold=u'o-PROCESS', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'issues', stem=u'issue', pos=u'NNS', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'!', stem=u'!', pos=u'.', gold=u'O', prediction=u'O', shape=u'!')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  O , gold  Token(token=u'LOVE', stem=u'love', pos=u'VBP', gold=u'O-emotion', prediction=u'O', shape='X*')
+predict:  O , gold  Token(token=u'MY', stem=u'my', pos=u'PRP$', gold=u'O', prediction=u'O', shape='X*')
+predict:  O , gold  Token(token=u'GYM', stem=u'gym', pos=u'NN', gold=u'O-GROUP', prediction=u'O', shape='X*')
+predict:  O , gold  Token(token=u'!', stem=u'!', pos=u'.', gold=u'O', prediction=u'O', shape=u'!')
+predict:  O , gold  Token(token=u'FITNESS', stem=u'fitness', pos=u'NNP', gold=u'B-GROUP', prediction=u'O', shape='X*')
+predict:  O , gold  Token(token=u'UNLIMITED', stem=u'unlimited', pos=u'NNP', gold=u'\u012a', prediction=u'O', shape='X*')
+predict:  B-social , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'O', prediction=u'\u012a', shape='x')
+predict:  Ī , gold  Token(token=u'second', stem=u'second', pos=u'JJ', gold=u'B-COGNITION', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'home', stem=u'home', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'to', stem=u'to', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'B', prediction=u'O', shape='x')
+predict:  B-social , gold  Token(token=u'lot', stem=u'lot', pos=u'NN', gold=u'\u012a', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'of', stem=u'of', pos=u'IN', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'us', stem=u'us', pos=u'PRP', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'gym', stem=u'gym', pos=u'NN', gold=u'O-GROUP', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'members', stem=u'member', pos=u'NNS', gold=u'O-PERSON', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'who', stem=u'who', pos=u'WP', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'work', stem=u'work', pos=u'VBP', gold=u'B-body', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'out', stem=u'out', pos=u'RP', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'daily', stem=u'daily', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'If', stem=u'if', pos=u'IN', gold=u'O', prediction=u'O', shape='Xx')
+predict:  O , gold  Token(token=u'you', stem=u'you', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'are', stem=u'be', pos=u'VBP', gold=u'O-stative', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'serious', stem=u'serious', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'about', stem=u'about', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'working', stem=u'work', pos=u'VBG', gold=u'B-body', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'out', stem=u'out', pos=u'RP', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'in', stem=u'in', pos=u'IN', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'O', prediction=u'O', shape='x')
+predict:  O , gold  Token(token=u'non-commercial', stem=u'non-commercial', pos=u'JJ', gold=u'O', prediction=u'O', shape=u'x*-x*')
+predict:  B-social , gold  Token(token=u'like', stem=u'like', pos=u'JJ', gold=u'O', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'atmosphere', stem=u'atmosphere', pos=u'NN', gold=u'O-ATTRIBUTE', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'then', stem=u'then', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'you', stem=u'you', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'have', stem=u'have', pos=u'VBP', gold=u'O-`a', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'chosen', stem=u'choose', pos=u'VBN', gold=u'O-cognition', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'best', stem=u'best', pos=u'JJS', gold=u'O', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'place', stem=u'place', pos=u'NN', gold=u'O-LOCATION', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'to', stem=u'to', pos=u'TO', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'be', stem=u'be', pos=u'VB', gold=u'O-stative', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'This', stem=u'this', pos=u'DT', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O-stative , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'O-stative', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'most', stem=u'most', pos=u'RBS', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'humble', stem=u'humble', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'gym', stem=u'gym', pos=u'NN', gold=u'O-GROUP', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'you', stem=u'you', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'will', stem=u'will', pos=u'MD', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'every', stem=u'every', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'step', stem=u'step', pos=u'VB', gold=u'O-motion', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'into', stem=u'into', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'....', stem=u'....', pos=u',', gold=u'O', prediction=u'O', shape=u'.*')
+predict:  O , gold  Token(token=u'if', stem=u'if', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'you', stem=u'you', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'dare', stem=u'dare', pos=u'VBP', gold=u'O-cognition', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'to', stem=u'to', pos=u'TO', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'work', stem=u'work', pos=u'VB', gold=u'B-body', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'on', stem=u'on', pos=u'IN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'your', stem=u'your', pos=u'PRP$', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'body', stem=u'body', pos=u'NN', gold=u'O-BODY', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'do', stem=u'do', pos=u'VB', gold=u'B-`a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u"n't", stem=u"n't", pos=u'RB', gold=u'\u0128', prediction=u'O', shape=u"x'x")
+predict:  B-social , gold  Token(token=u'be', stem=u'be', pos=u'VB', gold=u'\u0128-stative', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'surprised', stem=u'surprised', pos=u'JJ', gold=u'\u0128', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'when', stem=u'when', pos=u'WRB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'you', stem=u'you', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'see', stem=u'see', pos=u'VBP', gold=u'O-perception', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'how', stem=u'how', pos=u'WRB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'addicting', stem=u'addicting', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'going', stem=u'go', pos=u'VBG', gold=u'O-social', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'to', stem=u'to', pos=u'IN', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'FITNESS', stem=u'fitness', pos=u'NNP', gold=u'B-GROUP', prediction=u'\u012a', shape='X*')
+predict:  Ī , gold  Token(token=u'UNLIMITED', stem=u'unlimited', pos=u'NNP', gold=u'\u012a', prediction=u'\u012a', shape='X*')
+predict:  Ī , gold  Token(token=u'can', stem=u'can', pos=u'MD', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'be', stem=u'be', pos=u'VB', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'!!', stem=u'!!', pos=u'.', gold=u'O', prediction=u'O', shape=u'!*')
+predict:  B-social , gold  Token(token=u'Good', stem=u'good', pos=u'JJ', gold=u'O', prediction=u'B-social', shape='Xx*')
+predict:  Ī , gold  Token(token=u'food', stem=u'food', pos=u'NN', gold=u'O-FOOD', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'very', stem=u'very', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'friendly', stem=u'friendly', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'staff', stem=u'staff', pos=u'NN', gold=u'O-PERSON', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Very', stem=u'very', pos=u'RB', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'good', stem=u'good', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'with', stem=u'with', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'my', stem=u'my', pos=u'PRP$', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'5', stem=u'5', pos=u'CD', gold=u'O', prediction=u'B-social', shape='d')
+predict:  Ī , gold  Token(token=u'year', stem=u'year', pos=u'NN', gold=u'B-PERSON', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'old', stem=u'old', pos=u'JJ', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'daughter', stem=u'daughter', pos=u'NN', gold=u'O-PERSON', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Interesting', stem=u'interesting', pos=u'JJ', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'good', stem=u'good', pos=u'JJ', gold=u'O', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'value', stem=u'value', pos=u'NN', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'wine', stem=u'wine', pos=u'NN', gold=u'O-FOOD', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'list', stem=u'list', pos=u'NN', gold=u'O-ARTIFACT', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'to', stem=u'to', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Beer', stem=u'beer', pos=u'NN', gold=u'O-FOOD', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'O', prediction=u'O', shape='x')
+predict:  O , gold  Token(token=u'bit', stem=u'bit', pos=u'NN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'expensive', stem=u'expensive', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'awful', stem=u'awful', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'awful', stem=u'awful', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'awful', stem=u'awful', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'This', stem=u'this', pos=u'DT', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'store', stem=u'store', pos=u'NN', gold=u'O-GROUP', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'by', stem=u'by', pos=u'IN', gold=u'B', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'far', stem=u'far', pos=u'RB', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'worst', stem=u'worst', pos=u'JJS', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'Verizon', stem=u'verizon', pos=u'NNP', gold=u'O-GROUP', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'store', stem=u'store', pos=u'NN', gold=u'O-GROUP', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  O , gold  Token(token=u"'ve", stem=u"'ve", pos=u'VBP', gold=u'O-`a', prediction=u'O', shape=u"'x*")
+predict:  B-social , gold  Token(token=u'been', stem=u'be', pos=u'VBN', gold=u'O-stative', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'in', stem=u'in', pos=u'IN', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'The', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'salespeople', stem=u'salesperson', pos=u'NN', gold=u'O-PERSON', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'are', stem=u'be', pos=u'VBP', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'never', stem=u'never', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'available', stem=u'available', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'lines', stem=u'line', pos=u'NNS', gold=u'O-COGNITION', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'are', stem=u'be', pos=u'VBP', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'always', stem=u'always', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'too', stem=u'too', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'long', stem=u'long', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'all', stem=u'all', pos=u'PDT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'people', stem=u'person', pos=u'NNS', gold=u'O-PERSON', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'want', stem=u'want', pos=u'VBP', gold=u'O-cognition', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'O', prediction=u'\u012a', shape='x')
+predict:  Ī , gold  Token(token=u'sale', stem=u'sale', pos=u'NN', gold=u'O-POSSESSION', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Incredibly', stem=u'incredibly', pos=u'RB', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'rude', stem=u'rude', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  O , gold  Token(token=u'will', stem=u'will', pos=u'MD', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'not', stem=u'not', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'return', stem=u'return', pos=u'VB', gold=u'O-motion', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'to', stem=u'to', pos=u'IN', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'it', stem=u'it', pos=u'PRP', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'O', shape='Xx')
+predict:  O , gold  Token(token=u'there', stem=u'there', pos=u'EX', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'no', stem=u'no', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'other', stem=u'other', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'Verizon', stem=u'verizon', pos=u'NNP', gold=u'O-GROUP', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'to', stem=u'to', pos=u'TO', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'go', stem=u'go', pos=u'VB', gold=u'O-motion', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'to', stem=u'to', pos=u'IN', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'around', stem=u'around', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'Downtown', stem=u'downtown', pos=u'NNP', gold=u'O-LOCATION', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'/', stem=u'/', pos=u'HYPH', gold=u'O', prediction=u'O', shape=u'/')
+predict:  O , gold  Token(token=u'Dupont', stem=u'dupont', pos=u'NNP', gold=u'B-LOCATION', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'Circle', stem=u'circle', pos=u'NNP', gold=u'\u012a', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'1?!?!?', stem=u'1?!?!?', pos=u'.', gold=u'O', prediction=u'O', shape=u'd?!?!?')
+predict:  O , gold  Token(token=u'Poor', stem=u'poor', pos=u'JJ', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'Experience', stem=u'experience', pos=u'NN', gold=u'O-EVENT', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'B-social', shape='X')
+predict:  Ī , gold  Token(token=u'did', stem=u'do', pos=u'VBD', gold=u'O-`a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'not', stem=u'not', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'have', stem=u'have', pos=u'VB', gold=u'B-stative', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'o', prediction=u'\u012a', shape='x')
+predict:  Ī , gold  Token(token=u'good', stem=u'good', pos=u'JJ', gold=u'o', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'experience', stem=u'experience', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'w', stem=u'w', pos=u'IN', gold=u'\u012a', prediction=u'O', shape='x')
+predict:  O , gold  Token(token=u'/', stem=u'/', pos=u',', gold=u'O', prediction=u'O', shape=u'/')
+predict:  O , gold  Token(token=u'Dr.', stem=u'dr.', pos=u'NNP', gold=u'B-PERSON', prediction=u'O', shape=u'Xx.')
+predict:  O , gold  Token(token=u'Ghassemlou', stem=u'ghassemlou', pos=u'NNP', gold=u'\u012a', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'During', stem=u'during', pos=u'IN', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'session', stem=u'session', pos=u'NN', gold=u'O-EVENT', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'he', stem=u'he', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'demanded', stem=u'demand', pos=u'VBD', gold=u'O-cognition', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'to', stem=u'to', pos=u'TO', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'have', stem=u'have', pos=u'VB', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'my', stem=u'my', pos=u'PRP$', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'physical', stem=u'physical', pos=u'JJ', gold=u'B', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'address', stem=u'address', pos=u'NN', gold=u'\u0128-LOCATION', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'which', stem=u'which', pos=u'WDT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  O , gold  Token(token=u"'ve", stem=u"'ve", pos=u'VBP', gold=u'O-`a', prediction=u'O', shape=u"'x*")
+predict:  O , gold  Token(token=u'always', stem=u'always', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'kept', stem=u'keep', pos=u'VBN', gold=u'O-stative', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'private', stem=u'private', pos=u'JJ', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'as', stem=u'as', pos=u'IN', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'\u012a', shape='X')
+predict:  Ī , gold  Token(token=u'am', stem=u'be', pos=u'VBP', gold=u'O-`a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'enrolled', stem=u'enrol', pos=u'VBN', gold=u'B-social', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'in', stem=u'in', pos=u'IN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'O', prediction=u'\u012a', shape='x')
+predict:  Ī , gold  Token(token=u'witness', stem=u'witness', pos=u'NN', gold=u'B-COGNITION', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'protection', stem=u'protection', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'program', stem=u'program', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  B-social , gold  Token(token=u'believe', stem=u'believe', pos=u'VBP', gold=u'O-cognition', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'he', stem=u'he', pos=u'PRP', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'correct', stem=u'correct', pos=u'JJ', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'in', stem=u'in', pos=u'IN', gold=u'B', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'that', stem=u'that', pos=u'DT', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'he', stem=u'he', pos=u'PRP', gold=u'O', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'needs', stem=u'need', pos=u'VBZ', gold=u'O-cognition', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'my', stem=u'my', pos=u'PRP$', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'physical', stem=u'physical', pos=u'JJ', gold=u'B', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'address', stem=u'address', pos=u'NN', gold=u'\u0128-LOCATION', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'for', stem=u'for', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'legal', stem=u'legal', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'reasons', stem=u'reason', pos=u'NNS', gold=u'O-MOTIVE', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'however', stem=u'however', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  B-social , gold  Token(token=u'he', stem=u'he', pos=u'PRP', gold=u'O', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'did', stem=u'do', pos=u'VBD', gold=u'O-`a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'not', stem=u'not', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'adequately', stem=u'adequately', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'explain', stem=u'explain', pos=u'VB', gold=u'O-communication', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'this', stem=u'this', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'during', stem=u'during', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'our', stem=u'our', pos=u'PRP$', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'session', stem=u'session', pos=u'NN', gold=u'O-EVENT', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  B-social , gold  Token(token=u'learned', stem=u'learn', pos=u'VBD', gold=u'O-cognition', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'more', stem=u'more', pos=u'JJR', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'about', stem=u'about', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'this', stem=u'this', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'doing', stem=u'do', pos=u'VBG', gold=u'B-social', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'my', stem=u'my', pos=u'PRP$', gold=u'o', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'own', stem=u'own', pos=u'JJ', gold=u'o', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'research', stem=u'research', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'afterward', stem=u'afterward', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  B-social , gold  Token(token=u'think', stem=u'think', pos=u'VBP', gold=u'O-cognition', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'he', stem=u'he', pos=u'PRP', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'could', stem=u'could', pos=u'MD', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u"'ve", stem=u"'ve", pos=u'VB', gold=u'O-`a', prediction=u'O', shape=u"'x*")
+predict:  B-social , gold  Token(token=u'done', stem=u'do', pos=u'VBN', gold=u'O-social', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'more', stem=u'more', pos=u'JJR', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'to', stem=u'to', pos=u'TO', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'assuage', stem=u'assuage', pos=u'VB', gold=u'O-cognition', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'my', stem=u'my', pos=u'PRP$', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'concerns', stem=u'concern', pos=u'NNS', gold=u'O-COGNITION', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'by', stem=u'by', pos=u'IN', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'giving', stem=u'give', pos=u'VBG', gold=u'O-communication', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'me', stem=u'me', pos=u'PRP', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'concrete', stem=u'concrete', pos=u'JJ', gold=u'B', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'facts', stem=u'fact', pos=u'NNS', gold=u'\u0128-COMMUNICATION', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Saying', stem=u'say', pos=u'VBG', gold=u'O-communication', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'that', stem=u'that', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'B-social', shape='X')
+predict:  Ī , gold  Token(token=u'need', stem=u'need', pos=u'VBP', gold=u'O-cognition', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'to', stem=u'to', pos=u'TO', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'give', stem=u'give', pos=u'VB', gold=u'O-communication', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'him', stem=u'him', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'my', stem=u'my', pos=u'PRP$', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'address', stem=u'address', pos=u'NN', gold=u'O-LOCATION', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'or', stem=u'or', pos=u'CC', gold=u'B', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'else', stem=u'else', pos=u'RB', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  B-social , gold  Token(token=u'have', stem=u'have', pos=u'VBP', gold=u'B-cognition', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'intimacy', stem=u'intimacy', pos=u'NN', gold=u'o-COGNITION', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'issues', stem=u'issue', pos=u'NNS', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'not', stem=u'not', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'helpful', stem=u'helpful', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'It', stem=u'it', pos=u'PRP', gold=u'O', prediction=u'O', shape='Xx')
+predict:  O , gold  Token(token=u"'s", stem=u"'s", pos=u'VBZ', gold=u'O-stative', prediction=u'O', shape=u"'x")
+predict:  O , gold  Token(token=u'pretty', stem=u'pretty', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'combative', stem=u'combative', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'actually', stem=u'actually', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Auto', stem=u'auto', pos=u'NNP', gold=u'B-GROUP', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'Towing', stem=u'towing', pos=u'NNP', gold=u'\u012a', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'one', stem=u'one', pos=u'CD', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'of', stem=u'of', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'best', stem=u'best', pos=u'JJS', gold=u'O', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'towing', stem=u'towing', pos=u'NN', gold=u'O-ACT', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'services', stem=u'services', pos=u'NNS', gold=u'O-ACT', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'\u012a', shape='X')
+predict:  Ī , gold  Token(token=u'have', stem=u'have', pos=u'VBP', gold=u'O-`a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'used', stem=u'use', pos=u'VBN', gold=u'O-social', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'The', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'first', stem=u'first', pos=u'JJ', gold=u'O', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'time', stem=u'time', pos=u'NN', gold=u'O-EVENT', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'\u012a', shape='X')
+predict:  Ī , gold  Token(token=u'used', stem=u'use', pos=u'VBD', gold=u'O-social', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'them', stem=u'them', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'they', stem=u'they', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'arrived', stem=u'arrive', pos=u'VBD', gold=u'O-motion', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'on', stem=u'on', pos=u'IN', gold=u'B-EVENT', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'time', stem=u'time', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'towed', stem=u'tow', pos=u'VBD', gold=u'O-motion', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'car', stem=u'car', pos=u'NN', gold=u'O-ARTIFACT', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'for', stem=u'for', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'me', stem=u'me', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'to', stem=u'to', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'destination', stem=u'destination', pos=u'NN', gold=u'O-LOCATION', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'\u012a', shape='X')
+predict:  Ī , gold  Token(token=u'needed', stem=u'need', pos=u'VBD', gold=u'O-cognition', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'The', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'auto', stem=u'auto', pos=u'NN', gold=u'O-COGNITION', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'mechanics', stem=u'mechanics', pos=u'NNS', gold=u'O-PERSON', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'that', stem=u'that', pos=u'WDT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'work', stem=u'work', pos=u'VBP', gold=u'O-social', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'for', stem=u'for', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'Auto', stem=u'auto', pos=u'NNP', gold=u'B-GROUP', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'Towing', stem=u'towing', pos=u'NNP', gold=u'\u012a', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'are', stem=u'be', pos=u'VBP', gold=u'O-stative', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'very', stem=u'very', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'friendly', stem=u'friendly', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'informative', stem=u'informative', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'answered', stem=u'answer', pos=u'VBD', gold=u'O-communication', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'any', stem=u'any', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'question', stem=u'question', pos=u'NN', gold=u'O-COMMUNICATION', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'\u012a', shape='X')
+predict:  Ī , gold  Token(token=u'had', stem=u'have', pos=u'VBD', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'They', stem=u'they', pos=u'PRP', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'have', stem=u'have', pos=u'VBP', gold=u'O-`a', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'towed', stem=u'tow', pos=u'VBN', gold=u'O-motion', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'car', stem=u'car', pos=u'NN', gold=u'O-ARTIFACT', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'for', stem=u'for', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'me', stem=u'me', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'B', prediction=u'O', shape='x')
+predict:  B-social , gold  Token(token=u'few', stem=u'few', pos=u'JJ', gold=u'\u012a', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'times', stem=u'times', pos=u'NNS', gold=u'O-EVENT', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'\u012a', shape='X')
+predict:  Ī , gold  Token(token=u'am', stem=u'be', pos=u'VBP', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'always', stem=u'always', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'very', stem=u'very', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'satisfied', stem=u'satisfied', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'with', stem=u'with', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'this', stem=u'this', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'services', stem=u'services', pos=u'NNS', gold=u'O-ACT', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'If', stem=u'if', pos=u'IN', gold=u'O', prediction=u'O', shape='Xx')
+predict:  O , gold  Token(token=u'you', stem=u'you', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'are', stem=u'be', pos=u'VBP', gold=u'O-`a', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'looking', stem=u'look', pos=u'VBG', gold=u'B-cognition', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'for', stem=u'for', pos=u'IN', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'towing', stem=u'towing', pos=u'NN', gold=u'O-ACT', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'services', stem=u'services', pos=u'NNS', gold=u'O-ACT', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'that', stem=u'that', pos=u'WDT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'can', stem=u'can', pos=u'MD', gold=u'O', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'offer', stem=u'offer', pos=u'VB', gold=u'O-possession', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'you', stem=u'you', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'O', prediction=u'B-social', shape='x')
+predict:  Ī , gold  Token(token=u'good', stem=u'good', pos=u'JJ', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'towed', stem=u'tow', pos=u'VBN', gold=u'O-motion', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'car', stem=u'car', pos=u'NN', gold=u'O-ARTIFACT', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'service', stem=u'service', pos=u'NN', gold=u'O-ACT', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'then', stem=u'then', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'Auto', stem=u'auto', pos=u'NNP', gold=u'B-GROUP', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'Towing', stem=u'towing', pos=u'NNP', gold=u'\u012a', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'company', stem=u'company', pos=u'NN', gold=u'O-GROUP', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'for', stem=u'for', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'you', stem=u'you', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Food', stem=u'food', pos=u'NN', gold=u'O-FOOD', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'good', stem=u'good', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'service', stem=u'service', pos=u'NN', gold=u'O-ACT', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'poor', stem=u'poor', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'No', stem=u'no', pos=u'DT', gold=u'O', prediction=u'O', shape='Xx')
+predict:  O , gold  Token(token=u'silverware', stem=u'silverware', pos=u'NN', gold=u'O-ARTIFACT', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  B-social , gold  Token(token=u'asked', stem=u'ask', pos=u'VBD', gold=u'O-communication', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'for', stem=u'for', pos=u'IN', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'O', prediction=u'\u012a', shape='x')
+predict:  Ī , gold  Token(token=u'spoon', stem=u'spoon', pos=u'NN', gold=u'O-ARTIFACT', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'for', stem=u'for', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'my', stem=u'my', pos=u'PRP$', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'son', stem=u'son', pos=u'NN', gold=u'O-PERSON', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u's', stem=u's', pos=u'POS', gold=u'O', prediction=u'\u012a', shape='x')
+predict:  Ī , gold  Token(token=u'mac', stem=u'mac', pos=u'NN', gold=u'B-FOOD', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'cheese', stem=u'cheese', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'ended', stem=u'end', pos=u'VBD', gold=u'B-`a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'up', stem=u'up', pos=u'RP', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'having', stem=u'have', pos=u'VBG', gold=u'B-`a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'to', stem=u'to', pos=u'TO', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'use', stem=u'use', pos=u'VB', gold=u'O-stative', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'my', stem=u'my', pos=u'PRP$', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'tea', stem=u'tea', pos=u'NN', gold=u'B-ARTIFACT', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'spoon', stem=u'spoon', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  B-social , gold  Token(token=u'Asked', stem=u'ask', pos=u'VBD', gold=u'O-communication', prediction=u'B-social', shape='Xx*')
+predict:  Ī , gold  Token(token=u'for', stem=u'for', pos=u'IN', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'bar', stem=u'bar', pos=u'NN', gold=u'B-FOOD', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'-', stem=u'-', pos=u'HYPH', gold=u'\u012a', prediction=u'O', shape=u'-')
+predict:  O , gold  Token(token=u'b', stem=u'b', pos=u'NN', gold=u'\u012a', prediction=u'O', shape='x')
+predict:  O , gold  Token(token=u'-', stem=u'-', pos=u'HYPH', gold=u'\u012a', prediction=u'O', shape=u'-')
+predict:  O , gold  Token(token=u'que', stem=u'que', pos=u'NN', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'sauce', stem=u'sauce', pos=u'NN', gold=u'O-FOOD', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'never', stem=u'never', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'got', stem=u'get', pos=u'VBD', gold=u'O-stative', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'it', stem=u'it', pos=u'PRP', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Never', stem=u'never', pos=u'RB', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'checked', stem=u'check', pos=u'VBD', gold=u'B-social', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'back', stem=u'back', pos=u'RB', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'with', stem=u'with', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'us', stem=u'us', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'once', stem=u'once', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'we', stem=u'we', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'got', stem=u'get', pos=u'VBD', gold=u'O-stative', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'our', stem=u'our', pos=u'PRP$', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'food', stem=u'food', pos=u'NN', gold=u'O-FOOD', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  B-social , gold  Token(token=u'Had', stem=u'have', pos=u'VBD', gold=u'B-`a', prediction=u'B-social', shape='Xx*')
+predict:  Ī , gold  Token(token=u'to', stem=u'to', pos=u'TO', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'go', stem=u'go', pos=u'VB', gold=u'O-motion', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'bus', stem=u'bus', pos=u'NN', gold=u'B-PERSON', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'boy', stem=u'boy', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u's', stem=u's', pos=u'POS', gold=u'O', prediction=u'\u012a', shape='x')
+predict:  Ī , gold  Token(token=u'station', stem=u'station', pos=u'NN', gold=u'O-LOCATION', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'ourselves', stem=u'ourselves', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'to', stem=u'to', pos=u'TO', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'get', stem=u'get', pos=u'VB', gold=u'O-stative', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'napkins', stem=u'napkin', pos=u'NNS', gold=u'O-ARTIFACT', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Only', stem=u'only', pos=u'RB', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'one', stem=u'one', pos=u'CD', gold=u'O', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'server', stem=u'server', pos=u'NN', gold=u'O-PERSON', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'too', stem=u'too', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'buys', stem=u'buys', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'talking', stem=u'talk', pos=u'VBG', gold=u'O-communication', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'with', stem=u'with', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'others', stem=u'others', pos=u'NNS', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  O , gold  Token(token=u'guess', stem=u'guess', pos=u'VBP', gold=u'O-cognition', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  B-social , gold  Token(token=u'Food', stem=u'food', pos=u'NN', gold=u'O-FOOD', prediction=u'B-social', shape='Xx*')
+predict:  Ī , gold  Token(token=u'was', stem=u'be', pos=u'VBD', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'good', stem=u'good', pos=u'JJ', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'but', stem=u'but', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'service', stem=u'service', pos=u'NN', gold=u'O-ACT', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'means', stem=u'mean', pos=u'VBZ', gold=u'O-cognition', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'B', prediction=u'O', shape='x')
+predict:  O , gold  Token(token=u'lot', stem=u'lot', pos=u'NN', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'to', stem=u'to', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'me', stem=u'me', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  B-social , gold  Token(token=u'Buyer', stem=u'buyer', pos=u'NN', gold=u'B', prediction=u'B-social', shape='Xx*')
+predict:  Ī , gold  Token(token=u'beware', stem=u'beware', pos=u'VB', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'Do', stem=u'do', pos=u'VB', gold=u'O-`a', prediction=u'O', shape='Xx')
+predict:  O , gold  Token(token=u'not', stem=u'not', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'use', stem=u'use', pos=u'VB', gold=u'O-possession', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'these', stem=u'these', pos=u'DT', gold=u'B', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'guys', stem=u'guy', pos=u'NNS', gold=u'\u0128-GROUP', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'They', stem=u'they', pos=u'PRP', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u"'ll", stem=u"'ll", pos=u'MD', gold=u'O', prediction=u'O', shape=u"'x*")
+predict:  B-social , gold  Token(token=u'tell', stem=u'tell', pos=u'VB', gold=u'O-communication', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'you', stem=u'you', pos=u'PRP', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'one', stem=u'one', pos=u'CD', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'thing', stem=u'thing', pos=u'NN', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'then', stem=u'then', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'$', stem=u'$', pos=u'$', gold=u'O', prediction=u'O', shape=u'$')
+predict:  O , gold  Token(token=u'5,000', stem=u'5,000', pos=u'CD', gold=u'O', prediction=u'O', shape=u'd,d*')
+predict:  O , gold  Token(token=u'later', stem=u'later', pos=u'RBR', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'do', stem=u'do', pos=u'VB', gold=u'O-stative', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'another', stem=u'another', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  B-social , gold  Token(token=u'Lied', stem=u'lie', pos=u'VBD', gold=u'B-communication', prediction=u'B-social', shape='Xx*')
+predict:  Ī , gold  Token(token=u'right', stem=u'right', pos=u'RB', gold=u'\u0128', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'to', stem=u'to', pos=u'IN', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'my', stem=u'my', pos=u'PRP$', gold=u'o', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'face', stem=u'face', pos=u'NN', gold=u'\u012a', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'then', stem=u'then', pos=u'RB', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'denied', stem=u'deny', pos=u'VBD', gold=u'O-communication', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'it', stem=u'it', pos=u'PRP', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Run', stem=u'run', pos=u'VB', gold=u'O-motion', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'away', stem=u'away', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Antique', stem=u'antique', pos=u'JJ', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'Lighting', stem=u'lighting', pos=u'NN', gold=u'O-ARTIFACT', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'Fixtures', stem=u'fixture', pos=u'NNS', gold=u'O-ARTIFACT', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'Chicago', stem=u'chicago', pos=u'NNP', gold=u'O-LOCATION', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'Great', stem=u'great', pos=u'JJ', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'place', stem=u'place', pos=u'NN', gold=u'O-GROUP', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'for', stem=u'for', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'Antique', stem=u'antique', pos=u'JJ', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'Lighting', stem=u'lighting', pos=u'NN', gold=u'O-ARTIFACT', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'!', stem=u'!', pos=u'.', gold=u'O', prediction=u'O', shape=u'!')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  O-stative , gold  Token(token=u'visited', stem=u'visit', pos=u'VBD', gold=u'O-social', prediction=u'O-stative', shape='x*')
+predict:  O , gold  Token(token=u'their', stem=u'their', pos=u'PRP$', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'huge', stem=u'huge', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'Chicago', stem=u'chicago', pos=u'NNP', gold=u'O-LOCATION', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'lighting', stem=u'lighting', pos=u'NN', gold=u'O-ATTRIBUTE', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'showroom', stem=u'showroom', pos=u'NN', gold=u'O-ARTIFACT', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'all', stem=u'all', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  B-social , gold  Token(token=u'have', stem=u'have', pos=u'VBP', gold=u'O-stative', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'to', stem=u'to', pos=u'TO', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'say', stem=u'say', pos=u'VB', gold=u'O-communication', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'WOW', stem=u'wow', pos=u'UH', gold=u'O', prediction=u'\u012a', shape='X*')
+predict:  O , gold  Token(token=u'!!', stem=u'!!', pos=u'.', gold=u'O', prediction=u'O', shape=u'!*')
+predict:  O , gold  Token(token=u'Lots', stem=u'lots', pos=u'NNS', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'of', stem=u'of', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'collections', stem=u'collection', pos=u'NNS', gold=u'O-ARTIFACT', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'many', stem=u'many', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'antique', stem=u'antique', pos=u'JJ', gold=u'O', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'light', stem=u'light', pos=u'NN', gold=u'O-ARTIFACT', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'fixtures', stem=u'fixture', pos=u'NNS', gold=u'O-ARTIFACT', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'Chandeliers', stem=u'chandelier', pos=u'NNS', gold=u'O-ARTIFACT', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  B-social , gold  Token(token=u'custom', stem=u'custom', pos=u'NN', gold=u'O', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'lighting', stem=u'lighting', pos=u'NN', gold=u'O-ARTIFACT', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'etc', stem=u'etc', pos=u'FW', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  O , gold  Token(token=u'think', stem=u'think', pos=u'VBP', gold=u'O-cognition', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'they', stem=u'they', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'have', stem=u'have', pos=u'VBP', gold=u'O-stative', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'largest', stem=u'large', pos=u'JJS', gold=u'O', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'collection', stem=u'collection', pos=u'NN', gold=u'O-ARTIFACT', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'for', stem=u'for', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'Chandeliers', stem=u'chandelier', pos=u'NNS', gold=u'O-ARTIFACT', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'Chicago', stem=u'chicago', pos=u'NNP', gold=u'O-LOCATION', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Antiques', stem=u'antique', pos=u'NNS', gold=u'O-ARTIFACT', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'Vintage', stem=u'vintage', pos=u'JJ', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'Contemporary', stem=u'contemporary', pos=u'JJ', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'&', stem=u'&', pos=u'CC', gold=u'O', prediction=u'O', shape=u'&')
+predict:  O , gold  Token(token=u'Modern', stem=u'modern', pos=u'JJ', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'Chandeliers', stem=u'chandelier', pos=u'NNS', gold=u'O-ARTIFACT', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  O , gold  Token(token=u'would', stem=u'would', pos=u'MD', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'recommend', stem=u'recommend', pos=u'VB', gold=u'O-communication', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'them', stem=u'them', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'for', stem=u'for', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'any', stem=u'any', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'custom', stem=u'custom', pos=u'NN', gold=u'O', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'lighting', stem=u'lighting', pos=u'NN', gold=u'O-ARTIFACT', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'or', stem=u'or', pos=u'CC', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'Lighting', stem=u'lighting', pos=u'NN', gold=u'O-ARTIFACT', prediction=u'\u012a', shape='Xx*')
+predict:  Ī , gold  Token(token=u'Repair', stem=u'repair', pos=u'NN', gold=u'O-ACT', prediction=u'\u012a', shape='Xx*')
+predict:  O , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'Restoration', stem=u'restoration', pos=u'NN', gold=u'O-ACT', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'Chicago', stem=u'chicago', pos=u'NNP', gold=u'O-LOCATION', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'He', stem=u'he', pos=u'PRP', gold=u'O', prediction=u'O', shape='Xx')
+predict:  O , gold  Token(token=u"'s", stem=u"'s", pos=u'VBZ', gold=u'O-stative', prediction=u'O', shape=u"'x")
+predict:  O , gold  Token(token=u'great', stem=u'great', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'!', stem=u'!', pos=u'.', gold=u'O', prediction=u'O', shape=u'!')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  O , gold  Token(token=u'wo', stem=u'wo', pos=u'MD', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u"n't", stem=u"n't", pos=u'RB', gold=u'O', prediction=u'O', shape=u"x'x")
+predict:  O , gold  Token(token=u'go', stem=u'go', pos=u'VB', gold=u'O-motion', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'to', stem=u'to', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'anyone', stem=u'anyone', pos=u'NN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'else', stem=u'else', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Good', stem=u'good', pos=u'JJ', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O-FOOD , gold  Token(token=u'food', stem=u'food', pos=u'NN', gold=u'O-FOOD', prediction=u'O-FOOD', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'good', stem=u'good', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'location', stem=u'location', pos=u'NN', gold=u'O-LOCATION', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'good', stem=u'good', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'prices', stem=u'price', pos=u'NNS', gold=u'O-POSSESSION', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'But', stem=u'but', pos=u'CC', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'servers', stem=u'server', pos=u'NNS', gold=u'O-PERSON', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'do', stem=u'do', pos=u'VBP', gold=u'O-`a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u"n't", stem=u"n't", pos=u'RB', gold=u'O', prediction=u'O', shape=u"x'x")
+predict:  B-social , gold  Token(token=u'pay', stem=u'pay', pos=u'VB', gold=u'B-perception', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'attention', stem=u'attention', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'to', stem=u'to', pos=u'IN', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'you', stem=u'you', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'whether', stem=u'whether', pos=u'IN', gold=u'B', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'it', stem=u'it', pos=u'PRP', gold=u'o', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u"'s", stem=u"'s", pos=u'VBZ', gold=u'o-stative', prediction=u'O', shape=u"'x")
+predict:  O , gold  Token(token=u'busy', stem=u'busy', pos=u'JJ', gold=u'o', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'or', stem=u'or', pos=u'CC', gold=u'\u0128', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'not', stem=u'not', pos=u'RB', gold=u'\u0128', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Rude', stem=u'rude', pos=u'JJ', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'service', stem=u'service', pos=u'NN', gold=u'O-ACT', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'even', stem=u'even', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'though', stem=u'though', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  O , gold  Token(token=u'have', stem=u'have', pos=u'VBP', gold=u'O-`a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'never', stem=u'never', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'tried', stem=u'try', pos=u'VBN', gold=u'O-social', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'hoa', stem=u'hoa', pos=u'NNP', gold=u'B-GROUP', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'salon', stem=u'salon', pos=u'NNP', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'but', stem=u'but', pos=u'CC', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'\u012a', shape='X')
+predict:  Ī , gold  Token(token=u'agree', stem=u'agree', pos=u'VBP', gold=u'O-communication', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'with', stem=u'with', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'other', stem=u'other', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'reviewers', stem=u'reviewer', pos=u'NNS', gold=u'O-PERSON', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'that', stem=u'that', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'they', stem=u'they', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'are', stem=u'be', pos=u'VBP', gold=u'O-stative', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'rude', stem=u'rude', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  B-social , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'B-social', shape='X')
+predict:  Ī , gold  Token(token=u'called', stem=u'call', pos=u'VBD', gold=u'O-communication', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'asked', stem=u'ask', pos=u'VBD', gold=u'O-communication', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'about', stem=u'about', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'price', stem=u'price', pos=u'NN', gold=u'O-POSSESSION', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'for', stem=u'for', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'hair', stem=u'hair', pos=u'NN', gold=u'O-BODY', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'updo', stem=u'updo', pos=u'NN', gold=u'O-ATTRIBUTE', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'receptionist', stem=u'receptionist', pos=u'NN', gold=u'O-PERSON', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'or', stem=u'or', pos=u'CC', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'owner', stem=u'owner', pos=u'NN', gold=u'O-PERSON', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'who', stem=u'who', pos=u'WP', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'aswered', stem=u'aswered', pos=u'VBD', gold=u'B-communication', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'o', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'phone', stem=u'phone', pos=u'NN', gold=u'\u012a', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'refused', stem=u'refuse', pos=u'VBD', gold=u'O-communication', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'to', stem=u'to', pos=u'TO', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'tell', stem=u'tell', pos=u'VB', gold=u'O-communication', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'me', stem=u'me', pos=u'PRP', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'or', stem=u'or', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'even', stem=u'even', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'just', stem=u'just', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'give', stem=u'give', pos=u'VB', gold=u'O-communication', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'me', stem=u'me', pos=u'PRP', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'an', stem=u'an', pos=u'DT', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'approximate', stem=u'approximate', pos=u'JJ', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'price', stem=u'price', pos=u'NN', gold=u'B-POSSESSION', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'range', stem=u'range', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'He', stem=u'he', pos=u'PRP', gold=u'O', prediction=u'O', shape='Xx')
+predict:  B-social , gold  Token(token=u'told', stem=u'tell', pos=u'VBD', gold=u'O-communication', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'us', stem=u'us', pos=u'PRP', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'to', stem=u'to', pos=u'TO', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'stop', stem=u'stop', pos=u'VB', gold=u'B-motion', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'by', stem=u'by', pos=u'IN', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'salon', stem=u'salon', pos=u'NN', gold=u'O-LOCATION', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'then', stem=u'then', pos=u'RB', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'he', stem=u'he', pos=u'PRP', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'will', stem=u'will', pos=u'MD', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'tell', stem=u'tell', pos=u'VB', gold=u'O-communication', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'us', stem=u'us', pos=u'PRP', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'price', stem=u'price', pos=u'NN', gold=u'O-POSSESSION', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'What', stem=u'what', pos=u'WDT', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'kind', stem=u'kind', pos=u'NN', gold=u'O-COGNITION', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'of', stem=u'of', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'rude', stem=u'rude', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'service', stem=u'service', pos=u'NN', gold=u'O-ACT', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'that', stem=u'that', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'?', stem=u'?', pos=u'.', gold=u'O', prediction=u'O', shape=u'?')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  O , gold  Token(token=u'do', stem=u'do', pos=u'VBP', gold=u'O-`a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u"n't", stem=u"n't", pos=u'RB', gold=u'O', prediction=u'O', shape=u"x'x")
+predict:  B-social , gold  Token(token=u'want', stem=u'want', pos=u'VB', gold=u'O-cognition', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'to', stem=u'to', pos=u'TO', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'waste', stem=u'waste', pos=u'VB', gold=u'B-social', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'my', stem=u'my', pos=u'PRP$', gold=u'o', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'time', stem=u'time', pos=u'NN', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'with', stem=u'with', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'them', stem=u'them', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Average', stem=u'average', pos=u'JJ', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O-FOOD , gold  Token(token=u'food', stem=u'food', pos=u'NN', gold=u'O-FOOD', prediction=u'O-FOOD', shape='x*')
+predict:  O , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'deathly', stem=u'deathly', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'slow', stem=u'slow', pos=u'JJ', gold=u'O', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'service', stem=u'service', pos=u'NN', gold=u'O-ACT', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  B-social , gold  Token(token=u'have', stem=u'have', pos=u'VBP', gold=u'O-`a', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'eaten', stem=u'eat', pos=u'VBN', gold=u'O-consumption', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'here', stem=u'here', pos=u'RB', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'several', stem=u'several', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'times', stem=u'times', pos=u'NNS', gold=u'O-EVENT', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'every', stem=u'every', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'time', stem=u'time', pos=u'NN', gold=u'O-EVENT', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'service', stem=u'service', pos=u'NN', gold=u'O-ACT', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'slower', stem=u'slow', pos=u'JJR', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'than', stem=u'than', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'slow', stem=u'slow', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'One', stem=u'one', pos=u'CD', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'time', stem=u'time', pos=u'NN', gold=u'O-EVENT', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'we', stem=u'we', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'even', stem=u'even', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'left', stem=u'leave', pos=u'VBD', gold=u'O-stative', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'after', stem=u'after', pos=u'IN', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'sitting', stem=u'sit', pos=u'VBG', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'at', stem=u'at', pos=u'IN', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'table', stem=u'table', pos=u'NN', gold=u'O-LOCATION', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'for', stem=u'for', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'20', stem=u'20', pos=u'CD', gold=u'O', prediction=u'B-social', shape='d*')
+predict:  Ī , gold  Token(token=u'minutes', stem=u'minutes', pos=u'NNS', gold=u'O-TIME', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'not', stem=u'not', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'being', stem=u'be', pos=u'VBG', gold=u'O-`a', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'greeted', stem=u'greet', pos=u'VBN', gold=u'O-social', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'with', stem=u'with', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'O', prediction=u'O', shape='x')
+predict:  B-social , gold  Token(token=u'drink', stem=u'drink', pos=u'NN', gold=u'O-FOOD', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'order', stem=u'order', pos=u'NN', gold=u'O-COMMUNICATION', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Ridiculous', stem=u'ridiculous', pos=u'JJ', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'There', stem=u'there', pos=u'EX', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'must', stem=u'must', pos=u'MD', gold=u'O', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'be', stem=u'be', pos=u'VB', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'O', prediction=u'\u012a', shape='x')
+predict:  Ī , gold  Token(token=u'better', stem=u'better', pos=u'JJR', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'mexican', stem=u'mexican', pos=u'JJ', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'place', stem=u'place', pos=u'NN', gold=u'O-GROUP', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'in', stem=u'in', pos=u'IN', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'Rockland', stem=u'rockland', pos=u'NNP', gold=u'O-LOCATION', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Farrell', stem=u'farrell', pos=u'NNP', gold=u'B-GROUP', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'Electric', stem=u'electric', pos=u'NNP', gold=u'\u012a', prediction=u'B-social', shape='Xx*')
+predict:  Ī , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'O', prediction=u'O', shape='x')
+predict:  O , gold  Token(token=u'very', stem=u'very', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'good', stem=u'good', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'electrical', stem=u'electrical', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'contractor', stem=u'contractor', pos=u'NN', gold=u'O-PERSON', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  O , gold  Token(token=u"'m", stem=u"'m", pos=u'VBP', gold=u'O-stative', prediction=u'O', shape=u"'x")
+predict:  O , gold  Token(token=u'pleased', stem=u'pleased', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'that', stem=u'that', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'someone', stem=u'someone', pos=u'NN', gold=u'O', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'referred', stem=u'refer', pos=u'VBD', gold=u'B-communication', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'me', stem=u'me', pos=u'PRP', gold=u'o', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'to', stem=u'to', pos=u'IN', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'them', stem=u'them', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'for', stem=u'for', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'my', stem=u'my', pos=u'PRP$', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'commercial', stem=u'commercial', pos=u'JJ', gold=u'O', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'business', stem=u'business', pos=u'NN', gold=u'O-GROUP', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  B-social , gold  Token(token=u'own', stem=u'own', pos=u'VBP', gold=u'O-possession', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'O', prediction=u'\u012a', shape='x')
+predict:  Ī , gold  Token(token=u'property', stem=u'property', pos=u'NN', gold=u'B-COGNITION', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'management', stem=u'management', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'firm', stem=u'firm', pos=u'NN', gold=u'O-GROUP', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'need', stem=u'need', pos=u'VBP', gold=u'O-cognition', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'O', prediction=u'\u012a', shape='x')
+predict:  Ī , gold  Token(token=u'contractor', stem=u'contractor', pos=u'NN', gold=u'O-PERSON', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'with', stem=u'with', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'credentials', stem=u'credentials', pos=u'NNS', gold=u'O-COGNITION', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'that', stem=u'that', pos=u'WDT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'Farrell', stem=u'farrell', pos=u'NNP', gold=u'B-GROUP', prediction=u'B-social', shape='Xx*')
+predict:  Ī , gold  Token(token=u'Electric', stem=u'electric', pos=u'NNP', gold=u'\u012a', prediction=u'\u012a', shape='Xx*')
+predict:  Ī , gold  Token(token=u'has', stem=u'have', pos=u'VBZ', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Our', stem=u'our', pos=u'PRP$', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'Wedding', stem=u'wedding', pos=u'NN', gold=u'O-EVENT', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'11/7/08', stem=u'11/7/08', pos=u'CD', gold=u'O', prediction=u'O', shape=u'd*/d/d*')
+predict:  O , gold  Token(token=u'We', stem=u'we', pos=u'PRP', gold=u'O', prediction=u'O', shape='Xx')
+predict:  O , gold  Token(token=u'just', stem=u'just', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'had', stem=u'have', pos=u'VBD', gold=u'O-stative', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'our', stem=u'our', pos=u'PRP$', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'wedding', stem=u'wedding', pos=u'NN', gold=u'O-EVENT', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'on', stem=u'on', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'11/7/08', stem=u'11/7/08', pos=u'CD', gold=u'O', prediction=u'O', shape=u'd*/d/d*')
+predict:  O , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O-stative , gold  Token(token=u'was', stem=u'be', pos=u'VBD', gold=u'O-stative', prediction=u'O-stative', shape='x*')
+predict:  O , gold  Token(token=u'very', stem=u'very', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'impressed', stem=u'impressed', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Cj', stem=u'cj', pos=u'NNP', gold=u'B-PERSON', prediction=u'O', shape='Xx')
+predict:  O , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'\u0128-GROUP', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'company', stem=u'company', pos=u'NN', gold=u'\u012a', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'did', stem=u'do', pos=u'VBD', gold=u'O-social', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'all', stem=u'all', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'that', stem=u'that', pos=u'WDT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'we', stem=u'we', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'ask', stem=u'ask', pos=u'VBP', gold=u'O-communication', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'10', stem=u'10', pos=u'CD', gold=u'O', prediction=u'\u012a', shape='d*')
+predict:  Ī , gold  Token(token=u'times', stem=u'times', pos=u'NNS', gold=u'O-RELATION', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'more', stem=u'more', pos=u'JJR', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'The', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'food', stem=u'food', pos=u'NN', gold=u'O-FOOD', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'was', stem=u'be', pos=u'VBD', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'out', stem=u'out', pos=u'GW', gold=u'B', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'standing', stem=u'standing', pos=u'JJ', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'If', stem=u'if', pos=u'IN', gold=u'O', prediction=u'O', shape='Xx')
+predict:  O , gold  Token(token=u'you', stem=u'you', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'need', stem=u'need', pos=u'VBP', gold=u'O-cognition', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'O', prediction=u'\u012a', shape='x')
+predict:  Ī , gold  Token(token=u'cater', stem=u'cater', pos=u'NN', gold=u'O-GROUP', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'that', stem=u'that', pos=u'WDT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O-stative , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'O-stative', shape='x*')
+predict:  O , gold  Token(token=u'affordable', stem=u'affordable', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'easy', stem=u'easy', pos=u'JJ', gold=u'B', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'to', stem=u'to', pos=u'TO', gold=u'\u0128', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'work', stem=u'work', pos=u'VB', gold=u'\u0128-social', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'with', stem=u'with', pos=u'IN', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'they', stem=u'they', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'are', stem=u'be', pos=u'VBP', gold=u'O-stative', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'ones', stem=u'one', pos=u'NNS', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Thanks', stem=u'thanks', pos=u'NN', gold=u'B', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'again', stem=u'again', pos=u'RB', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'Saucey', stem=u'saucey', pos=u'NNP', gold=u'B-GROUP', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u"'s", stem=u"'s", pos=u'POS', gold=u'\u012a', prediction=u'O', shape=u"'x")
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Mark', stem=u'mark', pos=u'NNP', gold=u'O-PERSON', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'Sanctuary', stem=u'sanctuary', pos=u'NNP', gold=u'O-GROUP', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'amazing', stem=u'amazing', pos=u'JJ', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'!', stem=u'!', pos=u'.', gold=u'O', prediction=u'O', shape=u'!')
+predict:  O , gold  Token(token=u'Sanctuary', stem=u'sanctuary', pos=u'NNP', gold=u'O-GROUP', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'serves', stem=u'serve', pos=u'VBZ', gold=u'O-social', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'delicious', stem=u'delicious', pos=u'JJ', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'somewhat', stem=u'somewhat', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'healthy', stem=u'healthy', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'food', stem=u'food', pos=u'NN', gold=u'O-FOOD', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'in', stem=u'in', pos=u'IN', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'O', prediction=u'\u012a', shape='x')
+predict:  Ī , gold  Token(token=u'great', stem=u'great', pos=u'JJ', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'restaurant', stem=u'restaurant', pos=u'NN', gold=u'O-GROUP', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'/', stem=u'/', pos=u',', gold=u'O', prediction=u'O', shape=u'/')
+predict:  B-social , gold  Token(token=u'fast', stem=u'fast', pos=u'JJ', gold=u'B-COGNITION', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'food', stem=u'food', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'style', stem=u'style', pos=u'NN', gold=u'O-COGNITION', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'The', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'employees', stem=u'employee', pos=u'NNS', gold=u'O-PERSON', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'are', stem=u'be', pos=u'VBP', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'really', stem=u'really', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'friendly', stem=u'friendly', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'And', stem=u'and', pos=u'CC', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'they', stem=u'they', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'deliver', stem=u'deliver', pos=u'VBP', gold=u'O-motion', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'!', stem=u'!', pos=u'.', gold=u'O', prediction=u'O', shape=u'!')
+predict:  O , gold  Token(token=u'Slice', stem=u'slice', pos=u'NNP', gold=u'B-GROUP', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'Pizza', stem=u'pizza', pos=u'NNP', gold=u'\u012a', prediction=u'B-social', shape='Xx*')
+predict:  Ī , gold  Token(token=u'at', stem=u'at', pos=u'IN', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'former', stem=u'former', pos=u'JJ', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'Britt', stem=u'britt', pos=u'NNP', gold=u'B-GROUP', prediction=u'\u012a', shape='Xx*')
+predict:  O , gold  Token(token=u"'s", stem=u"'s", pos=u'POS', gold=u'\u012a', prediction=u'O', shape=u"'x")
+predict:  O , gold  Token(token=u'Location', stem=u'location', pos=u'NN', gold=u'O-LOCATION', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'Britt', stem=u'britt', pos=u'NNP', gold=u'B-GROUP', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u"'s", stem=u"'s", pos=u'POS', gold=u'\u012a', prediction=u'O', shape=u"'x")
+predict:  B-social , gold  Token(token=u'Pizza', stem=u'pizza', pos=u'NNP', gold=u'\u012a', prediction=u'B-social', shape='Xx*')
+predict:  Ī , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'long', stem=u'long', pos=u'RB', gold=u'B', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'gone', stem=u'gone', pos=u'JJ', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Their', stem=u'their', pos=u'PRP$', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'location', stem=u'location', pos=u'NN', gold=u'O-LOCATION', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'northwest', stem=u'northwest', pos=u'NN', gold=u'O-LOCATION', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'corner', stem=u'corner', pos=u'NN', gold=u'O-LOCATION', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'of', stem=u'of', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'S.', stem=u's.', pos=u'NNP', gold=u'B-LOCATION', prediction=u'O', shape=u'X.')
+predict:  O , gold  Token(token=u'10th', stem=u'10th', pos=u'NNP', gold=u'\u012a', prediction=u'O', shape='d*x*')
+predict:  O , gold  Token(token=u'&', stem=u'&', pos=u'CC', gold=u'O', prediction=u'O', shape=u'&')
+predict:  O , gold  Token(token=u'Federal', stem=u'federal', pos=u'NNP', gold=u'B-LOCATION', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'Sts.', stem=u'sts.', pos=u'NNPS', gold=u'\u012a', prediction=u'O', shape=u'Xx*.')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  B-social , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'now', stem=u'now', pos=u'RB', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'home', stem=u'home', pos=u'NN', gold=u'O-LOCATION', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'to', stem=u'to', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'Slice', stem=u'slice', pos=u'NNP', gold=u'B-GROUP', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'Pizza', stem=u'pizza', pos=u'NNP', gold=u'\u012a', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Good', stem=u'good', pos=u'JJ', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'Pizza', stem=u'pizza', pos=u'NN', gold=u'O-FOOD', prediction=u'B-social', shape='Xx*')
+predict:  Ī , gold  Token(token=u'at', stem=u'at', pos=u'IN', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'O', prediction=u'\u012a', shape='x')
+predict:  Ī , gold  Token(token=u'good', stem=u'good', pos=u'JJ', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'price', stem=u'price', pos=u'NN', gold=u'O-POSSESSION', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  O , gold  Token(token=u'just', stem=u'just', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'moved', stem=u'move', pos=u'VBD', gold=u'O-motion', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'nearby', stem=u'nearby', pos=u'RB', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'have', stem=u'have', pos=u'VBP', gold=u'O-`a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'tried', stem=u'try', pos=u'VBN', gold=u'O-social', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'several', stem=u'several', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'of', stem=u'of', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'local', stem=u'local', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'places', stem=u'place', pos=u'NNS', gold=u'O-GROUP', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'this', stem=u'this', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O-stative , gold  Token(token=u'was', stem=u'be', pos=u'VBD', gold=u'O-stative', prediction=u'O-stative', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'first', stem=u'first', pos=u'JJ', gold=u'O', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'one', stem=u'one', pos=u'CD', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  O , gold  Token(token=u'should', stem=u'should', pos=u'MD', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'have', stem=u'have', pos=u'VB', gold=u'O-stative', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'just', stem=u'just', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'stuck', stem=u'stick', pos=u'VBN', gold=u'B-social', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'with', stem=u'with', pos=u'IN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'it', stem=u'it', pos=u'PRP', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'The', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'pizza', stem=u'pizza', pos=u'NN', gold=u'O-FOOD', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'usually', stem=u'usually', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'pretty', stem=u'pretty', pos=u'RB', gold=u'B', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'good', stem=u'good', pos=u'JJ', gold=u'\u0128', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'only', stem=u'only', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'bad', stem=u'bad', pos=u'NN', gold=u'O', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'one', stem=u'one', pos=u'CD', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'we', stem=u'we', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'got', stem=u'get', pos=u'VBD', gold=u'O-stative', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'was', stem=u'be', pos=u'VBD', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'on', stem=u'on', pos=u'IN', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'O', prediction=u'\u012a', shape='x')
+predict:  Ī , gold  Token(token=u'Friday', stem=u'friday', pos=u'NNP', gold=u'O-TIME', prediction=u'\u012a', shape='Xx*')
+predict:  Ī , gold  Token(token=u'night', stem=u'night', pos=u'NN', gold=u'O-TIME', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'it', stem=u'it', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'just', stem=u'just', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'needed', stem=u'need', pos=u'VBN', gold=u'O-cognition', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'to', stem=u'to', pos=u'TO', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'be', stem=u'be', pos=u'VB', gold=u'O-`a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'cooked', stem=u'cook', pos=u'VBN', gold=u'O-creation', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'B', prediction=u'O', shape='x')
+predict:  O , gold  Token(token=u'little', stem=u'little', pos=u'JJ', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'more', stem=u'more', pos=u'RBR', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'but', stem=u'but', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'it', stem=u'it', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'was', stem=u'be', pos=u'VBD', gold=u'O-stative', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'still', stem=u'still', pos=u'RB', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'good', stem=u'good', pos=u'JJ', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Their', stem=u'their', pos=u'PRP$', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'BBQ', stem=u'bbq', pos=u'NN', gold=u'B-FOOD', prediction=u'O', shape='X*')
+predict:  B-social , gold  Token(token=u'chicken', stem=u'chicken', pos=u'NN', gold=u'\u012a', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'pizza', stem=u'pizza', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'one', stem=u'one', pos=u'CD', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'of', stem=u'of', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'better', stem=u'better', pos=u'JJR', gold=u'O', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'ones', stem=u'one', pos=u'NNS', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'\u012a', shape='X')
+predict:  Ī , gold  Token(token=u'have', stem=u'have', pos=u'VBP', gold=u'O-`a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'ever', stem=u'ever', pos=u'RB', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'had', stem=u'have', pos=u'VBN', gold=u'O-consumption', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Responsive', stem=u'responsive', pos=u'JJ', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'kept', stem=u'keep', pos=u'VBD', gold=u'O-stative', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'me', stem=u'me', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'apprised', stem=u'apprised', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'of', stem=u'of', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'status', stem=u'status', pos=u'NN', gold=u'O-COGNITION', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  B-social , gold  Token(token=u'criminal', stem=u'criminal', pos=u'JJ', gold=u'B-PERSON', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'defense', stem=u'defense', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'lawyer', stem=u'lawyer', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'Mr.', stem=u'mr.', pos=u'NNP', gold=u'B-PERSON', prediction=u'O', shape=u'Xx.')
+predict:  O , gold  Token(token=u'Villega', stem=u'villega', pos=u'NNP', gold=u'\u012a', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'an', stem=u'an', pos=u'DT', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'exceptional', stem=u'exceptional', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'California', stem=u'california', pos=u'NNP', gold=u'O-LOCATION', prediction=u'B-social', shape='Xx*')
+predict:  Ī , gold  Token(token=u'criminal', stem=u'criminal', pos=u'JJ', gold=u'B-PERSON', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'defense', stem=u'defense', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'lawyer', stem=u'lawyer', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'He', stem=u'he', pos=u'PRP', gold=u'O', prediction=u'O', shape='Xx')
+predict:  B-social , gold  Token(token=u'cross', stem=u'cross', pos=u'VB', gold=u'B-social', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'examined', stem=u'examine', pos=u'VBD', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'witnesses', stem=u'witness', pos=u'NNS', gold=u'O-PERSON', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'relentlessly', stem=u'relentlessly', pos=u'RB', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'had', stem=u'have', pos=u'VBD', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'them', stem=u'them', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'break', stem=u'break', pos=u'VB', gold=u'B-cognition', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'down', stem=u'down', pos=u'RP', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'tell', stem=u'tell', pos=u'VB', gold=u'B-communication', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'truth', stem=u'truth', pos=u'NN', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'If', stem=u'if', pos=u'IN', gold=u'O', prediction=u'O', shape='Xx')
+predict:  O , gold  Token(token=u'you', stem=u'you', pos=u'PRP', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'want', stem=u'want', pos=u'VBP', gold=u'O-cognition', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'an', stem=u'an', pos=u'DT', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'attorney', stem=u'attorney', pos=u'NN', gold=u'O-PERSON', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'who', stem=u'who', pos=u'WP', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'will', stem=u'will', pos=u'MD', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'defend', stem=u'defend', pos=u'VB', gold=u'O-social', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'your', stem=u'your', pos=u'PRP$', gold=u'O', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'right', stem=u'right', pos=u'NN', gold=u'O-COGNITION', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'contact', stem=u'contact', pos=u'VB', gold=u'O-communication', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'Law', stem=u'law', pos=u'NNP', gold=u'B-GROUP', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'Offices', stem=u'offices', pos=u'NNPS', gold=u'\u012a', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'of', stem=u'of', pos=u'IN', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'Armando', stem=u'armando', pos=u'NNP', gold=u'\u012a', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'Villega', stem=u'villega', pos=u'NNP', gold=u'\u012a', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'Baffled', stem=u'baffle', pos=u'VBN', gold=u'O-cognition', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u'by', stem=u'by', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'one', stem=u'one', pos=u'CD', gold=u'B-COMMUNICATION', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'-', stem=u'-', pos=u'HYPH', gold=u'o', prediction=u'O', shape=u'-')
+predict:  B-social , gold  Token(token=u'star', stem=u'star', pos=u'NN', gold=u'\u012a', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'reviews', stem=u'review', pos=u'NNS', gold=u'O-COMMUNICATION', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'I', stem=u'i', pos=u'PRP', gold=u'O', prediction=u'O', shape='X')
+predict:  O , gold  Token(token=u'do', stem=u'do', pos=u'VBP', gold=u'O-`a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u"n't", stem=u"n't", pos=u'RB', gold=u'O', prediction=u'O', shape=u"x'x")
+predict:  B-social , gold  Token(token=u'get', stem=u'get', pos=u'VB', gold=u'B-cognition', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'it', stem=u'it', pos=u'PRP', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'This', stem=u'this', pos=u'DT', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  B-social , gold  Token(token=u'place', stem=u'place', pos=u'NN', gold=u'O-GROUP', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'awesome', stem=u'awesome', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'with', stem=u'with', pos=u'IN', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'O', prediction=u'O', shape='x')
+predict:  B-social , gold  Token(token=u'great', stem=u'great', pos=u'JJ', gold=u'O', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'ambiance', stem=u'ambiance', pos=u'NN', gold=u'O-ATTRIBUTE', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'cool', stem=u'cool', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'decor', stem=u'decor', pos=u'NN', gold=u'O-ATTRIBUTE', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'the', stem=u'the', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'food', stem=u'food', pos=u'NN', gold=u'O-FOOD', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'is', stem=u'be', pos=u'VBZ', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'scrumptious', stem=u'scrumptious', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'(', stem=u'(', pos=u'-LRB-', gold=u'O', prediction=u'O', shape=u'(')
+predict:  O , gold  Token(token=u'and', stem=u'and', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'especially', stem=u'especially', pos=u'RB', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'their', stem=u'their', pos=u'PRP$', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'signature', stem=u'signature', pos=u'NN', gold=u'O', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'banana', stem=u'banana', pos=u'NN', gold=u'B-FOOD', prediction=u'\u012a', shape='x*')
+predict:  Ī , gold  Token(token=u'split', stem=u'split', pos=u'NN', gold=u'\u012a', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u')', stem=u')', pos=u'-RRB-', gold=u'O', prediction=u'O', shape=u')')
+predict:  O , gold  Token(token=u'.', stem=u'.', pos=u'.', gold=u'O', prediction=u'O', shape=u'.')
+predict:  O , gold  Token(token=u'Sure', stem=u'sure', pos=u'UH', gold=u'O', prediction=u'O', shape='Xx*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'some', stem=u'some', pos=u'DT', gold=u'O', prediction=u'O', shape='x*')
+predict:  B-social , gold  Token(token=u'items', stem=u'item', pos=u'NNS', gold=u'O-FOOD', prediction=u'B-social', shape='x*')
+predict:  Ī , gold  Token(token=u'are', stem=u'be', pos=u'VBP', gold=u'O-stative', prediction=u'\u012a', shape='x*')
+predict:  O , gold  Token(token=u'a', stem=u'a', pos=u'DT', gold=u'B', prediction=u'O', shape='x')
+predict:  O , gold  Token(token=u'little', stem=u'little', pos=u'JJ', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'pricey', stem=u'pricey', pos=u'JJ', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u',', stem=u',', pos=u',', gold=u'O', prediction=u'O', shape=u',')
+predict:  O , gold  Token(token=u'but', stem=u'but', pos=u'CC', gold=u'O', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u"c'm", stem=u'c', pos=u'VB', gold=u'B', prediction=u'O', shape=u"x'x")
+predict:  O , gold  Token(token=u'on', stem=u'on', pos=u'RB', gold=u'\u012a', prediction=u'O', shape='x*')
+predict:  O , gold  Token(token=u'...', stem=u'...', pos=u',', gold=u'O', prediction=u'O', shape=u'.*')
+predict:  O , gold  Token(token=u'have', stem=u'have', pos=u'VBP', gold=u'O-stative', prediction=u'O', shape='x*')
+pr

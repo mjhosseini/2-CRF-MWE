@@ -1,0 +1,3935 @@
+1	telephone	telephone	NN	B-social	0		social	ewtb.r.002317.1
+2	number	number	NN	Ī	1	_		ewtb.r.002317.1
+
+1	the	the	DT	O	0			ewtb.r.002317.2
+2	telephone	telephone	NN	B-social	0		social	ewtb.r.002317.2
+3	number	number	NN	Ī	2	_		ewtb.r.002317.2
+4	is	be	VBZ	Ī	3	_		ewtb.r.002317.2
+5	incorrect	incorrect	JJ	O	0			ewtb.r.002317.2
+6	-	-	,	O	0			ewtb.r.002317.2
+7	our	our	PRP$	O	0			ewtb.r.002317.2
+8	new	new	JJ	O	0			ewtb.r.002317.2
+9	mobile	mobile	JJ	B-social	0		social	ewtb.r.002317.2
+10	number	number	NN	Ī	9	_		ewtb.r.002317.2
+11	is	be	VBZ	Ī	10	_		ewtb.r.002317.2
+12	07551310002	07551310002	CD	Ī	11	_		ewtb.r.002317.2
+13	or	or	CC	Ī	12	_		ewtb.r.002317.2
+14	landline	landline	NN	Ī	13	_		ewtb.r.002317.2
+15	01634	01634	CD	O	0			ewtb.r.002317.2
+16	710033	710033	CD	O	0			ewtb.r.002317.2
+17	.	.	.	O	0			ewtb.r.002317.2
+
+1	thank	thank	VBP	O	0			ewtb.r.002317.3
+2	you	you	PRP	O	0			ewtb.r.002317.3
+
+1	Billing	billing	NN	O	0			ewtb.r.003418.1
+2	Issues	issue	NNS	O	0			ewtb.r.003418.1
+3	...	...	,	O	0			ewtb.r.003418.1
+
+1	I	i	PRP	O	0			ewtb.r.003418.2
+2	had	have	VBD	B-social	0		social	ewtb.r.003418.2
+3	a	a	DT	Ī	2	_		ewtb.r.003418.2
+4	routine	routine	JJ	Ī	3	_		ewtb.r.003418.2
+5	surgery	surgery	NN	Ī	4	_		ewtb.r.003418.2
+6	for	for	IN	Ī	5	_		ewtb.r.003418.2
+7	an	an	DT	Ī	6	_		ewtb.r.003418.2
+8	ingrown	ingrown	JJ	Ī	7	_		ewtb.r.003418.2
+9	toenail	toenail	NN	Ī	8	_		ewtb.r.003418.2
+10	.	.	.	O	0			ewtb.r.003418.2
+
+1	My	my	PRP$	O	0			ewtb.r.003418.3
+2	insurance	insurance	NN	B-social	0		social	ewtb.r.003418.3
+3	company	company	NN	Ī	2	_		ewtb.r.003418.3
+4	,	,	,	O	0			ewtb.r.003418.3
+5	Blue	blue	NNP	O	0			ewtb.r.003418.3
+6	Cross	cross	NNP	O	0			ewtb.r.003418.3
+7	/	/	HYPH	O	0			ewtb.r.003418.3
+8	Blue	blue	NNP	B-social	0		social	ewtb.r.003418.3
+9	Shield	shield	NNP	Ī	8	_		ewtb.r.003418.3
+10	paid	pay	VBD	Ī	9	_		ewtb.r.003418.3
+11	the	the	DT	Ī	10	_		ewtb.r.003418.3
+12	fees	fee	NNS	Ī	11	_		ewtb.r.003418.3
+13	and	and	CC	O	0			ewtb.r.003418.3
+14	everything	everything	NN	O	0			ewtb.r.003418.3
+15	was	be	VBD	O-stative	0		stative	ewtb.r.003418.3
+16	fine	fine	JJ	O	0			ewtb.r.003418.3
+17	.	.	.	O	0			ewtb.r.003418.3
+
+1	Then	then	RB	O	0			ewtb.r.003418.4
+2	I	i	PRP	O	0			ewtb.r.003418.4
+3	got	get	VBD	B-social	0		social	ewtb.r.003418.4
+4	a	a	DT	Ī	3	_		ewtb.r.003418.4
+5	bill	bill	NN	Ī	4	_		ewtb.r.003418.4
+6	for	for	IN	O	0			ewtb.r.003418.4
+7	$	$	$	O	0			ewtb.r.003418.4
+8	483.00	483.00	CD	O	0			ewtb.r.003418.4
+9	.	.	.	O	0			ewtb.r.003418.4
+
+1	The	the	DT	O	0			ewtb.r.003418.5
+2	doctor	doctor	NN	O-FOOD	0		FOOD	ewtb.r.003418.5
+3	's	's	POS	O	0			ewtb.r.003418.5
+4	office	office	NN	B-social	0		social	ewtb.r.003418.5
+5	said	say	VBD	Ī	4	_		ewtb.r.003418.5
+6	that	that	IN	Ī	5	_		ewtb.r.003418.5
+7	payments	payment	NNS	Ī	6	_		ewtb.r.003418.5
+8	had	have	VBD	Ī	7	_		ewtb.r.003418.5
+9	been	be	VBN	Ī	8	_		ewtb.r.003418.5
+10	"	"	``	Ī	9	_		ewtb.r.003418.5
+11	reversed	reverse	VBN	Ī	10	_		ewtb.r.003418.5
+12	"	"	''	O	0			ewtb.r.003418.5
+13	.	.	.	O	0			ewtb.r.003418.5
+
+1	Blue	blue	NNP	B-social	0		social	ewtb.r.003418.6
+2	cross	cross	NNP	Ī	1	_		ewtb.r.003418.6
+3	has	have	VBZ	Ī	2	_		ewtb.r.003418.6
+4	no	no	DT	Ī	3	_		ewtb.r.003418.6
+5	record	record	NN	Ī	4	_		ewtb.r.003418.6
+6	of	of	IN	Ī	5	_		ewtb.r.003418.6
+7	aa	aa	DT	Ī	6	_		ewtb.r.003418.6
+8	reversal	reversal	NN	Ī	7	_		ewtb.r.003418.6
+9	.	.	.	O	0			ewtb.r.003418.6
+
+1	The	the	DT	O	0			ewtb.r.003418.7
+2	office	office	NN	B-social	0		social	ewtb.r.003418.7
+3	refused	refuse	VBD	Ī	2	_		ewtb.r.003418.7
+4	my	my	PRP$	O	0			ewtb.r.003418.7
+5	requests	request	NNS	B-social	0		social	ewtb.r.003418.7
+6	to	to	TO	Ī	5	_		ewtb.r.003418.7
+7	see	see	VB	Ī	6	_		ewtb.r.003418.7
+8	what	what	WP	O	0			ewtb.r.003418.7
+9	they	they	PRP	O	0			ewtb.r.003418.7
+10	got	get	VBD	O-stative	0		stative	ewtb.r.003418.7
+11	from	from	IN	O	0			ewtb.r.003418.7
+12	BC	bc	NNP	O	0			ewtb.r.003418.7
+13	/	/	HYPH	O	0			ewtb.r.003418.7
+14	BS	bs	NNP	O	0			ewtb.r.003418.7
+15	.	.	.	O	0			ewtb.r.003418.7
+
+1	They	they	PRP	O	0			ewtb.r.003418.8
+2	eventually	eventually	RB	O	0			ewtb.r.003418.8
+3	turned	turn	VBD	B-social	0		social	ewtb.r.003418.8
+4	it	it	PRP	Ī	3	_		ewtb.r.003418.8
+5	over	over	RP	Ī	4	_		ewtb.r.003418.8
+6	to	to	IN	O	0			ewtb.r.003418.8
+7	a	a	DT	O	0			ewtb.r.003418.8
+8	collection	collection	NN	B-social	0		social	ewtb.r.003418.8
+9	agency	agency	NN	Ī	8	_		ewtb.r.003418.8
+10	and	and	CC	Ī	9	_		ewtb.r.003418.8
+11	now	now	RB	Ī	10	_		ewtb.r.003418.8
+12	will	will	MD	Ī	11	_		ewtb.r.003418.8
+13	not	not	RB	Ī	12	_		ewtb.r.003418.8
+14	even	even	RB	Ī	13	_		ewtb.r.003418.8
+15	discuss	discuss	VB	Ī	14	_		ewtb.r.003418.8
+16	the	the	DT	O	0			ewtb.r.003418.8
+17	matter	matter	NN	O	0			ewtb.r.003418.8
+18	.	.	.	O	0			ewtb.r.003418.8
+
+1	I	i	PRP	O	0			ewtb.r.003418.9
+2	eventually	eventually	RB	O	0			ewtb.r.003418.9
+3	decided	decide	VBD	B-social	0		social	ewtb.r.003418.9
+4	to	to	TO	Ī	3	_		ewtb.r.003418.9
+5	just	just	RB	Ī	4	_		ewtb.r.003418.9
+6	pay	pay	VB	Ī	5	_		ewtb.r.003418.9
+7	the	the	DT	O	0			ewtb.r.003418.9
+8	balance	balance	NN	B-social	0		social	ewtb.r.003418.9
+9	even	even	RB	Ī	8	_		ewtb.r.003418.9
+10	though	though	IN	O	0			ewtb.r.003418.9
+11	the	the	DT	O	0			ewtb.r.003418.9
+12	doctor	doctor	NN	B-social	0		social	ewtb.r.003418.9
+13	has	have	VBZ	Ī	12	_		ewtb.r.003418.9
+14	already	already	RB	O	0			ewtb.r.003418.9
+15	been	be	VBN	B-social	0		social	ewtb.r.003418.9
+16	paid	pay	VBN	Ī	15	_		ewtb.r.003418.9
+17	,	,	,	O	0			ewtb.r.003418.9
+18	but	but	CC	O	0			ewtb.r.003418.9
+19	now	now	RB	O	0			ewtb.r.003418.9
+20	the	the	DT	O	0			ewtb.r.003418.9
+21	collection	collection	NN	B-social	0		social	ewtb.r.003418.9
+22	agency	agency	NN	Ī	21	_		ewtb.r.003418.9
+23	is	be	VBZ	Ī	22	_		ewtb.r.003418.9
+24	trying	try	VBG	Ī	23	_		ewtb.r.003418.9
+25	to	to	TO	O	0			ewtb.r.003418.9
+26	say	say	VB	B-social	0		social	ewtb.r.003418.9
+27	another	another	DT	Ī	26	_		ewtb.r.003418.9
+28	reversal	reversal	NN	Ī	27	_		ewtb.r.003418.9
+29	of	of	IN	O	0			ewtb.r.003418.9
+30	$	$	$	O	0			ewtb.r.003418.9
+31	160.00	160.00	CD	O	0			ewtb.r.003418.9
+32	has	have	VBZ	B-social	0		social	ewtb.r.003418.9
+33	come	come	VBN	Ī	32	_		ewtb.r.003418.9
+34	through	through	RB	O	0			ewtb.r.003418.9
+35	.	.	.	O	0			ewtb.r.003418.9
+
+1	It	it	PRP	O	0			ewtb.r.003418.10
+2	was	be	VBD	B-social	0		social	ewtb.r.003418.10
+3	an	an	DT	Ī	2	_		ewtb.r.003418.10
+4	ingrown	ingrown	JJ	Ī	3	_		ewtb.r.003418.10
+5	toenail	toenail	NN	Ī	4	_		ewtb.r.003418.10
+6	.	.	.	O	0			ewtb.r.003418.10
+
+1	How	how	WRB	O	0			ewtb.r.003418.11
+2	much	much	JJ	B-social	0		social	ewtb.r.003418.11
+3	could	could	MD	Ī	2	_		ewtb.r.003418.11
+4	it	it	PRP	Ī	3	_		ewtb.r.003418.11
+5	possibly	possibly	RB	Ī	4	_		ewtb.r.003418.11
+6	cost	cost	VB	Ī	5	_		ewtb.r.003418.11
+7	?	?	.	O	0			ewtb.r.003418.11
+
+1	Not	not	RB	O	0			ewtb.r.003418.12
+2	only	only	RB	O	0			ewtb.r.003418.12
+3	am	be	VB	B-social	0		social	ewtb.r.003418.12
+4	I	i	PRP	Ī	3	_		ewtb.r.003418.12
+5	being	be	VBG	Ī	4	_		ewtb.r.003418.12
+6	bilked	bilk	VBN	Ī	5	_		ewtb.r.003418.12
+7	for	for	IN	Ī	6	_		ewtb.r.003418.12
+8	money	money	NN	Ī	7	_		ewtb.r.003418.12
+9	I	i	PRP	Ī	8	_		ewtb.r.003418.12
+10	do	do	VBP	Ī	9	_		ewtb.r.003418.12
+11	not	not	RB	Ī	10	_		ewtb.r.003418.12
+12	owe	owe	VB	Ī	11	_		ewtb.r.003418.12
+13	,	,	,	O	0			ewtb.r.003418.12
+14	the	the	DT	O	0			ewtb.r.003418.12
+15	office	office	NN	B-social	0		social	ewtb.r.003418.12
+16	staff	staff	NN	Ī	15	_		ewtb.r.003418.12
+17	is	be	VBZ	Ī	16	_		ewtb.r.003418.12
+18	rude	rude	JJ	O	0			ewtb.r.003418.12
+19	to	to	TO	O	0			ewtb.r.003418.12
+20	boot	boot	VB	O	0			ewtb.r.003418.12
+21	.	.	.	O	0			ewtb.r.003418.12
+
+1	I	i	PRP	O	0			ewtb.r.003418.13
+2	think	think	VBP	B-social	0		social	ewtb.r.003418.13
+3	this	this	DT	Ī	2	_		ewtb.r.003418.13
+4	office	office	NN	Ī	3	_		ewtb.r.003418.13
+5	has	have	VBZ	Ī	4	_		ewtb.r.003418.13
+6	some	some	DT	O	0			ewtb.r.003418.13
+7	serious	serious	JJ	O	0			ewtb.r.003418.13
+8	billing	billing	NN	B-social	0		social	ewtb.r.003418.13
+9	practice	practice	NN	Ī	8	_		ewtb.r.003418.13
+10	issues	issue	NNS	Ī	9	_		ewtb.r.003418.13
+11	!	!	.	O	0			ewtb.r.003418.13
+
+1	I	i	PRP	O	0			ewtb.r.005636.1
+2	LOVE	love	VBP	O	0			ewtb.r.005636.1
+3	MY	my	PRP$	O	0			ewtb.r.005636.1
+4	GYM	gym	NN	O	0			ewtb.r.005636.1
+5	!	!	.	O	0			ewtb.r.005636.1
+
+1	FITNESS	fitness	NNP	O	0			ewtb.r.005636.2
+2	UNLIMITED	unlimited	NNP	O	0			ewtb.r.005636.2
+3	is	be	VBZ	B-social	0		social	ewtb.r.005636.2
+4	a	a	DT	Ī	3	_		ewtb.r.005636.2
+5	second	second	JJ	Ī	4	_		ewtb.r.005636.2
+6	home	home	NN	Ī	5	_		ewtb.r.005636.2
+7	to	to	IN	O	0			ewtb.r.005636.2
+8	a	a	DT	O	0			ewtb.r.005636.2
+9	lot	lot	NN	B-social	0		social	ewtb.r.005636.2
+10	of	of	IN	Ī	9	_		ewtb.r.005636.2
+11	us	us	PRP	Ī	10	_		ewtb.r.005636.2
+12	gym	gym	NN	Ī	11	_		ewtb.r.005636.2
+13	members	member	NNS	Ī	12	_		ewtb.r.005636.2
+14	who	who	WP	Ī	13	_		ewtb.r.005636.2
+15	work	work	VBP	Ī	14	_		ewtb.r.005636.2
+16	out	out	RP	Ī	15	_		ewtb.r.005636.2
+17	daily	daily	RB	Ī	16	_		ewtb.r.005636.2
+18	.	.	.	O	0			ewtb.r.005636.2
+
+1	If	if	IN	O	0			ewtb.r.005636.3
+2	you	you	PRP	O	0			ewtb.r.005636.3
+3	are	be	VBP	O	0			ewtb.r.005636.3
+4	serious	serious	JJ	O	0			ewtb.r.005636.3
+5	about	about	IN	O	0			ewtb.r.005636.3
+6	working	work	VBG	B-social	0		social	ewtb.r.005636.3
+7	out	out	RP	Ī	6	_		ewtb.r.005636.3
+8	in	in	IN	Ī	7	_		ewtb.r.005636.3
+9	a	a	DT	O	0			ewtb.r.005636.3
+10	non-commercial	non-commercial	JJ	O	0			ewtb.r.005636.3
+11	like	like	JJ	B-social	0		social	ewtb.r.005636.3
+12	atmosphere	atmosphere	NN	Ī	11	_		ewtb.r.005636.3
+13	then	then	RB	O	0			ewtb.r.005636.3
+14	you	you	PRP	O	0			ewtb.r.005636.3
+15	have	have	VBP	B-social	0		social	ewtb.r.005636.3
+16	chosen	choose	VBN	Ī	15	_		ewtb.r.005636.3
+17	the	the	DT	O	0			ewtb.r.005636.3
+18	best	best	JJS	B-social	0		social	ewtb.r.005636.3
+19	place	place	NN	Ī	18	_		ewtb.r.005636.3
+20	to	to	TO	Ī	19	_		ewtb.r.005636.3
+21	be	be	VB	Ī	20	_		ewtb.r.005636.3
+22	.	.	.	O	0			ewtb.r.005636.3
+
+1	This	this	DT	O	0			ewtb.r.005636.4
+2	is	be	VBZ	O-stative	0		stative	ewtb.r.005636.4
+3	the	the	DT	O	0			ewtb.r.005636.4
+4	most	most	RBS	O	0			ewtb.r.005636.4
+5	humble	humble	JJ	B-social	0		social	ewtb.r.005636.4
+6	gym	gym	NN	Ī	5	_		ewtb.r.005636.4
+7	you	you	PRP	O	0			ewtb.r.005636.4
+8	will	will	MD	B-social	0		social	ewtb.r.005636.4
+9	every	every	RB	Ī	8	_		ewtb.r.005636.4
+10	step	step	VB	Ī	9	_		ewtb.r.005636.4
+11	into	into	IN	O	0			ewtb.r.005636.4
+12	....	....	,	O	0			ewtb.r.005636.4
+13	if	if	IN	O	0			ewtb.r.005636.4
+14	you	you	PRP	O	0			ewtb.r.005636.4
+15	dare	dare	VBP	B-social	0		social	ewtb.r.005636.4
+16	to	to	TO	Ī	15	_		ewtb.r.005636.4
+17	work	work	VB	Ī	16	_		ewtb.r.005636.4
+18	on	on	IN	Ī	17	_		ewtb.r.005636.4
+19	your	your	PRP$	Ī	18	_		ewtb.r.005636.4
+20	body	body	NN	Ī	19	_		ewtb.r.005636.4
+21	do	do	VB	Ī	20	_		ewtb.r.005636.4
+22	n't	n't	RB	O	0			ewtb.r.005636.4
+23	be	be	VB	B-social	0		social	ewtb.r.005636.4
+24	surprised	surprised	JJ	Ī	23	_		ewtb.r.005636.4
+25	when	when	WRB	O	0			ewtb.r.005636.4
+26	you	you	PRP	O	0			ewtb.r.005636.4
+27	see	see	VBP	O	0			ewtb.r.005636.4
+28	how	how	WRB	O	0			ewtb.r.005636.4
+29	addicting	addicting	JJ	O	0			ewtb.r.005636.4
+30	going	go	VBG	B-social	0		social	ewtb.r.005636.4
+31	to	to	IN	Ī	30	_		ewtb.r.005636.4
+32	FITNESS	fitness	NNP	Ī	31	_		ewtb.r.005636.4
+33	UNLIMITED	unlimited	NNP	Ī	32	_		ewtb.r.005636.4
+34	can	can	MD	Ī	33	_		ewtb.r.005636.4
+35	be	be	VB	Ī	34	_		ewtb.r.005636.4
+36	!!	!!	.	O	0			ewtb.r.005636.4
+
+1	Good	good	JJ	B-social	0		social	ewtb.r.008635.1
+2	food	food	NN	Ī	1	_		ewtb.r.008635.1
+3	and	and	CC	O	0			ewtb.r.008635.1
+4	very	very	RB	O	0			ewtb.r.008635.1
+5	friendly	friendly	JJ	B-social	0		social	ewtb.r.008635.1
+6	staff	staff	NN	Ī	5	_		ewtb.r.008635.1
+7	.	.	.	O	0			ewtb.r.008635.1
+
+1	Very	very	RB	O	0			ewtb.r.008635.2
+2	good	good	JJ	O	0			ewtb.r.008635.2
+3	with	with	IN	O	0			ewtb.r.008635.2
+4	my	my	PRP$	O	0			ewtb.r.008635.2
+5	5	5	CD	B-social	0		social	ewtb.r.008635.2
+6	year	year	NN	Ī	5	_		ewtb.r.008635.2
+7	old	old	JJ	Ī	6	_		ewtb.r.008635.2
+8	daughter	daughter	NN	Ī	7	_		ewtb.r.008635.2
+9	.	.	.	O	0			ewtb.r.008635.2
+
+1	Interesting	interesting	JJ	B-social	0		social	ewtb.r.008635.3
+2	good	good	JJ	Ī	1	_		ewtb.r.008635.3
+3	value	value	NN	Ī	2	_		ewtb.r.008635.3
+4	wine	wine	NN	Ī	3	_		ewtb.r.008635.3
+5	list	list	NN	Ī	4	_		ewtb.r.008635.3
+6	to	to	RB	O	0			ewtb.r.008635.3
+7	.	.	.	O	0			ewtb.r.008635.3
+
+1	Beer	beer	NN	O	0			ewtb.r.008635.4
+2	a	a	DT	O	0			ewtb.r.008635.4
+3	bit	bit	NN	O	0			ewtb.r.008635.4
+4	expensive	expensive	JJ	O	0			ewtb.r.008635.4
+5	.	.	.	O	0			ewtb.r.008635.4
+
+1	awful	awful	JJ	O	0			ewtb.r.009596.1
+2	awful	awful	JJ	O	0			ewtb.r.009596.1
+3	awful	awful	JJ	O	0			ewtb.r.009596.1
+
+1	This	this	DT	O	0			ewtb.r.009596.2
+2	store	store	NN	B-social	0		social	ewtb.r.009596.2
+3	is	be	VBZ	Ī	2	_		ewtb.r.009596.2
+4	by	by	IN	Ī	3	_		ewtb.r.009596.2
+5	far	far	RB	Ī	4	_		ewtb.r.009596.2
+6	the	the	DT	O	0			ewtb.r.009596.2
+7	worst	worst	JJS	O	0			ewtb.r.009596.2
+8	Verizon	verizon	NNP	O	0			ewtb.r.009596.2
+9	store	store	NN	O	0			ewtb.r.009596.2
+10	I	i	PRP	O	0			ewtb.r.009596.2
+11	've	've	VBP	O	0			ewtb.r.009596.2
+12	been	be	VBN	B-social	0		social	ewtb.r.009596.2
+13	in	in	IN	Ī	12	_		ewtb.r.009596.2
+14	.	.	.	O	0			ewtb.r.009596.2
+
+1	The	the	DT	O	0			ewtb.r.009596.3
+2	salespeople	salesperson	NN	B-social	0		social	ewtb.r.009596.3
+3	are	be	VBP	Ī	2	_		ewtb.r.009596.3
+4	never	never	RB	O	0			ewtb.r.009596.3
+5	available	available	JJ	O	0			ewtb.r.009596.3
+6	,	,	,	O	0			ewtb.r.009596.3
+7	the	the	DT	O	0			ewtb.r.009596.3
+8	lines	line	NNS	B-social	0		social	ewtb.r.009596.3
+9	are	be	VBP	Ī	8	_		ewtb.r.009596.3
+10	always	always	RB	O	0			ewtb.r.009596.3
+11	too	too	RB	O	0			ewtb.r.009596.3
+12	long	long	JJ	O	0			ewtb.r.009596.3
+13	,	,	,	O	0			ewtb.r.009596.3
+14	and	and	CC	O	0			ewtb.r.009596.3
+15	all	all	PDT	O	0			ewtb.r.009596.3
+16	the	the	DT	O	0			ewtb.r.009596.3
+17	people	person	NNS	B-social	0		social	ewtb.r.009596.3
+18	want	want	VBP	Ī	17	_		ewtb.r.009596.3
+19	is	be	VBZ	Ī	18	_		ewtb.r.009596.3
+20	a	a	DT	Ī	19	_		ewtb.r.009596.3
+21	sale	sale	NN	Ī	20	_		ewtb.r.009596.3
+22	.	.	.	O	0			ewtb.r.009596.3
+
+1	Incredibly	incredibly	RB	O	0			ewtb.r.009596.4
+2	rude	rude	JJ	O	0			ewtb.r.009596.4
+3	and	and	CC	O	0			ewtb.r.009596.4
+4	I	i	PRP	O	0			ewtb.r.009596.4
+5	will	will	MD	B-social	0		social	ewtb.r.009596.4
+6	not	not	RB	Ī	5	_		ewtb.r.009596.4
+7	return	return	VB	Ī	6	_		ewtb.r.009596.4
+8	to	to	IN	Ī	7	_		ewtb.r.009596.4
+9	it	it	PRP	Ī	8	_		ewtb.r.009596.4
+10	.	.	.	O	0			ewtb.r.009596.4
+
+1	Is	be	VBZ	B-social	0		social	ewtb.r.009596.5
+2	there	there	EX	Ī	1	_		ewtb.r.009596.5
+3	no	no	DT	Ī	2	_		ewtb.r.009596.5
+4	other	other	JJ	O	0			ewtb.r.009596.5
+5	Verizon	verizon	NNP	O	0			ewtb.r.009596.5
+6	to	to	TO	O	0			ewtb.r.009596.5
+7	go	go	VB	B-social	0		social	ewtb.r.009596.5
+8	to	to	IN	Ī	7	_		ewtb.r.009596.5
+9	around	around	IN	O	0			ewtb.r.009596.5
+10	Downtown	downtown	NNP	O	0			ewtb.r.009596.5
+11	/	/	HYPH	O	0			ewtb.r.009596.5
+12	Dupont	dupont	NNP	O	0			ewtb.r.009596.5
+13	Circle	circle	NNP	O	0			ewtb.r.009596.5
+14	1?!?!?	1?!?!?	.	O	0			ewtb.r.009596.5
+
+1	Poor	poor	JJ	O	0			ewtb.r.010378.1
+2	Experience	experience	NN	O	0			ewtb.r.010378.1
+
+1	I	i	PRP	B-social	0		social	ewtb.r.010378.2
+2	did	do	VBD	Ī	1	_		ewtb.r.010378.2
+3	not	not	RB	O	0			ewtb.r.010378.2
+4	have	have	VB	B-social	0		social	ewtb.r.010378.2
+5	a	a	DT	Ī	4	_		ewtb.r.010378.2
+6	good	good	JJ	Ī	5	_		ewtb.r.010378.2
+7	experience	experience	NN	Ī	6	_		ewtb.r.010378.2
+8	w	w	IN	Ī	7	_		ewtb.r.010378.2
+9	/	/	,	O	0			ewtb.r.010378.2
+10	Dr.	dr.	NNP	O	0			ewtb.r.010378.2
+11	Ghassemlou	ghassemlou	NNP	O	0			ewtb.r.010378.2
+12	.	.	.	O	0			ewtb.r.010378.2
+
+1	During	during	IN	O	0			ewtb.r.010378.3
+2	the	the	DT	O	0			ewtb.r.010378.3
+3	session	session	NN	O-FOOD	0		FOOD	ewtb.r.010378.3
+4	,	,	,	O	0			ewtb.r.010378.3
+5	he	he	PRP	O	0			ewtb.r.010378.3
+6	demanded	demand	VBD	B-social	0		social	ewtb.r.010378.3
+7	to	to	TO	Ī	6	_		ewtb.r.010378.3
+8	have	have	VB	Ī	7	_		ewtb.r.010378.3
+9	my	my	PRP$	O	0			ewtb.r.010378.3
+10	physical	physical	JJ	O	0			ewtb.r.010378.3
+11	address	address	NN	O	0			ewtb.r.010378.3
+12	,	,	,	O	0			ewtb.r.010378.3
+13	which	which	WDT	O	0			ewtb.r.010378.3
+14	I	i	PRP	O	0			ewtb.r.010378.3
+15	've	've	VBP	O	0			ewtb.r.010378.3
+16	always	always	RB	O	0			ewtb.r.010378.3
+17	kept	keep	VBN	B-social	0		social	ewtb.r.010378.3
+18	private	private	JJ	Ī	17	_		ewtb.r.010378.3
+19	as	as	IN	Ī	18	_		ewtb.r.010378.3
+20	I	i	PRP	Ī	19	_		ewtb.r.010378.3
+21	am	be	VBP	Ī	20	_		ewtb.r.010378.3
+22	enrolled	enrol	VBN	Ī	21	_		ewtb.r.010378.3
+23	in	in	IN	Ī	22	_		ewtb.r.010378.3
+24	a	a	DT	Ī	23	_		ewtb.r.010378.3
+25	witness	witness	NN	Ī	24	_		ewtb.r.010378.3
+26	protection	protection	NN	Ī	25	_		ewtb.r.010378.3
+27	program	program	NN	Ī	26	_		ewtb.r.010378.3
+28	.	.	.	O	0			ewtb.r.010378.3
+
+1	I	i	PRP	O	0			ewtb.r.010378.4
+2	believe	believe	VBP	B-social	0		social	ewtb.r.010378.4
+3	he	he	PRP	Ī	2	_		ewtb.r.010378.4
+4	is	be	VBZ	Ī	3	_		ewtb.r.010378.4
+5	correct	correct	JJ	Ī	4	_		ewtb.r.010378.4
+6	in	in	IN	O	0			ewtb.r.010378.4
+7	that	that	DT	O	0			ewtb.r.010378.4
+8	he	he	PRP	B-social	0		social	ewtb.r.010378.4
+9	needs	need	VBZ	Ī	8	_		ewtb.r.010378.4
+10	my	my	PRP$	O	0			ewtb.r.010378.4
+11	physical	physical	JJ	O	0			ewtb.r.010378.4
+12	address	address	NN	O	0			ewtb.r.010378.4
+13	for	for	IN	O	0			ewtb.r.010378.4
+14	legal	legal	JJ	O	0			ewtb.r.010378.4
+15	reasons	reason	NNS	O	0			ewtb.r.010378.4
+16	,	,	,	O	0			ewtb.r.010378.4
+17	however	however	RB	O	0			ewtb.r.010378.4
+18	,	,	,	O	0			ewtb.r.010378.4
+19	he	he	PRP	B-social	0		social	ewtb.r.010378.4
+20	did	do	VBD	Ī	19	_		ewtb.r.010378.4
+21	not	not	RB	O	0			ewtb.r.010378.4
+22	adequately	adequately	RB	O	0			ewtb.r.010378.4
+23	explain	explain	VB	O	0			ewtb.r.010378.4
+24	this	this	DT	O	0			ewtb.r.010378.4
+25	during	during	IN	O	0			ewtb.r.010378.4
+26	our	our	PRP$	O	0			ewtb.r.010378.4
+27	session	session	NN	O	0			ewtb.r.010378.4
+28	.	.	.	O	0			ewtb.r.010378.4
+
+1	I	i	PRP	O	0			ewtb.r.010378.5
+2	learned	learn	VBD	B-social	0		social	ewtb.r.010378.5
+3	more	more	JJR	Ī	2	_		ewtb.r.010378.5
+4	about	about	IN	O	0			ewtb.r.010378.5
+5	this	this	DT	O	0			ewtb.r.010378.5
+6	doing	do	VBG	B-social	0		social	ewtb.r.010378.5
+7	my	my	PRP$	Ī	6	_		ewtb.r.010378.5
+8	own	own	JJ	Ī	7	_		ewtb.r.010378.5
+9	research	research	NN	Ī	8	_		ewtb.r.010378.5
+10	afterward	afterward	RB	O	0			ewtb.r.010378.5
+11	.	.	.	O	0			ewtb.r.010378.5
+
+1	I	i	PRP	O	0			ewtb.r.010378.6
+2	think	think	VBP	B-social	0		social	ewtb.r.010378.6
+3	he	he	PRP	Ī	2	_		ewtb.r.010378.6
+4	could	could	MD	O	0			ewtb.r.010378.6
+5	've	've	VB	O	0			ewtb.r.010378.6
+6	done	do	VBN	B-social	0		social	ewtb.r.010378.6
+7	more	more	JJR	Ī	6	_		ewtb.r.010378.6
+8	to	to	TO	O	0			ewtb.r.010378.6
+9	assuage	assuage	VB	B-social	0		social	ewtb.r.010378.6
+10	my	my	PRP$	Ī	9	_		ewtb.r.010378.6
+11	concerns	concern	NNS	Ī	10	_		ewtb.r.010378.6
+12	by	by	IN	Ī	11	_		ewtb.r.010378.6
+13	giving	give	VBG	Ī	12	_		ewtb.r.010378.6
+14	me	me	PRP	Ī	13	_		ewtb.r.010378.6
+15	concrete	concrete	JJ	Ī	14	_		ewtb.r.010378.6
+16	facts	fact	NNS	Ī	15	_		ewtb.r.010378.6
+17	.	.	.	O	0			ewtb.r.010378.6
+
+1	Saying	say	VBG	O	0			ewtb.r.010378.7
+2	that	that	IN	O	0			ewtb.r.010378.7
+3	I	i	PRP	B-social	0		social	ewtb.r.010378.7
+4	need	need	VBP	Ī	3	_		ewtb.r.010378.7
+5	to	to	TO	Ī	4	_		ewtb.r.010378.7
+6	give	give	VB	Ī	5	_		ewtb.r.010378.7
+7	him	him	PRP	O	0			ewtb.r.010378.7
+8	my	my	PRP$	O	0			ewtb.r.010378.7
+9	address	address	NN	O	0			ewtb.r.010378.7
+10	or	or	CC	O	0			ewtb.r.010378.7
+11	else	else	RB	O	0			ewtb.r.010378.7
+12	I	i	PRP	O	0			ewtb.r.010378.7
+13	have	have	VBP	B-social	0		social	ewtb.r.010378.7
+14	intimacy	intimacy	NN	Ī	13	_		ewtb.r.010378.7
+15	issues	issue	NNS	Ī	14	_		ewtb.r.010378.7
+16	is	be	VBZ	Ī	15	_		ewtb.r.010378.7
+17	not	not	RB	O	0			ewtb.r.010378.7
+18	helpful	helpful	JJ	O	0			ewtb.r.010378.7
+19	.	.	.	O	0			ewtb.r.010378.7
+
+1	It	it	PRP	O	0			ewtb.r.010378.8
+2	's	's	VBZ	O	0			ewtb.r.010378.8
+3	pretty	pretty	RB	O	0			ewtb.r.010378.8
+4	combative	combative	JJ	O	0			ewtb.r.010378.8
+5	actually	actually	RB	O	0			ewtb.r.010378.8
+6	.	.	.	O	0			ewtb.r.010378.8
+
+1	Auto	auto	NNP	O	0			ewtb.r.010393.1
+2	Towing	towing	NNP	O	0			ewtb.r.010393.1
+3	is	be	VBZ	B-social	0		social	ewtb.r.010393.1
+4	one	one	CD	Ī	3	_		ewtb.r.010393.1
+5	of	of	IN	O	0			ewtb.r.010393.1
+6	the	the	DT	O	0			ewtb.r.010393.1
+7	best	best	JJS	B-social	0		social	ewtb.r.010393.1
+8	towing	towing	NN	Ī	7	_		ewtb.r.010393.1
+9	services	services	NNS	Ī	8	_		ewtb.r.010393.1
+10	I	i	PRP	Ī	9	_		ewtb.r.010393.1
+11	have	have	VBP	Ī	10	_		ewtb.r.010393.1
+12	used	use	VBN	Ī	11	_		ewtb.r.010393.1
+13	.	.	.	O	0			ewtb.r.010393.1
+
+1	The	the	DT	O	0			ewtb.r.010393.2
+2	first	first	JJ	B-social	0		social	ewtb.r.010393.2
+3	time	time	NN	Ī	2	_		ewtb.r.010393.2
+4	I	i	PRP	Ī	3	_		ewtb.r.010393.2
+5	used	use	VBD	Ī	4	_		ewtb.r.010393.2
+6	them	them	PRP	O	0			ewtb.r.010393.2
+7	they	they	PRP	O	0			ewtb.r.010393.2
+8	arrived	arrive	VBD	B-social	0		social	ewtb.r.010393.2
+9	on	on	IN	Ī	8	_		ewtb.r.010393.2
+10	time	time	NN	Ī	9	_		ewtb.r.010393.2
+11	and	and	CC	Ī	10	_		ewtb.r.010393.2
+12	towed	tow	VBD	Ī	11	_		ewtb.r.010393.2
+13	car	car	NN	Ī	12	_		ewtb.r.010393.2
+14	for	for	IN	O	0			ewtb.r.010393.2
+15	me	me	PRP	O	0			ewtb.r.010393.2
+16	to	to	IN	O	0			ewtb.r.010393.2
+17	the	the	DT	O	0			ewtb.r.010393.2
+18	destination	destination	NN	B-social	0		social	ewtb.r.010393.2
+19	I	i	PRP	Ī	18	_		ewtb.r.010393.2
+20	needed	need	VBD	Ī	19	_		ewtb.r.010393.2
+21	.	.	.	O	0			ewtb.r.010393.2
+
+1	The	the	DT	O	0			ewtb.r.010393.3
+2	auto	auto	NN	B-social	0		social	ewtb.r.010393.3
+3	mechanics	mechanics	NNS	Ī	2	_		ewtb.r.010393.3
+4	that	that	WDT	Ī	3	_		ewtb.r.010393.3
+5	work	work	VBP	Ī	4	_		ewtb.r.010393.3
+6	for	for	IN	O	0			ewtb.r.010393.3
+7	Auto	auto	NNP	O	0			ewtb.r.010393.3
+8	Towing	towing	NNP	O	0			ewtb.r.010393.3
+9	are	be	VBP	B-social	0		social	ewtb.r.010393.3
+10	very	very	RB	Ī	9	_		ewtb.r.010393.3
+11	friendly	friendly	JJ	Ī	10	_		ewtb.r.010393.3
+12	and	and	CC	Ī	11	_		ewtb.r.010393.3
+13	informative	informative	JJ	Ī	12	_		ewtb.r.010393.3
+14	and	and	CC	Ī	13	_		ewtb.r.010393.3
+15	answered	answer	VBD	Ī	14	_		ewtb.r.010393.3
+16	any	any	DT	O	0			ewtb.r.010393.3
+17	question	question	NN	B-social	0		social	ewtb.r.010393.3
+18	I	i	PRP	Ī	17	_		ewtb.r.010393.3
+19	had	have	VBD	Ī	18	_		ewtb.r.010393.3
+20	.	.	.	O	0			ewtb.r.010393.3
+
+1	They	they	PRP	O	0			ewtb.r.010393.4
+2	have	have	VBP	B-social	0		social	ewtb.r.010393.4
+3	towed	tow	VBN	Ī	2	_		ewtb.r.010393.4
+4	car	car	NN	Ī	3	_		ewtb.r.010393.4
+5	for	for	IN	O	0			ewtb.r.010393.4
+6	me	me	PRP	O	0			ewtb.r.010393.4
+7	a	a	DT	O	0			ewtb.r.010393.4
+8	few	few	JJ	B-social	0		social	ewtb.r.010393.4
+9	times	times	NNS	Ī	8	_		ewtb.r.010393.4
+10	and	and	CC	Ī	9	_		ewtb.r.010393.4
+11	I	i	PRP	Ī	10	_		ewtb.r.010393.4
+12	am	be	VBP	Ī	11	_		ewtb.r.010393.4
+13	always	always	RB	O	0			ewtb.r.010393.4
+14	very	very	RB	O	0			ewtb.r.010393.4
+15	satisfied	satisfied	JJ	O	0			ewtb.r.010393.4
+16	with	with	IN	O	0			ewtb.r.010393.4
+17	this	this	DT	O	0			ewtb.r.010393.4
+18	services	services	NNS	O	0			ewtb.r.010393.4
+19	.	.	.	O	0			ewtb.r.010393.4
+
+1	If	if	IN	O	0			ewtb.r.010393.5
+2	you	you	PRP	O	0			ewtb.r.010393.5
+3	are	be	VBP	B-social	0		social	ewtb.r.010393.5
+4	looking	look	VBG	Ī	3	_		ewtb.r.010393.5
+5	for	for	IN	Ī	4	_		ewtb.r.010393.5
+6	towing	towing	NN	Ī	5	_		ewtb.r.010393.5
+7	services	services	NNS	Ī	6	_		ewtb.r.010393.5
+8	that	that	WDT	Ī	7	_		ewtb.r.010393.5
+9	can	can	MD	Ī	8	_		ewtb.r.010393.5
+10	offer	offer	VB	Ī	9	_		ewtb.r.010393.5
+11	you	you	PRP	O	0			ewtb.r.010393.5
+12	a	a	DT	B-social	0		social	ewtb.r.010393.5
+13	good	good	JJ	Ī	12	_		ewtb.r.010393.5
+14	towed	tow	VBN	Ī	13	_		ewtb.r.010393.5
+15	car	car	NN	Ī	14	_		ewtb.r.010393.5
+16	service	service	NN	Ī	15	_		ewtb.r.010393.5
+17	,	,	,	O	0			ewtb.r.010393.5
+18	then	then	RB	O	0			ewtb.r.010393.5
+19	Auto	auto	NNP	O	0			ewtb.r.010393.5
+20	Towing	towing	NNP	O	0			ewtb.r.010393.5
+21	is	be	VBZ	B-social	0		social	ewtb.r.010393.5
+22	the	the	DT	Ī	21	_		ewtb.r.010393.5
+23	company	company	NN	Ī	22	_		ewtb.r.010393.5
+24	for	for	IN	O	0			ewtb.r.010393.5
+25	you	you	PRP	O	0			ewtb.r.010393.5
+26	.	.	.	O	0			ewtb.r.010393.5
+
+1	Food	food	NN	B-social	0		social	ewtb.r.010433.1
+2	good	good	JJ	Ī	1	_		ewtb.r.010433.1
+3	,	,	,	O	0			ewtb.r.010433.1
+4	service	service	NN	O	0			ewtb.r.010433.1
+5	poor	poor	JJ	O	0			ewtb.r.010433.1
+
+1	No	no	DT	O	0			ewtb.r.010433.2
+2	silverware	silverware	NN	O	0			ewtb.r.010433.2
+3	,	,	,	O	0			ewtb.r.010433.2
+4	asked	ask	VBD	B-social	0		social	ewtb.r.010433.2
+5	for	for	IN	Ī	4	_		ewtb.r.010433.2
+6	a	a	DT	Ī	5	_		ewtb.r.010433.2
+7	spoon	spoon	NN	Ī	6	_		ewtb.r.010433.2
+8	for	for	IN	O	0			ewtb.r.010433.2
+9	my	my	PRP$	O	0			ewtb.r.010433.2
+10	son	son	NN	B-social	0		social	ewtb.r.010433.2
+11	s	s	POS	Ī	10	_		ewtb.r.010433.2
+12	mac	mac	NN	Ī	11	_		ewtb.r.010433.2
+13	and	and	CC	Ī	12	_		ewtb.r.010433.2
+14	cheese	cheese	NN	Ī	13	_		ewtb.r.010433.2
+15	ended	end	VBD	Ī	14	_		ewtb.r.010433.2
+16	up	up	RP	Ī	15	_		ewtb.r.010433.2
+17	having	have	VBG	Ī	16	_		ewtb.r.010433.2
+18	to	to	TO	O	0			ewtb.r.010433.2
+19	use	use	VB	B-social	0		social	ewtb.r.010433.2
+20	my	my	PRP$	Ī	19	_		ewtb.r.010433.2
+21	tea	tea	NN	Ī	20	_		ewtb.r.010433.2
+22	spoon	spoon	NN	Ī	21	_		ewtb.r.010433.2
+23	.	.	.	O	0			ewtb.r.010433.2
+
+1	Asked	ask	VBD	B-social	0		social	ewtb.r.010433.3
+2	for	for	IN	Ī	1	_		ewtb.r.010433.3
+3	bar	bar	NN	Ī	2	_		ewtb.r.010433.3
+4	-	-	HYPH	O	0			ewtb.r.010433.3
+5	b	b	NN	O	0			ewtb.r.010433.3
+6	-	-	HYPH	O	0			ewtb.r.010433.3
+7	que	que	NN	O	0			ewtb.r.010433.3
+8	sauce	sauce	NN	O	0			ewtb.r.010433.3
+9	never	never	RB	O	0			ewtb.r.010433.3
+10	got	get	VBD	B-social	0		social	ewtb.r.010433.3
+11	it	it	PRP	Ī	10	_		ewtb.r.010433.3
+12	.	.	.	O	0			ewtb.r.010433.3
+
+1	Never	never	RB	O	0			ewtb.r.010433.4
+2	checked	check	VBD	B-social	0		social	ewtb.r.010433.4
+3	back	back	RB	Ī	2	_		ewtb.r.010433.4
+4	with	with	IN	Ī	3	_		ewtb.r.010433.4
+5	us	us	PRP	Ī	4	_		ewtb.r.010433.4
+6	once	once	IN	O	0			ewtb.r.010433.4
+7	we	we	PRP	O	0			ewtb.r.010433.4
+8	got	get	VBD	B-social	0		social	ewtb.r.010433.4
+9	our	our	PRP$	Ī	8	_		ewtb.r.010433.4
+10	food	food	NN	Ī	9	_		ewtb.r.010433.4
+11	.	.	.	O	0			ewtb.r.010433.4
+
+1	Had	have	VBD	B-social	0		social	ewtb.r.010433.5
+2	to	to	TO	Ī	1	_		ewtb.r.010433.5
+3	go	go	VB	Ī	2	_		ewtb.r.010433.5
+4	the	the	DT	O	0			ewtb.r.010433.5
+5	the	the	DT	O	0			ewtb.r.010433.5
+6	bus	bus	NN	B-social	0		social	ewtb.r.010433.5
+7	boy	boy	NN	Ī	6	_		ewtb.r.010433.5
+8	s	s	POS	Ī	7	_		ewtb.r.010433.5
+9	station	station	NN	Ī	8	_		ewtb.r.010433.5
+10	ourselves	ourselves	PRP	O	0			ewtb.r.010433.5
+11	to	to	TO	O	0			ewtb.r.010433.5
+12	get	get	VB	B-social	0		social	ewtb.r.010433.5
+13	napkins	napkin	NNS	Ī	12	_		ewtb.r.010433.5
+14	.	.	.	O	0			ewtb.r.010433.5
+
+1	Only	only	RB	O	0			ewtb.r.010433.6
+2	one	one	CD	B-social	0		social	ewtb.r.010433.6
+3	server	server	NN	Ī	2	_		ewtb.r.010433.6
+4	,	,	,	O	0			ewtb.r.010433.6
+5	too	too	RB	O	0			ewtb.r.010433.6
+6	buys	buys	JJ	O	0			ewtb.r.010433.6
+7	talking	talk	VBG	B-social	0		social	ewtb.r.010433.6
+8	with	with	IN	Ī	7	_		ewtb.r.010433.6
+9	others	others	NNS	Ī	8	_		ewtb.r.010433.6
+10	I	i	PRP	Ī	9	_		ewtb.r.010433.6
+11	guess	guess	VBP	Ī	10	_		ewtb.r.010433.6
+12	.	.	.	O	0			ewtb.r.010433.6
+
+1	Food	food	NN	B-social	0		social	ewtb.r.010433.7
+2	was	be	VBD	Ī	1	_		ewtb.r.010433.7
+3	good	good	JJ	Ī	2	_		ewtb.r.010433.7
+4	,	,	,	O	0			ewtb.r.010433.7
+5	but	but	CC	O	0			ewtb.r.010433.7
+6	service	service	NN	B-social	0		social	ewtb.r.010433.7
+7	means	mean	VBZ	Ī	6	_		ewtb.r.010433.7
+8	a	a	DT	Ī	7	_		ewtb.r.010433.7
+9	lot	lot	NN	Ī	8	_		ewtb.r.010433.7
+10	to	to	IN	O	0			ewtb.r.010433.7
+11	me	me	PRP	O	0			ewtb.r.010433.7
+12	.	.	.	O	0			ewtb.r.010433.7
+
+1	Buyer	buyer	NN	B-social	0		social	ewtb.r.015573.1
+2	beware	beware	VB	Ī	1	_		ewtb.r.015573.1
+
+1	Do	do	VB	O	0			ewtb.r.015573.2
+2	not	not	RB	O	0			ewtb.r.015573.2
+3	use	use	VB	B-social	0		social	ewtb.r.015573.2
+4	these	these	DT	Ī	3	_		ewtb.r.015573.2
+5	guys	guy	NNS	Ī	4	_		ewtb.r.015573.2
+6	.	.	.	O	0			ewtb.r.015573.2
+
+1	They	they	PRP	O	0			ewtb.r.015573.3
+2	'll	'll	MD	O	0			ewtb.r.015573.3
+3	tell	tell	VB	B-social	0		social	ewtb.r.015573.3
+4	you	you	PRP	Ī	3	_		ewtb.r.015573.3
+5	one	one	CD	Ī	4	_		ewtb.r.015573.3
+6	thing	thing	NN	Ī	5	_		ewtb.r.015573.3
+7	then	then	RB	O	0			ewtb.r.015573.3
+8	$	$	$	O	0			ewtb.r.015573.3
+9	5,000	5,000	CD	O	0			ewtb.r.015573.3
+10	later	later	RBR	O	0			ewtb.r.015573.3
+11	do	do	VB	O	0			ewtb.r.015573.3
+12	another	another	DT	O	0			ewtb.r.015573.3
+13	.	.	.	O	0			ewtb.r.015573.3
+
+1	Lied	lie	VBD	B-social	0		social	ewtb.r.015573.4
+2	right	right	RB	Ī	1	_		ewtb.r.015573.4
+3	to	to	IN	O	0			ewtb.r.015573.4
+4	my	my	PRP$	O	0			ewtb.r.015573.4
+5	face	face	NN	B-social	0		social	ewtb.r.015573.4
+6	then	then	RB	Ī	5	_		ewtb.r.015573.4
+7	denied	deny	VBD	Ī	6	_		ewtb.r.015573.4
+8	it	it	PRP	Ī	7	_		ewtb.r.015573.4
+9	.	.	.	O	0			ewtb.r.015573.4
+
+1	Run	run	VB	O	0			ewtb.r.015573.5
+2	away	away	RB	O	0			ewtb.r.015573.5
+3	.	.	.	O	0			ewtb.r.015573.5
+
+1	Antique	antique	JJ	O	0			ewtb.r.017235.1
+2	Lighting	lighting	NN	O	0			ewtb.r.017235.1
+3	,	,	,	O	0			ewtb.r.017235.1
+4	Fixtures	fixture	NNS	O	0			ewtb.r.017235.1
+5	,	,	,	O	0			ewtb.r.017235.1
+6	Chicago	chicago	NNP	O	0			ewtb.r.017235.1
+
+1	Great	great	JJ	B-social	0		social	ewtb.r.017235.2
+2	place	place	NN	Ī	1	_		ewtb.r.017235.2
+3	for	for	IN	O	0			ewtb.r.017235.2
+4	Antique	antique	JJ	O	0			ewtb.r.017235.2
+5	Lighting	lighting	NN	O	0			ewtb.r.017235.2
+6	!	!	.	O	0			ewtb.r.017235.2
+
+1	I	i	PRP	B-social	0		social	ewtb.r.017235.3
+2	visited	visit	VBD	Ī	1	_		ewtb.r.017235.3
+3	their	their	PRP$	O	0			ewtb.r.017235.3
+4	huge	huge	JJ	O	0			ewtb.r.017235.3
+5	Chicago	chicago	NNP	B-social	0		social	ewtb.r.017235.3
+6	lighting	lighting	NN	Ī	5	_		ewtb.r.017235.3
+7	showroom	showroom	NN	Ī	6	_		ewtb.r.017235.3
+8	and	and	CC	O	0			ewtb.r.017235.3
+9	all	all	DT	O	0			ewtb.r.017235.3
+10	I	i	PRP	B-social	0		social	ewtb.r.017235.3
+11	have	have	VBP	Ī	10	_		ewtb.r.017235.3
+12	to	to	TO	Ī	11	_		ewtb.r.017235.3
+13	say	say	VB	Ī	12	_		ewtb.r.017235.3
+14	is	be	VBZ	Ī	13	_		ewtb.r.017235.3
+15	WOW	wow	UH	Ī	14	_		ewtb.r.017235.3
+16	!!	!!	.	O	0			ewtb.r.017235.3
+
+1	Lots	lots	NNS	O	0			ewtb.r.017235.4
+2	of	of	IN	O	0			ewtb.r.017235.4
+3	collections	collection	NNS	O	0			ewtb.r.017235.4
+4	,	,	,	O	0			ewtb.r.017235.4
+5	many	many	JJ	O	0			ewtb.r.017235.4
+6	antique	antique	JJ	B-social	0		social	ewtb.r.017235.4
+7	light	light	NN	Ī	6	_		ewtb.r.017235.4
+8	fixtures	fixture	NNS	Ī	7	_		ewtb.r.017235.4
+9	,	,	,	O	0			ewtb.r.017235.4
+10	Chandeliers	chandelier	NNS	O	0			ewtb.r.017235.4
+11	,	,	,	O	0			ewtb.r.017235.4
+12	custom	custom	NN	B-social	0		social	ewtb.r.017235.4
+13	lighting	lighting	NN	Ī	12	_		ewtb.r.017235.4
+14	etc	etc	FW	O	0			ewtb.r.017235.4
+15	.	.	.	O	0			ewtb.r.017235.4
+
+1	I	i	PRP	O	0			ewtb.r.017235.5
+2	think	think	VBP	O	0			ewtb.r.017235.5
+3	they	they	PRP	O	0			ewtb.r.017235.5
+4	have	have	VBP	B-social	0		social	ewtb.r.017235.5
+5	the	the	DT	Ī	4	_		ewtb.r.017235.5
+6	largest	large	JJS	Ī	5	_		ewtb.r.017235.5
+7	collection	collection	NN	Ī	6	_		ewtb.r.017235.5
+8	for	for	IN	O	0			ewtb.r.017235.5
+9	Chandeliers	chandelier	NNS	O	0			ewtb.r.017235.5
+10	Chicago	chicago	NNP	O	0			ewtb.r.017235.5
+11	.	.	.	O	0			ewtb.r.017235.5
+
+1	Antiques	antique	NNS	O	0			ewtb.r.017235.6
+2	,	,	,	O	0			ewtb.r.017235.6
+3	Vintage	vintage	JJ	O	0			ewtb.r.017235.6
+4	,	,	,	O	0			ewtb.r.017235.6
+5	Contemporary	contemporary	JJ	O	0			ewtb.r.017235.6
+6	&	&	CC	O	0			ewtb.r.017235.6
+7	Modern	modern	JJ	O	0			ewtb.r.017235.6
+8	Chandeliers	chandelier	NNS	O	0			ewtb.r.017235.6
+9	.	.	.	O	0			ewtb.r.017235.6
+
+1	I	i	PRP	B-social	0		social	ewtb.r.017235.7
+2	would	would	MD	Ī	1	_		ewtb.r.017235.7
+3	recommend	recommend	VB	Ī	2	_		ewtb.r.017235.7
+4	them	them	PRP	O	0			ewtb.r.017235.7
+5	for	for	IN	O	0			ewtb.r.017235.7
+6	any	any	DT	O	0			ewtb.r.017235.7
+7	custom	custom	NN	B-social	0		social	ewtb.r.017235.7
+8	lighting	lighting	NN	Ī	7	_		ewtb.r.017235.7
+9	or	or	CC	Ī	8	_		ewtb.r.017235.7
+10	Lighting	lighting	NN	Ī	9	_		ewtb.r.017235.7
+11	Repair	repair	NN	Ī	10	_		ewtb.r.017235.7
+12	and	and	CC	O	0			ewtb.r.017235.7
+13	Restoration	restoration	NN	O	0			ewtb.r.017235.7
+14	Chicago	chicago	NNP	O	0			ewtb.r.017235.7
+
+1	He	he	PRP	O	0			ewtb.r.020957.1
+2	's	's	VBZ	O	0			ewtb.r.020957.1
+3	great	great	JJ	O	0			ewtb.r.020957.1
+4	!	!	.	O	0			ewtb.r.020957.1
+
+1	I	i	PRP	O	0			ewtb.r.020957.2
+2	wo	wo	MD	O	0			ewtb.r.020957.2
+3	n't	n't	RB	O	0			ewtb.r.020957.2
+4	go	go	VB	O-stative	0		stative	ewtb.r.020957.2
+5	to	to	IN	O	0			ewtb.r.020957.2
+6	anyone	anyone	NN	O	0			ewtb.r.020957.2
+7	else	else	JJ	O	0			ewtb.r.020957.2
+8	.	.	.	O	0			ewtb.r.020957.2
+
+1	Good	good	JJ	O	0			ewtb.r.022273.1
+2	food	food	NN	O-FOOD	0		FOOD	ewtb.r.022273.1
+3	,	,	,	O	0			ewtb.r.022273.1
+4	good	good	JJ	O	0			ewtb.r.022273.1
+5	location	location	NN	O	0			ewtb.r.022273.1
+6	,	,	,	O	0			ewtb.r.022273.1
+7	and	and	CC	O	0			ewtb.r.022273.1
+8	good	good	JJ	O	0			ewtb.r.022273.1
+9	prices	price	NNS	O	0			ewtb.r.022273.1
+10	.	.	.	O	0			ewtb.r.022273.1
+
+1	But	but	CC	O	0			ewtb.r.022273.2
+2	the	the	DT	O	0			ewtb.r.022273.2
+3	servers	server	NNS	B-social	0		social	ewtb.r.022273.2
+4	do	do	VBP	Ī	3	_		ewtb.r.022273.2
+5	n't	n't	RB	O	0			ewtb.r.022273.2
+6	pay	pay	VB	B-social	0		social	ewtb.r.022273.2
+7	attention	attention	NN	Ī	6	_		ewtb.r.022273.2
+8	to	to	IN	O	0			ewtb.r.022273.2
+9	you	you	PRP	O	0			ewtb.r.022273.2
+10	whether	whether	IN	O	0			ewtb.r.022273.2
+11	it	it	PRP	B-social	0		social	ewtb.r.022273.2
+12	's	's	VBZ	Ī	11	_		ewtb.r.022273.2
+13	busy	busy	JJ	Ī	12	_		ewtb.r.022273.2
+14	or	or	CC	Ī	13	_		ewtb.r.022273.2
+15	not	not	RB	O	0			ewtb.r.022273.2
+16	.	.	.	O	0			ewtb.r.022273.2
+
+1	Rude	rude	JJ	O	0			ewtb.r.022533.1
+2	service	service	NN	O	0			ewtb.r.022533.1
+
+1	even	even	RB	O	0			ewtb.r.022533.2
+2	though	though	IN	O	0			ewtb.r.022533.2
+3	I	i	PRP	B-social	0		social	ewtb.r.022533.2
+4	have	have	VBP	Ī	3	_		ewtb.r.022533.2
+5	never	never	RB	Ī	4	_		ewtb.r.022533.2
+6	tried	try	VBN	Ī	5	_		ewtb.r.022533.2
+7	hoa	hoa	NNP	Ī	6	_		ewtb.r.022533.2
+8	salon	salon	NNP	Ī	7	_		ewtb.r.022533.2
+9	but	but	CC	Ī	8	_		ewtb.r.022533.2
+10	I	i	PRP	Ī	9	_		ewtb.r.022533.2
+11	agree	agree	VBP	Ī	10	_		ewtb.r.022533.2
+12	with	with	IN	Ī	11	_		ewtb.r.022533.2
+13	other	other	JJ	Ī	12	_		ewtb.r.022533.2
+14	reviewers	reviewer	NNS	Ī	13	_		ewtb.r.022533.2
+15	that	that	IN	O	0			ewtb.r.022533.2
+16	they	they	PRP	O	0			ewtb.r.022533.2
+17	are	be	VBP	O	0			ewtb.r.022533.2
+18	rude	rude	JJ	O	0			ewtb.r.022533.2
+19	.	.	.	O	0			ewtb.r.022533.2
+
+1	I	i	PRP	B-social	0		social	ewtb.r.022533.3
+2	called	call	VBD	Ī	1	_		ewtb.r.022533.3
+3	and	and	CC	Ī	2	_		ewtb.r.022533.3
+4	asked	ask	VBD	Ī	3	_		ewtb.r.022533.3
+5	about	about	IN	O	0			ewtb.r.022533.3
+6	the	the	DT	O	0			ewtb.r.022533.3
+7	price	price	NN	B-social	0		social	ewtb.r.022533.3
+8	for	for	IN	Ī	7	_		ewtb.r.022533.3
+9	hair	hair	NN	Ī	8	_		ewtb.r.022533.3
+10	updo	updo	NN	Ī	9	_		ewtb.r.022533.3
+11	and	and	CC	O	0			ewtb.r.022533.3
+12	the	the	DT	O	0			ewtb.r.022533.3
+13	receptionist	receptionist	NN	B-social	0		social	ewtb.r.022533.3
+14	or	or	CC	Ī	13	_		ewtb.r.022533.3
+15	owner	owner	NN	Ī	14	_		ewtb.r.022533.3
+16	who	who	WP	Ī	15	_		ewtb.r.022533.3
+17	aswered	aswered	VBD	O	0			ewtb.r.022533.3
+18	the	the	DT	O	0			ewtb.r.022533.3
+19	phone	phone	NN	B-social	0		social	ewtb.r.022533.3
+20	refused	refuse	VBD	Ī	19	_		ewtb.r.022533.3
+21	to	to	TO	O	0			ewtb.r.022533.3
+22	tell	tell	VB	B-social	0		social	ewtb.r.022533.3
+23	me	me	PRP	Ī	22	_		ewtb.r.022533.3
+24	,	,	,	O	0			ewtb.r.022533.3
+25	or	or	CC	B-social	0		social	ewtb.r.022533.3
+26	even	even	RB	Ī	25	_		ewtb.r.022533.3
+27	just	just	RB	Ī	26	_		ewtb.r.022533.3
+28	give	give	VB	Ī	27	_		ewtb.r.022533.3
+29	me	me	PRP	Ī	28	_		ewtb.r.022533.3
+30	an	an	DT	Ī	29	_		ewtb.r.022533.3
+31	approximate	approximate	JJ	Ī	30	_		ewtb.r.022533.3
+32	price	price	NN	Ī	31	_		ewtb.r.022533.3
+33	range	range	NN	Ī	32	_		ewtb.r.022533.3
+34	.	.	.	O	0			ewtb.r.022533.3
+
+1	He	he	PRP	O	0			ewtb.r.022533.4
+2	told	tell	VBD	B-social	0		social	ewtb.r.022533.4
+3	us	us	PRP	Ī	2	_		ewtb.r.022533.4
+4	to	to	TO	Ī	3	_		ewtb.r.022533.4
+5	stop	stop	VB	Ī	4	_		ewtb.r.022533.4
+6	by	by	IN	O	0			ewtb.r.022533.4
+7	the	the	DT	O	0			ewtb.r.022533.4
+8	salon	salon	NN	B-social	0		social	ewtb.r.022533.4
+9	and	and	CC	Ī	8	_		ewtb.r.022533.4
+10	then	then	RB	Ī	9	_		ewtb.r.022533.4
+11	he	he	PRP	Ī	10	_		ewtb.r.022533.4
+12	will	will	MD	Ī	11	_		ewtb.r.022533.4
+13	tell	tell	VB	Ī	12	_		ewtb.r.022533.4
+14	us	us	PRP	Ī	13	_		ewtb.r.022533.4
+15	the	the	DT	O	0			ewtb.r.022533.4
+16	price	price	NN	O	0			ewtb.r.022533.4
+17	.	.	.	O	0			ewtb.r.022533.4
+
+1	What	what	WDT	O	0			ewtb.r.022533.5
+2	kind	kind	NN	B-social	0		social	ewtb.r.022533.5
+3	of	of	IN	Ī	2	_		ewtb.r.022533.5
+4	rude	rude	JJ	Ī	3	_		ewtb.r.022533.5
+5	service	service	NN	Ī	4	_		ewtb.r.022533.5
+6	is	be	VBZ	Ī	5	_		ewtb.r.022533.5
+7	that	that	DT	O	0			ewtb.r.022533.5
+8	?	?	.	O	0			ewtb.r.022533.5
+
+1	I	i	PRP	B-social	0		social	ewtb.r.022533.6
+2	do	do	VBP	Ī	1	_		ewtb.r.022533.6
+3	n't	n't	RB	O	0			ewtb.r.022533.6
+4	want	want	VB	B-social	0		social	ewtb.r.022533.6
+5	to	to	TO	Ī	4	_		ewtb.r.022533.6
+6	waste	waste	VB	Ī	5	_		ewtb.r.022533.6
+7	my	my	PRP$	Ī	6	_		ewtb.r.022533.6
+8	time	time	NN	Ī	7	_		ewtb.r.022533.6
+9	with	with	IN	O	0			ewtb.r.022533.6
+10	them	them	PRP	O	0			ewtb.r.022533.6
+11	.	.	.	O	0			ewtb.r.022533.6
+
+1	Average	average	JJ	B-social	0		social	ewtb.r.025894.1
+2	food	food	NN	Ī	1	_		ewtb.r.025894.1
+3	and	and	CC	O	0			ewtb.r.025894.1
+4	deathly	deathly	RB	O	0			ewtb.r.025894.1
+5	slow	slow	JJ	B-social	0		social	ewtb.r.025894.1
+6	service	service	NN	Ī	5	_		ewtb.r.025894.1
+
+1	I	i	PRP	O	0			ewtb.r.025894.2
+2	have	have	VBP	B-social	0		social	ewtb.r.025894.2
+3	eaten	eat	VBN	Ī	2	_		ewtb.r.025894.2
+4	here	here	RB	Ī	3	_		ewtb.r.025894.2
+5	several	several	JJ	Ī	4	_		ewtb.r.025894.2
+6	times	times	NNS	Ī	5	_		ewtb.r.025894.2
+7	and	and	CC	O	0			ewtb.r.025894.2
+8	every	every	DT	O	0			ewtb.r.025894.2
+9	time	time	NN	O	0			ewtb.r.025894.2
+10	the	the	DT	O	0			ewtb.r.025894.2
+11	service	service	NN	B-social	0		social	ewtb.r.025894.2
+12	is	be	VBZ	Ī	11	_		ewtb.r.025894.2
+13	slower	slow	JJR	Ī	12	_		ewtb.r.025894.2
+14	than	than	IN	O	0			ewtb.r.025894.2
+15	slow	slow	JJ	O	0			ewtb.r.025894.2
+16	.	.	.	O	0			ewtb.r.025894.2
+
+1	One	one	CD	O	0			ewtb.r.025894.3
+2	time	time	NN	O	0			ewtb.r.025894.3
+3	we	we	PRP	O	0			ewtb.r.025894.3
+4	even	even	RB	B-social	0		social	ewtb.r.025894.3
+5	left	leave	VBD	Ī	4	_		ewtb.r.025894.3
+6	after	after	IN	Ī	5	_		ewtb.r.025894.3
+7	sitting	sit	VBG	Ī	6	_		ewtb.r.025894.3
+8	at	at	IN	Ī	7	_		ewtb.r.025894.3
+9	the	the	DT	O	0			ewtb.r.025894.3
+10	table	table	NN	B-social	0		social	ewtb.r.025894.3
+11	for	for	IN	Ī	10	_		ewtb.r.025894.3
+12	20	20	CD	Ī	11	_		ewtb.r.025894.3
+13	minutes	minutes	NNS	Ī	12	_		ewtb.r.025894.3
+14	and	and	CC	O	0			ewtb.r.025894.3
+15	not	not	RB	O	0			ewtb.r.025894.3
+16	being	be	VBG	B-social	0		social	ewtb.r.025894.3
+17	greeted	greet	VBN	Ī	16	_		ewtb.r.025894.3
+18	with	with	IN	Ī	17	_		ewtb.r.025894.3
+19	a	a	DT	Ī	18	_		ewtb.r.025894.3
+20	drink	drink	NN	Ī	19	_		ewtb.r.025894.3
+21	order	order	NN	Ī	20	_		ewtb.r.025894.3
+22	.	.	.	O	0			ewtb.r.025894.3
+
+1	Ridiculous	ridiculous	JJ	O	0			ewtb.r.025894.4
+2	.	.	.	O	0			ewtb.r.025894.4
+
+1	There	there	EX	O	0			ewtb.r.025894.5
+2	must	must	MD	B-social	0		social	ewtb.r.025894.5
+3	be	be	VB	Ī	2	_		ewtb.r.025894.5
+4	a	a	DT	Ī	3	_		ewtb.r.025894.5
+5	better	better	JJR	Ī	4	_		ewtb.r.025894.5
+6	mexican	mexican	JJ	Ī	5	_		ewtb.r.025894.5
+7	place	place	NN	Ī	6	_		ewtb.r.025894.5
+8	in	in	IN	Ī	7	_		ewtb.r.025894.5
+9	Rockland	rockland	NNP	O	0			ewtb.r.025894.5
+10	.	.	.	O	0			ewtb.r.025894.5
+
+1	Farrell	farrell	NNP	O	0			ewtb.r.028996.1
+2	Electric	electric	NNP	B-social	0		social	ewtb.r.028996.1
+3	is	be	VBZ	Ī	2	_		ewtb.r.028996.1
+4	a	a	DT	Ī	3	_		ewtb.r.028996.1
+5	very	very	RB	Ī	4	_		ewtb.r.028996.1
+6	good	good	JJ	Ī	5	_		ewtb.r.028996.1
+7	electrical	electrical	JJ	Ī	6	_		ewtb.r.028996.1
+8	contractor	contractor	NN	Ī	7	_		ewtb.r.028996.1
+9	.	.	.	O	0			ewtb.r.028996.1
+
+1	I	i	PRP	O	0			ewtb.r.028996.2
+2	'm	'm	VBP	O	0			ewtb.r.028996.2
+3	pleased	pleased	JJ	O	0			ewtb.r.028996.2
+4	that	that	IN	O	0			ewtb.r.028996.2
+5	someone	someone	NN	B-social	0		social	ewtb.r.028996.2
+6	referred	refer	VBD	Ī	5	_		ewtb.r.028996.2
+7	me	me	PRP	Ī	6	_		ewtb.r.028996.2
+8	to	to	IN	O	0			ewtb.r.028996.2
+9	them	them	PRP	O	0			ewtb.r.028996.2
+10	for	for	IN	O	0			ewtb.r.028996.2
+11	my	my	PRP$	O	0			ewtb.r.028996.2
+12	commercial	commercial	JJ	B-social	0		social	ewtb.r.028996.2
+13	business	business	NN	Ī	12	_		ewtb.r.028996.2
+14	.	.	.	O	0			ewtb.r.028996.2
+
+1	I	i	PRP	O	0			ewtb.r.028996.3
+2	own	own	VBP	B-social	0		social	ewtb.r.028996.3
+3	a	a	DT	Ī	2	_		ewtb.r.028996.3
+4	property	property	NN	Ī	3	_		ewtb.r.028996.3
+5	management	management	NN	Ī	4	_		ewtb.r.028996.3
+6	firm	firm	NN	Ī	5	_		ewtb.r.028996.3
+7	and	and	CC	Ī	6	_		ewtb.r.028996.3
+8	need	need	VBP	Ī	7	_		ewtb.r.028996.3
+9	a	a	DT	Ī	8	_		ewtb.r.028996.3
+10	contractor	contractor	NN	Ī	9	_		ewtb.r.028996.3
+11	with	with	IN	O	0			ewtb.r.028996.3
+12	the	the	DT	O	0			ewtb.r.028996.3
+13	credentials	credentials	NNS	O	0			ewtb.r.028996.3
+14	that	that	WDT	O	0			ewtb.r.028996.3
+15	Farrell	farrell	NNP	B-social	0		social	ewtb.r.028996.3
+16	Electric	electric	NNP	Ī	15	_		ewtb.r.028996.3
+17	has	have	VBZ	Ī	16	_		ewtb.r.028996.3
+18	.	.	.	O	0			ewtb.r.028996.3
+
+1	Our	our	PRP$	O	0			ewtb.r.029218.1
+2	Wedding	wedding	NN	O	0			ewtb.r.029218.1
+3	11/7/08	11/7/08	CD	O	0			ewtb.r.029218.1
+
+1	We	we	PRP	O	0			ewtb.r.029218.2
+2	just	just	RB	O	0			ewtb.r.029218.2
+3	had	have	VBD	B-social	0		social	ewtb.r.029218.2
+4	our	our	PRP$	Ī	3	_		ewtb.r.029218.2
+5	wedding	wedding	NN	Ī	4	_		ewtb.r.029218.2
+6	on	on	IN	O	0			ewtb.r.029218.2
+7	11/7/08	11/7/08	CD	O	0			ewtb.r.029218.2
+8	and	and	CC	O	0			ewtb.r.029218.2
+9	was	be	VBD	O-stative	0		stative	ewtb.r.029218.2
+10	very	very	RB	O	0			ewtb.r.029218.2
+11	impressed	impressed	JJ	O	0			ewtb.r.029218.2
+12	.	.	.	O	0			ewtb.r.029218.2
+
+1	Cj	cj	NNP	O	0			ewtb.r.029218.3
+2	and	and	CC	O	0			ewtb.r.029218.3
+3	company	company	NN	B-social	0		social	ewtb.r.029218.3
+4	did	do	VBD	Ī	3	_		ewtb.r.029218.3
+5	all	all	DT	O	0			ewtb.r.029218.3
+6	that	that	WDT	O	0			ewtb.r.029218.3
+7	we	we	PRP	O	0			ewtb.r.029218.3
+8	ask	ask	VBP	B-social	0		social	ewtb.r.029218.3
+9	and	and	CC	Ī	8	_		ewtb.r.029218.3
+10	10	10	CD	Ī	9	_		ewtb.r.029218.3
+11	times	times	NNS	Ī	10	_		ewtb.r.029218.3
+12	more	more	JJR	Ī	11	_		ewtb.r.029218.3
+13	.	.	.	O	0			ewtb.r.029218.3
+
+1	The	the	DT	O	0			ewtb.r.029218.4
+2	food	food	NN	B-social	0		social	ewtb.r.029218.4
+3	was	be	VBD	Ī	2	_		ewtb.r.029218.4
+4	out	out	GW	Ī	3	_		ewtb.r.029218.4
+5	standing	standing	JJ	Ī	4	_		ewtb.r.029218.4
+6	.	.	.	O	0			ewtb.r.029218.4
+
+1	If	if	IN	O	0			ewtb.r.029218.5
+2	you	you	PRP	O	0			ewtb.r.029218.5
+3	need	need	VBP	B-social	0		social	ewtb.r.029218.5
+4	a	a	DT	Ī	3	_		ewtb.r.029218.5
+5	cater	cater	NN	Ī	4	_		ewtb.r.029218.5
+6	that	that	WDT	O	0			ewtb.r.029218.5
+7	is	be	VBZ	O-stative	0		stative	ewtb.r.029218.5
+8	affordable	affordable	JJ	O	0			ewtb.r.029218.5
+9	and	and	CC	O	0			ewtb.r.029218.5
+10	easy	easy	JJ	O	0			ewtb.r.029218.5
+11	to	to	TO	O	0			ewtb.r.029218.5
+12	work	work	VB	B-social	0		social	ewtb.r.029218.5
+13	with	with	IN	Ī	12	_		ewtb.r.029218.5
+14	they	they	PRP	O	0			ewtb.r.029218.5
+15	are	be	VBP	B-social	0		social	ewtb.r.029218.5
+16	the	the	DT	Ī	15	_		ewtb.r.029218.5
+17	ones	one	NNS	Ī	16	_		ewtb.r.029218.5
+18	.	.	.	O	0			ewtb.r.029218.5
+
+1	Thanks	thanks	NN	O	0			ewtb.r.029218.6
+2	again	again	RB	O	0			ewtb.r.029218.6
+3	Saucey	saucey	NNP	O	0			ewtb.r.029218.6
+4	's	's	POS	O	0			ewtb.r.029218.6
+5	.	.	.	O	0			ewtb.r.029218.6
+
+1	Mark	mark	NNP	O	0			ewtb.r.029218.7
+
+1	Sanctuary	sanctuary	NNP	O	0			ewtb.r.030395.1
+2	is	be	VBZ	B-social	0		social	ewtb.r.030395.1
+3	amazing	amazing	JJ	Ī	2	_		ewtb.r.030395.1
+4	!	!	.	O	0			ewtb.r.030395.1
+
+1	Sanctuary	sanctuary	NNP	O	0			ewtb.r.030395.2
+2	serves	serve	VBZ	B-social	0		social	ewtb.r.030395.2
+3	delicious	delicious	JJ	Ī	2	_		ewtb.r.030395.2
+4	,	,	,	O	0			ewtb.r.030395.2
+5	somewhat	somewhat	RB	O	0			ewtb.r.030395.2
+6	healthy	healthy	JJ	O	0			ewtb.r.030395.2
+7	food	food	NN	B-social	0		social	ewtb.r.030395.2
+8	in	in	IN	Ī	7	_		ewtb.r.030395.2
+9	a	a	DT	Ī	8	_		ewtb.r.030395.2
+10	great	great	JJ	Ī	9	_		ewtb.r.030395.2
+11	restaurant	restaurant	NN	Ī	10	_		ewtb.r.030395.2
+12	/	/	,	O	0			ewtb.r.030395.2
+13	fast	fast	JJ	B-social	0		social	ewtb.r.030395.2
+14	food	food	NN	Ī	13	_		ewtb.r.030395.2
+15	style	style	NN	Ī	14	_		ewtb.r.030395.2
+16	.	.	.	O	0			ewtb.r.030395.2
+
+1	The	the	DT	O	0			ewtb.r.030395.3
+2	employees	employee	NNS	B-social	0		social	ewtb.r.030395.3
+3	are	be	VBP	Ī	2	_		ewtb.r.030395.3
+4	really	really	RB	O	0			ewtb.r.030395.3
+5	friendly	friendly	JJ	O	0			ewtb.r.030395.3
+6	.	.	.	O	0			ewtb.r.030395.3
+
+1	And	and	CC	O	0			ewtb.r.030395.4
+2	they	they	PRP	O	0			ewtb.r.030395.4
+3	deliver	deliver	VBP	O	0			ewtb.r.030395.4
+4	!	!	.	O	0			ewtb.r.030395.4
+
+1	Slice	slice	NNP	O	0			ewtb.r.030875.1
+2	Pizza	pizza	NNP	B-social	0		social	ewtb.r.030875.1
+3	at	at	IN	Ī	2	_		ewtb.r.030875.1
+4	former	former	JJ	Ī	3	_		ewtb.r.030875.1
+5	Britt	britt	NNP	Ī	4	_		ewtb.r.030875.1
+6	's	's	POS	O	0			ewtb.r.030875.1
+7	Location	location	NN	O	0			ewtb.r.030875.1
+
+1	Britt	britt	NNP	O	0			ewtb.r.030875.2
+2	's	's	POS	O	0			ewtb.r.030875.2
+3	Pizza	pizza	NNP	B-social	0		social	ewtb.r.030875.2
+4	is	be	VBZ	Ī	3	_		ewtb.r.030875.2
+5	long	long	RB	Ī	4	_		ewtb.r.030875.2
+6	gone	gone	JJ	Ī	5	_		ewtb.r.030875.2
+7	.	.	.	O	0			ewtb.r.030875.2
+
+1	Their	their	PRP$	O	0			ewtb.r.030875.3
+2	location	location	NN	O	0			ewtb.r.030875.3
+3	,	,	,	O	0			ewtb.r.030875.3
+4	the	the	DT	O	0			ewtb.r.030875.3
+5	northwest	northwest	NN	B-social	0		social	ewtb.r.030875.3
+6	corner	corner	NN	Ī	5	_		ewtb.r.030875.3
+7	of	of	IN	O	0			ewtb.r.030875.3
+8	S.	s.	NNP	O	0			ewtb.r.030875.3
+9	10th	10th	NNP	O	0			ewtb.r.030875.3
+10	&	&	CC	O	0			ewtb.r.030875.3
+11	Federal	federal	NNP	O	0			ewtb.r.030875.3
+12	Sts.	sts.	NNPS	O	0			ewtb.r.030875.3
+13	,	,	,	O	0			ewtb.r.030875.3
+14	is	be	VBZ	B-social	0		social	ewtb.r.030875.3
+15	now	now	RB	Ī	14	_		ewtb.r.030875.3
+16	home	home	NN	Ī	15	_		ewtb.r.030875.3
+17	to	to	IN	O	0			ewtb.r.030875.3
+18	Slice	slice	NNP	O	0			ewtb.r.030875.3
+19	Pizza	pizza	NNP	O	0			ewtb.r.030875.3
+20	.	.	.	O	0			ewtb.r.030875.3
+
+1	Good	good	JJ	O	0			ewtb.r.031113.1
+2	Pizza	pizza	NN	B-social	0		social	ewtb.r.031113.1
+3	at	at	IN	Ī	2	_		ewtb.r.031113.1
+4	a	a	DT	Ī	3	_		ewtb.r.031113.1
+5	good	good	JJ	Ī	4	_		ewtb.r.031113.1
+6	price	price	NN	Ī	5	_		ewtb.r.031113.1
+
+1	I	i	PRP	O	0			ewtb.r.031113.2
+2	just	just	RB	O	0			ewtb.r.031113.2
+3	moved	move	VBD	B-social	0		social	ewtb.r.031113.2
+4	nearby	nearby	RB	Ī	3	_		ewtb.r.031113.2
+5	and	and	CC	Ī	4	_		ewtb.r.031113.2
+6	have	have	VBP	Ī	5	_		ewtb.r.031113.2
+7	tried	try	VBN	Ī	6	_		ewtb.r.031113.2
+8	several	several	JJ	O	0			ewtb.r.031113.2
+9	of	of	IN	O	0			ewtb.r.031113.2
+10	the	the	DT	O	0			ewtb.r.031113.2
+11	local	local	JJ	O	0			ewtb.r.031113.2
+12	places	place	NNS	O	0			ewtb.r.031113.2
+13	,	,	,	O	0			ewtb.r.031113.2
+14	this	this	DT	O	0			ewtb.r.031113.2
+15	was	be	VBD	O-stative	0		stative	ewtb.r.031113.2
+16	the	the	DT	O	0			ewtb.r.031113.2
+17	first	first	JJ	B-social	0		social	ewtb.r.031113.2
+18	one	one	CD	Ī	17	_		ewtb.r.031113.2
+19	and	and	CC	Ī	18	_		ewtb.r.031113.2
+20	I	i	PRP	Ī	19	_		ewtb.r.031113.2
+21	should	should	MD	Ī	20	_		ewtb.r.031113.2
+22	have	have	VB	Ī	21	_		ewtb.r.031113.2
+23	just	just	RB	Ī	22	_		ewtb.r.031113.2
+24	stuck	stick	VBN	Ī	23	_		ewtb.r.031113.2
+25	with	with	IN	Ī	24	_		ewtb.r.031113.2
+26	it	it	PRP	Ī	25	_		ewtb.r.031113.2
+27	.	.	.	O	0			ewtb.r.031113.2
+
+1	The	the	DT	O	0			ewtb.r.031113.3
+2	pizza	pizza	NN	B-social	0		social	ewtb.r.031113.3
+3	is	be	VBZ	Ī	2	_		ewtb.r.031113.3
+4	usually	usually	RB	O	0			ewtb.r.031113.3
+5	pretty	pretty	RB	O	0			ewtb.r.031113.3
+6	good	good	JJ	O	0			ewtb.r.031113.3
+7	,	,	,	O	0			ewtb.r.031113.3
+8	the	the	DT	O	0			ewtb.r.031113.3
+9	only	only	JJ	O	0			ewtb.r.031113.3
+10	bad	bad	NN	B-social	0		social	ewtb.r.031113.3
+11	one	one	CD	Ī	10	_		ewtb.r.031113.3
+12	we	we	PRP	O	0			ewtb.r.031113.3
+13	got	get	VBD	B-social	0		social	ewtb.r.031113.3
+14	was	be	VBD	Ī	13	_		ewtb.r.031113.3
+15	on	on	IN	Ī	14	_		ewtb.r.031113.3
+16	a	a	DT	Ī	15	_		ewtb.r.031113.3
+17	Friday	friday	NNP	Ī	16	_		ewtb.r.031113.3
+18	night	night	NN	Ī	17	_		ewtb.r.031113.3
+19	and	and	CC	Ī	18	_		ewtb.r.031113.3
+20	it	it	PRP	Ī	19	_		ewtb.r.031113.3
+21	just	just	RB	Ī	20	_		ewtb.r.031113.3
+22	needed	need	VBN	Ī	21	_		ewtb.r.031113.3
+23	to	to	TO	Ī	22	_		ewtb.r.031113.3
+24	be	be	VB	Ī	23	_		ewtb.r.031113.3
+25	cooked	cook	VBN	Ī	24	_		ewtb.r.031113.3
+26	a	a	DT	O	0			ewtb.r.031113.3
+27	little	little	JJ	O	0			ewtb.r.031113.3
+28	more	more	RBR	O	0			ewtb.r.031113.3
+29	,	,	,	O	0			ewtb.r.031113.3
+30	but	but	CC	O	0			ewtb.r.031113.3
+31	it	it	PRP	B-social	0		social	ewtb.r.031113.3
+32	was	be	VBD	Ī	31	_		ewtb.r.031113.3
+33	still	still	RB	Ī	32	_		ewtb.r.031113.3
+34	good	good	JJ	Ī	33	_		ewtb.r.031113.3
+35	.	.	.	O	0			ewtb.r.031113.3
+
+1	Their	their	PRP$	O	0			ewtb.r.031113.4
+2	BBQ	bbq	NN	O	0			ewtb.r.031113.4
+3	chicken	chicken	NN	B-social	0		social	ewtb.r.031113.4
+4	pizza	pizza	NN	Ī	3	_		ewtb.r.031113.4
+5	is	be	VBZ	Ī	4	_		ewtb.r.031113.4
+6	one	one	CD	Ī	5	_		ewtb.r.031113.4
+7	of	of	IN	O	0			ewtb.r.031113.4
+8	the	the	DT	O	0			ewtb.r.031113.4
+9	better	better	JJR	B-social	0		social	ewtb.r.031113.4
+10	ones	one	NNS	Ī	9	_		ewtb.r.031113.4
+11	I	i	PRP	Ī	10	_		ewtb.r.031113.4
+12	have	have	VBP	Ī	11	_		ewtb.r.031113.4
+13	ever	ever	RB	Ī	12	_		ewtb.r.031113.4
+14	had	have	VBN	Ī	13	_		ewtb.r.031113.4
+15	.	.	.	O	0			ewtb.r.031113.4
+
+1	Responsive	responsive	JJ	O	0			ewtb.r.031674.1
+2	,	,	,	O	0			ewtb.r.031674.1
+3	kept	keep	VBD	B-social	0		social	ewtb.r.031674.1
+4	me	me	PRP	Ī	3	_		ewtb.r.031674.1
+5	apprised	apprised	JJ	Ī	4	_		ewtb.r.031674.1
+6	of	of	IN	Ī	5	_		ewtb.r.031674.1
+7	status	status	NN	Ī	6	_		ewtb.r.031674.1
+8	.	.	.	O	0			ewtb.r.031674.1
+
+1	criminal	criminal	JJ	B-social	0		social	ewtb.r.034313.1
+2	defense	defense	NN	Ī	1	_		ewtb.r.034313.1
+3	lawyer	lawyer	NN	Ī	2	_		ewtb.r.034313.1
+
+1	Mr.	mr.	NNP	O	0			ewtb.r.034313.2
+2	Villega	villega	NNP	O	0			ewtb.r.034313.2
+3	is	be	VBZ	B-social	0		social	ewtb.r.034313.2
+4	an	an	DT	Ī	3	_		ewtb.r.034313.2
+5	exceptional	exceptional	JJ	Ī	4	_		ewtb.r.034313.2
+6	California	california	NNP	Ī	5	_		ewtb.r.034313.2
+7	criminal	criminal	JJ	Ī	6	_		ewtb.r.034313.2
+8	defense	defense	NN	Ī	7	_		ewtb.r.034313.2
+9	lawyer	lawyer	NN	Ī	8	_		ewtb.r.034313.2
+10	.	.	.	O	0			ewtb.r.034313.2
+
+1	He	he	PRP	O	0			ewtb.r.034313.3
+2	cross	cross	VB	B-social	0		social	ewtb.r.034313.3
+3	examined	examine	VBD	Ī	2	_		ewtb.r.034313.3
+4	witnesses	witness	NNS	Ī	3	_		ewtb.r.034313.3
+5	relentlessly	relentlessly	RB	Ī	4	_		ewtb.r.034313.3
+6	and	and	CC	Ī	5	_		ewtb.r.034313.3
+7	had	have	VBD	Ī	6	_		ewtb.r.034313.3
+8	them	them	PRP	O	0			ewtb.r.034313.3
+9	break	break	VB	B-social	0		social	ewtb.r.034313.3
+10	down	down	RP	Ī	9	_		ewtb.r.034313.3
+11	and	and	CC	Ī	10	_		ewtb.r.034313.3
+12	tell	tell	VB	Ī	11	_		ewtb.r.034313.3
+13	the	the	DT	O	0			ewtb.r.034313.3
+14	truth	truth	NN	O	0			ewtb.r.034313.3
+15	.	.	.	O	0			ewtb.r.034313.3
+
+1	If	if	IN	O	0			ewtb.r.034313.4
+2	you	you	PRP	O	0			ewtb.r.034313.4
+3	want	want	VBP	B-social	0		social	ewtb.r.034313.4
+4	an	an	DT	Ī	3	_		ewtb.r.034313.4
+5	attorney	attorney	NN	Ī	4	_		ewtb.r.034313.4
+6	who	who	WP	Ī	5	_		ewtb.r.034313.4
+7	will	will	MD	Ī	6	_		ewtb.r.034313.4
+8	defend	defend	VB	Ī	7	_		ewtb.r.034313.4
+9	your	your	PRP$	Ī	8	_		ewtb.r.034313.4
+10	right	right	NN	Ī	9	_		ewtb.r.034313.4
+11	,	,	,	O	0			ewtb.r.034313.4
+12	contact	contact	VB	B-social	0		social	ewtb.r.034313.4
+13	Law	law	NNP	Ī	12	_		ewtb.r.034313.4
+14	Offices	offices	NNPS	O	0			ewtb.r.034313.4
+15	of	of	IN	O	0			ewtb.r.034313.4
+16	Armando	armando	NNP	O	0			ewtb.r.034313.4
+17	Villega	villega	NNP	O	0			ewtb.r.034313.4
+
+1	Baffled	baffle	VBN	O	0			ewtb.r.034813.1
+2	by	by	IN	O	0			ewtb.r.034813.1
+3	the	the	DT	O	0			ewtb.r.034813.1
+4	one	one	CD	O	0			ewtb.r.034813.1
+5	-	-	HYPH	O	0			ewtb.r.034813.1
+6	star	star	NN	B-social	0		social	ewtb.r.034813.1
+7	reviews	review	NNS	Ī	6	_		ewtb.r.034813.1
+
+1	I	i	PRP	B-social	0		social	ewtb.r.034813.2
+2	do	do	VBP	Ī	1	_		ewtb.r.034813.2
+3	n't	n't	RB	O	0			ewtb.r.034813.2
+4	get	get	VB	B-social	0		social	ewtb.r.034813.2
+5	it	it	PRP	Ī	4	_		ewtb.r.034813.2
+6	.	.	.	O	0			ewtb.r.034813.2
+
+1	This	this	DT	O	0			ewtb.r.034813.3
+2	place	place	NN	B-social	0		social	ewtb.r.034813.3
+3	is	be	VBZ	Ī	2	_		ewtb.r.034813.3
+4	awesome	awesome	JJ	O	0			ewtb.r.034813.3
+5	,	,	,	O	0			ewtb.r.034813.3
+6	with	with	IN	O	0			ewtb.r.034813.3
+7	a	a	DT	O	0			ewtb.r.034813.3
+8	great	great	JJ	B-social	0		social	ewtb.r.034813.3
+9	ambiance	ambiance	NN	Ī	8	_		ewtb.r.034813.3
+10	and	and	CC	Ī	9	_		ewtb.r.034813.3
+11	cool	cool	JJ	Ī	10	_		ewtb.r.034813.3
+12	decor	decor	NN	Ī	11	_		ewtb.r.034813.3
+13	,	,	,	O	0			ewtb.r.034813.3
+14	and	and	CC	O	0			ewtb.r.034813.3
+15	the	the	DT	O	0			ewtb.r.034813.3
+16	food	food	NN	B-social	0		social	ewtb.r.034813.3
+17	is	be	VBZ	Ī	16	_		ewtb.r.034813.3
+18	scrumptious	scrumptious	JJ	O	0			ewtb.r.034813.3
+19	(	(	-LRB-	O	0			ewtb.r.034813.3
+20	and	and	CC	O	0			ewtb.r.034813.3
+21	especially	especially	RB	O	0			ewtb.r.034813.3
+22	their	their	PRP$	O	0			ewtb.r.034813.3
+23	signature	signature	NN	B-social	0		social	ewtb.r.034813.3
+24	banana	banana	NN	Ī	23	_		ewtb.r.034813.3
+25	split	split	NN	Ī	24	_		ewtb.r.034813.3
+26	)	)	-RRB-	O	0			ewtb.r.034813.3
+27	.	.	.	O	0			ewtb.r.034813.3
+
+1	Sure	sure	UH	O	0			ewtb.r.034813.4
+2	,	,	,	O	0			ewtb.r.034813.4
+3	some	some	DT	O	0			ewtb.r.034813.4
+4	items	item	NNS	B-social	0		social	ewtb.r.034813.4
+5	are	be	VBP	Ī	4	_		ewtb.r.034813.4
+6	a	a	DT	O	0			ewtb.r.034813.4
+7	little	little	JJ	O	0			ewtb.r.034813.4
+8	pricey	pricey	JJ	O	0			ewtb.r.034813.4
+9	,	,	,	O	0			ewtb.r.034813.4
+10	but	but	CC	O	0			ewtb.r.034813.4
+11	c'm	c	VB	B-social	0		social	ewtb.r.034813.4
+12	on	on	RB	Ī	11	_		ewtb.r.034813.4
+13	...	...	,	O	0			ewtb.r.034813.4
+14	have	have	VBP	O	0			ewtb.r.034813.4
+15	you	you	PRP	O	0			ewtb.r.034813.4
+16	ever	ever	RB	O	0			ewtb.r.034813.4
+17	been	be	VBN	B-social	0		social	ewtb.r.034813.4
+18	out	out	RB	Ī	17	_		ewtb.r.034813.4
+19	to	to	TO	Ī	18	_		ewtb.r.034813.4
+20	eat	eat	VB	Ī	19	_		ewtb.r.034813.4
+21	in	in	IN	Ī	20	_		ewtb.r.034813.4
+22	Seattle	seattle	NNP	Ī	21	_		ewtb.r.034813.4
+23	before	before	RB	O	0			ewtb.r.034813.4
+24	?	?	.	O	0			ewtb.r.034813.4
+
+1	Thank	thank	VBP	O	0			ewtb.r.034858.1
+2	you	you	PRP	O	0			ewtb.r.034858.1
+3	for	for	IN	O	0			ewtb.r.034858.1
+4	fixing	fix	VBG	B-social	0		social	ewtb.r.034858.1
+5	the	the	DT	Ī	4	_		ewtb.r.034858.1
+6	leak	leak	NN	Ī	5	_		ewtb.r.034858.1
+7	on	on	IN	O	0			ewtb.r.034858.1
+8	my	my	PRP$	O	0			ewtb.r.034858.1
+9	bathroom	bathroom	NN	O	0			ewtb.r.034858.1
+10	!	!	.	O	0			ewtb.r.034858.1
+
+1	Thanks	thanks	NN	O	0			ewtb.r.034858.2
+2	!	!	.	O	0			ewtb.r.034858.2
+
+1	Food	food	NN	B-social	0		social	ewtb.r.034995.1
+2	is	be	VBZ	Ī	1	_		ewtb.r.034995.1
+3	often	often	RB	Ī	2	_		ewtb.r.034995.1
+4	expired	expired	JJ	Ī	3	_		ewtb.r.034995.1
+5	so	so	RB	Ī	4	_		ewtb.r.034995.1
+6	check	check	VB	Ī	5	_		ewtb.r.034995.1
+7	the	the	DT	O	0			ewtb.r.034995.1
+8	dates	date	NNS	O	0			ewtb.r.034995.1
+9	every	every	DT	O	0			ewtb.r.034995.1
+10	time	time	NN	O	0			ewtb.r.034995.1
+11	!	!	.	O	0			ewtb.r.034995.1
+
+1	Also	also	RB	O	0			ewtb.r.034995.2
+2	more	more	RBR	O	0			ewtb.r.034995.2
+3	often	often	RB	O	0			ewtb.r.034995.2
+4	than	than	IN	O	0			ewtb.r.034995.2
+5	not	not	RB	O	0			ewtb.r.034995.2
+6	you	you	PRP	O	0			ewtb.r.034995.2
+7	end	end	VBP	B-social	0		social	ewtb.r.034995.2
+8	up	up	RP	Ī	7	_		ewtb.r.034995.2
+9	with	with	IN	O	0			ewtb.r.034995.2
+10	a	a	DT	O	0			ewtb.r.034995.2
+11	healthy	healthy	JJ	O	0			ewtb.r.034995.2
+12	dose	dose	NN	O	0			ewtb.r.034995.2
+13	of	of	IN	O	0			ewtb.r.034995.2
+14	nasty	nasty	JJ	O	0			ewtb.r.034995.2
+15	rude	rude	JJ	O	0			ewtb.r.034995.2
+16	attitude	attitude	NN	O	0			ewtb.r.034995.2
+17	from	from	IN	O	0			ewtb.r.034995.2
+18	the	the	DT	O	0			ewtb.r.034995.2
+19	employees	employee	NNS	O	0			ewtb.r.034995.2
+20	!	!	.	O	0			ewtb.r.034995.2
+
+1	They	they	PRP	O	0			ewtb.r.035993.1
+2	have	have	VBP	B-social	0		social	ewtb.r.035993.1
+3	fresh	fresh	JJ	Ī	2	_		ewtb.r.035993.1
+4	flowers	flower	NNS	Ī	3	_		ewtb.r.035993.1
+5	,	,	,	O	0			ewtb.r.035993.1
+6	lasted	last	VBD	B-social	0		social	ewtb.r.035993.1
+7	a	a	DT	Ī	6	_		ewtb.r.035993.1
+8	long	long	JJ	Ī	7	_		ewtb.r.035993.1
+9	while	while	NN	Ī	8	_		ewtb.r.035993.1
+10	in	in	IN	Ī	9	_		ewtb.r.035993.1
+11	the	the	DT	O	0			ewtb.r.035993.1
+12	vase	vase	NN	O	0			ewtb.r.035993.1
+13	,	,	,	O	0			ewtb.r.035993.1
+14	and	and	CC	O	0			ewtb.r.035993.1
+15	the	the	DT	O	0			ewtb.r.035993.1
+16	two	two	CD	B-social	0		social	ewtb.r.035993.1
+17	ladies	lady	NNS	Ī	16	_		ewtb.r.035993.1
+18	at	at	IN	Ī	17	_		ewtb.r.035993.1
+19	the	the	DT	O	0			ewtb.r.035993.1
+20	shop	shop	NN	B-social	0		social	ewtb.r.035993.1
+21	know	know	VBP	Ī	20	_		ewtb.r.035993.1
+22	the	the	DT	O	0			ewtb.r.035993.1
+23	business	business	NN	B-social	0		social	ewtb.r.035993.1
+24	well	well	RB	Ī	23	_		ewtb.r.035993.1
+25	.	.	.	O	0			ewtb.r.035993.1
+
+1	I	i	PRP	O	0			ewtb.r.035993.2
+2	had	have	VBD	B-social	0		social	ewtb.r.035993.2
+3	no	no	DT	Ī	2	_		ewtb.r.035993.2
+4	problem	problem	NN	Ī	3	_		ewtb.r.035993.2
+5	with	with	IN	O	0			ewtb.r.035993.2
+6	my	my	PRP$	O	0			ewtb.r.035993.2
+7	delivery	delivery	NN	O	0			ewtb.r.035993.2
+8	.	.	.	O	0			ewtb.r.035993.2
+
+1	I	i	PRP	B-social	0		social	ewtb.r.035993.3
+2	will	will	MD	Ī	1	_		ewtb.r.035993.3
+3	go	go	VB	Ī	2	_		ewtb.r.035993.3
+4	there	there	RB	Ī	3	_		ewtb.r.035993.3
+5	again	again	RB	O	0			ewtb.r.035993.3
+6	.	.	.	O	0			ewtb.r.035993.3
+
+1	sheisters	sheisters	NNS	O	0			ewtb.r.036753.1
+
+1	i	i	PRP	B-social	0		social	ewtb.r.036753.2
+2	made	make	VBD	Ī	1	_		ewtb.r.036753.2
+3	the	the	DT	O	0			ewtb.r.036753.2
+4	mistake	mistake	NN	B-social	0		social	ewtb.r.036753.2
+5	of	of	IN	Ī	4	_		ewtb.r.036753.2
+6	buying	buy	VBG	Ī	5	_		ewtb.r.036753.2
+7	from	from	IN	O	0			ewtb.r.036753.2
+8	these	these	DT	O	0			ewtb.r.036753.2
+9	thieves	thief	NNS	O	0			ewtb.r.036753.2
+10	.	.	.	O	0			ewtb.r.036753.2
+
+1	I	i	PRP	O	0			ewtb.r.036753.3
+2	paid	pay	VBD	B-social	0		social	ewtb.r.036753.3
+3	2	2	CD	Ī	2	_		ewtb.r.036753.3
+4	k	k	NN	Ī	3	_		ewtb.r.036753.3
+5	cash	cash	NN	Ī	4	_		ewtb.r.036753.3
+6	for	for	IN	O	0			ewtb.r.036753.3
+7	a	a	DT	O	0			ewtb.r.036753.3
+8	truck	truck	NN	B-social	0		social	ewtb.r.036753.3
+9	with	with	IN	Ī	8	_		ewtb.r.036753.3
+10	a	a	DT	Ī	9	_		ewtb.r.036753.3
+11	blown	blow	VBN	Ī	10	_		ewtb.r.036753.3
+12	motor	motor	NN	Ī	11	_		ewtb.r.036753.3
+13	.	.	.	O	0			ewtb.r.036753.3
+
+1	Their	their	PRP$	O	0			ewtb.r.036753.4
+2	so	so	RB	B-social	0		social	ewtb.r.036753.4
+3	called	call	VBN	Ī	2	_		ewtb.r.036753.4
+4	mechanic	mechanic	NN	Ī	3	_		ewtb.r.036753.4
+5	said	say	VBD	Ī	4	_		ewtb.r.036753.4
+6	the	the	DT	O	0			ewtb.r.036753.4
+7	engine	engine	NN	B-social	0		social	ewtb.r.036753.4
+8	was	be	VBD	Ī	7	_		ewtb.r.036753.4
+9	good	good	JJ	O	0			ewtb.r.036753.4
+10	and	and	CC	O	0			ewtb.r.036753.4
+11	"	"	``	O	0			ewtb.r.036753.4
+12	There	there	EX	O	0			ewtb.r.036753.4
+13	is	be	VBZ	B-social	0		social	ewtb.r.036753.4
+14	nothing	nothing	NN	Ī	13	_		ewtb.r.036753.4
+15	mechanicly	mechanicly	RB	O	0			ewtb.r.036753.4
+16	wrong	wrong	JJ	O	0			ewtb.r.036753.4
+17	with	with	IN	O	0			ewtb.r.036753.4
+18	this	this	DT	O	0			ewtb.r.036753.4
+19	truck	truck	NN	O	0			ewtb.r.036753.4
+20	"	"	''	O	0			ewtb.r.036753.4
+21	.	.	.	O	0			ewtb.r.036753.4
+
+1	Well	well	UH	O	0			ewtb.r.036753.5
+2	I	i	PRP	O	0			ewtb.r.036753.5
+3	think	think	VBP	B-social	0		social	ewtb.r.036753.5
+4	a	a	DT	Ī	3	_		ewtb.r.036753.5
+5	blown	blow	VBN	Ī	4	_		ewtb.r.036753.5
+6	engine	engine	NN	Ī	5	_		ewtb.r.036753.5
+7	falls	fall	VBZ	Ī	6	_		ewtb.r.036753.5
+8	under	under	IN	O	0			ewtb.r.036753.5
+9	the	the	DT	O	0			ewtb.r.036753.5
+10	catagory	catagory	NN	O	0			ewtb.r.036753.5
+11	of	of	IN	O	0			ewtb.r.036753.5
+12	mechanics	mechanics	NN	B-social	0		social	ewtb.r.036753.5
+13	right	right	UH	Ī	12	_		ewtb.r.036753.5
+14	?	?	.	O	0			ewtb.r.036753.5
+
+1	Anyway	anyway	RB	O	0			ewtb.r.036753.6
+2	they	they	PRP	O	0			ewtb.r.036753.6
+3	jimmy	jimmy	NN	B-social	0		social	ewtb.r.036753.6
+4	rigged	rig	VBD	Ī	3	_		ewtb.r.036753.6
+5	it	it	PRP	Ī	4	_		ewtb.r.036753.6
+6	so	so	IN	Ī	5	_		ewtb.r.036753.6
+7	i	i	PRP	Ī	6	_		ewtb.r.036753.6
+8	could	could	MD	Ī	7	_		ewtb.r.036753.6
+9	drive	drive	VB	Ī	8	_		ewtb.r.036753.6
+10	it	it	PRP	Ī	9	_		ewtb.r.036753.6
+11	home	home	RB	Ī	10	_		ewtb.r.036753.6
+12	.	.	.	O	0			ewtb.r.036753.6
+
+1	The	the	DT	O	0			ewtb.r.036753.7
+2	next	next	JJ	O	0			ewtb.r.036753.7
+3	day	day	NN	O	0			ewtb.r.036753.7
+4	i	i	PRP	O	0			ewtb.r.036753.7
+5	took	take	VBD	B-social	0		social	ewtb.r.036753.7
+6	it	it	PRP	Ī	5	_		ewtb.r.036753.7
+7	to	to	IN	Ī	6	_		ewtb.r.036753.7
+8	2	2	CD	Ī	7	_		ewtb.r.036753.7
+9	auto	auto	NN	Ī	8	_		ewtb.r.036753.7
+10	shops	shop	NNS	Ī	9	_		ewtb.r.036753.7
+11	and	and	CC	O	0			ewtb.r.036753.7
+12	they	they	PRP	O	0			ewtb.r.036753.7
+13	both	both	DT	O	0			ewtb.r.036753.7
+14	told	tell	VBD	B-social	0		social	ewtb.r.036753.7
+15	me	me	PRP	Ī	14	_		ewtb.r.036753.7
+16	the	the	DT	O	0			ewtb.r.036753.7
+17	same	same	JJ	B-social	0		social	ewtb.r.036753.7
+18	thing	thing	NN	Ī	17	_		ewtb.r.036753.7
+19	,	,	,	O	0			ewtb.r.036753.7
+20	engine	engine	NN	B-social	0		social	ewtb.r.036753.7
+21	is	be	VBZ	Ī	20	_		ewtb.r.036753.7
+22	junk	junk	NN	Ī	21	_		ewtb.r.036753.7
+23	.	.	.	O	0			ewtb.r.036753.7
+
+1	I	i	PRP	B-social	0		social	ewtb.r.036753.8
+2	called	call	VBD	Ī	1	_		ewtb.r.036753.8
+3	and	and	CC	Ī	2	_		ewtb.r.036753.8
+4	got	get	VBD	Ī	3	_		ewtb.r.036753.8
+5	the	the	DT	O	0			ewtb.r.036753.8
+6	same	same	JJ	B-social	0		social	ewtb.r.036753.8
+7	runaround	runaround	NN	Ī	6	_		ewtb.r.036753.8
+8	on	on	IN	Ī	7	_		ewtb.r.036753.8
+9	hold	hold	NN	Ī	8	_		ewtb.r.036753.8
+10	and	and	CC	Ī	9	_		ewtb.r.036753.8
+11	noone	noone	NN	Ī	10	_		ewtb.r.036753.8
+12	calls	call	VBZ	Ī	11	_		ewtb.r.036753.8
+13	you	you	PRP	O	0			ewtb.r.036753.8
+14	back	back	RB	O	0			ewtb.r.036753.8
+15	.	.	.	O	0			ewtb.r.036753.8
+
+1	From	from	IN	O	0			ewtb.r.036753.9
+2	a	a	DT	O	0			ewtb.r.036753.9
+3	moral	moral	JJ	B-social	0		social	ewtb.r.036753.9
+4	standpoint	standpoint	NN	Ī	3	_		ewtb.r.036753.9
+5	,	,	,	O	0			ewtb.r.036753.9
+6	you	you	PRP	O	0			ewtb.r.036753.9
+7	guys	guy	NNS	B-social	0		social	ewtb.r.036753.9
+8	are	be	VBP	Ī	7	_		ewtb.r.036753.9
+9	really	really	RB	Ī	8	_		ewtb.r.036753.9
+10	gon	gon	VBG	Ī	9	_		ewtb.r.036753.9
+11	na	na	TO	Ī	10	_		ewtb.r.036753.9
+12	take	take	VB	Ī	11	_		ewtb.r.036753.9
+13	2,000	2,000	CD	O	0			ewtb.r.036753.9
+14	bucks	buck	NNS	B-social	0		social	ewtb.r.036753.9
+15	from	from	IN	Ī	14	_		ewtb.r.036753.9
+16	someone	someone	NN	Ī	15	_		ewtb.r.036753.9
+17	that	that	WDT	Ī	16	_		ewtb.r.036753.9
+18	needs	need	VBZ	Ī	17	_		ewtb.r.036753.9
+19	that	that	DT	O	0			ewtb.r.036753.9
+20	truck	truck	NN	B-social	0		social	ewtb.r.036753.9
+21	to	to	TO	Ī	20	_		ewtb.r.036753.9
+22	work	work	VB	Ī	21	_		ewtb.r.036753.9
+23	and	and	CC	Ī	22	_		ewtb.r.036753.9
+24	support	support	VB	Ī	23	_		ewtb.r.036753.9
+25	his	his	PRP$	Ī	24	_		ewtb.r.036753.9
+26	family	family	NN	Ī	25	_		ewtb.r.036753.9
+27	when	when	WRB	O	0			ewtb.r.036753.9
+28	you	you	PRP	O	0			ewtb.r.036753.9
+29	know	know	VBP	B-social	0		social	ewtb.r.036753.9
+30	it	it	PRP	Ī	29	_		ewtb.r.036753.9
+31	s	s	VBZ	Ī	30	_		ewtb.r.036753.9
+32	just	just	RB	O	0			ewtb.r.036753.9
+33	a	a	DT	B-social	0		social	ewtb.r.036753.9
+34	piece	piece	NN	Ī	33	_		ewtb.r.036753.9
+35	of	of	IN	Ī	34	_		ewtb.r.036753.9
+36	scrap	scrap	NN	Ī	35	_		ewtb.r.036753.9
+37	metal	metal	NN	Ī	36	_		ewtb.r.036753.9
+38	?	?	.	O	0			ewtb.r.036753.9
+
+1	If	if	IN	O	0			ewtb.r.036753.10
+2	it	it	PRP	B-social	0		social	ewtb.r.036753.10
+3	lasted	last	VBD	Ī	2	_		ewtb.r.036753.10
+4	1	1	CD	Ī	3	_		ewtb.r.036753.10
+5	month	month	NN	Ī	4	_		ewtb.r.036753.10
+6	i	i	PRP	Ī	5	_		ewtb.r.036753.10
+7	could	could	MD	Ī	6	_		ewtb.r.036753.10
+8	suck	suck	VB	Ī	7	_		ewtb.r.036753.10
+9	it	it	PRP	Ī	8	_		ewtb.r.036753.10
+10	up	up	RP	Ī	9	_		ewtb.r.036753.10
+11	but	but	CC	Ī	10	_		ewtb.r.036753.10
+12	1	1	CD	Ī	11	_		ewtb.r.036753.10
+13	day	day	NN	Ī	12	_		ewtb.r.036753.10
+14	?	?	.	O	0			ewtb.r.036753.10
+
+1	Grimy	grimy	JJ	O	0			ewtb.r.036753.11
+2	work	work	NN	B-social	0		social	ewtb.r.036753.11
+3	you	you	PRP	Ī	2	_		ewtb.r.036753.11
+4	guys	guy	NNS	Ī	3	_		ewtb.r.036753.11
+5	do	do	VBP	Ī	4	_		ewtb.r.036753.11
+6	.	.	.	O	0			ewtb.r.036753.11
+
+1	Buy	buy	VB	B-social	0		social	ewtb.r.036753.12
+2	your	your	PRP$	Ī	1	_		ewtb.r.036753.12
+3	kids	kid	NNS	Ī	2	_		ewtb.r.036753.12
+4	somethin	somethin	NN	Ī	3	_		ewtb.r.036753.12
+5	nice	nice	JJ	Ī	4	_		ewtb.r.036753.12
+6	with	with	IN	O	0			ewtb.r.036753.12
+7	my	my	PRP$	O	0			ewtb.r.036753.12
+8	2	2	CD	B-social	0		social	ewtb.r.036753.12
+9	k	k	NN	Ī	8	_		ewtb.r.036753.12
+10	bucks	buck	NNS	Ī	9	_		ewtb.r.036753.12
+11	.	.	.	O	0			ewtb.r.036753.12
+
+1	spot	spot	JJ	O	0			ewtb.r.037179.1
+2	on	on	JJ	O	0			ewtb.r.037179.1
+
+1	this	this	DT	O	0			ewtb.r.037179.2
+2	kebab	kebab	NN	B-social	0		social	ewtb.r.037179.2
+3	shop	shop	NN	Ī	2	_		ewtb.r.037179.2
+4	is	be	VBZ	Ī	3	_		ewtb.r.037179.2
+5	one	one	CD	Ī	4	_		ewtb.r.037179.2
+6	of	of	IN	O	0			ewtb.r.037179.2
+7	the	the	DT	O	0			ewtb.r.037179.2
+8	best	best	JJS	O	0			ewtb.r.037179.2
+9	around	around	RB	O	0			ewtb.r.037179.2
+10	the	the	DT	O	0			ewtb.r.037179.2
+11	meat	meat	NN	B-social	0		social	ewtb.r.037179.2
+12	is	be	VBZ	Ī	11	_		ewtb.r.037179.2
+13	good	good	JJ	O	0			ewtb.r.037179.2
+14	and	and	CC	O	0			ewtb.r.037179.2
+15	fresh	fresh	JJ	O	0			ewtb.r.037179.2
+16	and	and	CC	O	0			ewtb.r.037179.2
+17	the	the	DT	O	0			ewtb.r.037179.2
+18	chilly	chilly	NN	B-social	0		social	ewtb.r.037179.2
+19	sauce	sauce	NN	Ī	18	_		ewtb.r.037179.2
+20	is	be	VBZ	Ī	19	_		ewtb.r.037179.2
+21	the	the	DT	O	0			ewtb.r.037179.2
+22	best	best	JJS	O	0			ewtb.r.037179.2
+23	,	,	,	O	0			ewtb.r.037179.2
+24	keep	keep	VB	O	0			ewtb.r.037179.2
+25	them	them	PRP	O	0			ewtb.r.037179.2
+26	lovely	lovely	JJ	B-social	0		social	ewtb.r.037179.2
+27	kebabs	kebab	NNS	Ī	26	_		ewtb.r.037179.2
+28	coming	come	VBG	Ī	27	_		ewtb.r.037179.2
+29	and	and	CC	O	0			ewtb.r.037179.2
+30	a	a	DT	O	0			ewtb.r.037179.2
+31	happy	happy	JJ	O	0			ewtb.r.037179.2
+32	new	new	JJ	B-social	0		social	ewtb.r.037179.2
+33	year	year	NN	Ī	32	_		ewtb.r.037179.2
+34	to	to	IN	O	0			ewtb.r.037179.2
+35	all	all	PDT	O	0			ewtb.r.037179.2
+36	the	the	DT	O	0			ewtb.r.037179.2
+37	staff	staff	NN	O	0			ewtb.r.037179.2
+
+1	We	we	PRP	O	0			ewtb.r.037794.1
+2	came	come	VBD	B-social	0		social	ewtb.r.037794.1
+3	at	at	IN	Ī	2	_		ewtb.r.037794.1
+4	around	around	RB	O	0			ewtb.r.037794.1
+5	730	730	CD	O	0			ewtb.r.037794.1
+6	and	and	CC	O	0			ewtb.r.037794.1
+7	they	they	PRP	O	0			ewtb.r.037794.1
+8	close	close	VBP	B-social	0		social	ewtb.r.037794.1
+9	at	at	IN	Ī	8	_		ewtb.r.037794.1
+10	8	8	CD	Ī	9	_		ewtb.r.037794.1
+11	and	and	CC	Ī	10	_		ewtb.r.037794.1
+12	wanted	want	VBD	Ī	11	_		ewtb.r.037794.1
+13	to	to	TO	O	0			ewtb.r.037794.1
+14	try	try	VB	B-social	0		social	ewtb.r.037794.1
+15	the	the	DT	Ī	14	_		ewtb.r.037794.1
+16	specials	special	NNS	Ī	15	_		ewtb.r.037794.1
+17	but	but	CC	O	0			ewtb.r.037794.1
+18	they	they	PRP	O	0			ewtb.r.037794.1
+19	were	be	VBD	B-social	0		social	ewtb.r.037794.1
+20	out	out	RB	Ī	19	_		ewtb.r.037794.1
+21	for	for	IN	O	0			ewtb.r.037794.1
+22	the	the	DT	O	0			ewtb.r.037794.1
+23	day	day	NN	B-social	0		social	ewtb.r.037794.1
+24	so	so	RB	Ī	23	_		ewtb.r.037794.1
+25	I	i	PRP	Ī	24	_		ewtb.r.037794.1
+26	would	would	MD	Ī	25	_		ewtb.r.037794.1
+27	say	say	VB	Ī	26	_		ewtb.r.037794.1
+28	go	go	VB	Ī	27	_		ewtb.r.037794.1
+29	way	way	RB	Ī	28	_		ewtb.r.037794.1
+30	before	before	IN	O	0			ewtb.r.037794.1
+31	they	they	PRP	O	0			ewtb.r.037794.1
+32	close	close	VBP	O	0			ewtb.r.037794.1
+33	.	.	.	O	0			ewtb.r.037794.1
+
+1	Got	get	VBD	O	0			ewtb.r.037794.2
+2	the	the	DT	O	0			ewtb.r.037794.2
+3	crab	crab	NN	B-social	0		social	ewtb.r.037794.2
+4	rangoon	rangoon	NN	Ī	3	_		ewtb.r.037794.2
+5	which	which	WDT	O	0			ewtb.r.037794.2
+6	was	be	VBD	B-social	0		social	ewtb.r.037794.2
+7	great	great	JJ	Ī	6	_		ewtb.r.037794.2
+8	,	,	,	O	0			ewtb.r.037794.2
+9	tofu	tofu	NN	O	0			ewtb.r.037794.2
+10	with	with	IN	O	0			ewtb.r.037794.2
+11	cabbage	cabbage	NN	O	0			ewtb.r.037794.2
+12	which	which	WDT	O	0			ewtb.r.037794.2
+13	was	be	VBD	O-stative	0		stative	ewtb.r.037794.2
+14	spicy	spicy	JJ	O	0			ewtb.r.037794.2
+15	but	but	CC	O	0			ewtb.r.037794.2
+16	good	good	JJ	O	0			ewtb.r.037794.2
+17	and	and	CC	O	0			ewtb.r.037794.2
+18	shrimp	shrimp	NN	O	0			ewtb.r.037794.2
+19	satay	satay	NN	O	0			ewtb.r.037794.2
+20	which	which	WDT	O	0			ewtb.r.037794.2
+21	was	be	VBD	O-stative	0		stative	ewtb.r.037794.2
+22	also	also	RB	O	0			ewtb.r.037794.2
+23	good	good	JJ	O	0			ewtb.r.037794.2
+24	.	.	.	O	0			ewtb.r.037794.2
+
+1	Def	def	RB	O	0			ewtb.r.037794.3
+2	going	go	VBG	B-social	0		social	ewtb.r.037794.3
+3	to	to	TO	Ī	2	_		ewtb.r.037794.3
+4	come	come	VB	Ī	3	_		ewtb.r.037794.3
+5	back	back	RB	Ī	4	_		ewtb.r.037794.3
+6	and	and	CC	Ī	5	_		ewtb.r.037794.3
+7	try	try	VB	Ī	6	_		ewtb.r.037794.3
+8	this	this	DT	Ī	7	_		ewtb.r.037794.3
+9	place	place	NN	Ī	8	_		ewtb.r.037794.3
+10	again	again	RB	O	0			ewtb.r.037794.3
+11	.	.	.	O	0			ewtb.r.037794.3
+
+1	Bea	bea	NNP	O	0			ewtb.r.037794.4
+2	was	be	VBD	O-stative	0		stative	ewtb.r.037794.4
+3	really	really	RB	O	0			ewtb.r.037794.4
+4	nice	nice	JJ	B-social	0		social	ewtb.r.037794.4
+5	and	and	CC	Ī	4	_		ewtb.r.037794.4
+6	asked	ask	VBD	Ī	5	_		ewtb.r.037794.4
+7	how	how	WRB	O	0			ewtb.r.037794.4
+8	the	the	DT	O	0			ewtb.r.037794.4
+9	food	food	NN	B-social	0		social	ewtb.r.037794.4
+10	was	be	VBD	Ī	9	_		ewtb.r.037794.4
+11	.	.	.	O	0			ewtb.r.037794.4
+
+1	Cute	cute	JJ	O	0			ewtb.r.037794.5
+2	place	place	NN	O	0			ewtb.r.037794.5
+3	also	also	RB	O	0			ewtb.r.037794.5
+
+1	The	the	DT	O	0			ewtb.r.039173.1
+2	waiting	waiting	NN	B-social	0		social	ewtb.r.039173.1
+3	staff	staff	NN	Ī	2	_		ewtb.r.039173.1
+4	is	be	VBZ	Ī	3	_		ewtb.r.039173.1
+5	really	really	RB	O	0			ewtb.r.039173.1
+6	friendly	friendly	JJ	O	0			ewtb.r.039173.1
+7	,	,	,	O	0			ewtb.r.039173.1
+8	it	it	PRP	O	0			ewtb.r.039173.1
+9	s	s	VBZ	B-social	0		social	ewtb.r.039173.1
+10	like	like	IN	Ī	9	_		ewtb.r.039173.1
+11	every	every	DT	Ī	10	_		ewtb.r.039173.1
+12	one	one	NN	Ī	11	_		ewtb.r.039173.1
+13	knows	know	VBZ	Ī	12	_		ewtb.r.039173.1
+14	each	each	DT	O	0			ewtb.r.039173.1
+15	other	other	JJ	O	0			ewtb.r.039173.1
+16	,	,	,	O	0			ewtb.r.039173.1
+17	the	the	DT	O	0			ewtb.r.039173.1
+18	manager	manager	NN	B-social	0		social	ewtb.r.039173.1
+19	is	be	VBZ	Ī	18	_		ewtb.r.039173.1
+20	really	really	RB	Ī	19	_		ewtb.r.039173.1
+21	sweet	sweet	JJ	Ī	20	_		ewtb.r.039173.1
+22	and	and	CC	O	0			ewtb.r.039173.1
+23	the	the	DT	O	0			ewtb.r.039173.1
+24	food	food	NN	O-FOOD	0		FOOD	ewtb.r.039173.1
+25	..	..	,	O	0			ewtb.r.039173.1
+26	well	well	UH	B-social	0		social	ewtb.r.039173.1
+27	no	no	DT	Ī	26	_		ewtb.r.039173.1
+28	complaints	complaint	NNS	Ī	27	_		ewtb.r.039173.1
+29	from	from	IN	O	0			ewtb.r.039173.1
+30	me	me	PRP	O	0			ewtb.r.039173.1
+31	.	.	.	O	0			ewtb.r.039173.1
+
+1	Yes	yes	UH	O	0			ewtb.r.039173.2
+2	,	,	,	O	0			ewtb.r.039173.2
+3	it	it	PRP	O	0			ewtb.r.039173.2
+4	s	s	VBZ	O-stative	0		stative	ewtb.r.039173.2
+5	that	that	RB	O	0			ewtb.r.039173.2
+6	good	good	JJ	O	0			ewtb.r.039173.2
+7	.	.	.	O	0			ewtb.r.039173.2
+
+1	HORRIBLE	horrible	JJ	O	0			ewtb.r.039856.1
+2	SERVICE	service	NN	O	0			ewtb.r.039856.1
+3	!!!	!!!	.	O	0			ewtb.r.039856.1
+
+1	Absolute	absolute	RB	O	0			ewtb.r.039856.2
+2	horrible	horrible	JJ	O	0			ewtb.r.039856.2
+3	service	service	NN	O	0			ewtb.r.039856.2
+4	from	from	IN	O	0			ewtb.r.039856.2
+5	the	the	DT	O	0			ewtb.r.039856.2
+6	parts	parts	NNS	B-social	0		social	ewtb.r.039856.2
+7	department	department	NN	Ī	6	_		ewtb.r.039856.2
+8	.	.	.	O	0			ewtb.r.039856.2
+
+1	They	they	PRP	O	0			ewtb.r.039856.3
+2	are	be	VBP	O-stative	0		stative	ewtb.r.039856.3
+3	very	very	RB	O	0			ewtb.r.039856.3
+4	rude	rude	JJ	O	0			ewtb.r.039856.3
+5	over	over	IN	O	0			ewtb.r.039856.3
+6	the	the	DT	O	0			ewtb.r.039856.3
+7	phone	phone	NN	B-social	0		social	ewtb.r.039856.3
+8	and	and	CC	Ī	7	_		ewtb.r.039856.3
+9	in	in	IN	Ī	8	_		ewtb.r.039856.3
+10	person	person	NN	Ī	9	_		ewtb.r.039856.3
+11	.	.	.	O	0			ewtb.r.039856.3
+
+1	They	they	PRP	O	0			ewtb.r.039856.4
+2	talk	talk	VBP	B-social	0		social	ewtb.r.039856.4
+3	down	down	RB	Ī	2	_		ewtb.r.039856.4
+4	to	to	IN	O	0			ewtb.r.039856.4
+5	you	you	PRP	O	0			ewtb.r.039856.4
+6	like	like	IN	O	0			ewtb.r.039856.4
+7	they	they	PRP	O	0			ewtb.r.039856.4
+8	are	be	VBP	B-social	0		social	ewtb.r.039856.4
+9	supreme	supreme	JJ	Ī	8	_		ewtb.r.039856.4
+10	beings	being	NNS	Ī	9	_		ewtb.r.039856.4
+11	,	,	,	O	0			ewtb.r.039856.4
+12	if	if	IN	O	0			ewtb.r.039856.4
+13	you	you	PRP	O	0			ewtb.r.039856.4
+14	hate	hate	VBP	B-social	0		social	ewtb.r.039856.4
+15	your	your	PRP$	Ī	14	_		ewtb.r.039856.4
+16	job	job	NN	Ī	15	_		ewtb.r.039856.4
+17	so	so	RB	Ī	16	_		ewtb.r.039856.4
+18	much	much	RB	Ī	17	_		ewtb.r.039856.4
+19	then	then	RB	Ī	18	_		ewtb.r.039856.4
+20	quit	quit	VB	Ī	19	_		ewtb.r.039856.4
+21	!!	!!	.	O	0			ewtb.r.039856.4
+
+1	How	how	WRB	O	0			ewtb.r.039856.5
+2	these	these	DT	O	0			ewtb.r.039856.5
+3	guys	guy	NNS	B-social	0		social	ewtb.r.039856.5
+4	can	can	MD	Ī	3	_		ewtb.r.039856.5
+5	get	get	VB	Ī	4	_		ewtb.r.039856.5
+6	away	away	RB	Ī	5	_		ewtb.r.039856.5
+7	with	with	IN	Ī	6	_		ewtb.r.039856.5
+8	being	be	VBG	Ī	7	_		ewtb.r.039856.5
+9	so	so	RB	Ī	8	_		ewtb.r.039856.5
+10	rude	rude	JJ	Ī	9	_		ewtb.r.039856.5
+11	with	with	IN	Ī	10	_		ewtb.r.039856.5
+12	people	person	NNS	Ī	11	_		ewtb.r.039856.5
+13	is	be	VBZ	Ī	12	_		ewtb.r.039856.5
+14	mind	mind	NN	Ī	13	_		ewtb.r.039856.5
+15	blowing	blow	VBG	Ī	14	_		ewtb.r.039856.5
+16	.	.	.	O	0			ewtb.r.039856.5
+
+1	I	i	PRP	O	0			ewtb.r.039856.6
+2	will	will	MD	O	0			ewtb.r.039856.6
+3	NEVER	never	RB	O	0			ewtb.r.039856.6
+4	do	do	VB	B-social	0		social	ewtb.r.039856.6
+5	business	business	NN	Ī	4	_		ewtb.r.039856.6
+6	with	with	IN	O	0			ewtb.r.039856.6
+7	Sun	sun	NNP	O	0			ewtb.r.039856.6
+8	Toyota	toyota	NNP	O	0			ewtb.r.039856.6
+9	again	again	RB	O	0			ewtb.r.039856.6
+10	.	.	.	O	0			ewtb.r.039856.6
+
+1	Thank	thank	VBP	B-social	0		social	ewtb.r.039856.7
+2	god	god	NNP	Ī	1	_		ewtb.r.039856.7
+3	there	there	EX	Ī	2	_		ewtb.r.039856.7
+4	are	be	VBP	Ī	3	_		ewtb.r.039856.7
+5	plenty	plenty	NN	Ī	4	_		ewtb.r.039856.7
+6	of	of	IN	Ī	5	_		ewtb.r.039856.7
+7	Toyota	toyota	NNP	Ī	6	_		ewtb.r.039856.7
+8	dealerships	dealership	NNS	Ī	7	_		ewtb.r.039856.7
+9	to	to	TO	Ī	8	_		ewtb.r.039856.7
+10	choose	choose	VB	Ī	9	_		ewtb.r.039856.7
+11	from	from	IN	O	0			ewtb.r.039856.7
+12	in	in	IN	O	0			ewtb.r.039856.7
+13	this	this	DT	O	0			ewtb.r.039856.7
+14	city	city	NN	O	0			ewtb.r.039856.7
+15	.	.	.	O	0			ewtb.r.039856.7
+
+1	we	we	PRP	O	0			ewtb.r.040616.1
+2	purchased	purchase	VBD	B-social	0		social	ewtb.r.040616.1
+3	a	a	DT	Ī	2	_		ewtb.r.040616.1
+4	new	new	JJ	Ī	3	_		ewtb.r.040616.1
+5	home	home	NN	Ī	4	_		ewtb.r.040616.1
+6	but	but	CC	O	0			ewtb.r.040616.1
+7	was	be	VBD	O-stative	0		stative	ewtb.r.040616.1
+8	unable	unable	JJ	O	0			ewtb.r.040616.1
+9	to	to	TO	O	0			ewtb.r.040616.1
+10	sell	sell	VB	B-social	0		social	ewtb.r.040616.1
+11	our	our	PRP$	Ī	10	_		ewtb.r.040616.1
+12	old	old	JJ	Ī	11	_		ewtb.r.040616.1
+13	house	house	NN	Ī	12	_		ewtb.r.040616.1
+14	so	so	RB	Ī	13	_		ewtb.r.040616.1
+15	we	we	PRP	Ī	14	_		ewtb.r.040616.1
+16	contacted	contact	VBD	Ī	15	_		ewtb.r.040616.1
+17	this	this	DT	O	0			ewtb.r.040616.1
+18	property	property	NN	B-social	0		social	ewtb.r.040616.1
+19	management	management	NN	Ī	18	_		ewtb.r.040616.1
+20	company	company	NN	Ī	19	_		ewtb.r.040616.1
+21	and	and	CC	O	0			ewtb.r.040616.1
+22	they	they	PRP	O	0			ewtb.r.040616.1
+23	have	have	VBP	B-social	0		social	ewtb.r.040616.1
+24	helped	help	VBN	Ī	23	_		ewtb.r.040616.1
+25	us	us	PRP	Ī	24	_		ewtb.r.040616.1
+26	quickly	quickly	RB	O	0			ewtb.r.040616.1
+27	rent	rent	VB	B-social	0		social	ewtb.r.040616.1
+28	out	out	RP	Ī	27	_		ewtb.r.040616.1
+29	our	our	PRP$	Ī	28	_		ewtb.r.040616.1
+30	house	house	NN	Ī	29	_		ewtb.r.040616.1
+31	and	and	CC	Ī	30	_		ewtb.r.040616.1
+32	keep	keep	VB	Ī	31	_		ewtb.r.040616.1
+33	it	it	PRP	Ī	32	_		ewtb.r.040616.1
+34	maintained	maintain	VBN	Ī	33	_		ewtb.r.040616.1
+35	.	.	.	O	0			ewtb.r.040616.1
+
+1	Since	since	IN	O	0			ewtb.r.040616.2
+2	then	then	RB	O	0			ewtb.r.040616.2
+3	we	we	PRP	O	0			ewtb.r.040616.2
+4	have	have	VBP	B-social	0		social	ewtb.r.040616.2
+5	decided	decide	VBN	Ī	4	_		ewtb.r.040616.2
+6	to	to	TO	Ī	5	_		ewtb.r.040616.2
+7	have	have	VB	Ī	6	_		ewtb.r.040616.2
+8	them	them	PRP	O	0			ewtb.r.040616.2
+9	manage	manage	VB	B-social	0		social	ewtb.r.040616.2
+10	our	our	PRP$	Ī	9	_		ewtb.r.040616.2
+11	other	other	JJ	Ī	10	_		ewtb.r.040616.2
+12	investment	investment	NN	Ī	11	_		ewtb.r.040616.2
+13	properties	property	NNS	Ī	12	_		ewtb.r.040616.2
+14	as	as	RB	Ī	13	_		ewtb.r.040616.2
+15	well	well	RB	Ī	14	_		ewtb.r.040616.2
+16	as	as	IN	Ī	15	_		ewtb.r.040616.2
+17	we	we	PRP	O	0			ewtb.r.040616.2
+18	getting	get	VBG	B-social	0		social	ewtb.r.040616.2
+19	older	older	JJR	Ī	18	_		ewtb.r.040616.2
+20	and	and	CC	Ī	19	_		ewtb.r.040616.2
+21	can	can	MD	Ī	20	_		ewtb.r.040616.2
+22	no	no	RB	Ī	21	_		ewtb.r.040616.2
+23	longer	longer	RBR	Ī	22	_		ewtb.r.040616.2
+24	perform	perform	VB	Ī	23	_		ewtb.r.040616.2
+25	all	all	PDT	O	0			ewtb.r.040616.2
+26	the	the	DT	O	0			ewtb.r.040616.2
+27	inquires	inquires	NNS	O	0			ewtb.r.040616.2
+28	.	.	.	O	0			ewtb.r.040616.2
+
+1	Great	great	JJ	B-social	0		social	ewtb.r.040616.3
+2	help	help	NN	Ī	1	_		ewtb.r.040616.3
+3	!	!	.	O	0			ewtb.r.040616.3
+
+1	Ca	ca	MD	O	0			ewtb.r.042416.1
+2	n't	n't	RB	O	0			ewtb.r.042416.1
+3	wait	wait	VB	B-social	0		social	ewtb.r.042416.1
+4	to	to	TO	Ī	3	_		ewtb.r.042416.1
+5	go	go	VB	Ī	4	_		ewtb.r.042416.1
+6	back	back	RB	Ī	5	_		ewtb.r.042416.1
+7	!!!	!!!	.	O	0			ewtb.r.042416.1
+
+1	This	this	DT	O	0			ewtb.r.042416.2
+2	is	be	VBZ	B-social	0		social	ewtb.r.042416.2
+3	by	by	IN	Ī	2	_		ewtb.r.042416.2
+4	far	far	RB	Ī	3	_		ewtb.r.042416.2
+5	the	the	DT	O	0			ewtb.r.042416.2
+6	BEST	best	JJS	O	0			ewtb.r.042416.2
+7	B&B	b&b	NN	O	0			ewtb.r.042416.2
+8	that	that	WDT	O	0			ewtb.r.042416.2
+9	we	we	PRP	O	0			ewtb.r.042416.2
+10	have	have	VBP	B-social	0		social	ewtb.r.042416.2
+11	ever	ever	RB	Ī	10	_		ewtb.r.042416.2
+12	stayed	stay	VBN	Ī	11	_		ewtb.r.042416.2
+13	at	at	IN	Ī	12	_		ewtb.r.042416.2
+14	!	!	.	O	0			ewtb.r.042416.2
+
+1	We	we	PRP	O	0			ewtb.r.042416.3
+2	were	be	VBD	B-social	0		social	ewtb.r.042416.3
+3	in	in	IN	Ī	2	_		ewtb.r.042416.3
+4	Santa	santa	NNP	Ī	3	_		ewtb.r.042416.3
+5	Fe	fe	NNP	Ī	4	_		ewtb.r.042416.3
+6	for	for	IN	Ī	5	_		ewtb.r.042416.3
+7	a	a	DT	Ī	6	_		ewtb.r.042416.3
+8	special	special	JJ	Ī	7	_		ewtb.r.042416.3
+9	event	event	NN	Ī	8	_		ewtb.r.042416.3
+10	and	and	CC	O	0			ewtb.r.042416.3
+11	our	our	PRP$	O	0			ewtb.r.042416.3
+12	hosts	host	NNS	B-social	0		social	ewtb.r.042416.3
+13	rented	rent	VBD	Ī	12	_		ewtb.r.042416.3
+14	out	out	RP	Ī	13	_		ewtb.r.042416.3
+15	the	the	DT	O	0			ewtb.r.042416.3
+16	El	el	NNP	O	0			ewtb.r.042416.3
+17	Paradero	paradero	NNP	O	0			ewtb.r.042416.3
+18	for	for	IN	O	0			ewtb.r.042416.3
+19	all	all	PDT	O	0			ewtb.r.042416.3
+20	their	their	PRP$	O	0			ewtb.r.042416.3
+21	guests	guest	NNS	O	0			ewtb.r.042416.3
+22	to	to	TO	O	0			ewtb.r.042416.3
+23	stay	stay	VB	B-social	0		social	ewtb.r.042416.3
+24	at	at	IN	Ī	23	_		ewtb.r.042416.3
+25	.	.	.	O	0			ewtb.r.042416.3
+
+1	We	we	PRP	O	0			ewtb.r.042416.4
+2	could	could	MD	O	0			ewtb.r.042416.4
+3	not	not	RB	O	0			ewtb.r.042416.4
+4	have	have	VB	B-social	0		social	ewtb.r.042416.4
+5	been	be	VBN	Ī	4	_		ewtb.r.042416.4
+6	more	more	RBR	Ī	5	_		ewtb.r.042416.4
+7	welcomed	welcome	VBN	Ī	6	_		ewtb.r.042416.4
+8	,	,	,	O	0			ewtb.r.042416.4
+9	more	more	RBR	B-social	0		social	ewtb.r.042416.4
+10	comfortable	comfortable	JJ	Ī	9	_		ewtb.r.042416.4
+11	or	or	CC	Ī	10	_		ewtb.r.042416.4
+12	more	more	RBR	Ī	11	_		ewtb.r.042416.4
+13	well	well	RB	Ī	12	_		ewtb.r.042416.4
+14	fed	feed	VBN	Ī	13	_		ewtb.r.042416.4
+15	.	.	.	O	0			ewtb.r.042416.4
+
+1	The	the	DT	O	0			ewtb.r.042416.5
+2	weekend	weekend	NN	B-social	0		social	ewtb.r.042416.5
+3	was	be	VBD	Ī	2	_		ewtb.r.042416.5
+4	perfect	perfect	JJ	Ī	3	_		ewtb.r.042416.5
+5	in	in	IN	Ī	4	_		ewtb.r.042416.5
+6	every	every	DT	Ī	5	_		ewtb.r.042416.5
+7	way	way	NN	Ī	6	_		ewtb.r.042416.5
+8	,	,	,	O	0			ewtb.r.042416.5
+9	in	in	IN	O	0			ewtb.r.042416.5
+10	large	large	JJ	B-social	0		social	ewtb.r.042416.5
+11	part	part	NN	Ī	10	_		ewtb.r.042416.5
+12	to	to	IN	O	0			ewtb.r.042416.5
+13	Sue	sue	NNP	O	0			ewtb.r.042416.5
+14	and	and	CC	O	0			ewtb.r.042416.5
+15	her	her	PRP$	O	0			ewtb.r.042416.5
+16	great	great	JJ	B-social	0		social	ewtb.r.042416.5
+17	staff	staff	NN	Ī	16	_		ewtb.r.042416.5
+18	.	.	.	O	0			ewtb.r.042416.5
+
+1	Everyone	everyone	NN	O	0			ewtb.r.042416.6
+2	was	be	VBD	B-social	0		social	ewtb.r.042416.6
+3	so	so	RB	Ī	2	_		ewtb.r.042416.6
+4	friendly	friendly	JJ	Ī	3	_		ewtb.r.042416.6
+5	and	and	CC	O	0			ewtb.r.042416.6
+6	really	really	RB	O	0			ewtb.r.042416.6
+7	went	go	VBD	B-social	0		social	ewtb.r.042416.6
+8	out	out	IN	Ī	7	_		ewtb.r.042416.6
+9	of	of	IN	Ī	8	_		ewtb.r.042416.6
+10	their	their	PRP$	Ī	9	_		ewtb.r.042416.6
+11	way	way	NN	Ī	10	_		ewtb.r.042416.6
+12	to	to	TO	O	0			ewtb.r.042416.6
+13	make	make	VB	B-social	0		social	ewtb.r.042416.6
+14	sure	sure	JJ	Ī	13	_		ewtb.r.042416.6
+15	everything	everything	NN	Ī	14	_		ewtb.r.042416.6
+16	went	go	VBD	Ī	15	_		ewtb.r.042416.6
+17	well	well	RB	Ī	16	_		ewtb.r.042416.6
+18	.	.	.	O	0			ewtb.r.042416.6
+
+1	We	we	PRP	O	0			ewtb.r.042416.7
+2	can	can	MD	B-social	0		social	ewtb.r.042416.7
+3	not	not	RB	Ī	2	_		ewtb.r.042416.7
+4	wait	wait	VB	Ī	3	_		ewtb.r.042416.7
+5	to	to	TO	O	0			ewtb.r.042416.7
+6	go	go	VB	B-social	0		social	ewtb.r.042416.7
+7	back	back	RB	Ī	6	_		ewtb.r.042416.7
+8	to	to	IN	O	0			ewtb.r.042416.7
+9	Santa	santa	NNP	B-social	0		social	ewtb.r.042416.7
+10	Fe	fe	NNP	Ī	9	_		ewtb.r.042416.7
+11	and	and	CC	O	0			ewtb.r.042416.7
+12	to	to	IN	O	0			ewtb.r.042416.7
+13	this	this	DT	O	0			ewtb.r.042416.7
+14	great	great	JJ	O	0			ewtb.r.042416.7
+15	B&B	b&b	NN	O	0			ewtb.r.042416.7
+16	...	...	,	O	0			ewtb.r.042416.7
+17	especially	especially	RB	O	0			ewtb.r.042416.7
+18	my	my	PRP$	O	0			ewtb.r.042416.7
+19	4	4	CD	B-social	0		social	ewtb.r.042416.7
+20	year	year	NN	Ī	19	_		ewtb.r.042416.7
+21	old	old	JJ	Ī	20	_		ewtb.r.042416.7
+22	,	,	,	O	0			ewtb.r.042416.7
+23	who	who	WP	O	0			ewtb.r.042416.7
+24	made	make	VBD	B-social	0		social	ewtb.r.042416.7
+25	friends	friend	NNS	Ī	24	_		ewtb.r.042416.7
+26	with	with	IN	Ī	25	_		ewtb.r.042416.7
+27	Ms.	ms.	NNP	Ī	26	_		ewtb.r.042416.7
+28	Sue	sue	NNP	Ī	27	_		ewtb.r.042416.7
+29	and	and	CC	O	0			ewtb.r.042416.7
+30	all	all	PDT	O	0			ewtb.r.042416.7
+31	the	the	DT	O	0			ewtb.r.042416.7
+32	ladies	lady	NNS	O	0			ewtb.r.042416.7
+33	,	,	,	O	0			ewtb.r.042416.7
+34	and	and	CC	O	0			ewtb.r.042416.7
+35	has	have	VBZ	B-social	0		social	ewtb.r.042416.7
+36	talked	talk	VBN	Ī	35	_		ewtb.r.042416.7
+37	about	about	IN	O	0			ewtb.r.042416.7
+38	them	them	PRP	O	0			ewtb.r.042416.7
+39	since	since	IN	O	0			ewtb.r.042416.7
+40	we	we	PRP	O	0			ewtb.r.042416.7
+41	left	leave	VBD	O-possession	0		possession	ewtb.r.042416.7
+42	!	!	.	O	0			ewtb.r.042416.7
+
+1	We	we	PRP	O	0			ewtb.r.042416.8
+2	would	would	MD	O	0			ewtb.r.042416.8
+3	highly	highly	RB	O	0			ewtb.r.042416.8
+4	recommend	recommend	VB	O	0			ewtb.r.042416.8
+5	the	the	DT	O	0			ewtb.r.042416.8
+6	El	el	NNP	O	0			ewtb.r.042416.8
+7	Paradero	paradero	NNP	O	0			ewtb.r.042416.8
+8	on	on	IN	O	0			ewtb.r.042416.8
+9	your	your	PRP$	O	0			ewtb.r.042416.8
+10	next	next	JJ	O	0			ewtb.r.042416.8
+11	trip	trip	NN	O	0			ewtb.r.042416.8
+12	to	to	IN	O	0			ewtb.r.042416.8
+13	Santa	santa	NNP	O	0			ewtb.r.042416.8
+14	Fe	fe	NNP	O	0			ewtb.r.042416.8
+15	!	!	.	O	0			ewtb.r.042416.8
+
+1	Compare	compare	VBN	B-social	0		social	ewtb.r.045753.1
+2	to	to	IN	Ī	1	_		ewtb.r.045753.1
+3	last	last	JJ	Ī	2	_		ewtb.r.045753.1
+4	decade	decade	NN	Ī	3	_		ewtb.r.045753.1
+5	this	this	DT	O	0			ewtb.r.045753.1
+6	University	university	NNP	B-social	0		social	ewtb.r.045753.1
+7	is	be	VBZ	Ī	6	_		ewtb.r.045753.1
+8	gaining	gain	VBG	Ī	7	_		ewtb.r.045753.1
+9	more	more	JJR	Ī	8	_		ewtb.r.045753.1
+10	prestige	prestige	NN	Ī	9	_		ewtb.r.045753.1
+11	in	in	IN	Ī	10	_		ewtb.r.045753.1
+12	International	international	JJ	Ī	11	_		ewtb.r.045753.1
+13	level	level	NN	Ī	12	_		ewtb.r.045753.1
+
+1	Lovely	lovely	JJ	O	0			ewtb.r.048198.1
+2	Cottage	cottage	NN	O	0			ewtb.r.048198.1
+
+1	This	this	DT	O	0			ewtb.r.048198.2
+2	cottage	cottage	NN	B-social	0		social	ewtb.r.048198.2
+3	is	be	VBZ	Ī	2	_		ewtb.r.048198.2
+4	a	a	DT	Ī	3	_		ewtb.r.048198.2
+5	charming	charming	JJ	Ī	4	_		ewtb.r.048198.2
+6	homely	homely	JJ	O	0			ewtb.r.048198.2
+7	,	,	,	O	0			ewtb.r.048198.2
+8	friendly	friendly	JJ	O	0			ewtb.r.048198.2
+9	,	,	,	O	0			ewtb.r.048198.2
+10	place	place	NN	O	0			ewtb.r.048198.2
+11	to	to	TO	O	0			ewtb.r.048198.2
+12	stay	stay	VB	O	0			ewtb.r.048198.2
+13	.	.	.	O	0			ewtb.r.048198.2
+
+1	Mary	mary	NNP	O	0			ewtb.r.048198.3
+2	is	be	VBZ	B-social	0		social	ewtb.r.048198.3
+3	an	an	DT	Ī	2	_		ewtb.r.048198.3
+4	excellent	excellent	JJ	Ī	3	_		ewtb.r.048198.3
+5	host	host	NN	Ī	4	_		ewtb.r.048198.3
+6	who	who	WP	Ī	5	_		ewtb.r.048198.3
+7	does	do	VBZ	Ī	6	_		ewtb.r.048198.3
+8	yummy	yummy	JJ	O	0			ewtb.r.048198.3
+9	breakfasts	breakfast	NNS	O	0			ewtb.r.048198.3
+10	.	.	.	O	0			ewtb.r.048198.3
+
+1	My	my	PRP$	O	0			ewtb.r.048198.4
+2	room	room	NN	B-social	0		social	ewtb.r.048198.4
+3	was	be	VBD	Ī	2	_		ewtb.r.048198.4
+4	delightful	delightful	JJ	O	0			ewtb.r.048198.4
+5	and	and	CC	O	0			ewtb.r.048198.4
+6	the	the	DT	O	0			ewtb.r.048198.4
+7	attention	attention	NN	B-social	0		social	ewtb.r.048198.4
+8	to	to	IN	Ī	7	_		ewtb.r.048198.4
+9	detail	detail	NN	Ī	8	_		ewtb.r.048198.4
+10	was	be	VBD	Ī	9	_		ewtb.r.048198.4
+11	amazing	amazing	JJ	Ī	10	_		ewtb.r.048198.4
+12	.	.	.	O	0			ewtb.r.048198.4
+
+1	Will	will	MD	B-social	0		social	ewtb.r.048198.5
+2	come	come	VB	Ī	1	_		ewtb.r.048198.5
+3	again	again	RB	O	0			ewtb.r.048198.5
+4	!	!	.	O	0			ewtb.r.048198.5
+
+1	Sophie	sophie	NNP	O	0			ewtb.r.048198.6
+2	.	.	.	O	0			ewtb.r.048198.6
+
+1	Bad	bad	JJ	B-social	0		social	ewtb.r.052836.1
+2	food	food	NN	Ī	1	_		ewtb.r.052836.1
+3	and	and	CC	Ī	2	_		ewtb.r.052836.1
+4	bad	bad	JJ	Ī	3	_		ewtb.r.052836.1
+5	service	service	NN	Ī	4	_		ewtb.r.052836.1
+6	!	!	.	O	0			ewtb.r.052836.1
+
+1	Save	save	VB	O	0			ewtb.r.052836.2
+2	yourself	yourself	PRP	O	0			ewtb.r.052836.2
+3	a	a	DT	B-social	0		social	ewtb.r.052836.2
+4	trip	trip	NN	Ī	3	_		ewtb.r.052836.2
+5	!	!	.	O	0			ewtb.r.052836.2
+
+1	I	i	PRP	O	0			ewtb.r.054496.1
+2	just	just	RB	O	0			ewtb.r.054496.1
+3	like	like	VBP	O	0			ewtb.r.054496.1
+4	the	the	DT	O	0			ewtb.r.054496.1
+5	fact	fact	NN	B-social	0		social	ewtb.r.054496.1
+6	that	that	IN	Ī	5	_		ewtb.r.054496.1
+7	he	he	PRP	Ī	6	_		ewtb.r.054496.1
+8	was	be	VBD	Ī	7	_		ewtb.r.054496.1
+9	able	able	JJ	O	0			ewtb.r.054496.1
+10	to	to	TO	O	0			ewtb.r.054496.1
+11	do	do	VB	B-social	0		social	ewtb.r.054496.1
+12	the	the	DT	Ī	11	_		ewtb.r.054496.1
+13	specific	specific	JJ	Ī	12	_		ewtb.r.054496.1
+14	type	type	NN	Ī	13	_		ewtb.r.054496.1
+15	of	of	IN	Ī	14	_		ewtb.r.054496.1
+16	repair	repair	NN	Ī	15	_		ewtb.r.054496.1
+17	I	i	PRP	Ī	16	_		ewtb.r.054496.1
+18	wanted	want	VBD	Ī	17	_		ewtb.r.054496.1
+19	(	(	-LRB-	O	0			ewtb.r.054496.1
+20	a	a	DT	O	0			ewtb.r.054496.1
+21	reball	reball	NN	O	0			ewtb.r.054496.1
+22	)	)	-RRB-	O	0			ewtb.r.054496.1
+23	and	and	CC	O	0			ewtb.r.054496.1
+24	give	give	VB	B-social	0		social	ewtb.r.054496.1
+25	me	me	PRP	Ī	24	_		ewtb.r.054496.1
+26	the	the	DT	O	0			ewtb.r.054496.1
+27	longest	long	JJS	B-social	0		social	ewtb.r.054496.1
+28	warranty	warranty	NN	Ī	27	_		ewtb.r.054496.1
+29	and	and	CC	Ī	28	_		ewtb.r.054496.1
+30	even	even	RB	Ī	29	_		ewtb.r.054496.1
+31	a	a	DT	Ī	30	_		ewtb.r.054496.1
+32	lower	low	JJR	Ī	31	_		ewtb.r.054496.1
+33	price	price	NN	Ī	32	_		ewtb.r.054496.1
+34	.	.	.	O	0			ewtb.r.054496.1
+
+1	Someone	someone	NN	O	0			ewtb.r.054496.2
+2	else	else	JJ	O	0			ewtb.r.054496.2
+3	I	i	PRP	O	0			ewtb.r.054496.2
+4	found	find	VBD	B-social	0		social	ewtb.r.054496.2
+5	that	that	WDT	Ī	4	_		ewtb.r.054496.2
+6	said	say	VBD	Ī	5	_		ewtb.r.054496.2
+7	they	they	PRP	O	0			ewtb.r.054496.2
+8	could	could	MD	O	0			ewtb.r.054496.2
+9	do	do	VB	B-social	0		social	ewtb.r.054496.2
+10	it	it	PRP	Ī	9	_		ewtb.r.054496.2
+11	but	but	CC	Ī	10	_		ewtb.r.054496.2
+12	wanted	want	VBD	Ī	11	_		ewtb.r.054496.2
+13	to	to	TO	O	0			ewtb.r.054496.2
+14	charge	charge	VB	B-social	0		social	ewtb.r.054496.2
+15	me	me	PRP	Ī	14	_		ewtb.r.054496.2
+16	more	more	JJR	Ī	15	_		ewtb.r.054496.2
+17	and	and	CC	Ī	16	_		ewtb.r.054496.2
+18	give	give	VB	Ī	17	_		ewtb.r.054496.2
+19	me	me	PRP	Ī	18	_		ewtb.r.054496.2
+20	less	less	JJR	Ī	19	_		ewtb.r.054496.2
+21	warranty	warranty	NN	Ī	20	_		ewtb.r.054496.2
+22	.	.	.	O	0			ewtb.r.054496.2
+
+1	It	it	PRP	O	0			ewtb.r.054496.3
+2	was	be	VBD	B-social	0		social	ewtb.r.054496.3
+3	a	a	DT	Ī	2	_		ewtb.r.054496.3
+4	no	no	NN	Ī	3	_		ewtb.r.054496.3
+5	brainer	brainer	NN	Ī	4	_		ewtb.r.054496.3
+6	really	really	RB	O	0			ewtb.r.054496.3
+7	.	.	.	O	0			ewtb.r.054496.3
+
+1	I	i	PRP	O	0			ewtb.r.054496.4
+2	choose	choose	VBP	B-social	0		social	ewtb.r.054496.4
+3	Console	console	NNP	Ī	2	_		ewtb.r.054496.4
+4	Pros	pros	NNPS	O	0			ewtb.r.054496.4
+5	and	and	CC	O	0			ewtb.r.054496.4
+6	I	i	PRP	O	0			ewtb.r.054496.4
+7	'm	'm	VBP	O	0			ewtb.r.054496.4
+8	happy	happy	JJ	O	0			ewtb.r.054496.4
+9	I	i	PRP	B-social	0		social	ewtb.r.054496.4
+10	did	do	VBD	Ī	9	_		ewtb.r.054496.4
+11	.	.	.	O	0			ewtb.r.054496.4
+
+1	The	the	DT	O	0			ewtb.r.055976.1
+2	staff	staff	NN	B-social	0		social	ewtb.r.055976.1
+3	leaves	leave	VBZ	Ī	2	_		ewtb.r.055976.1
+4	a	a	DT	O	0			ewtb.r.055976.1
+5	lot	lot	NN	B-social	0		social	ewtb.r.055976.1
+6	to	to	TO	Ī	5	_		ewtb.r.055976.1
+7	be	be	VB	Ī	6	_		ewtb.r.055976.1
+8	desired	desire	VBN	Ī	7	_		ewtb.r.055976.1
+9	.	.	.	O	0			ewtb.r.055976.1
+
+1	The	the	DT	O	0			ewtb.r.055976.2
+2	front	front	NN	B-social	0		social	ewtb.r.055976.2
+3	staff	staff	NN	Ī	2	_		ewtb.r.055976.2
+4	has	have	VBZ	Ī	3	_		ewtb.r.055976.2
+5	seen	see	VBN	Ī	4	_		ewtb.r.055976.2
+6	quite	quite	PDT	O	0			ewtb.r.055976.2
+7	a	a	DT	O	0			ewtb.r.055976.2
+8	bit	bit	NN	B-social	0		social	ewtb.r.055976.2
+9	of	of	IN	Ī	8	_		ewtb.r.055976.2
+10	turnover	turnover	NN	Ī	9	_		ewtb.r.055976.2
+11	and	and	CC	Ī	10	_		ewtb.r.055976.2
+12	changed	change	VBN	Ī	11	_		ewtb.r.055976.2
+13	from	from	IN	O	0			ewtb.r.055976.2
+14	professional	professional	JJ	O	0			ewtb.r.055976.2
+15	to	to	IN	O	0			ewtb.r.055976.2
+16	rude	rude	JJ	O	0			ewtb.r.055976.2
+17	.	.	.	O	0			ewtb.r.055976.2
+
+1	A	a	DT	O	0			ewtb.r.055976.3
+2	simple	simple	JJ	B-social	0		social	ewtb.r.055976.3
+3	follow	follow	VB	Ī	2	_		ewtb.r.055976.3
+4	-	-	HYPH	Ī	3	_		ewtb.r.055976.3
+5	up	up	RP	Ī	4	_		ewtb.r.055976.3
+6	phone	phone	NN	Ī	5	_		ewtb.r.055976.3
+7	call	call	NN	Ī	6	_		ewtb.r.055976.3
+8	with	with	IN	Ī	7	_		ewtb.r.055976.3
+9	a	a	DT	Ī	8	_		ewtb.r.055976.3
+10	woman	woman	NN	Ī	9	_		ewtb.r.055976.3
+11	quickly	quickly	RB	O	0			ewtb.r.055976.3
+12	turned	turn	VBD	B-social	0		social	ewtb.r.055976.3
+13	into	into	IN	Ī	12	_		ewtb.r.055976.3
+14	a	a	DT	Ī	13	_		ewtb.r.055976.3
+15	nightmare	nightmare	NN	Ī	14	_		ewtb.r.055976.3
+16	.	.	.	O	0			ewtb.r.055976.3
+
+1	She	she	PRP	O	0			ewtb.r.055976.4
+2	may	may	MD	B-social	0		social	ewtb.r.055976.4
+3	be	be	VB	Ī	2	_		ewtb.r.055976.4
+4	the	the	DT	Ī	3	_		ewtb.r.055976.4
+5	reason	reason	NN	Ī	4	_		ewtb.r.055976.4
+6	for	for	IN	O	0			ewtb.r.055976.4
+7	all	all	PDT	O	0			ewtb.r.055976.4
+8	the	the	DT	O	0			ewtb.r.055976.4
+9	change	change	NN	O	0			ewtb.r.055976.4
+10	.	.	.	O	0			ewtb.r.055976.4
+
+1	I	i	PRP	O	0			ewtb.r.055976.5
+2	sincerely	sincerely	RB	O	0			ewtb.r.055976.5
+3	wonder	wonder	VBP	O	0			ewtb.r.055976.5
+4	if	if	IN	O	0			ewtb.r.055976.5
+5	the	the	DT	O	0			ewtb.r.055976.5
+6	doctor	doctor	NN	B-social	0		social	ewtb.r.055976.5
+7	has	have	VBZ	Ī	6	_		ewtb.r.055976.5
+8	a	a	DT	Ī	7	_		ewtb.r.055976.5
+9	clue	clue	NN	Ī	8	_		ewtb.r.055976.5
+10	about	about	IN	O	0			ewtb.r.055976.5
+11	what	what	WP	O	0			ewtb.r.055976.5
+12	is	be	VBZ	B-social	0		social	ewtb.r.055976.5
+13	going	go	VBG	Ī	12	_		ewtb.r.055976.5
+14	on	on	RP	O	0			ewtb.r.055976.5
+15	within	within	IN	O	0			ewtb.r.055976.5
+16	his	his	PRP$	O	0			ewtb.r.055976.5
+17	practice	practice	NN	O	0			ewtb.r.055976.5
+18	.	.	.	O	0			ewtb.r.055976.5
+
+1	If	if	IN	O	0			ewtb.r.055976.6
+2	he	he	PRP	B-social	0		social	ewtb.r.055976.6
+3	does	do	VBZ	Ī	2	_		ewtb.r.055976.6
+4	know	know	VB	Ī	3	_		ewtb.r.055976.6
+5	and	and	CC	Ī	4	_		ewtb.r.055976.6
+6	approves	approve	VBZ	Ī	5	_		ewtb.r.055976.6
+7	of	of	IN	O	0			ewtb.r.055976.6
+8	this	this	DT	O	0			ewtb.r.055976.6
+9	behavior	behavior	NN	B-social	0		social	ewtb.r.055976.6
+10	then	then	RB	Ī	9	_		ewtb.r.055976.6
+11	it	it	PRP	Ī	10	_		ewtb.r.055976.6
+12	is	be	VBZ	Ī	11	_		ewtb.r.055976.6
+13	a	a	DT	Ī	12	_		ewtb.r.055976.6
+14	poor	poor	JJ	Ī	13	_		ewtb.r.055976.6
+15	reflection	reflection	NN	Ī	14	_		ewtb.r.055976.6
+16	on	on	IN	O	0			ewtb.r.055976.6
+17	him	him	PRP	O	0			ewtb.r.055976.6
+18	.	.	.	O	0			ewtb.r.055976.6
+
+1	Sometimes	sometimes	RB	O	0			ewtb.r.055976.7
+2	it	it	PRP	B-social	0		social	ewtb.r.055976.7
+3	is	be	VBZ	Ī	2	_		ewtb.r.055976.7
+4	not	not	RB	Ī	3	_		ewtb.r.055976.7
+5	worth	worth	JJ	Ī	4	_		ewtb.r.055976.7
+6	it	it	PRP	Ī	5	_		ewtb.r.055976.7
+7	to	to	TO	Ī	6	_		ewtb.r.055976.7
+8	go	go	VB	Ī	7	_		ewtb.r.055976.7
+9	through	through	IN	O	0			ewtb.r.055976.7
+10	that	that	DT	O	0			ewtb.r.055976.7
+11	kind	kind	NN	B-social	0		social	ewtb.r.055976.7
+12	of	of	IN	Ī	11	_		ewtb.r.055976.7
+13	staff	staff	NN	Ī	12	_		ewtb.r.055976.7
+14	and	and	CC	O	0			ewtb.r.055976.7
+15	their	their	PRP$	O	0			ewtb.r.055976.7
+16	personal	personal	JJ	B-social	0		social	ewtb.r.055976.7
+17	attitude	attitude	NN	Ī	16	_		ewtb.r.055976.7
+18	to	to	TO	O	0			ewtb.r.055976.7
+19	get	get	VB	B-social	0		social	ewtb.r.055976.7
+20	to	to	IN	Ī	19	_		ewtb.r.055976.7
+21	a	a	DT	Ī	20	_		ewtb.r.055976.7
+22	doctor	doctor	NN	Ī	21	_		ewtb.r.055976.7
+23	.	.	.	O	0			ewtb.r.055976.7
+
+1	He	he	PRP	O	0			ewtb.r.055976.8
+2	was	be	VBD	B-social	0		social	ewtb.r.055976.8
+3	an	an	DT	Ī	2	_		ewtb.r.055976.8
+4	okay	okay	JJ	Ī	3	_		ewtb.r.055976.8
+5	doctor	doctor	NN	Ī	4	_		ewtb.r.055976.8
+6	but	but	CC	O	0			ewtb.r.055976.8
+7	not	not	RB	O	0			ewtb.r.055976.8
+8	worth	worth	JJ	O	0			ewtb.r.055976.8
+9	her	her	PRP	O	0			ewtb.r.055976.8
+10	.	.	.	O	0			ewtb.r.055976.8
+
+1	Food	food	NN	O	0			ewtb.r.058274.1
+2	-	-	:	O	0			ewtb.r.058274.1
+3	very	very	RB	O	0			ewtb.r.058274.1
+4	good	good	JJ	O	0			ewtb.r.058274.1
+5	for	for	IN	O	0			ewtb.r.058274.1
+6	a	a	DT	O	0			ewtb.r.058274.1
+7	midnight	midnight	NN	B-social	0		social	ewtb.r.058274.1
+8	meal	meal	NN	Ī	7	_		ewtb.r.058274.1
+9	that	that	WDT	O	0			ewtb.r.058274.1
+10	is	be	VBZ	B-social	0		social	ewtb.r.058274.1
+11	n't	n't	RB	Ī	10	_		ewtb.r.058274.1
+12	fast	fast	JJ	Ī	11	_		ewtb.r.058274.1
+13	food	food	NN	Ī	12	_		ewtb.r.058274.1
+14	.	.	.	O	0			ewtb.r.058274.1
+
+1	Service	service	NN	O	0			ewtb.r.058274.2
+2	-	-	:	O	0			ewtb.r.058274.2
+3	the	the	DT	O	0			ewtb.r.058274.2
+4	workers	worker	NNS	B-social	0		social	ewtb.r.058274.2
+5	are	be	VBP	Ī	4	_		ewtb.r.058274.2
+6	usually	usually	RB	O	0			ewtb.r.058274.2
+7	pleasant	pleasant	JJ	O	0			ewtb.r.058274.2
+8	.	.	.	O	0			ewtb.r.058274.2
+
+1	Atmosphere	atmosphere	NN	B-social	0		social	ewtb.r.058274.3
+2	is	be	VBZ	Ī	1	_		ewtb.r.058274.3
+3	always	always	RB	O	0			ewtb.r.058274.3
+4	fun	fun	JJ	O	0			ewtb.r.058274.3
+5	,	,	,	O	0			ewtb.r.058274.3
+6	the	the	DT	O	0			ewtb.r.058274.3
+7	assortment	assortment	NN	B-social	0		social	ewtb.r.058274.3
+8	of	of	IN	Ī	7	_		ewtb.r.058274.3
+9	customers	customer	NNS	Ī	8	_		ewtb.r.058274.3
+10	adds	add	VBZ	Ī	9	_		ewtb.r.058274.3
+11	entertainment	entertainment	NN	Ī	10	_		ewtb.r.058274.3
+12	to	to	IN	O	0			ewtb.r.058274.3
+13	the	the	DT	O	0			ewtb.r.058274.3
+14	meal	meal	NN	O	0			ewtb.r.058274.3
+
+1	Nice	nice	JJ	O	0			ewtb.r.058878.1
+2	little	little	JJ	O	0			ewtb.r.058878.1
+3	locally	locally	RB	O	0			ewtb.r.058878.1
+4	owned	own	VBN	B-social	0		social	ewtb.r.058878.1
+5	greek	greek	JJ	Ī	4	_		ewtb.r.058878.1
+6	bar	bar	NN	Ī	5	_		ewtb.r.058878.1
+7	and	and	CC	Ī	6	_		ewtb.r.058878.1
+8	grill	grill	NN	Ī	7	_		ewtb.r.058878.1
+9	.	.	.	O	0			ewtb.r.058878.1
+
+1	Good	good	JJ	B-social	0		social	ewtb.r.058878.2
+2	food	food	NN	Ī	1	_		ewtb.r.058878.2
+3	.	.	.	O	0			ewtb.r.058878.2
+
+1	Great	great	JJ	B-social	0		social	ewtb.r.058878.3
+2	wings	wings	NNS	Ī	1	_		ewtb.r.058878.3
+3	!	!	.	O	0			ewtb.r.058878.3
+
+1	Excellent	excellent	JJ	O	0			ewtb.r.059416.1
+2	food	food	NN	O-FOOD	0		FOOD	ewtb.r.059416.1
+3	,	,	,	O	0			ewtb.r.059416.1
+4	fantastic	fantastic	JJ	O	0			ewtb.r.059416.1
+5	wait	wait	NN	B-social	0		social	ewtb.r.059416.1
+6	staff	staff	NN	Ī	5	_		ewtb.r.059416.1
+
+1	I	i	PRP	O	0			ewtb.r.059416.2
+2	recently	recently	RB	O	0			ewtb.r.059416.2
+3	threw	throw	VBD	B-social	0		social	ewtb.r.059416.2
+4	a	a	DT	Ī	3	_		ewtb.r.059416.2
+5	surprise	surprise	NN	Ī	4	_		ewtb.r.059416.2
+6	birthday	birthday	NN	Ī	5	_		ewtb.r.059416.2
+7	party	party	NN	Ī	6	_		ewtb.r.059416.2
+8	for	for	IN	O	0			ewtb.r.059416.2
+9	my	my	PRP$	O	0			ewtb.r.059416.2
+10	wife	wife	NN	B-social	0		social	ewtb.r.059416.2
+11	at	at	IN	Ī	10	_		ewtb.r.059416.2
+12	Fraiser	fraiser	NNP	O	0			ewtb.r.059416.2
+13	's	's	POS	O	0			ewtb.r.059416.2
+14	.	.	.	O	0			ewtb.r.059416.2
+
+1	We	we	PRP	O	0			ewtb.r.059416.3
+2	had	have	VBD	B-social	0		social	ewtb.r.059416.3
+3	30	30	CD	Ī	2	_		ewtb.r.059416.3
+4	guests	guest	NNS	Ī	3	_		ewtb.r.059416.3
+5	for	for	IN	O	0			ewtb.r.059416.3
+6	the	the	DT	O	0			ewtb.r.059416.3
+7	event	event	NN	O-FOOD	0		FOOD	ewtb.r.059416.3
+8	,	,	,	O	0			ewtb.r.059416.3
+9	and	and	CC	O	0			ewtb.r.059416.3
+10	everyone	everyone	NN	O	0			ewtb.r.059416.3
+11	came	come	VBD	O-stative	0		stative	ewtb.r.059416.3
+12	away	away	RB	O	0			ewtb.r.059416.3
+13	from	from	IN	O	0			ewtb.r.059416.3
+14	the	the	DT	O	0			ewtb.r.059416.3
+15	evening	evening	NN	B-social	0		social	ewtb.r.059416.3
+16	impressed	impressed	JJ	Ī	15	_		ewtb.r.059416.3
+17	with	with	IN	O	0			ewtb.r.059416.3
+18	not	not	RB	O	0			ewtb.r.059416.3
+19	only	only	RB	O	0			ewtb.r.059416.3
+20	the	the	DT	O	0			ewtb.r.059416.3
+21	food	food	NN	O-FOOD	0		FOOD	ewtb.r.059416.3
+22	,	,	,	O	0			ewtb.r.059416.3
+23	but	but	CC	O	0			ewtb.r.059416.3
+24	the	the	DT	O	0			ewtb.r.059416.3
+25	outstanding	outstanding	JJ	O	0			ewtb.r.059416.3
+26	service	service	NN	B-social	0		social	ewtb.r.059416.3
+27	as	as	RB	Ī	26	_		ewtb.r.059416.3
+28	well	well	RB	Ī	27	_		ewtb.r.059416.3
+29	.	.	.	O	0			ewtb.r.059416.3
+
+1	The	the	DT	O	0			ewtb.r.059416.4
+2	management	management	NN	B-social	0		social	ewtb.r.059416.4
+3	was	be	VBD	Ī	2	_		ewtb.r.059416.4
+4	easy	easy	JJ	O	0			ewtb.r.059416.4
+5	to	to	TO	O	0			ewtb.r.059416.4
+6	deal	deal	VB	B-social	0		social	ewtb.r.059416.4
+7	with	with	IN	Ī	6	_		ewtb.r.059416.4
+8	during	during	IN	O	0			ewtb.r.059416.4
+9	the	the	DT	O	0			ewtb.r.059416.4
+10	planning	planning	NN	B-social	0		social	ewtb.r.059416.4
+11	stages	stage	NNS	Ī	10	_		ewtb.r.059416.4
+12	,	,	,	O	0			ewtb.r.059416.4
+13	and	and	CC	O	0			ewtb.r.059416.4
+14	the	the	DT	O	0			ewtb.r.059416.4
+15	execution	execution	NN	O	0			ewtb.r.059416.4
+16	by	by	IN	O	0			ewtb.r.059416.4
+17	the	the	DT	O	0			ewtb.r.059416.4
+18	kitchen	kitchen	NN	B-social	0		social	ewtb.r.059416.4
+19	and	and	CC	Ī	18	_		ewtb.r.059416.4
+20	wait	wait	NN	Ī	19	_		ewtb.r.059416.4
+21	staff	staff	NN	Ī	20	_		ewtb.r.059416.4
+22	was	be	VBD	Ī	21	_		ewtb.r.059416.4
+23	flawless	flawless	JJ	O	0			ewtb.r.059416.4
+24	.	.	.	O	0			ewtb.r.059416.4
+
+1	I	i	PRP	O	0			ewtb.r.059416.5
+2	highly	highly	RB	O	0			ewtb.r.059416.5
+3	recommend	recommend	VBP	O	0			ewtb.r.059416.5
+4	Fraiser	fraiser	NNP	O	0			ewtb.r.059416.5
+5	's	's	POS	O	0			ewtb.r.059416.5
+6	for	for	IN	O	0			ewtb.r.059416.5
+7	anyone	anyone	NN	O	0			ewtb.r.059416.5
+8	planning	plan	VBG	B-social	0		social	ewtb.r.059416.5
+9	a	a	DT	Ī	8	_		ewtb.r.059416.5
+10	special	special	JJ	Ī	9	_		ewtb.r.059416.5
+11	event	event	NN	Ī	10	_		ewtb.r.059416.5
+12	for	for	IN	O	0			ewtb.r.059416.5
+13	friends	friend	NNS	O	0			ewtb.r.059416.5
+14	,	,	,	O	0			ewtb.r.059416.5
+15	family	family	NN	B-social	0		social	ewtb.r.059416.5
+16	or	or	CC	Ī	15	_		ewtb.r.059416.5
+17	business	business	NN	Ī	16	_		ewtb.r.059416.5
+18	.	.	.	O	0			ewtb.r.059416.5
+
+1	the	the	DT	O	0			ewtb.r.059655.1
+2	team	team	NN	B-social	0		social	ewtb.r.059655.1
+3	at	at	IN	Ī	2	_		ewtb.r.059655.1
+4	barton	barton	NNP	Ī	3	_		ewtb.r.059655.1
+5	car	car	NNP	Ī	4	_		ewtb.r.059655.1
+6	wash	wash	NNP	Ī	5	_		ewtb.r.059655.1
+7	was	be	VBD	Ī	6	_		ewtb.r.059655.1
+8	very	very	RB	O	0			ewtb.r.059655.1
+9	friendly	friendly	JJ	O	0			ewtb.r.059655.1
+10	.	.	.	O	0			ewtb.r.059655.1
+
+1	and	and	CC	O	0			ewtb.r.059655.2
+2	did	do	VBD	B-social	0		social	ewtb.r.059655.2
+3	great	great	JJ	Ī	2	_		ewtb.r.059655.2
+4	job	job	NN	Ī	3	_		ewtb.r.059655.2
+5	.	.	.	O	0			ewtb.r.059655.2
+
+1	i	i	PRP	O	0			ewtb.r.059655.3
+2	was	be	VBD	O-stative	0		stative	ewtb.r.059655.3
+3	very	very	RB	O	0			ewtb.r.059655.3
+4	pleased	pleased	JJ	O	0			ewtb.r.059655.3
+5	with	with	IN	O	0			ewtb.r.059655.3
+6	the	the	DT	O	0			ewtb.r.059655.3
+7	service	service	NN	O	0			ewtb.r.059655.3
+8	.	.	.	O	0			ewtb.r.059655.3
+
+1	The	the	DT	O	0			ewtb.r.060396.1
+2	best	best	JJS	B-social	0		social	ewtb.r.060396.1
+3	Thai	thai	JJ	Ī	2	_		ewtb.r.060396.1
+4	food	food	NN	Ī	3	_		ewtb.r.060396.1
+5	I	i	PRP	O	0			ewtb.r.060396.1
+6	've	've	VBP	O	0			ewtb.r.060396.1
+7	ever	ever	RB	O	0			ewtb.r.060396.1
+8	had	have	VBN	B-social	0		social	ewtb.r.060396.1
+9	in	in	IN	Ī	8	_		ewtb.r.060396.1
+10	Australia	australia	NNP	O	0			ewtb.r.060396.1
+11	,	,	,	O	0			ewtb.r.060396.1
+12	very	very	RB	O	0			ewtb.r.060396.1
+13	fresh	fresh	JJ	O	0			ewtb.r.060396.1
+14	and	and	CC	O	0			ewtb.r.060396.1
+15	so	so	RB	B-social	0		social	ewtb.r.060396.1
+16	much	much	JJ	Ī	15	_		ewtb.r.060396.1
+17	favor	favor	NN	Ī	16	_		ewtb.r.060396.1
+18	of	of	IN	O	0			ewtb.r.060396.1
+19	authentic	authentic	JJ	O	0			ewtb.r.060396.1
+20	Thai	thai	JJ	O	0			ewtb.r.060396.1
+21	.	.	.	O	0			ewtb.r.060396.1
+
+1	The	the	DT	O	0			ewtb.r.060396.2
+2	restaurant	restaurant	NN	B-social	0		social	ewtb.r.060396.2
+3	is	be	VBZ	Ī	2	_		ewtb.r.060396.2
+4	the	the	DT	O	0			ewtb.r.060396.2
+5	most	most	RBS	O	0			ewtb.r.060396.2
+6	beautiful	beautiful	JJ	O	0			ewtb.r.060396.2
+7	thai	thai	JJ	B-social	0		social	ewtb.r.060396.2
+8	restaurant	restaurant	NN	Ī	7	_		ewtb.r.060396.2
+9	in	in	IN	Ī	8	_		ewtb.r.060396.2
+10	Geelong	geelong	NNP	O	0			ewtb.r.060396.2
+11	...	...	,	O	0			ewtb.r.060396.2
+12	just	just	RB	O	0			ewtb.r.060396.2
+13	love	love	VBP	B-social	0		social	ewtb.r.060396.2
+14	it	it	PRP	Ī	13	_		ewtb.r.060396.2
+
+1	Friendliest	friendly	JJS	B-social	0		social	ewtb.r.061079.1
+2	place	place	NN	Ī	1	_		ewtb.r.061079.1
+3	I	i	PRP	Ī	2	_		ewtb.r.061079.1
+4	have	have	VBP	Ī	3	_		ewtb.r.061079.1
+5	ever	ever	RB	Ī	4	_		ewtb.r.061079.1
+6	stayed	stay	VBN	Ī	5	_		ewtb.r.061079.1
+7	!	!	.	O	0			ewtb.r.061079.1
+
+1	Chuck	chuck	NNP	O	0			ewtb.r.063754.1
+2	and	and	CC	O	0			ewtb.r.063754.1
+3	Gretchen	gretchen	NNP	O	0			ewtb.r.063754.1
+4	were	be	VBD	O-stative	0		stative	ewtb.r.063754.1
+5	very	very	RB	O	0			ewtb.r.063754.1
+6	positive	positive	JJ	O	0			ewtb.r.063754.1
+7	,	,	,	O	0			ewtb.r.063754.1
+8	and	and	CC	O	0			ewtb.r.063754.1
+9	when	when	WRB	O	0			ewtb.r.063754.1
+10	Alan	alan	NNP	O	0			ewtb.r.063754.1
+11	's	's	POS	O	0			ewtb.r.063754.1
+12	refused	refuse	VBN	B-social	0		social	ewtb.r.063754.1
+13	to	to	TO	Ī	12	_		ewtb.r.063754.1
+14	work	work	VB	Ī	13	_		ewtb.r.063754.1
+15	on	on	IN	Ī	14	_		ewtb.r.063754.1
+16	my	my	PRP$	Ī	15	_		ewtb.r.063754.1
+17	bike	bike	NN	Ī	16	_		ewtb.r.063754.1
+18	,	,	,	O	0			ewtb.r.063754.1
+19	Chuck	chuck	NNP	O	0			ewtb.r.063754.1
+20	came	come	VBD	B-social	0		social	ewtb.r.063754.1
+21	right	right	RB	Ī	20	_		ewtb.r.063754.1
+22	out	out	RB	Ī	21	_		ewtb.r.063754.1
+23	and	and	CC	Ī	22	_		ewtb.r.063754.1
+24	saw	see	VBD	Ī	23	_		ewtb.r.063754.1
+25	the	the	DT	Ī	24	_		ewtb.r.063754.1
+26	problem	problem	NN	Ī	25	_		ewtb.r.063754.1
+27	and	and	CC	Ī	26	_		ewtb.r.063754.1
+28	did	do	VBD	Ī	27	_		ewtb.r.063754.1
+29	what	what	WP	O	0			ewtb.r.063754.1
+30	Alan	alan	NNP	O	0			ewtb.r.063754.1
+31	's	's	POS	O	0			ewtb.r.063754.1
+32	mechanic	mechanic	NN	O	0			ewtb.r.063754.1
+33	would	would	MD	O	0			ewtb.r.063754.1
+34	n't	n't	RB	O	0			ewtb.r.063754.1
+35	do	do	VB	O	0			ewtb.r.063754.1
+36	.	.	.	O	0			ewtb.r.063754.1
+
+1	He	he	PRP	O	0			ewtb.r.063754.2
+2	worked	work	VBD	B-social	0		social	ewtb.r.063754.2
+3	on	on	IN	Ī	2	_		ewtb.r.063754.2
+4	it	it	PRP	Ī	3	_		ewtb.r.063754.2
+5	right	right	RB	O	0			ewtb.r.063754.2
+6	on	on	IN	O	0			ewtb.r.063754.2
+7	the	the	DT	O	0			ewtb.r.063754.2
+8	back	back	NN	B-social	0		social	ewtb.r.063754.2
+9	of	of	IN	Ī	8	_		ewtb.r.063754.2
+10	my	my	PRP$	Ī	9	_		ewtb.r.063754.2
+11	car	car	NN	Ī	10	_		ewtb.r.063754.2
+12	.	.	.	O	0			ewtb.r.063754.2
+
+1	I	i	PRP	O	0			ewtb.r.063754.3
+2	am	be	VBP	O-stative	0		stative	ewtb.r.063754.3
+3	extremely	extremely	RB	O	0			ewtb.r.063754.3
+4	pleased	pleased	JJ	O	0			ewtb.r.063754.3
+
+1	The	the	DT	O	0			ewtb.r.068436.1
+2	worst	worst	JJS	B-social	0		social	ewtb.r.068436.1
+3	Burger	burger	NNP	Ī	2	_		ewtb.r.068436.1
+4	King	king	NNP	Ī	3	_		ewtb.r.068436.1
+5	restaurant	restaurant	NN	Ī	4	_		ewtb.r.068436.1
+6	!!!	!!!	.	O	0			ewtb.r.068436.1
+
+1	I	i	PRP	O	0			ewtb.r.068436.2
+2	generally	generally	RB	O	0			ewtb.r.068436.2
+3	like	like	VBP	O	0			ewtb.r.068436.2
+4	the	the	DT	O	0			ewtb.r.068436.2
+5	BK	bk	NNP	B-social	0		social	ewtb.r.068436.2
+6	over	over	IN	Ī	5	_		ewtb.r.068436.2
+7	the	the	DT	O	0			ewtb.r.068436.2
+8	other	other	JJ	O	0			ewtb.r.068436.2
+9	fast	fast	RB	B-social	0		social	ewtb.r.068436.2
+10	serving	serve	VBG	Ī	9	_		ewtb.r.068436.2
+11	restaurants	restaurant	NNS	Ī	10	_		ewtb.r.068436.2
+12	;	;	,	O	0			ewtb.r.068436.2
+13	however	however	RB	O	0			ewtb.r.068436.2
+14	,	,	,	O	0			ewtb.r.068436.2
+15	I	i	PRP	O	0			ewtb.r.068436.2
+16	regreted	regret	VBD	B-social	0		social	ewtb.r.068436.2
+17	to	to	TO	Ī	16	_		ewtb.r.068436.2
+18	visit	visit	VB	Ī	17	_		ewtb.r.068436.2
+19	this	this	DT	O	0			ewtb.r.068436.2
+20	restaurant	restaurant	NN	B-social	0		social	ewtb.r.068436.2
+21	at	at	IN	Ī	20	_		ewtb.r.068436.2
+22	my	my	PRP$	O	0			ewtb.r.068436.2
+23	town	town	NN	O	0			ewtb.r.068436.2
+24	.	.	.	O	0			ewtb.r.068436.2
+
+1	This	this	DT	O	0			ewtb.r.068436.3
+2	is	be	VBZ	B-social	0		social	ewtb.r.068436.3
+3	a	a	DT	Ī	2	_		ewtb.r.068436.3
+4	shame	shame	NN	Ī	3	_		ewtb.r.068436.3
+5	of	of	IN	O	0			ewtb.r.068436.3
+6	my	my	PRP$	O	0			ewtb.r.068436.3
+7	adorable	adorable	JJ	O	0			ewtb.r.068436.3
+8	town	town	NN	O	0			ewtb.r.068436.3
+9	,	,	,	O	0			ewtb.r.068436.3
+10	Branford	branford	NNP	O	0			ewtb.r.068436.3
+11	.	.	.	O	0			ewtb.r.068436.3
+
+1	I	i	PRP	O	0			ewtb.r.068436.4
+2	ordered	order	VBD	B-social	0		social	ewtb.r.068436.4
+3	a	a	DT	Ī	2	_		ewtb.r.068436.4
+4	kid	kid	NN	Ī	3	_		ewtb.r.068436.4
+5	meal	meal	NN	Ī	4	_		ewtb.r.068436.4
+6	with	with	IN	O	0			ewtb.r.068436.4
+7	a	a	DT	B-social	0		social	ewtb.r.068436.4
+8	milk	milk	NN	Ī	7	_		ewtb.r.068436.4
+9	and	and	CC	Ī	8	_		ewtb.r.068436.4
+10	found	find	VBD	Ī	9	_		ewtb.r.068436.4
+11	a	a	DT	Ī	10	_		ewtb.r.068436.4
+12	bottle	bottle	NN	Ī	11	_		ewtb.r.068436.4
+13	was	be	VBD	Ī	12	_		ewtb.r.068436.4
+14	half	half	RB	Ī	13	_		ewtb.r.068436.4
+15	opened	open	VBN	Ī	14	_		ewtb.r.068436.4
+16	already	already	RB	O	0			ewtb.r.068436.4
+17	.	.	.	O	0			ewtb.r.068436.4
+
+1	I	i	PRP	B-social	0		social	ewtb.r.068436.5
+2	asked	ask	VBD	Ī	1	_		ewtb.r.068436.5
+3	them	them	PRP	O	0			ewtb.r.068436.5
+4	to	to	TO	O	0			ewtb.r.068436.5
+5	change	change	VB	B-social	0		social	ewtb.r.068436.5
+6	it	it	PRP	Ī	5	_		ewtb.r.068436.5
+7	but	but	CC	O	0			ewtb.r.068436.5
+8	they	they	PRP	O	0			ewtb.r.068436.5
+9	rudely	rudely	RB	O	0			ewtb.r.068436.5
+10	said	say	VBD	B-social	0		social	ewtb.r.068436.5
+11	that	that	IN	Ī	10	_		ewtb.r.068436.5
+12	it	it	PRP	Ī	11	_		ewtb.r.068436.5
+13	was	be	VBD	Ī	12	_		ewtb.r.068436.5
+14	okay	okay	JJ	Ī	13	_		ewtb.r.068436.5
+15	.	.	.	O	0			ewtb.r.068436.5
+
+1	Disgusting	disgusting	JJ	O	0			ewtb.r.068436.6
+2	french	french	JJ	B-social	0		social	ewtb.r.068436.6
+3	fries	fries	NNS	Ī	2	_		ewtb.r.068436.6
+4	is	be	VBZ	Ī	3	_		ewtb.r.068436.6
+5	very	very	RB	Ī	4	_		ewtb.r.068436.6
+6	best	best	JJS	Ī	5	_		ewtb.r.068436.6
+7	menu	menu	NN	Ī	6	_		ewtb.r.068436.6
+8	.	.	.	O	0			ewtb.r.068436.6
+
+1	Do	do	VB	O	0			ewtb.r.068436.7
+2	n't	n't	RB	O	0			ewtb.r.068436.7
+3	go	go	VB	O	0			ewtb.r.068436.7
+4	,	,	,	O	0			ewtb.r.068436.7
+5	or	or	CC	O	0			ewtb.r.068436.7
+6	you	you	PRP	O	0			ewtb.r.068436.7
+7	will	will	MD	B-social	0		social	ewtb.r.068436.7
+8	learn	learn	VB	Ī	7	_		ewtb.r.068436.7
+9	how	how	WRB	O	0			ewtb.r.068436.7
+10	to	to	TO	O	0			ewtb.r.068436.7
+11	waste	waste	VB	B-social	0		social	ewtb.r.068436.7
+12	your	your	PRP$	Ī	11	_		ewtb.r.068436.7
+13	money	money	NN	Ī	12	_		ewtb.r.068436.7
+14	.	.	.	O	0			ewtb.r.068436.7
+
+1	AMAZING	amazing	JJ	O	0			ewtb.r.069995.1
+2	NIGHT	night	NN	O	0			ewtb.r.069995.1
+3	-	-	HYPH	O	0			ewtb.r.069995.1
+4	Great	great	JJ	O	0			ewtb.r.069995.1
+5	Party	party	NN	B-social	0		social	ewtb.r.069995.1
+6	Spot	spot	NN	Ī	5	_		ewtb.r.069995.1
+7	!!	!!	.	O	0			ewtb.r.069995.1
+
+1	Went	go	VBD	O-stative	0		stative	ewtb.r.069995.2
+2	to	to	IN	O	0			ewtb.r.069995.2
+3	the	the	DT	O	0			ewtb.r.069995.2
+4	Willow	willow	NNP	O	0			ewtb.r.069995.2
+5	Lounge	lounge	NNP	O	0			ewtb.r.069995.2
+6	this	this	DT	O	0			ewtb.r.069995.2
+7	past	past	JJ	B-social	0		social	ewtb.r.069995.2
+8	weekend	weekend	NN	Ī	7	_		ewtb.r.069995.2
+9	for	for	IN	Ī	8	_		ewtb.r.069995.2
+10	dinner	dinner	NN	Ī	9	_		ewtb.r.069995.2
+11	and	and	CC	O	0			ewtb.r.069995.2
+12	drinks	drink	NNS	O	0			ewtb.r.069995.2
+13	...	...	,	O	0			ewtb.r.069995.2
+14	place	place	NN	B-social	0		social	ewtb.r.069995.2
+15	is	be	VBZ	Ī	14	_		ewtb.r.069995.2
+16	awesome	awesome	JJ	O	0			ewtb.r.069995.2
+17	.	.	.	O	0			ewtb.r.069995.2
+
+1	Had	have	VBD	B-social	0		social	ewtb.r.069995.3
+2	to	to	TO	Ī	1	_		ewtb.r.069995.3
+3	keep	keep	VB	Ī	2	_		ewtb.r.069995.3
+4	in	in	IN	Ī	3	_		ewtb.r.069995.3
+5	mind	mind	NN	Ī	4	_		ewtb.r.069995.3
+6	that	that	IN	O	0			ewtb.r.069995.3
+7	the	the	DT	O	0			ewtb.r.069995.3
+8	A	a	NN	O	0			ewtb.r.069995.3
+9	/	/	HYPH	O	0			ewtb.r.069995.3
+10	C	c	NN	B-social	0		social	ewtb.r.069995.3
+11	broke	break	VBD	Ī	10	_		ewtb.r.069995.3
+12	,	,	,	O	0			ewtb.r.069995.3
+13	I	i	PRP	O	0			ewtb.r.069995.3
+14	feel	feel	VBP	B-social	0		social	ewtb.r.069995.3
+15	bad	bad	JJ	Ī	14	_		ewtb.r.069995.3
+16	it	it	PRP	Ī	15	_		ewtb.r.069995.3
+17	was	be	VBD	Ī	16	_		ewtb.r.069995.3
+18	their	their	PRP$	Ī	17	_		ewtb.r.069995.3
+19	opening	opening	NN	Ī	18	_		ewtb.r.069995.3
+20	!	!	.	O	0			ewtb.r.069995.3
+
+1	Anyway	anyway	RB	O	0			ewtb.r.069995.4
+2	,	,	,	O	0			ewtb.r.069995.4
+3	once	once	IN	O	0			ewtb.r.069995.4
+4	that	that	DT	O	0			ewtb.r.069995.4
+5	is	be	VBZ	B-social	0		social	ewtb.r.069995.4
+6	fixed	fix	VBN	Ī	5	_		ewtb.r.069995.4
+7	,	,	,	O	0			ewtb.r.069995.4
+8	this	this	DT	O	0			ewtb.r.069995.4
+9	place	place	NN	B-social	0		social	ewtb.r.069995.4
+10	will	will	MD	Ī	9	_		ewtb.r.069995.4
+11	be	be	VB	Ī	10	_		ewtb.r.069995.4
+12	amazing	amazing	JJ	Ī	11	_		ewtb.r.069995.4
+13	.	.	.	O	0			ewtb.r.069995.4
+
+1	Drinks	drink	NNS	B-social	0		social	ewtb.r.069995.5
+2	were	be	VBD	Ī	1	_		ewtb.r.069995.5
+3	awesome	awesome	JJ	O	0			ewtb.r.069995.5
+4	,	,	,	O	0			ewtb.r.069995.5
+5	prices	price	NNS	O	0			ewtb.r.069995.5
+6	reasonable	reasonable	JJ	O	0			ewtb.r.069995.5
+7	,	,	,	O	0			ewtb.r.069995.5
+8	and	and	CC	O	0			ewtb.r.069995.5
+9	staff	staff	NN	O	0			ewtb.r.069995.5
+10	friendly	friendly	JJ	O	0			ewtb.r.069995.5
+11	.	.	.	O	0			ewtb.r.069995.5
+
+1	This	this	DT	O	0			ewtb.r.069995.6
+2	is	be	VBZ	B-social	0		social	ewtb.r.069995.6
+3	an	an	DT	Ī	2	_		ewtb.r.069995.6
+4	awesome	awesome	JJ	Ī	3	_		ewtb.r.069995.6
+5	date	date	NN	Ī	4	_		ewtb.r.069995.6
+6	spot	spot	NN	Ī	5	_		ewtb.r.069995.6
+7	that	that	WDT	O	0			ewtb.r.069995.6
+8	the	the	DT	O	0			ewtb.r.069995.6
+9	area	area	NN	O	0			ewtb.r.069995.6
+10	SERIOUSLY	seriously	RB	O	0			ewtb.r.069995.6
+11	needs	need	VBZ	O	0			ewtb.r.069995.6
+12	.	.	.	O	0			ewtb.r.069995.6
+
+1	Check	check	VB	B-social	0		social	ewtb.r.069995.7
+2	out	out	RP	Ī	1	_		ewtb.r.069995.7
+3	The	the	DT	O	0			ewtb.r.069995.7
+4	Willow	willow	NNP	O	0			ewtb.r.069995.7
+5	Lounge	lounge	NNP	O	0			ewtb.r.069995.7
+6	,	,	,	O	0			ewtb.r.069995.7
+7	you	you	PRP	O	0			ewtb.r.069995.7
+8	ll	ll	MD	O	0			ewtb.r.069995.7
+9	be	be	VB	O-stative	0		stative	ewtb.r.069995.7
+10	happy	happy	JJ	O	0			ewtb.r.069995.7
+11	!	!	.	O	0			ewtb.r.069995.7
+
+1	It	it	PRP	O	0			ewtb.r.071017.1
+2	was	be	VBD	B-social	0		social	ewtb.r.071017.1
+3	ok	ok	JJ	Ī	2	_		ewtb.r.071017.1
+4	,	,	,	O	0			ewtb.r.071017.1
+5	nice	nice	JJ	O	0			ewtb.r.071017.1
+6	management	management	NN	O	0			ewtb.r.071017.1
+7	,	,	,	O	0			ewtb.r.071017.1
+8	they	they	PRP	O	0			ewtb.r.071017.1
+9	let	let	VBD	B-social	0		social	ewtb.r.071017.1
+10	us	us	PRP	Ī	9	_		ewtb.r.071017.1
+11	check	check	VB	Ī	10	_		ewtb.r.071017.1
+12	in	in	RP	Ī	11	_		ewtb.r.071017.1
+13	early	early	RB	O	0			ewtb.r.071017.1
+14	,	,	,	O	0			ewtb.r.071017.1
+15	but	but	CC	O	0			ewtb.r.071017.1
+16	the	the	DT	O	0			ewtb.r.071017.1
+17	place	place	NN	B-social	0		social	ewtb.r.071017.1
+18	was	be	VBD	Ī	17	_		ewtb.r.071017.1
+19	old	old	JJ	Ī	18	_		ewtb.r.071017.1
+20	.	.	.	O	0			ewtb.r.071017.1
+
+1	It	it	PRP	O	0			ewtb.r.071017.2
+2	was	be	VBD	B-social	0		social	ewtb.r.071017.2
+3	clean	clean	JJ	Ī	2	_		ewtb.r.071017.2
+4	,	,	,	O	0			ewtb.r.071017.2
+5	but	but	CC	O	0			ewtb.r.071017.2
+6	just	just	RB	O	0			ewtb.r.071017.2
+7	a	a	DT	O	0			ewtb.r.071017.2
+8	little	little	JJ	O	0			ewtb.r.071017.2
+9	dumpy	dumpy	JJ	O	0			ewtb.r.071017.2
+10	.	.	.	O	0			ewtb.r.071017.2
+
+1	Lots	lots	NNS	O	0			ewtb.r.071017.3
+2	of	of	IN	O	0			ewtb.r.071017.3
+3	room	room	NN	O	0			ewtb.r.071017.3
+4	for	for	IN	O	0			ewtb.r.071017.3
+5	big	big	JJ	O	0			ewtb.r.071017.3
+6	rig	rig	NN	B-social	0		social	ewtb.r.071017.3
+7	parking	parking	NN	Ī	6	_		ewtb.r.071017.3
+8	.	.	.	O	0			ewtb.r.071017.3
+
+1	Hard	hard	JJ	O	0			ewtb.r.071017.4
+2	to	to	TO	O	0			ewtb.r.071017.4
+3	get	get	VB	B-social	0		social	ewtb.r.071017.4
+4	into	into	IN	Ī	3	_		ewtb.r.071017.4
+5	though	though	RB	O	0			ewtb.r.071017.4
+6	because	because	IN	O	0			ewtb.r.071017.4
+7	of	of	IN	O	0			ewtb.r.071017.4
+8	road	road	NN	B-social	0		social	ewtb.r.071017.4
+9	construction	construction	NN	Ī	8	_		ewtb.r.071017.4
+10	.	.	.	O	0			ewtb.r.071017.4
+
+1	WOW	wow	UH	O	0			ewtb.r.071278.1
+2	!!!	!!!	.	O	0			ewtb.r.071278.1
+
+1	I	i	PRP	B-social	0		social	ewtb.r.071278.2
+2	ca	ca	MD	Ī	1	_		ewtb.r.071278.2
+3	n't	n't	RB	O	0			ewtb.r.071278.2
+4	say	say	VB	B-social	0		social	ewtb.r.071278.2
+5	enough	enough	JJ	Ī	4	_		ewtb.r.071278.2
+6	good	good	JJ	Ī	5	_		ewtb.r.071278.2
+7	things	things	NNS	Ī	6	_		ewtb.r.071278.2
+8	about	about	IN	O	0			ewtb.r.071278.2
+9	Karla	karla	NNP	O	0			ewtb.r.071278.2
+10	and	and	CC	O	0			ewtb.r.071278.2
+11	the	the	DT	O	0			ewtb.r.071278.2
+12	wonderful	wonderful	JJ	O	0			ewtb.r.071278.2
+13	things	things	NNS	O	0			ewtb.r.071278.2
+14	she	she	PRP	O	0			ewtb.r.071278.2
+15	has	have	VBZ	B-social	0		social	ewtb.r.071278.2
+16	done	do	VBN	Ī	15	_		ewtb.r.071278.2
+17	for	for	IN	Ī	16	_		ewtb.r.071278.2
+18	me	me	PRP	Ī	17	_		ewtb.r.071278.2
+19	and	and	CC	O	0			ewtb.r.071278.2
+20	my	my	PRP$	O	0			ewtb.r.071278.2
+21	dog	dog	NN	O	0			ewtb.r.071278.2
+22	Gracee	gracee	NNP	O	0			ewtb.r.071278.2
+23	.	.	.	O	0			ewtb.r.071278.2
+
+1	Gracee	gracee	NNP	O	0			ewtb.r.071278.3
+2	is	be	VBZ	B-social	0		social	ewtb.r.071278.3
+3	more	more	RBR	Ī	2	_		ewtb.r.071278.3
+4	excited	excited	JJ	Ī	3	_		ewtb.r.071278.3
+5	to	to	TO	Ī	4	_		ewtb.r.071278.3
+6	see	see	VB	Ī	5	_		ewtb.r.071278.3
+7	her	her	PRP	O	0			ewtb.r.071278.3
+8	than	than	IN	O	0			ewtb.r.071278.3
+9	she	she	PRP	O	0			ewtb.r.071278.3
+10	is	be	VBZ	B-social	0		social	ewtb.r.071278.3
+11	to	to	TO	Ī	10	_		ewtb.r.071278.3
+12	see	see	VB	Ī	11	_		ewtb.r.071278.3
+13	me	me	PRP	Ī	12	_		ewtb.r.071278.3
+14	!!!!	!!!!	.	O	0			ewtb.r.071278.3
+
+1	She	she	PRP	O	0			ewtb.r.071278.4
+2	has	have	VBZ	B-social	0		social	ewtb.r.071278.4
+3	always	always	RB	Ī	2	_		ewtb.r.071278.4
+4	been	be	VBN	Ī	3	_		ewtb.r.071278.4
+5	there	there	RB	Ī	4	_		ewtb.r.071278.4
+6	for	for	IN	O	0			ewtb.r.071278.4
+7	Gracee	gracee	NNP	O	0			ewtb.r.071278.4
+8	even	even	RB	B-social	0		social	ewtb.r.071278.4
+9	for	for	IN	Ī	8	_		ewtb.r.071278.4
+10	last	last	JJ	Ī	9	_		ewtb.r.071278.4
+11	minute	minute	NN	Ī	10	_		ewtb.r.071278.4
+12	calls	call	NNS	Ī	11	_		ewtb.r.071278.4
+13	!	!	.	O	0			ewtb.r.071278.4
+
+1	She	she	PRP	O	0			ewtb.r.071278.5
+2	has	have	VBZ	B-social	0		social	ewtb.r.071278.5
+3	taken	take	VBN	Ī	2	_		ewtb.r.071278.5
+4	care	care	NN	Ī	3	_		ewtb.r.071278.5
+5	of	of	IN	O	0			ewtb.r.071278.5
+6	my	my	PRP$	O	0			ewtb.r.071278.5
+7	sweet	sweet	JJ	B-social	0		social	ewtb.r.071278.5
+8	girl	girl	NN	Ī	7	_		ewtb.r.071278.5
+9	for	for	IN	O	0			ewtb.r.071278.5
+10	almost	almost	RB	O	0			ewtb.r.071278.5
+11	4	4	CD	B-social	0		social	ewtb.r.071278.5
+12	years	years	NNS	Ī	11	_		ewtb.r.071278.5
+13	now	now	RB	Ī	12	_		ewtb.r.071278.5
+14	and	and	CC	O	0			ewtb.r.071278.5
+15	I	i	PRP	O	0			ewtb.r.071278.5
+16	would	would	MD	O	0			ewtb.r.071278.5
+17	not	not	RB	O	0			ewtb.r.071278.5
+18	let	let	VB	B-social	0		social	ewtb.r.071278.5
+19	Gracee	gracee	NNP	Ī	18	_		ewtb.r.071278.5
+20	go	go	VB	Ī	19	_		ewtb.r.071278.5
+21	with	with	IN	O	0			ewtb.r.071278.5
+22	anyone	anyone	NN	O	0			ewtb.r.071278.5
+23	besides	besides	IN	O	0			ewtb.r.071278.5
+24	her	her	PRP	O	0			ewtb.r.071278.5
+25	!!!	!!!	.	O	0			ewtb.r.071278.5
+
+1	She	she	PRP	O	0			ewtb.r.071278.6
+2	is	be	VBZ	B-social	0		social	ewtb.r.071278.6
+3	caring	caring	JJ	Ī	2	_		ewtb.r.071278.6
+4	,	,	,	O	0			ewtb.r.071278.6
+5	punctual	punctual	JJ	O	0			ewtb.r.071278.6
+6	,	,	,	O	0			ewtb.r.071278.6
+7	and	and	CC	O	0			ewtb.r.071278.6
+8	very	very	RB	O	0			ewtb.r.071278.6
+9	enthusiastic	enthusiastic	JJ	O	0			ewtb.r.071278.6
+10	about	about	IN	O	0			ewtb.r.071278.6
+11	her	her	PRP$	O	0			ewtb.r.071278.6
+12	job	job	NN	O	0			ewtb.r.071278.6
+13	!	!	.	O	0			ewtb.r.071278.6
+
+1	You	you	PRP	O	0			ewtb.r.071278.7
+2	should	should	MD	O	0			ewtb.r.071278.7
+3	give	give	VB	B-social	0		social	ewtb.r.071278.7
+4	her	her	PRP	Ī	3	_		ewtb.r.071278.7
+5	a	a	DT	Ī	4	_		ewtb.r.071278.7
+6	try	try	NN	Ī	5	_		ewtb.r.071278.7
+7	-	-	,	O	0			ewtb.r.071278.7
+8	it	it	PRP	O	0			ewtb.r.071278.7
+9	's	's	VBZ	O	0			ewtb.r.071278.7
+10	worth	worth	JJ	O	0			ewtb.r.071278.7
+11	every	every	DT	O	0			ewtb.r.071278.7
+12	penny	penny	NN	B-social	0		social	ewtb.r.071278.7
+13	to	to	TO	Ī	12	_		ewtb.r.071278.7
+14	know	know	VB	Ī	13	_		ewtb.r.071278.7
+15	that	that	IN	O	0			ewtb.r.071278.7
+16	you	you	PRP	O	0			ewtb.r.071278.7
+17	pet	pet	NN	B-social	0		social	ewtb.r.071278.7
+18	is	be	VBZ	Ī	17	_		ewtb.r.071278.7
+19	in	in	IN	Ī	18	_		ewtb.r.071278.7
+20	GREAT	great	JJ	Ī	19	_		ewtb.r.071278.7
+21	hands	hands	NNS	Ī	20	_		ewtb.r.071278.7
+22	with	with	IN	O	0			ewtb.r.071278.7
+23	Wunderbar	wunderbar	NNP	O	0			ewtb.r.071278.7
+24	pet	pet	NNP	B-social	0		social	ewtb.r.071278.7
+25	sitting	sitting	NNP	Ī	24	_		ewtb.r.071278.7
+26	!!!!	!!!!	.	O	0			ewtb.r.071278.7
+
+1	Excellent	excellent	JJ	O	0			ewtb.r.074896.1
+2	service	service	NN	O	0			ewtb.r.074896.1
+
+1	I	i	PRP	O	0			ewtb.r.074896.2
+2	could	could	MD	O	0			ewtb.r.074896.2
+3	easily	easily	RB	O	0			ewtb.r.074896.2
+4	go	go	VB	B-social	0		social	ewtb.r.074896.2
+5	to	to	IN	Ī	4	_		ewtb.r.074896.2
+6	Nordstrom	nordstrom	NNP	O	0			ewtb.r.074896.2
+7	for	for	IN	O	0			ewtb.r.074896.2
+8	my	my	PRP$	O	0			ewtb.r.074896.2
+9	designer	designer	NN	B-social	0		social	ewtb.r.074896.2
+10	jeans	jean	NNS	Ī	9	_		ewtb.r.074896.2
+11	and	and	CC	Ī	10	_		ewtb.r.074896.2
+12	pay	pay	VB	Ī	11	_		ewtb.r.074896.2
+13	the	the	DT	O	0			ewtb.r.074896.2
+14	same	same	JJ	B-social	0		social	ewtb.r.074896.2
+15	price	price	NN	Ī	14	_		ewtb.r.074896.2
+16	,	,	,	O	0			ewtb.r.074896.2
+17	but	but	CC	O	0			ewtb.r.074896.2
+18	I	i	PRP	B-social	0		social	ewtb.r.074896.2
+19	go	go	VBP	Ī	18	_		ewtb.r.074896.2
+20	to	to	IN	O	0			ewtb.r.074896.2
+21	the	the	DT	O	0			ewtb.r.074896.2
+22	Garment	garment	NNP	O	0			ewtb.r.074896.2
+23	District	district	NNP	O	0			ewtb.r.074896.2
+24	for	for	IN	O	0			ewtb.r.074896.2
+25	their	their	PRP$	O	0			ewtb.r.074896.2
+26	service	service	NN	O	0			ewtb.r.074896.2
+27	.	.	.	O	0			ewtb.r.074896.2
+
+1	Previous	previous	JJ	O	0			ewtb.r.074896.3
+2	reviewers	reviewer	NNS	B-social	0		social	ewtb.r.074896.3
+3	said	say	VBD	Ī	2	_		ewtb.r.074896.3
+4	they	they	PRP	O	0			ewtb.r.074896.3
+5	were	be	VBD	B-social	0		social	ewtb.r.074896.3
+6	pushy	pushy	JJ	Ī	5	_		ewtb.r.074896.3
+7	and	and	CC	Ī	6	_		ewtb.r.074896.3
+8	I	i	PRP	Ī	7	_		ewtb.r.074896.3
+9	can	can	MD	Ī	8	_		ewtb.r.074896.3
+10	understand	understand	VB	Ī	9	_		ewtb.r.074896.3
+11	that	that	DT	O	0			ewtb.r.074896.3
+12	,	,	,	O	0			ewtb.r.074896.3
+13	but	but	CC	O	0			ewtb.r.074896.3
+14	I	i	PRP	B-social	0		social	ewtb.r.074896.3
+15	find	find	VBP	Ī	14	_		ewtb.r.074896.3
+16	the	the	DT	O	0			ewtb.r.074896.3
+17	staff	staff	NN	B-social	0		social	ewtb.r.074896.3
+18	more	more	RBR	Ī	17	_		ewtb.r.074896.3
+19	helpful	helpful	JJ	O	0			ewtb.r.074896.3
+20	than	than	IN	O	0			ewtb.r.074896.3
+21	anything	anything	NN	O	0			ewtb.r.074896.3
+22	else	else	JJ	O	0			ewtb.r.074896.3
+23	.	.	.	O	0			ewtb.r.074896.3
+
+1	Tiffany	tiffany	NNP	O	0			ewtb.r.074896.4
+2	is	be	VBZ	O-stative	0		stative	ewtb.r.074896.4
+3	fabulous	fabulous	JJ	O	0			ewtb.r.074896.4
+4	!	!	.	O	0			ewtb.r.074896.4
+
+1	I	i	PRP	O	0			ewtb.r.074896.5
+2	came	come	VBD	B-social	0		social	ewtb.r.074896.5
+3	in	in	RB	Ī	2	_		ewtb.r.074896.5
+4	for	for	IN	Ī	3	_		ewtb.r.074896.5
+5	alterations	alteration	NNS	Ī	4	_		ewtb.r.074896.5
+6	(	(	-LRB-	O	0			ewtb.r.074896.5
+7	free	free	JJ	O	0			ewtb.r.074896.5
+8	,	,	,	O	0			ewtb.r.074896.5
+9	by	by	IN	O	0			ewtb.r.074896.5
+10	the	the	DT	O	0			ewtb.r.074896.5
+11	way	way	NN	B-social	0		social	ewtb.r.074896.5
+12	)	)	-RRB-	Ī	11	_		ewtb.r.074896.5
+13	and	and	CC	Ī	12	_		ewtb.r.074896.5
+14	told	tell	VBD	Ī	13	_		ewtb.r.074896.5
+15	her	her	PRP	O	0			ewtb.r.074896.5
+16	about	about	IN	O	0			ewtb.r.074896.5
+17	a	a	DT	O	0			ewtb.r.074896.5
+18	stain	stain	NN	B-social	0		social	ewtb.r.074896.5
+19	I	i	PRP	Ī	18	_		ewtb.r.074896.5
+20	had	have	VBD	Ī	19	_		ewtb.r.074896.5
+21	on	on	IN	O	0			ewtb.r.074896.5
+22	my	my	PRP$	O	0			ewtb.r.074896.5
+23	new	new	JJ	O	0			ewtb.r.074896.5
+24	leather	leather	NN	B-social	0		social	ewtb.r.074896.5
+25	purse	purse	NN	Ī	24	_		ewtb.r.074896.5
+26	.	.	.	O	0			ewtb.r.074896.5
+
+1	She	she	PRP	O	0			ewtb.r.074896.6
+2	immediately	immediately	RB	O	0			ewtb.r.074896.6
+3	went	go	VBD	O-stative	0		stative	ewtb.r.074896.6
+4	to	to	IN	O	0			ewtb.r.074896.6
+5	the	the	DT	O	0			ewtb.r.074896.6
+6	back	back	NN	O	0			ewtb.r.074896.6
+7	,	,	,	O	0			ewtb.r.074896.6
+8	brought	bring	VBD	B-social	0		social	ewtb.r.074896.6
+9	out	out	RB	Ī	8	_		ewtb.r.074896.6
+10	leather	leather	NN	Ī	9	_		ewtb.r.074896.6
+11	cleaner	cleaner	NN	Ī	10	_		ewtb.r.074896.6
+12	and	and	CC	Ī	11	_		ewtb.r.074896.6
+13	cleaned	clean	VBD	Ī	12	_		ewtb.r.074896.6
+14	my	my	PRP$	Ī	13	_		ewtb.r.074896.6
+15	purse	purse	NN	Ī	14	_		ewtb.r.074896.6
+16	on	on	IN	O	0			ewtb.r.074896.6
+17	the	the	DT	O	0			ewtb.r.074896.6
+18	spot	spot	NN	O	0			ewtb.r.074896.6
+19	.	.	.	O	0			ewtb.r.074896.6
+
+1	I	i	PRP	B-social	0		social	ewtb.r.074896.7
+2	did	do	VBD	Ī	1	_		ewtb.r.074896.7
+3	n't	n't	RB	Ī	2	_		ewtb.r.074896.7
+4	even	even	RB	Ī	3	_		ewtb.r.074896.7
+5	buy	buy	VB	Ī	4	_		ewtb.r.074896.7
+6	the	the	DT	O	0			ewtb.r.074896.7
+7	bag	bag	NN	B-social	0		social	ewtb.r.074896.7
+8	there	there	RB	Ī	7	_		ewtb.r.074896.7
+9	!	!	.	O	0			ewtb.r.074896.7
+
+1	Huge	huge	JJ	O	0			ewtb.r.074896.8
+2	selection	selection	NN	O-FOOD	0		FOOD	ewtb.r.074896.8
+3	and	and	CC	O	0			ewtb.r.074896.8
+4	,	,	,	O	0			ewtb.r.074896.8
+5	great	great	JJ	B-social	0		social	ewtb.r.074896.8
+6	suggestions	suggestion	NNS	Ī	5	_		ewtb.r.074896.8
+7	from	from	IN	O	0			ewtb.r.074896.8
+8	the	the	DT	O	0			ewtb.r.074896.8
+9	staff	staff	NN	O-FOOD	0		FOOD	ewtb.r.074896.8
+10	and	and	CC	O	0			ewtb.r.074896.8
+11	they	they	PRP	O	0			ewtb.r.074896.8
+12	refer	refer	VBP	O	0			ewtb.r.074896.8
+13	you	you	PRP	O	0			ewtb.r.074896.8
+14	to	to	IN	O	0			ewtb.r.074896.8
+15	reliable	reliable	JJ	O	0			ewtb.r.074896.8
+16	places	place	NNS	O	0			ewtb.r.074896.8
+17	if	if	IN	O	0			ewtb.r.074896.8
+18	they	they	PRP	O	0			ewtb.r.074896.8
+19	do	do	VBP	O	0			ewtb.r.074896.8
+20	n't	n't	RB	O	0			ewtb.r.074896.8
+21	have	have	VB	B-social	0		social	ewtb.r.074896.8
+22	what	what	WP	Ī	21	_		ewtb.r.074896.8
+23	you	you	PRP	Ī	22	_		ewtb.r.074896.8
+24	need	need	VBP	Ī	23	_		ewtb.r.074896.8
+25	.	.	.	O	0			ewtb.r.074896.8
+
+1	I	i	PRP	B-social	0		social	ewtb.r.077034.1
+2	loved	love	VBD	Ī	1	_		ewtb.r.077034.1
+3	the	the	DT	O	0			ewtb.r.077034.1
+4	atmosphere	atmosphere	NN	B-social	0		social	ewtb.r.077034.1
+5	here	here	RB	Ī	4	_		ewtb.r.077034.1
+6	and	and	CC	O	0			ewtb.r.077034.1
+7	the	the	DT	O	0			ewtb.r.077034.1
+8	food	food	NN	B-social	0		social	ewtb.r.077034.1
+9	is	be	VBZ	Ī	8	_		ewtb.r.077034.1
+10	good	good	JJ	Ī	9	_		ewtb.r.077034.1
+11	,	,	,	O	0			ewtb.r.077034.1
+12	however	however	RB	O	0			ewtb.r.077034.1
+13	the	the	DT	O	0			ewtb.r.077034.1
+14	tables	table	NNS	B-social	0		social	ewtb.r.077034.1
+15	are	be	VBP	Ī	14	_		ewtb.r.077034.1
+16	so	so	RB	Ī	15	_		ewtb.r.077034.1
+17	close	close	JJ	O	0			ewtb.r.077034.1
+18	together	together	JJ	O	0			ewtb.r.077034.1
+19	that	that	IN	O	0			ewtb.r.077034.1
+20	it	it	PRP	B-social	0		social	ewtb.r.077034.1
+21	feels	feel	VBZ	Ī	20	_		ewtb.r.077034.1
+22	very	very	RB	Ī	21	_		ewtb.r.077034.1
+23	cramped	cramped	JJ	Ī	22	_		ewtb.r.077034.1
+24	.	.	.	O	0			ewtb.r.077034.1
+
+1	We	we	PRP	O	0			ewtb.r.077034.2
+2	were	be	VBD	B-social	0		social	ewtb.r.077034.2
+3	made	make	VBN	Ī	2	_		ewtb.r.077034.2
+4	to	to	TO	Ī	3	_		ewtb.r.077034.2
+5	feel	feel	VB	Ī	4	_		ewtb.r.077034.2
+6	very	very	RB	O	0			ewtb.r.077034.2
+7	welcome	welcome	JJ	O	0			ewtb.r.077034.2
+8	.	.	.	O	0			ewtb.r.077034.2
+
+1	Well	well	RB	O	0			ewtb.r.077034.3
+2	worth	worth	JJ	B-social	0		social	ewtb.r.077034.3
+3	a	a	DT	Ī	2	_		ewtb.r.077034.3
+4	visit	visit	NN	Ī	3	_		ewtb.r.077034.3
+5	.	.	.	O	0			ewtb.r.077034.3
+
+1	http://cambridgefoodfrivolity.blogspot.com/	http://cambridgefoodfrivolity.blogspot.com/	ADD	O	0			ewtb.r.077034.4
+
+1	the	the	DT	O	0			ewtb.r.077213.1
+2	food	food	NN	B-social	0		social	ewtb.r.077213.1
+3	is	be	VBZ	Ī	2	_		ewtb.r.077213.1
+4	mediocre	mediocre	JJ	O	0			ewtb.r.077213.1
+5	at	at	RB	O	0			ewtb.r.077213.1
+6	best	best	RBS	O	0			ewtb.r.077213.1
+7	.	.	.	O	0			ewtb.r.077213.1
+
+1	the	the	DT	O	0			ewtb.r.077213.2
+2	waitress	waitress	NN	B-social	0		social	ewtb.r.077213.2
+3	took	take	VBD	Ī	2	_		ewtb.r.077213.2
+4	my	my	PRP$	Ī	3	_		ewtb.r.077213.2
+5	name	name	NN	Ī	4	_		ewtb.r.077213.2
+6	and	and	CC	Ī	5	_		ewtb.r.077213.2
+7	then	then	RB	Ī	6	_		ewtb.r.077213.2
+8	called	call	VBD	Ī	7	_		ewtb.r.077213.2
+9	me	me	PRP	Ī	8	_		ewtb.r.077213.2
+10	that	that	DT	O	0			ewtb.r.077213.2
+11	all	all	DT	O	0			ewtb.r.077213.2
+12	night	night	NN	O	0			ewtb.r.077213.2
+13	.	.	.	O	0			ewtb.r.077213.2
+
+1	not	not	RB	O	0			ewtb.r.077213.3
+2	sure	sure	JJ	O	0			ewtb.r.077213.3
+3	how	how	WRB	O	0			ewtb.r.077213.3
+4	I	i	PRP	B-social	0		social	ewtb.r.077213.3
+5	feel	feel	VBP	Ī	4	_		ewtb.r.077213.3
+6	about	about	IN	O	0			ewtb.r.077213.3
+7	that	that	DT	O	0			ewtb.r.077213.3
+8	one	one	CD	O	0			ewtb.r.077213.3
+9	.	.	.	O	0			ewtb.r.077213.3
+
+1	it	it	PRP	O	0			ewtb.r.077213.4
+2	's	's	VBZ	O	0			ewtb.r.077213.4
+3	passable	passable	JJ	O	0			ewtb.r.077213.4
+4	as	as	IN	B-social	0		social	ewtb.r.077213.4
+5	a	a	DT	Ī	4	_		ewtb.r.077213.4
+6	pub	pub	NN	Ī	5	_		ewtb.r.077213.4
+7	,	,	,	O	0			ewtb.r.077213.4
+8	but	but	CC	O	0			ewtb.r.077213.4
+9	the	the	DT	O	0			ewtb.r.077213.4
+10	pizza	pizza	NN	B-social	0		social	ewtb.r.077213.4
+11	is	be	VBZ	Ī	10	_		ewtb.r.077213.4
+12	not	not	RB	O	0			ewtb.r.077213.4
+13	that	that	RB	O	0			ewtb.r.077213.4
+14	great	great	JJ	O	0			ewtb.r.077213.4
+15	.	.	.	O	0			ewtb.r.077213.4
+
+1	if	if	IN	O	0			ewtb.r.077213.5
+2	you	you	PRP	O	0			ewtb.r.077213.5
+3	want	want	VBP	B-social	0		social	ewtb.r.077213.5
+4	good	good	JJ	Ī	3	_		ewtb.r.077213.5
+5	pizza	pizza	NN	Ī	4	_		ewtb.r.077213.5
+6	,	,	,	O	0			ewtb.r.077213.5
+7	go	go	VB	O	0			ewtb.r.077213.5
+8	to	to	IN	O	0			ewtb.r.077213.5
+9	famoso	famoso	NNP	O	0			ewtb.r.077213.5
+10	.	.	.	O	0			ewtb.r.077213.5
+
+1	seriously	seriously	RB	O	0			ewtb.r.077213.6
+2	.	.	.	O	0			ewtb.r.077213.6
+
+1	Had	have	VBD	B-social	0		social	ewtb.r.077298.1
+2	a	a	DT	Ī	1	_		ewtb.r.077298.1
+3	horrible	horrible	JJ	Ī	2	_		ewtb.r.077298.1
+4	experience	experience	NN	Ī	3	_		ewtb.r.077298.1
+5	with	with	IN	O	0			ewtb.r.077298.1
+6	a	a	DT	O	0			ewtb.r.077298.1
+7	manager	manager	NN	B-social	0		social	ewtb.r.077298.1
+8	here	here	RB	Ī	7	_		ewtb.r.077298.1
+9	,	,	,	O	0			ewtb.r.077298.1
+10	Rachel	rachel	NNP	O	0			ewtb.r.077298.1
+11	McInnis	mcinnis	NNP	O	0			ewtb.r.077298.1
+12	,	,	,	O	0			ewtb.r.077298.1
+13	she	she	PRP	O	0			ewtb.r.077298.1
+14	was	be	VBD	O-stative	0		stative	ewtb.r.077298.1
+15	rude	rude	JJ	O	0			ewtb.r.077298.1
+16	,	,	,	O	0			ewtb.r.077298.1
+17	inconsiderate	inconsiderate	JJ	O	0			ewtb.r.077298.1
+18	and	and	CC	O	0			ewtb.r.077298.1
+19	did	do	VBD	B-social	0		social	ewtb.r.077298.1
+20	not	not	RB	Ī	19	_		ewtb.r.077298.1
+21	do	do	VB	Ī	20	_		ewtb.r.077298.1
+22	the	the	DT	O	0			ewtb.r.077298.1
+23	right	right	JJ	B-social	0		social	ewtb.r.077298.1
+24	thing	thing	NN	Ī	23	_		ewtb.r.077298.1
+25	for	for	IN	Ī	24	_		ewtb.r.077298.1
+26	an	an	DT	Ī	25	_		ewtb.r.077298.1
+27	item	item	NN	Ī	26	_		ewtb.r.077298.1
+28	that	that	WDT	O	0			ewtb.r.077298.1
+29	was	be	VBD	B-social	0		social	ewtb.r.077298.1
+30	marked	mark	VBN	Ī	29	_		ewtb.r.077298.1
+31	incorrectly	incorrectly	RB	O	0			ewtb.r.077298.1
+32	...	...	.	O	0			ewtb.r.077298.1
+
+1	I	i	PRP	O	0			ewtb.r.077298.2
+2	'm	'm	VBP	O	0			ewtb.r.077298.2
+3	not	not	RB	O	0			ewtb.r.077298.2
+4	interested	interested	JJ	B-social	0		social	ewtb.r.077298.2
+5	in	in	IN	Ī	4	_		ewtb.r.077298.2
+6	shopping	shop	VBG	Ī	5	_		ewtb.r.077298.2
+7	in	in	IN	Ī	6	_		ewtb.r.077298.2
+8	a	a	DT	Ī	7	_		ewtb.r.077298.2
+9	place	place	NN	Ī	8	_		ewtb.r.077298.2
+10	with	with	IN	Ī	9	_		ewtb.r.077298.2
+11	people	person	NNS	Ī	10	_		ewtb.r.077298.2
+12	like	like	IN	Ī	11	_		ewtb.r.077298.2
+13	her	her	PRP	O	0			ewtb.r.077298.2
+14	...	...	,	O	0			ewtb.r.077298.2
+15	she	she	PRP	O	0			ewtb.r.077298.2
+16	refused	refuse	VBD	B-social	0		social	ewtb.r.077298.2
+17	to	to	TO	Ī	16	_		ewtb.r.077298.2
+18	sell	sell	VB	Ī	17	_		ewtb.r.077298.2
+19	me	me	PRP	Ī	18	_		ewtb.r.077298.2
+20	the	the	DT	O	0			ewtb.r.077298.2
+21	item	item	NN	B-social	0		social	ewtb.r.077298.2
+22	at	at	IN	Ī	21	_		ewtb.r.077298.2
+23	its	it	PRP$	Ī	22	_		ewtb.r.077298.2
+24	marked	mark	VBN	Ī	23	_		ewtb.r.077298.2
+25	price	price	NN	Ī	24	_		ewtb.r.077298.2
+26	even	even	RB	Ī	25	_		ewtb.r.077298.2
+27	after	after	IN	Ī	26	_		ewtb.r.077298.2
+28	admitting	admit	VBG	Ī	27	_		ewtb.r.077298.2
+29	they	they	PRP	O	0			ewtb.r.077298.2
+30	had	have	VBD	B-social	0		social	ewtb.r.077298.2
+31	made	make	VBN	Ī	30	_		ewtb.r.077298.2
+32	a	a	DT	Ī	31	_		ewtb.r.077298.2
+33	mistake	mistake	NN	Ī	32	_		ewtb.r.077298.2
+34	.	.	.	O	0			ewtb.r.077298.2
+
+1	I	i	PRP	O	0			ewtb.r.077298.3
+2	normally	normally	RB	O	0			ewtb.r.077298.3
+3	do	do	VBP	O	0			ewtb.r.077298.3
+4	n't	n't	RB	O	0			ewtb.r.077298.3
+5	write	write	VB	B-social	0		social	ewtb.r.077298.3
+6	reviews	review	NNS	Ī	5	_		ewtb.r.077298.3
+7	but	but	CC	Ī	6	_		ewtb.r.077298.3
+8	seeing	see	VBG	Ī	7	_		ewtb.r.077298.3
+9	that	that	IN	O	0			ewtb.r.077298.3
+10	I	i	PRP	B-social	0		social	ewtb.r.077298.3
+11	considered	consider	VBD	Ī	10	_		ewtb.r.077298.3
+12	Dillards	dillards	NNP	O	0			ewtb.r.077298.3
+13	a	a	DT	O	0			ewtb.r.077298.3
+14	distinguished	distinguished	JJ	O	0			ewtb.r.077298.3
+15	,	,	,	O	0			ewtb.r.077298.3
+16	upscale	upscale	JJ	O	0			ewtb.r.077298.3
+17	place	place	NN	O	0			ewtb.r.077298.3
+18	to	to	TO	O	0			ewtb.r.077298.3
+19	shop	shop	VB	O	0			ewtb.r.077298.3
+20	,	,	,	O	0			ewtb.r.077298.3
+21	this	this	DT	O	0			ewtb.r.077298.3
+22	one	one	CD	O	0			ewtb.r.077298.3
+23	wo	wo	MD	O	0			ewtb.r.077298.3
+24	n't	n't	RB	O	0			ewtb.r.077298.3
+25	be	be	VB	B-social	0		social	ewtb.r.077298.3
+26	getting	get	VBG	Ī	25	_		ewtb.r.077298.3
+27	my	my	PRP$	Ī	26	_		ewtb.r.077298.3
+28	business	business	NN	Ī	27	_		ewtb.r.077298.3
+29	,	,	,	O	0			ewtb.r.077298.3
+30	nor	nor	CC	O	0			ewtb.r.077298.3
+31	my	my	PRP$	O	0			ewtb.r.077298.3
+32	family	family	NN	O	0			ewtb.r.077298.3
+33	's	's	POS	O	0			ewtb.r.077298.3
+34	,	,	,	O	0			ewtb.r.077298.3
+35	nor	nor	CC	O	0			ewtb.r.077298.3
+36	my	my	PRP$	O	0			ewtb.r.077298.3
+37	co-workers	co-worker	NNS	O	0			ewtb.r.077298.3
+38	.	.	.	O	0			ewtb.r.077298.3
+
+1	It	it	PRP	O	0			ewtb.r.077298.4
+2	's	's	VBZ	O	0			ewtb.r.077298.4
+3	never	never	RB	O	0			ewtb.r.077298.4
+4	ok	ok	JJ	O	0			ewtb.r.077298.4
+5	to	to	TO	O	0			ewtb.r.077298.4
+6	let	let	VB	B-social	0		social	ewtb.r.077298.4
+7	a	a	DT	Ī	6	_		ewtb.r.077298.4
+8	customer	customer	NN	Ī	7	_		ewtb.r.077298.4
+9	walk	walk	VB	Ī	8	_		ewtb.r.077298.4
+10	out	out	RB	Ī	9	_		ewtb.r.077298.4
+11	unhappy	unhappy	JJ	O	0			ewtb.r.077298.4
+12	,	,	,	O	0			ewtb.r.077298.4
+13	especially	especially	RB	O	0			ewtb.r.077298.4
+14	when	when	WRB	O	0			ewtb.r.077298.4
+15	they	they	PRP	O	0			ewtb.r.077298.4
+16	are	be	VBP	B-social	0		social	ewtb.r.077298.4
+17	right	right	JJ	Ī	16	_		ewtb.r.077298.4
+18	.	.	.	O	0			ewtb.r.077298.4
+
+1	Small	small	JJ	O	0			ewtb.r.077414.1
+2	Firm	firm	NN	O	0			ewtb.r.077414.1
+3	with	with	IN	O	0			ewtb.r.077414.1
+4	Great	great	JJ	O	0			ewtb.r.077414.1
+5	Service	service	NN	O	0			ewtb.r.077414.1
+
+1	Bloom	bloom	NNP	O	0			ewtb.r.077414.2
+2	Legal	legal	NNP	O	0			ewtb.r.077414.2
+3	was	be	VBD	O-stative	0		stative	ewtb.r.077414.2
+4	really	really	RB	O	0			ewtb.r.077414.2
+5	attentive	attentive	JJ	O	0			ewtb.r.077414.2
+6	to	to	IN	O	0			ewtb.r.077414.2
+7	my	my	PRP$	O	0			ewtb.r.077414.2
+8	problem	problem	NN	O	0			ewtb.r.077414.2
+9	,	,	,	O	0			ewtb.r.077414.2
+10	and	and	CC	O	0			ewtb.r.077414.2
+11	Seth	seth	NNP	O	0			ewtb.r.077414.2
+12	Bloom	bloom	NNP	B-social	0		social	ewtb.r.077414.2
+13	took	take	VBD	Ī	12	_		ewtb.r.077414.2
+14	the	the	DT	O	0			ewtb.r.077414.2
+15	time	time	NN	O	0			ewtb.r.077414.2
+16	to	to	TO	O	0			ewtb.r.077414.2
+17	help	help	VB	B-social	0		social	ewtb.r.077414.2
+18	me	me	PRP	Ī	17	_		ewtb.r.077414.2
+19	understand	understand	VB	Ī	18	_		ewtb.r.077414.2
+20	the	the	DT	O	0			ewtb.r.077414.2
+21	legal	legal	JJ	O	0			ewtb.r.077414.2
+22	issue	issue	NN	B-social	0		social	ewtb.r.077414.2
+23	I	i	PRP	Ī	22	_		ewtb.r.077414.2
+24	was	be	VBD	Ī	23	_		ewtb.r.077414.2
+25	dealing	deal	VBG	Ī	24	_		ewtb.r.077414.2
+26	with	with	IN	O	0			ewtb.r.077414.2
+27	.	.	.	O	0			ewtb.r.077414.2
+
+1	I	i	PRP	B-social	0		social	ewtb.r.077414.3
+2	much	much	RB	Ī	1	_		ewtb.r.077414.3
+3	preferred	prefer	VBD	Ī	2	_		ewtb.r.077414.3
+4	the	the	DT	O	0			ewtb.r.077414.3
+5	one	one	CD	O	0			ewtb.r.077414.3
+6	-	-	HYPH	O	0			ewtb.r.077414.3
+7	on	on	IN	O	0			ewtb.r.077414.3
+8	-	-	HYPH	O	0			ewtb.r.077414.3
+9	one	one	CD	B-social	0		social	ewtb.r.077414.3
+10	service	service	NN	Ī	9	_		ewtb.r.077414.3
+11	here	here	RB	Ī	10	_		ewtb.r.077414.3
+12	to	to	IN	O	0			ewtb.r.077414.3
+13	the	the	DT	O	0			ewtb.r.077414.3
+14	experiences	experience	NNS	O	0			ewtb.r.077414.3
+15	I	i	PRP	O	0			ewtb.r.077414.3
+16	've	've	VBP	O	0			ewtb.r.077414.3
+17	had	have	VBN	B-social	0		social	ewtb.r.077414.3
+18	with	with	IN	Ī	17	_		ewtb.r.077414.3
+19	bigger	bigger	JJR	Ī	18	_		ewtb.r.077414.3
+20	offices	office	NNS	Ī	19	_		ewtb.r.077414.3
+21	and	and	CC	Ī	20	_		ewtb.r.077414.3
+22	firms	firm	NNS	Ī	21	_		ewtb.r.077414.3
+23	.	.	.	O	0			ewtb.r.077414.3
+
+1	While	while	IN	O	0			ewtb.r.077414.4
+2	I	i	PRP	O	0			ewtb.r.077414.4
+3	hope	hope	VBP	B-social	0		social	ewtb.r.077414.4
+4	I	i	PRP	Ī	3	_		ewtb.r.077414.4
+5	do	do	VBP	Ī	4	_		ewtb.r.077414.4
+6	n't	n't	RB	O	0			ewtb.r.077414.4
+7	have	have	VB	B-social	0		social	ewtb.r.077414.4
+8	any	any	DT	Ī	7	_		ewtb.r.077414.4
+9	need	need	NN	Ī	8	_		ewtb.r.077414.4
+10	for	for	IN	O	0			ewtb.r.077414.4
+11	a	a	DT	O	0			ewtb.r.077414.4
+12	lawyer	lawyer	NN	O	0			ewtb.r.077414.4
+13	anytime	anytime	NN	O	0			ewtb.r.077414.4
+14	soon	soon	RB	O	0			ewtb.r.077414.4
+15	,	,	,	O	0			ewtb.r.077414.4
+16	if	if	IN	O	0			ewtb.r.077414.4
+17	I	i	PRP	B-social	0		social	ewtb.r.077414.4
+18	do	do	VBP	Ī	17	_		ewtb.r.077414.4
+19	I	i	PRP	Ī	18	_		ewtb.r.077414.4
+20	'll	'll	MD	O	0			ewtb.r.077414.4
+21	definitely	definitely	RB	O	0			ewtb.r.077414.4
+22	use	use	VB	B-social	0		social	ewtb.r.077414.4
+23	this	this	DT	Ī	22	_		ewtb.r.077414.4
+24	firm	firm	NN	Ī	23	_		ewtb.r.077414.4
+25	again	again	RB	O	0			ewtb.r.077414.4
+26	.	.	.	O	0			ewtb.r.077414.4
+
+1	You	you	PRP	O	0			ewtb.r.080178.1
+2	will	will	MD	B-social	0		social	ewtb.r.080178.1
+3	be	be	VB	Ī	2	_		ewtb.r.080178.1
+4	happy	happy	JJ	Ī	3	_		ewtb.r.080178.1
+5	at	at	IN	Ī	4	_		ewtb.r.080178.1
+6	this	this	DT	Ī	5	_		ewtb.r.080178.1
+7	store	store	NN	Ī	6	_		ewtb.r.080178.1
+8	!	!	.	O	0			ewtb.r.080178.1
+
+1	Allen	allen	NNP	O	0			ewtb.r.080178.2
+2	Tire	tire	NNP	B-social	0		social	ewtb.r.080178.2
+3	was	be	VBD	Ī	2	_		ewtb.r.080178.2
+4	recommended	recommend	VBN	Ī	3	_		ewtb.r.080178.2
+5	by	by	IN	Ī	4	_		ewtb.r.080178.2
+6	friend	friend	NN	Ī	5	_		ewtb.r.080178.2
+7	after	after	IN	O	0			ewtb.r.080178.2
+8	my	my	PRP$	O	0			ewtb.r.080178.2
+9	having	have	VBG	B-social	0		social	ewtb.r.080178.2
+10	bad	bad	JJ	Ī	9	_		ewtb.r.080178.2
+11	tire	tire	NN	Ī	10	_		ewtb.r.080178.2
+12	experiences	experience	NNS	Ī	11	_		ewtb.r.080178.2
+13	in	in	IN	Ī	12	_		ewtb.r.080178.2
+14	Temecula	temecula	NNP	O	0			ewtb.r.080178.2
+15	.	.	.	O	0			ewtb.r.080178.2
+
+1	The	the	DT	O	0			ewtb.r.080178.3
+2	store	store	NN	B-social	0		social	ewtb.r.080178.3
+3	manager	manager	NN	Ī	2	_		ewtb.r.080178.3
+4	,	,	,	O	0			ewtb.r.080178.3
+5	Jim	jim	NNP	O	0			ewtb.r.080178.3
+6	Smith	smith	NNP	O	0			ewtb.r.080178.3
+7	,	,	,	O	0			ewtb.r.080178.3
+8	made	make	VBD	B-social	0		social	ewtb.r.080178.3
+9	an	an	DT	Ī	8	_		ewtb.r.080178.3
+10	excellent	excellent	JJ	Ī	9	_		ewtb.r.080178.3
+11	tire	tire	NN	Ī	10	_		ewtb.r.080178.3
+12	recommendation	recommendation	NN	Ī	11	_		ewtb.r.080178.3
+13	for	for	IN	O	0			ewtb.r.080178.3
+14	my	my	PRP$	O	0			ewtb.r.080178.3
+15	newly	newly	RB	O	0			ewtb.r.080178.3
+16	acquired	acquire	VBN	O	0			ewtb.r.080178.3
+17	Lexus	lexus	NNP	O	0			ewtb.r.080178.3
+18	.	.	.	O	0			ewtb.r.080178.3
+
+1	Tires	tire	NNS	O	0			ewtb.r.080178.4
+2	were	be	VBD	B-social	0		social	ewtb.r.080178.4
+3	the	the	DT	Ī	2	_		ewtb.r.080178.4
+4	right	right	JJ	Ī	3	_		ewtb.r.080178.4
+5	price	price	NN	Ī	4	_		ewtb.r.080178.4
+6	and	and	CC	O	0			ewtb.r.080178.4
+7	now	now	RB	O	0			ewtb.r.080178.4
+8	the	the	DT	O	0			ewtb.r.080178.4
+9	car	car	NN	B-social	0		social	ewtb.r.080178.4
+10	feels	feel	VBZ	Ī	9	_		ewtb.r.080178.4
+11	like	like	IN	Ī	10	_		ewtb.r.080178.4
+12	it	it	PRP	Ī	11	_		ewtb.r.080178.4
+13	is	be	VBZ	Ī	12	_		ewtb.r.080178.4
+14	riding	ride	VBG	Ī	13	_		ewtb.r.080178.4
+15	on	on	IN	Ī	14	_		ewtb.r.080178.4
+16	rails	rails	NNS	Ī	15	_		ewtb.r.080178.4
+17	around	around	IN	Ī	16	_		ewtb.r.080178.4
+18	turns	turn	NNS	Ī	17	_		ewtb.r.080178.4
+19	.	.	.	O	0			ewtb.r.080178.4
+
+1	The	the	DT	O	0			ewtb.r.080178.5
+2	store	store	NN	B-social	0		social	ewtb.r.080178.5
+3	is	be	VBZ	Ī	2	_		ewtb.r.080178.5
+4	clean	clean	JJ	Ī	3	_		ewtb.r.080178.5
+5	,	,	,	O	0			ewtb.r.080178.5
+6	run	run	VBN	O	0			ewtb.r.080178.5
+7	very	very	RB	O	0			ewtb.r.080178.5
+8	professionally	professionally	RB	O	0			ewtb.r.080178.5
+9	and	and	CC	O	0			ewtb.r.080178.5
+10	a	a	DT	O	0			ewtb.r.080178.5
+11	pleasure	pleasure	NN	B-social	0		social	ewtb.r.080178.5
+12	to	to	TO	Ī	11	_		ewtb.r.080178.5
+13	be	be	VB	Ī	12	_		ewtb.r.080178.5
+14	in	in	IN	Ī	13	_		ewtb.r.080178.5
+15	.	.	.	O	0			ewtb.r.080178.5
+
+1	They	they	PRP	O	0			ewtb.r.080178.6
+2	know	know	VBP	B-social	0		social	ewtb.r.080178.6
+3	their	their	PRP$	Ī	2	_		ewtb.r.080178.6
+4	job	job	NN	Ī	3	_		ewtb.r.080178.6
+5	and	and	CC	O	0			ewtb.r.080178.6
+6	you	you	PRP	O	0			ewtb.r.080178.6
+7	do	do	VBP	O	0			ewtb.r.080178.6
+8	not	not	RB	O	0			ewtb.r.080178.6
+9	have	have	VB	B-social	0		social	ewtb.r.080178.6
+10	to	to	TO	Ī	9	_		ewtb.r.080178.6
+11	watch	watch	VB	Ī	10	_		ewtb.r.080178.6
+12	them	them	PRP	O	0			ewtb.r.080178.6
+13	to	to	TO	O	0			ewtb.r.080178.6
+14	be	be	VB	B-social	0		social	ewtb.r.080178.6
+15	sure	sure	JJ	Ī	14	_		ewtb.r.080178.6
+16	everything	everything	NN	Ī	15	_		ewtb.r.080178.6
+17	is	be	VBZ	Ī	16	_		ewtb.r.080178.6
+18	done	do	VBN	Ī	17	_		ewtb.r.080178.6
+19	right	right	JJ	Ī	18	_		ewtb.r.080178.6
+20	.	.	.	O	0			ewtb.r.080178.6
+
+1	Fantastic	fantastic	JJ	O	0			ewtb.r.080814.1
+2	professional	professional	JJ	B-social	0		social	ewtb.r.080814.1
+3	service	service	NN	Ī	2	_		ewtb.r.080814.1
+4	-	-	:	O	0			ewtb.r.080814.1
+
+1	These	these	DT	O	0			ewtb.r.080814.2
+2	guys	guy	NNS	O	0			ewtb.r.080814.2
+3	really	really	RB	O	0			ewtb.r.080814.2
+4	know	know	VBP	B-social	0		social	ewtb.r.080814.2
+5	their	their	PRP$	Ī	4	_		ewtb.r.080814.2
+6	stuff	stuff	NN	Ī	5	_		ewtb.r.080814.2
+7	..	..	,	O	0			ewtb.r.080814.2
+8	they	they	PRP	O	0			ewtb.r.080814.2
+9	have	have	VBP	O	0			ewtb.r.080814.2
+10	almost	almost	RB	O	0			ewtb.r.080814.2
+11	anything	anything	NN	O	0			ewtb.r.080814.2
+12	you	you	PRP	O	0			ewtb.r.080814.2
+13	could	could	MD	O	0			ewtb.r.080814.2
+14	want	want	VB	B-social	0		social	ewtb.r.080814.2
+15	in	in	IN	Ī	14	_		ewtb.r.080814.2
+16	terms	terms	NNS	Ī	15	_		ewtb.r.080814.2
+17	of	of	IN	Ī	16	_		ewtb.r.080814.2
+18	spy	spy	NN	Ī	17	_		ewtb.r.080814.2
+19	and	and	CC	O	0			ewtb.r.080814.2
+20	surviellance	surviellance	NN	O	0			ewtb.r.080814.2
+21	equipment	equipment	NN	O	0			ewtb.r.080814.2
+22	.	.	.	O	0			ewtb.r.080814.2
+
+1	Truly	truly	RB	O	0			ewtb.r.080814.3
+2	james	james	NNP	B-social	0		social	ewtb.r.080814.3
+3	bond	bond	NNP	Ī	2	_		ewtb.r.080814.3
+4	style	style	NN	Ī	3	_		ewtb.r.080814.3
+5	stuff	stuff	NN	Ī	4	_		ewtb.r.080814.3
+6	...	...	,	O	0			ewtb.r.080814.3
+7	would	would	MD	O	0			ewtb.r.080814.3
+8	recommend	recommend	VB	O	0			ewtb.r.080814.3
+
+1	Fast	fast	JJ	O	0			ewtb.r.080854.1
+2	and	and	CC	O	0			ewtb.r.080854.1
+3	affordable	affordable	JJ	O	0			ewtb.r.080854.1
+4	.	.	.	O	0			ewtb.r.080854.1
+
+1	Great	great	JJ	O	0			ewtb.r.080854.2
+2	job	job	NN	B-social	0		social	ewtb.r.080854.2
+3	master	master	NN	Ī	2	_		ewtb.r.080854.2
+4	keying	key	VBG	Ī	3	_		ewtb.r.080854.2
+5	our	our	PRP$	Ī	4	_		ewtb.r.080854.2
+6	building	building	NN	Ī	5	_		ewtb.r.080854.2
+7	.	.	.	O	0			ewtb.r.080854.2
+
+1	Best	best	JJS	O	0			ewtb.r.081116.1
+2	fried	fry	VBN	B-social	0		social	ewtb.r.081116.1
+3	shrimp	shrimp	NN	Ī	2	_		ewtb.r.081116.1
+4	in	in	IN	Ī	3	_		ewtb.r.081116.1
+5	the	the	DT	O	0			ewtb.r.081116.1
+6	state	state	NN	O	0			ewtb.r.081116.1
+7	!	!	.	O	0			ewtb.r.081116.1
+
+1	Exile	exile	NNP	O	0			ewtb.r.081796.1
+2	is	be	VBZ	B-social	0		social	ewtb.r.081796.1
+3	the	the	DT	Ī	2	_		ewtb.r.081796.1
+4	best	best	JJS	Ī	3	_		ewtb.r.081796.1
+5	!!!	!!!	.	O	0			ewtb.r.081796.1
+
+1	Exile	exile	NNP	O	0			ewtb.r.081796.2
+2	is	be	VBZ	B-social	0		social	ewtb.r.081796.2
+3	the	the	DT	Ī	2	_		ewtb.r.081796.2
+4	longest	longest	RBS	Ī	3	_		ewtb.r.081796.2
+5	lasting	last	VBG	Ī	4	_		ewtb.r.081796.2
+6	and	and	CC	O	0			ewtb.r.081796.2
+7	most	most	RBS	O	0			ewtb.r.081796.2
+8	authentic	authentic	JJ	O	0			ewtb.r.081796.2
+9	punk	punk	NN	B-social	0		social	ewtb.r.081796.2
+10	store	store	NN	Ī	9	_		ewtb.r.081796.2
+11	in	in	IN	Ī	10	_		ewtb.r.081796.2
+12	Richmond	richmond	NNP	Ī	11	_		ewtb.r.081796.2
+13	!	!	.	O	0			ewtb.r.081796.2
+
+1	I	i	PRP	O	0			ewtb.r.081796.3
+2	have	have	VBP	B-social	0		social	ewtb.r.081796.3
+3	been	be	VBN	Ī	2	_		ewtb.r.081796.3
+4	shopping	shop	VBG	Ī	3	_		ewtb.r.081796.3
+5	there	there	RB	Ī	4	_		ewtb.r.081796.3
+6	for	for	IN	Ī	5	_		ewtb.r.081796.3
+7	over	over	IN	Ī	6	_		ewtb.r.081796.3
+8	six	six	CD	Ī	7	_		ewtb.r.081796.3
+9	years	years	NNS	Ī	8	_		ewtb.r.081796.3
+10	now	now	RB	Ī	9	_		ewtb.r.081796.3
+11	.	.	.	O	0			ewtb.r.081796.3
+
+1	The	the	DT	O	0			ewtb.r.081796.4
+2	staff	staff	NN	B-social	0		social	ewtb.r.081796.4
+3	is	be	VBZ	Ī	2	_		ewtb.r.081796.4
+4	incredibly	incredibly	RB	O	0			ewtb.r.081796.4
+5	friendly	friendly	JJ	O	0			ewtb.r.081796.4
+6	and	and	CC	O	0			ewtb.r.081796.4
+7	helpful	helpful	JJ	O	0			ewtb.r.081796.4
+8	and	and	CC	O	0			ewtb.r.081796.4
+9	the	the	DT	O	0			ewtb.r.081796.4
+10	owner	owner	NN	O	0			ewtb.r.081796.4
+11	,	,	,	O	0			ewtb.r.081796.4
+12	Mimmy	mimmy	NNP	O	0			ewtb.r.081796.4
+13	,	,	,	O	0			ewtb.r.081796.4
+14	is	be	VBZ	B-social	0		social	ewtb.r.081796.4
+15	an	an	DT	Ī	14	_		ewtb.r.081796.4
+16	absolute	absolute	JJ	Ī	15	_		ewtb.r.081796.4
+17	angel	angel	NN	Ī	16	_		ewtb.r.081796.4
+18	.	.	.	O	0			ewtb.r.081796.4
+
+1	The	the	DT	O	0			ewtb.r.081796.5
+2	mark	mark	NN	B-social	0		social	ewtb.r.081796.5
+3	up	up	NN	Ī	2	_		ewtb.r.081796.5
+4	is	be	VBZ	Ī	3	_		ewtb.r.081796.5
+5	minimal	minimal	JJ	Ī	4	_		ewtb.r.081796.5
+6	considering	consider	VBG	Ī	5	_		ewtb.r.081796.5
+7	that	that	IN	O	0			ewtb.r.081796.5
+8	the	the	DT	O	0			ewtb.r.081796.5
+9	clothing	clothing	NN	B-social	0		social	ewtb.r.081796.5
+10	is	be	VBZ	Ī	9	_		ewtb.r.081796.5
+11	hard	hard	JJ	O	0			ewtb.r.081796.5
+12	to	to	TO	O	0			ewtb.r.081796.5
+13	find	find	VB	B-social	0		social	ewtb.r.081796.5
+14	and	and	CC	Ī	13	_		ewtb.r.081796.5
+15	often	often	RB	Ī	14	_		ewtb.r.081796.5
+16	shipped	ship	VBN	Ī	15	_		ewtb.r.081796.5
+17	for	for	IN	O	0			ewtb.r.081796.5
+18	Europe	europe	NNP	O	0			ewtb.r.081796.5
+19	.	.	.	O	0			ewtb.r.081796.5
+
+1	In	in	IN	O	0			ewtb.r.081796.6
+2	addition	addition	NN	O	0			ewtb.r.081796.6
+3	,	,	,	O	0			ewtb.r.081796.6
+4	the	the	DT	O	0			ewtb.r.081796.6
+5	clothing	clothing	NN	B-social	0		social	ewtb.r.081796.6
+6	is	be	VBZ	Ī	5	_		ewtb.r.081796.6
+7	of	of	IN	Ī	6	_		ewtb.r.081796.6
+8	much	much	RB	Ī	7	_		ewtb.r.081796.6
+9	better	better	JJR	Ī	8	_		ewtb.r.081796.6
+10	quality	quality	NN	Ī	9	_		ewtb.r.081796.6
+11	than	than	IN	O	0			ewtb.r.081796.6
+12	the	the	DT	O	0			ewtb.r.081796.6
+13	clothing	clothing	NN	O-FOOD	0		FOOD	ewtb.r.081796.6
+14	from	from	IN	O	0			ewtb.r.081796.6
+15	hot	hot	NNP	O	0			ewtb.r.081796.6
+16	topic	topic	NNP	O	0			ewtb.r.081796.6
+17	,	,	,	O	0			ewtb.r.081796.6
+18	which	which	WDT	O	0			ewtb.r.081796.6
+19	is	be	VBZ	B-social	0		social	ewtb.r.081796.6
+20	made	make	VBN	Ī	19	_		ewtb.r.081796.6
+21	as	as	RB	Ī	20	_		ewtb.r.081796.6
+22	cheaply	cheaply	RB	Ī	21	_		ewtb.r.081796.6
+23	as	as	IN	Ī	22	_		ewtb.r.081796.6
+24	possible	possible	JJ	Ī	23	_		ewtb.r.081796.6
+25	by	by	IN	Ī	24	_		ewtb.r.081796.6
+26	people	person	NNS	Ī	25	_		ewtb.r.081796.6
+27	living	live	VBG	Ī	26	_		ewtb.r.081796.6
+28	in	in	IN	Ī	27	_		ewtb.r.081796.6
+29	horrible	horrible	JJ	Ī	28	_		ewtb.r.081796.6
+30	conditions	conditions	NNS	Ī	29	_		ewtb.r.081796.6
+31	in	in	IN	Ī	30	_		ewtb.r.081796.6
+32	Asia	asia	NNP	O	0			ewtb.r.081796.6
+33	.	.	.	O	0			ewtb.r.081796.6
+
+1	Exile	exile	NNP	O	0			ewtb.r.081796.7
+2	is	be	VBZ	O-stative	0		stative	ewtb.r.081796.7
+3	environmentally	environmentally	RB	O	0			ewtb.r.081796.7
+4	conscious	conscious	JJ	O	0			ewtb.r.081796.7
+5	and	and	CC	O	0			ewtb.r.081796.7
+6	involved	involved	JJ	B-social	0		social	ewtb.r.081796.7
+7	heavily	heavily	RB	Ī	6	_		ewtb.r.081796.7
+8	in	in	IN	Ī	7	_		ewtb.r.081796.7
+9	our	our	PRP$	Ī	8	_		ewtb.r.081796.7
+10	community	community	NN	Ī	9	_		ewtb.r.081796.7
+11	.	.	.	O	0			ewtb.r.081796.7
+
+1	Shop	shop	VB	B-social	0		social	ewtb.r.081796.8
+2	local	local	RB	Ī	1	_		ewtb.r.081796.8
+3	at	at	IN	Ī	2	_		ewtb.r.081796.8
+4	Exile	exile	NNP	Ī	3	_		ewtb.r.081796.8
+5	!!	!!	.	O	0			ewtb.r.081796.8
+
+1	Liquidweb.com	liquidweb.com	ADD	O	0			ewtb.r.081934.1
+2	Rocks	rock	VBZ	O-stative	0		stative	ewtb.r.081934.1
+3	!!!	!!!	.	O	0			ewtb.r.081934.1
+
+1	I	i	PRP	O	0			ewtb.r.081934.2
+2	am	be	VBP	B-social	0		social	ewtb.r.081934.2
+3	not	not	RB	Ī	2	_		ewtb.r.081934.2
+4	a	a	DT	Ī	3	_		ewtb.r.081934.2
+5	client	client	NN	Ī	4	_		ewtb.r.081934.2
+6	of	of	IN	O	0			ewtb.r.081934.2
+7	liquidweb.com	liquidweb.com	ADD	O	0			ewtb.r.081934.2
+8	,	,	,	O	0			ewtb.r.081934.2
+9	but	but	CC	O	0			ewtb.r.081934.2
+10	one	one	CD	O	0			ewtb.r.081934.2
+11	of	of	IN	O	0			ewtb.r.081934.2
+12	my	my	PRP$	O	0			ewtb.r.081934.2
+13	friend	friend	NN	B-social	0		social	ewtb.r.081934.2
+14	called	call	VBN	Ī	13	_		ewtb.r.081934.2
+15	Steven	steven	NNP	O	0			ewtb.r.081934.2
+16	is	be	VBZ	B-social	0		social	ewtb.r.081934.2
+17	the	the	DT	Ī	16	_		ewtb.r.081934.2
+18	client	client	NN	Ī	17	_		ewtb.r.081934.2
+19	having	have	VBG	Ī	18	_		ewtb.r.081934.2
+20	several	several	JJ	O	0			ewtb.r.081934.2
+21	websites	website	NNS	O	0			ewtb.r.081934.2
+22	.	.	.	O	0			ewtb.r.081934.2
+
+1	I	i	PRP	B-social	0		social	ewtb.r.081934.3
+2	work	work	VBP	Ī	1	_		ewtb.r.081934.3
+3	with	with	IN	O	0			ewtb.r.081934.3
+4	him	him	PRP	O	0			ewtb.r.081934.3
+5	and	and	CC	O	0			ewtb.r.081934.3
+6	since	since	IN	O	0			ewtb.r.081934.3
+7	past	past	JJ	B-social	0		social	ewtb.r.081934.3
+8	6	6	CD	Ī	7	_		ewtb.r.081934.3
+9	years	years	NNS	Ī	8	_		ewtb.r.081934.3
+10	he	he	PRP	Ī	9	_		ewtb.r.081934.3
+11	is	be	VBZ	Ī	10	_		ewtb.r.081934.3
+12	hosting	host	VBG	Ī	11	_		ewtb.r.081934.3
+13	his	his	PRP$	Ī	12	_		ewtb.r.081934.3
+14	websites	website	NNS	Ī	13	_		ewtb.r.081934.3
+15	to	to	IN	O	0			ewtb.r.081934.3
+16	Liquidweb	liquidweb	NNP	O	0			ewtb.r.081934.3
+17	.	.	.	O	0			ewtb.r.081934.3
+
+1	As	as	IN	O	0			ewtb.r.081934.4
+2	I	i	PRP	O	0			ewtb.r.

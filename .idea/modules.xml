@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../alg2/.idea/alg2.iml" filepath="$PROJECT_DIR$/../alg2/.idea/alg2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../citation/.idea/citation.iml" filepath="$PROJECT_DIR$/../citation/.idea/citation.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/D/research/MWE/data/.idea/data.iml" filepath="$USER_HOME$/Desktop/D/research/MWE/data/.idea/data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hw3/.idea/hw3.iml" filepath="$PROJECT_DIR$/../hw3/.idea/hw3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pgl/.idea/pglasso.iml" filepath="$PROJECT_DIR$/../pgl/.idea/pglasso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pysupersensetagger-2.0.iml" filepath="$PROJECT_DIR$/.idea/pysupersensetagger-2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../test/.idea/test.iml" filepath="$PROJECT_DIR$/../test/.idea/test.iml" />
+    </modules>
+  </component>
+</project>
