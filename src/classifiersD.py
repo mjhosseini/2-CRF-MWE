@@ -1,17 +1,12 @@
 from pyutil.ds import features
 import numpy as np
 from scipy.sparse import *
-#from scipy import *
-import sklearn
-from sklearn import svm
 from decoding import legalTagBigramForLogistic
-import pystruct
 from scipy.optimize import fmin_l_bfgs_b
 import scipy
 import time
 from libc.math cimport *
 from cython.view cimport array as cvarray
-import math
 
 from pyutil.memoize import memoize
 from numbers import Number
@@ -182,8 +177,6 @@ cdef class CRFD:
         for i in range(length):
 
             ret += exp(l[i] - l[minIdx])
-
-        #x = np.sum(np.exp(x))
 
         ret = l[minIdx] + log(ret)
 
@@ -1040,7 +1033,6 @@ cdef class CRFD:
 
             rowsCur = []
             colsCur = []
-            #Ycur = np.zeros(shape=(len(sent)),dtype='int32')
             Ycur = cvarray(shape=(len(sent),), itemsize=sizeof(int), format="i")
 
             wIdxCur = 0

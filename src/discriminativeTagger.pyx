@@ -3,7 +3,7 @@
 '''
 Created on Jul 24, 2012
 
-@author: Nathan Schneider (nschneid)
+@author: Nathan Schneider (nschneid) (modified by Javad Hosseini)
 '''
 from __future__ import print_function, division
 import pyximport; #pyximport.install()

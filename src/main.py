@@ -17,7 +17,6 @@ def go():
     try:
         print (sys.argv)
         discriminativeTagger.main(sys.argv[1:])
-        #os.system('python discriminativeTagger %s'%sys.argv)
     except KeyboardInterrupt:
         raise
 
