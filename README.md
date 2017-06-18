@@ -16,7 +16,7 @@ The feature extraction is based on [AMALGrAM 2.0](https://github.com/nschneid/py
 
 ### Tagging Scheme
 
-Multiword Expressions:
+#### Multiword Expressions:
 
 The  annotation  for  MWEs  extends  the  conventional   BIO   scheme to  include  gappy  MWEs  with  one  level  of nesting. Segmentations  are  represented  using  six tags; the lower-case variants indicate that an expression is within another MWE’s gap.
 
@@ -25,6 +25,10 @@ The  annotation  for  MWEs  extends  the  conventional   BIO   scheme to  includ
 -- B and b: the first word of a MWE
 
 -- I and i: a word continuing a MWE
+
+#### Supersenses:
+
+Each  noun  or  verb  expression  is  also  annotated with  a  supersense;   there  are  26  supersenses  for nouns  and  15  for  verbs.   Only  the  first  word  of  a MWE receives a supersense tag.
 
 The input must be sentence and word tokenized and part-of-speech tagged (with the Penn Treebank POS tagset). To obtain automatic POS tags for tokenized text, we recommend the TurboTagger module within [TurboParser](http://www.cs.cmu.edu/~ark/TurboParser/) or the [TweetNLP Tagger](http://www.cs.cmu.edu/~ark/TweetNLP/).
 
