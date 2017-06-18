@@ -27,8 +27,7 @@ class SVM:
 
 
     def train(self,trainingData):
-        print "inside svm"
-        print "islegal:", legalTagBigramForLogistic("O-hi", "B-hi", 'NO_SINGLETON_B')
+        print "training"
         Y = []
         YMap = {}
         nS = nW = 0
@@ -58,7 +57,7 @@ class SVM:
         #l = sorted(allIndices)
         _features.freeze()
         nF = len(_features.strings)
-        print "num remained:", nF
+        print "num features:", nF
 
         _labels.freeze()
 
@@ -149,7 +148,7 @@ class SVM:
 
         _features = self._features
         nF = len(_features.strings)
-        print "num remained:", nF
+        print "num features:", nF
 
 
 
@@ -1201,7 +1200,7 @@ cdef class CRF:
         #l = sorted(allIndices)
         _features.freeze()
         nF = len(_features.strings)
-        print "num remained:", nF
+        print "num features:", nF
 
 
         #self._features = _features
