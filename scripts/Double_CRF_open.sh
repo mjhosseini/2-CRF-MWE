@@ -17,6 +17,8 @@ test=../dimsum-data-1.5/dimsum16.test.gold
 #train=../dimsum-data-1.5/split/dimsum16.train_allV
 #test=../dimsum-data-1.5/split/dimsum16.train_allT
 
+python2.7 ../src/dimsum2streusle.py $train $train.tags
+python2.7 ../src/dimsum2streusle.py $test $test.tags
 
 #Train and test for open condition:
 python2.7 ../src/main.py --iters $numIter --itersMod $itersMod --cutoff $cutoff --YY ../tagsets/bio2gNV_dim --defaultY O --debug --train $train.tags --test-predict $test.tags --outFilePath $outname.tags --bio NO_SINGLETON_B --cluster-file ../mwelex/yelpac-c1000-m25.gz --clusters --lex ../mwelex/{semcor_mwes,wordnet_mwes,said,phrases_dot_net,wikimwe,enwikt}.json --ctype $type --alpha $alpha --alpha2 $alpha2
