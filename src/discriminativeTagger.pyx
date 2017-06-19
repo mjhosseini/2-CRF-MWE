@@ -897,7 +897,6 @@ def opts(actual_args=None):
     
     inflag("lex", "Lexicons to load for lookup features", nargs='*')
     inflag("clist", "Collocation lists (ranked) to load for lookup features", nargs='*')
-    print ("up to here!")
     args = opts.parse_args(actual_args)
     
     if args.train is None and args.load is None and args.extract is None:

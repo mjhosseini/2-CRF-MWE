@@ -958,7 +958,6 @@ cdef class CRF:
         for l in range(len(i2ls)):
             if legalTagBigramForLogistic(i2ls[l],None,'NO_SINGLETON_B'):
                 ends.append(l)
-                print "end: ", i2ls[l].encode('utf-8')
             if legalTagBigramForLogistic(None, i2ls[l],'NO_SINGLETON_B'):
                 starts.append(l)
 

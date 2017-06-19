@@ -958,15 +958,12 @@ cdef class CRFD:
                 indices = [i for (i,v) in o0Feats.items()]
 
                 for (i,v) in o0Feats.items():
-                    print ("i:",i,"name: ",str(o0Feats._set._indexer[i]),"v:",v)
-
                     if (str(i) in i2s_set):
                         featIndex = s2i[str(i)]
                         rowsCur.append(wIdxCur);
                         colsCur.append(featIndex)
                         if not isinstance(v,Number):
                             if featIndex not in comp_feats:
-                                print "adding ", featIndex, " ", i
                                 comp_feats[featIndex] = v
 
                         #-1 means that we should compute a function. The function is accessible from comp_feats
@@ -989,9 +986,6 @@ cdef class CRFD:
         print "nW: ", nW
 
         nLabels = len(l2i)
-
-        print X_train
-        print Y_train
 
         cdef int[:] starts, ends
 
@@ -1079,7 +1073,6 @@ cdef class CRFD:
                 pred = i2l[preds[j]]
 
                 sent[j] = sent[j]._replace(prediction=pred)
-                print "predict: ", pred.encode('utf-8'), ", gold ", sent[j].__str__().encode('utf-8')
 
                 if (preds[j]==Ycur[j]):
                     correctCount += 1
@@ -1089,4 +1082,3 @@ cdef class CRFD:
             sent.updatedPredictions_without_assert()
             if (outFile is not None):
                 outFile.write(sent.tagsStr()+"\n\n")
-        print "acc: ", (float)(correctCount)/all
