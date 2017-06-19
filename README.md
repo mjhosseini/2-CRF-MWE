@@ -38,4 +38,4 @@ Please refer to dimsum-data-1.5/TAGSET.md for more details.
 
 ### Data:
 
-The datasets are in the folder dimsum-data-1.5. There is a readme file in the folder explaining the format. For prediction on new data, you should give input as described there. Our original submission is in the folder submitted_results.
+The datasets are in the folder dimsum-data-1.5. There is a readme file in the folder explaining the format. For prediction on new data, input should be formatted as described there. Our original submission is in the folder submitted_results.
