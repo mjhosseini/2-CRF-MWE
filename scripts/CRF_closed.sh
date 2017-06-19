@@ -1,9 +1,11 @@
 set -eu
-type=2#CRF
+#CRF
+type=2
 alpha=1.6
 alpha2=.32
 numIter=120
-itersMod=40#Saving outputs periodically after #itersMod iters
+#Saving outputs periodically after $itersMod iters
+itersMod=40
 cutoff=3
 
 outname=../dimsum-data-1.5/split/out$type-$alpha-$alpha2-$numIter-$cutoff.pred
