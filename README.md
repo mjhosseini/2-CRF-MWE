@@ -14,7 +14,12 @@ The feature extraction is based on [AMALGrAM 2.0](https://github.com/nschneid/py
   - Cython (tested on 0.21.1)
   - NLTK 3.0.2+ with the WordNet resource installed
 
+### Running:
+
+After downloading the code, given the above softwares are installed, you can run the code from the scripts folder to replicate the paper's results and/or to test on new data.
+
 ### Tagging Scheme
+Please refer to dimsum-data-1.5/TAGSET.md for details.
 
 #### Multiword Expressions:
 
@@ -30,5 +35,6 @@ Each  noun  or  verb  expression  is  also  annotated with  a  supersense;   the
 
 The input must be sentence and word tokenized and part-of-speech tagged (with the Penn Treebank POS tagset). To obtain automatic POS tags for tokenized text, we recommend the TurboTagger module within [TurboParser](http://www.cs.cmu.edu/~ark/TurboParser/) or the [TweetNLP Tagger](http://www.cs.cmu.edu/~ark/TweetNLP/).
 
-#### Input:
+### Data:
 
+The datasets are in the folder dimsum-data-1.5. There is a readme file in the folder explaining the format. Our original submission is in the folder submitted_results.
