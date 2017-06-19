@@ -32,10 +32,10 @@ The  annotation  for  MWEs  extends  the  conventional   BIO   scheme to  includ
 
 Each  noun  or  verb  expression  is  also  annotated with  a  supersense;   there  are  26  supersenses  for nouns  and  15  for  verbs.   Only  the  first  word  of  a MWE receives a supersense tag.
 
-The input must be sentence and word tokenized and part-of-speech tagged (with the Penn Treebank POS tagset). To obtain automatic POS tags for tokenized text, we recommend the TurboTagger module within [TurboParser](http://www.cs.cmu.edu/~ark/TurboParser/) or the [TweetNLP Tagger](http://www.cs.cmu.edu/~ark/TweetNLP/).
+The input must be sentence and word tokenized and part-of-speech tagged (with the Penn Treebank POS tagset).
 
 Please refer to dimsum-data-1.5/TAGSET.md for more details.
 
 ### Data:
 
-The datasets are in the folder dimsum-data-1.5. There is a readme file in the folder explaining the format. Our original submission is in the folder submitted_results.
+The datasets are in the folder dimsum-data-1.5. There is a readme file in the folder explaining the format. For prediction on new data, you should give input as described there. Our original submission is in the folder submitted_results.
