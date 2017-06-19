@@ -16,11 +16,9 @@ The feature extraction is based on [AMALGrAM 2.0](https://github.com/nschneid/py
 
 ### Running:
 
-After downloading the code, given the above softwares are installed, you can run the code from the scripts folder to replicate the paper's results and/or to test on new data. (best model: Double CRF_open.sh)
+After downloading the code, given the above softwares are installed, you can run the code from the scripts folder to replicate the paper's results and/or test on new data. (best model: Double CRF_open.sh)
 
 ### Tagging Scheme
-
-Please refer to dimsum-data-1.5/TAGSET.md for details.
 
 #### Multiword Expressions:
 
@@ -35,6 +33,8 @@ The  annotation  for  MWEs  extends  the  conventional   BIO   scheme to  includ
 Each  noun  or  verb  expression  is  also  annotated with  a  supersense;   there  are  26  supersenses  for nouns  and  15  for  verbs.   Only  the  first  word  of  a MWE receives a supersense tag.
 
 The input must be sentence and word tokenized and part-of-speech tagged (with the Penn Treebank POS tagset). To obtain automatic POS tags for tokenized text, we recommend the TurboTagger module within [TurboParser](http://www.cs.cmu.edu/~ark/TurboParser/) or the [TweetNLP Tagger](http://www.cs.cmu.edu/~ark/TweetNLP/).
+
+Please refer to dimsum-data-1.5/TAGSET.md for more details.
 
 ### Data:
 
