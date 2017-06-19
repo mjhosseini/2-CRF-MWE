@@ -16,9 +16,10 @@ The feature extraction is based on [AMALGrAM 2.0](https://github.com/nschneid/py
 
 ### Running:
 
-After downloading the code, given the above softwares are installed, you can run the code from the scripts folder to replicate the paper's results and/or to test on new data.
+After downloading the code, given the above softwares are installed, you can run the code from the scripts folder to replicate the paper's results and/or to test on new data. (best model: Double CRF_open.sh)
 
 ### Tagging Scheme
+
 Please refer to dimsum-data-1.5/TAGSET.md for details.
 
 #### Multiword Expressions:
